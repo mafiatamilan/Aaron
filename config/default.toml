@@ -17,37 +17,22 @@ enabled = true
 energy_threshold_dbfs = -42.0
 silence_ms = 700
 min_speech_ms = 200
-onset_ratio = 0.30
+onset_ratio = 0.30000001192092896
 
 [wake]
 enabled = true
-# The word you say to wake AARON. One word, so a recogniser that merges
-# words still leaves it recognisable, and so the same word can be given to
-# the recogniser as a hotword.
-phrase = "aaron"
+phrase = "hey aaron"
 strategy = "transcript"
 command_window_secs = 8
-match_threshold = 0.72
+match_threshold = 0.7200000286102295
 
 [asr]
-# `auto` prefers a real recogniser: Phonon (Fermion Research) if its engine is
-# installed, then whisper.cpp if a model is present, and only then the
-# fixed-phrase test double, which is not speech recognition and is refused by
-# `aaron listen`.
-#
-#   backend = "phonon"   Phonon-2, 164 MB, runs on an ordinary CPU
-#   backend = "whisper"   whisper.cpp with a ggml model file
-#   backend = "auto"      the first of the above that is installed
 backend = "auto"
-# The model a *named* backend uses. Phonon names its models and fetches them
-# itself; whisper.cpp takes a file path in `model_path` instead.
-model = "phonon-2"
 model_path = ""
+model = "phonon-2"
 model_sha256 = ""
-# The engine binary. `fermion` ships with the `fermion-research` package;
-# `whisper-cli` ships with whisper.cpp.
 binary_path = "whisper-cli"
-# The Phonon engine's command. It ships with the `fermion-research` package.
+hotwords = ""
 phonon_binary_path = "fermion"
 language = "en"
 threads = 4
@@ -64,7 +49,7 @@ echo_to_terminal = true
 [brain]
 backend = "auto"
 checkpoint_path = ""
-confidence_threshold = 0.60
+confidence_threshold = 0.6000000238418579
 temperature = 1.0
 max_features = 256
 
@@ -107,13 +92,7 @@ redact_patterns = [
 
 [security]
 permissions_file = "permissions.toml"
-# Directories the filesystem tools may read. Empty means read_file and
-# search_files refuse everything, which is the correct default for a fresh
-# install. `aaron setup` fills this in with directories that actually exist on
-# your machine.
-#
-# allowed_roots = ["~/projects", "~/Documents"]
-allowed_roots = []
+allowed_roots = ["/home/david/Documents"]
 always_confirm = [
     "open_url",
     "start_application",
@@ -182,18 +161,3 @@ sqlite_cache_kib = 2048
 max_retrieved_memories = 10
 max_memory_content_bytes = 16384
 max_learning_queue_items_in_memory = 100
-
-# ---------------------------------------------------------------------------
-# Notes for anyone editing this file
-# ---------------------------------------------------------------------------
-#
-# * `allowed_roots` is the ONLY place the filesystem tools may read. An empty
-#   list disables read_file and search_files entirely, which is the correct
-#   default for a fresh install.
-# * `offline_only` is true. AARON has no code path that opens a socket; the
-#   flag documents the intent rather than enforcing it.
-# * `brain.backend = "auto"` uses the trained checkpoint when one exists and the
-#   deterministic router otherwise, so a fresh install works with no downloads.
-# * See docs/resources.md before changing anything under [resources]: those are
-#   budgets, and the loader rejects unsafe values.
-# * See docs/permissions.md for what each policy decision means.

@@ -266,6 +266,36 @@ The diagnostics the doctor prints about the capture host are now available
 in a text-only build too, because a text-only build is exactly where a user
 needs to be told what is missing.
 
+### 4.10 The CI workflow had faults of its own
+
+The first push to `main` failed in seven jobs. Four causes:
+
+- **`cargo test` takes exactly one positional filter.** The workflow passed
+  two (`analysis::tests dataquality::tests`) and cargo rejected the second
+  as a usage error. The fix is `--` before the filters, which hands them to
+  the test binary, where libtest ORs them.
+- **Four jobs built `aaron-app` without installing the ALSA headers**, so
+  they could not compile it. They install them now.
+- **`cargo build --workspace --debug` is not a command.** The build matrix
+  said `debug`; cargo's profile is named `dev`. The matrix now uses the
+  profile names.
+- **The installer step asserted a contract that only holds on Arch.** The
+  step expected `install-arch.sh --check-only` to print its plan, but the
+  runner is Ubuntu and the installer is for Arch, so it correctly refuses.
+  The step now asserts the behaviour that actually holds on both: it
+  refuses to run as root on any distribution, and as a normal user it either
+  prints the plan or refuses for the right reason — never a silent exit and
+  never an install.
+
+Two further failures were masked behind the first: `shellcheck` caught a
+dead counter in the environment check and a format string with two
+placeholders and one argument, which left the RSS-tolerance line half
+printed.
+
+The CI now also compiles the PipeWire capture feature, because that is the
+code path that fixed the ALSA-playback-endpoint bug, and asserts that the
+text-only build really has no ALSA dependency.
+
 ---
 
 ## 5. Phonon-2, and the voice path

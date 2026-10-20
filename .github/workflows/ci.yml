@@ -58,7 +58,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        profile: [debug, release]
+        # The *profile* names, not `debug`: `cargo build --debug` is not a
+        # flag. `dev` is the built-in name for the unoptimised build.
+        profile: [dev, release]
     steps:
       - uses: actions/checkout@v4
 
@@ -76,7 +78,7 @@ jobs:
           key: ${{ matrix.profile }}
 
       - name: Build
-        run: cargo build --workspace --${{ matrix.profile }}
+        run: cargo build --workspace --profile ${{ matrix.profile }}
 
       - name: Build without audio capture
         run: cargo build -p aaron-app --no-default-features
@@ -414,6 +416,7 @@ jobs:
       - name: The installer must refuse to run as root and must not install
         run: |
           set +e
+          # As root it must refuse outright, on any distribution.
           out=$(sudo -E ./scripts/install-arch.sh --check-only 2>&1)
           rc=$?
           if [ "$rc" -eq 0 ]; then
@@ -423,10 +426,24 @@ jobs:
           fi
           echo "$out" | grep -q "Do not run this script as root"
 
+          # As a normal user it must either print the plan (Arch Linux) or
+          # refuse (any other distribution). This runner is Ubuntu, and the
+          # installer is for Arch, so the refusal is the expected outcome
+          # here — what must never happen is a silent exit or an install.
           out=$(./scripts/install-arch.sh --check-only 2>&1)
           rc=$?
-          [ "$rc" -eq 0 ] || [ "$rc" -eq 2 ] || { echo "unexpected exit $rc"; echo "$out"; exit 1; }
-          echo "$out" | grep -q "Packages AARON will NOT install for you"
+          if [ "$rc" -eq 0 ] || [ "$rc" -eq 2 ]; then
+            echo "$out" | grep -q "Packages AARON will NOT install for you" \
+              || { echo "FAIL: the plan does not promise not to install models"; echo "$out"; exit 1; }
+          else
+            echo "$out" | grep -qE "not Arch Linux|not supported" \
+              || { echo "FAIL: the installer failed for an unexpected reason"; echo "$out"; exit 1; }
+          fi
+
+          # The promise itself is static text, so it is checked in the source
+          # as well: AARON never installs a model for you.
+          grep -q "Packages AARON will NOT install for you" scripts/install-arch.sh \
+            || { echo "FAIL: the model promise is gone from the installer"; exit 1; }
 
   # ------------------------------------------------- optional: real hardware
   #
