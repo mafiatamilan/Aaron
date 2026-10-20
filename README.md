@@ -378,20 +378,21 @@ not act on one. `--allow-fake-asr` runs the demonstration anyway.
 ## Measurements
 
 Release build, AMD Ryzen 5 7535HS / 22.7 GiB RAM / RTX 2050 4 GB, measured
-once with `./scripts/benchmark.sh --release`. Latency and RSS move by a few
-percent between runs on the same machine, so treat them as indicative rather
-than exact. Re-run the script on your own hardware; do not quote these
-numbers for a different machine.
+once with `./scripts/benchmark.sh --release`. Latency and RSS move by up to
+about ten percent between runs on the same machine — four runs of the same
+binary moved the intent-inference median between 293 µs and 325 µs — so
+treat them as indicative rather than exact. Re-run the script on your own
+hardware; do not quote these numbers for a different machine.
 
 | | |
 |---|---|
 | tests | **674 passing**, no hardware or models required |
-| intent inference, 14 utterances | median **301 µs**, p95 351 µs (n = 200) |
-| wake-phrase match | median **27 µs**, p95 36 µs (n = 2,000) |
-| end-to-end text turn | median **59 µs**; the p95, tens of milliseconds, is one SQLite write and one denial check, not the classifier |
-| idle process RSS | **8.6 MiB** baseline; **9.1 MiB** text-only; **14.7 MiB** peak in the combined voice path |
+| intent inference, 14 utterances | median **325 µs**, p95 377 µs (n = 200) |
+| wake-phrase match | median **22 µs**, p95 22 µs (n = 2,000) |
+| end-to-end text turn | median **70 µs**; the p95, ~61 ms, is one SQLite write and one denial check, not the classifier |
+| idle process RSS | **8.5 MiB** baseline; **9.1 MiB** text-only; **14.7 MiB** peak in the combined voice path |
 | memory stability | 5 workloads — 20,000 classifications, 2,000 database writes, 5,000 allocations, 5,000 audio buffers, 2,000 idle samples — every one `stable`, no unbounded growth |
-| memory on disk | 253 KiB (SQLite, including the WAL) |
+| memory on disk | 261 KiB (SQLite, including the WAL) |
 | GPU memory | 40 MiB → 40 MiB, i.e. **zero** attributable to AARON |
 | wake false activations | **0 of 10** on the shipped negative set |
 | router, shipped dataset | **82.2 %** agreement (was 44.6 %) |

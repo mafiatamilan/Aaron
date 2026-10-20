@@ -99,6 +99,11 @@ rebuilt. The details and the evidence are in `docs/AARON-1.0-REPORT.md`.
 | `aaron listen --source` | **done** | `microphone`, `synthetic` and `file:<path>`; the file source is how the voice path is tested reproducibly |
 | The wake phrase is one word | **done** | `aaron`, so a recogniser that merges words still leaves it recognisable |
 | The address-space limit is now the caller's | **done** | a model runtime reserves a large virtual space and a 4 GiB cap made it fail to allocate a megabyte |
+| The README, rewritten and audited | **done** | one set of numbers, one set of claims, every claim traceable to a file and a line; an independent auditor checked it against the source |
+| The exit codes do not collide | **done** | 75 for "the assistant asked a question", 78 for a configuration error, with a test that keeps them apart |
+| The text-only build has no ALSA dependency | **done** | declared in the workspace, asserted in CI |
+| The shipped configuration is machine-independent | **done** | it names no filesystem roots; `aaron setup` fills them in per machine |
+| CI is green | **done** | 12 jobs, all passing on `main` |
 
 ---
 
@@ -109,15 +114,30 @@ rebuilt. The details and the evidence are in `docs/AARON-1.0-REPORT.md`.
 | V-1 | the I8 decoder widened a `u8` instead of reinterpreting it as `i8`, shifting every sample by +2.0 | critical | lead, cross-checked against `pw-record` | **fixed** |
 | V-2 | the capture computed frames, silence and the cap against the configured rate, not the device's | critical | lead | **fixed** |
 | V-3 | ALSA's `default` is the playback endpoint under PipeWire | critical | lead | **fixed** (opt-in feature) |
-| V-4 | the VAD's fixed −42 dBFS threshold is above a normal room's noise floor | high | lead | open |
-| V-5 | capture timeouts are treated as end-of-stream | medium | lead, audit | open |
-| C-1 | the constrained recogniser reports ready and is not listed as a problem | critical | audit | open |
-| C-2 | `espeak-ng` reports success while producing no sound | critical | audit | open |
-| C-3 | the wake matcher false-wakes on ordinary sentences | high | audit | open |
-| C-4 | the router matches substrings, so ordinary words route to tools | high | audit, reproduced | open |
-| C-5 | the documented numbers contradict each other | medium | audit | open |
-| C-6 | rendered tool output is stored implicitly | medium | audit | open |
-| C-7 | "transcripts are never promoted to memory" is false | medium | audit | open |
-| R-1 | 12 of 37 ordinary questions mis-route; 4 reach dispatch | high | router audit | open |
-| R-2 | "read main.rs" and "search for the file named main.rs" are not recognised | high | router audit | open |
-| R-3 | "how are you", "morning" and "yo" are not greetings | medium | router audit | open |
+| V-4 | the VAD's fixed −42 dBFS threshold is above a normal room's noise floor | high | lead | **fixed** (the threshold rises above the measured noise floor) |
+| V-5 | capture timeouts are treated as end-of-stream | medium | lead, audit | **fixed** (a timeout is "idle"; a dead capture thread is a distinct error) |
+| C-1 | the constrained recogniser reports ready and is not listed as a problem | critical | audit | **fixed** (`ready: false`, `production: false`, listed by `doctor`, and `listen` refuses to dispatch it) |
+| C-2 | `espeak-ng` reports success while producing no sound | critical | audit | **fixed** (it renders to a real file and the result is checked) |
+| C-3 | the wake matcher false-wakes on ordinary sentences | high | audit | **fixed** (the phrase must start the utterance; token-prefix match for run-together words) |
+| C-4 | the router matches substrings, so ordinary words route to tools | high | audit, reproduced | **fixed** (token boundaries; 0 of 69 ordinary English sentences reach a tool) |
+| C-5 | the documented numbers contradict each other | medium | audit | **fixed** (one set of numbers, in one place) |
+| C-6 | rendered tool output is stored implicitly | medium | audit | **fixed** (the task history records what happened, not what was said) |
+| C-7 | "transcripts are never promoted to memory" is false | medium | audit | **fixed** (corrections are redacted before they are stored) |
+| R-1 | 12 of 37 ordinary questions mis-route; 4 reach dispatch | high | router audit | **fixed** (82.2 % agreement; 0 of 69 ordinary English sentences reach a tool) |
+| R-2 | "read main.rs" and "search for the file named main.rs" are not recognised | high | router audit | **fixed** (token-boundary phrases and leading cues) |
+| R-3 | "how are you", "morning" and "yo" are not greetings | medium | router audit | **fixed** |
+
+### The second pass: the README, and what it found
+
+The README was rewritten from scratch, checked claim by claim against the
+source by an independent auditor, and the audit's findings fixed. Six more
+defects came out of it, none of which the original audit had seen.
+
+| # | finding | severity | source | state |
+|---|---|---|---|---|
+| P-1 | the text-only build still linked ALSA: the workspace dependency declared `default-features = true`, and a member cannot turn that off | critical | README rewrite, CI | **fixed** (declared in the workspace; CI asserts it) |
+| P-2 | exit code 78 meant both "configuration error" and "the assistant asked a question" | high | README rewrite | **fixed** (75 for the clarification; a test pins the four codes apart) |
+| P-3 | `scripts/benchmark.sh` aborted under `set -u` before it measured anything | high | README rewrite | **fixed** |
+| P-4 | the shipped `config/default.toml` named `/home/david/Documents`, so AARON refused to start on every other machine | critical | CI smoke test | **fixed** (no roots shipped; a test forbids machine-specific paths) |
+| P-5 | `cargo test` takes one positional filter, and the workflow passed two | medium | CI | **fixed** |
+| P-6 | the CI's `apt-get update` aborted on a third-party repository returning 403 | medium | CI | **fixed** (one composite action, and the install is verified) |
