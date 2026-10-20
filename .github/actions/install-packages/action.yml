@@ -1,0 +1,54 @@
+name: Install system packages
+description: >
+  Install the system packages a job needs, on a runner whose third-party apt
+  repositories may be broken.
+
+inputs:
+  packages:
+    description: Space-separated package names.
+    required: true
+  verify:
+    description: >
+      Space-separated shell commands that must succeed after the install.
+      Defaults to checking that every package is really installed.
+    required: false
+    default: ""
+
+runs:
+  using: composite
+  steps:
+    - name: Update the package index
+      shell: bash
+      run: |
+        # `apt-get update` aborts if *any* configured repository is
+        # unreachable, and the runner image carries a third-party repository
+        # that has been returning 403. One broken repository was failing
+        # every job that needed a package, for a reason that has nothing to
+        # do with the project.
+        #
+        # Drop that repository, and tolerate a partial update: the Ubuntu
+        # archive is where these packages come from, and the install below
+        # fails loudly if a package is not really there.
+        sudo rm -f /etc/apt/sources.list.d/*microsoft*.list \
+                     /etc/apt/sources.list.d/*microsoft*.sources 2>/dev/null || true
+        sudo apt-get update -o Acquire::Retries=3 || true
+
+    - name: Install the packages
+      shell: bash
+      run: sudo apt-get install -y --no-install-recommends ${{ inputs.packages }}
+
+    - name: Verify the install
+      shell: bash
+      run: |
+        set -euo pipefail
+        if [ -n "${{ inputs.verify }}" ]; then
+          ${{ inputs.verify }}
+          exit 0
+        fi
+        for pkg in ${{ inputs.packages }}; do
+          dpkg -s "$pkg" >/dev/null 2>&1 || {
+            echo "FAIL: $pkg is not installed"
+            exit 1
+          }
+        done
+        echo "installed: ${{ inputs.packages }}"

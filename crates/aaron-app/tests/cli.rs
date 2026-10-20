@@ -597,3 +597,34 @@ fn the_exit_codes_do_not_collide() {
     );
     let _ = config;
 }
+
+#[test]
+fn the_shipped_configuration_is_machine_independent() {
+    // The shipped configuration is used by CI, by the benchmark script, by
+    // the installer and by anyone who clones the repository. It must not
+    // name a path from the machine it was written on: a configured root that
+    // does not exist is a hard configuration error, so one stale absolute
+    // path stops AARON from starting at all.
+    //
+    // It used to name `/home/david/Documents`, and every machine but that
+    // one failed to start.
+    let shipped = include_str!("../../../config/default.toml");
+    for line in shipped.lines() {
+        let line = line.trim();
+        if !line.starts_with("allowed_roots") {
+            continue;
+        }
+        let value = line
+            .split_once('=')
+            .map(|(_, v)| v.trim())
+            .unwrap_or_default();
+        assert!(
+            !value.contains("/home/") && !value.contains("/Users/") && !value.contains('~'),
+            "the shipped configuration names a path from one machine: {line:?}"
+        );
+        assert!(
+            !value.contains('"'),
+            "the shipped configuration must not name an absolute path: {line:?}"
+        );
+    }
+}

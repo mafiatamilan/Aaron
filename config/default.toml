@@ -92,7 +92,15 @@ redact_patterns = [
 
 [security]
 permissions_file = "permissions.toml"
-allowed_roots = ["/home/david/Documents"]
+# No filesystem roots. The shipped configuration has to work on any machine,
+# and a path from the machine it was written on does not: a root that does
+# not exist is a hard configuration error, so one stale absolute path stops
+# AARON from starting at all.
+#
+# `aaron setup` fills this in with the directories it finds on *your*
+# machine. Until then, read_file and search_files refuse everything, and
+# `aaron doctor` says so.
+allowed_roots = []
 always_confirm = [
     "open_url",
     "start_application",

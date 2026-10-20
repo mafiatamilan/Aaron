@@ -296,6 +296,27 @@ The CI now also compiles the PipeWire capture feature, because that is the
 code path that fixed the ALSA-playback-endpoint bug, and asserts that the
 text-only build really has no ALSA dependency.
 
+### 4.11 The shipped configuration named a path from one machine
+
+`config/default.toml` — the configuration CI, the benchmark script, the
+installer and every clone use — carried `allowed_roots =
+["/home/david/Documents"]`. A configured root that does not exist is a hard
+configuration error, deliberately, so **AARON refused to start on every
+machine except the one it was written on**:
+
+```
+aaron: configuration error: security.allowed_roots entry
+`/home/david/Documents` does not exist
+  hint: run `aaron setup` to write a fresh configuration
+```
+
+The shipped configuration now has no roots at all. `aaron setup` fills them
+in with the directories it finds on the user's own machine, and until then
+the filesystem tools refuse everything and `aaron doctor` says so.
+
+A test now asserts the invariant, so it cannot come back: the shipped
+configuration may not name an absolute path or a home directory.
+
 ---
 
 ## 5. Phonon-2, and the voice path
