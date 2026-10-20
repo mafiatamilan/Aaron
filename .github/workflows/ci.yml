@@ -1,0 +1,418 @@
+name: CI
+
+# AARON's continuous integration.
+#
+# Everything here runs on a machine with no GPU, no microphone and no model
+# files, because none of those are required to build or test AARON. The point
+# of that constraint is to keep the test suite honest: if a test needed a
+# microphone, it would not be a test.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+env:
+  CARGO_TERM_COLOR: always
+  CARGO_INCREMENTAL: "0"
+  CARGO_NET_RETRY: "3"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # ---------------------------------------------------------------- quality
+  lint:
+    name: fmt and clippy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install the pinned toolchain
+        run: rustup toolchain install 1.90.0 --component rustfmt,clippy --profile minimal
+
+      - uses: Swatinem/rust-cache@v2
+
+      - name: Formatting
+        run: cargo fmt --all --check
+
+      - name: Clippy
+        run: cargo clippy --workspace --all-targets --all-features -- -D warnings
+
+  # ------------------------------------------------------------------ build
+  build:
+    name: build (${{ matrix.profile }})
+    runs-on: ubuntu-latest
+    needs: lint
+    strategy:
+      fail-fast: false
+      matrix:
+        profile: [debug, release]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install the pinned toolchain
+        run: rustup toolchain install 1.90.0 --profile minimal
+
+      - name: Install ALSA headers
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends libasound2-dev
+
+      - uses: Swatinem/rust-cache@v2
+        with:
+          key: ${{ matrix.profile }}
+
+      - name: Build
+        run: cargo build --workspace --${{ matrix.profile }}
+
+      - name: Build without audio capture
+        run: cargo build -p aaron-app --no-default-features
+
+  # ------------------------------------------------------------------- test
+  test:
+    name: tests
+    runs-on: ubuntu-latest
+    needs: lint
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install the pinned toolchain
+        run: rustup toolchain install 1.90.0 --profile minimal
+
+      - name: Install ALSA headers
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends libasound2-dev
+
+      - uses: Swatinem/rust-cache@v2
+
+      - name: Test the whole workspace
+        run: cargo test --workspace --all-targets
+
+      - name: Documentation tests
+        run: cargo test --workspace --doc
+
+  # -------------------------------------------------------- no-audio fallback
+  text-only:
+    name: text-only build and smoke test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install the pinned toolchain
+        run: rustup toolchain install 1.90.0 --profile minimal
+
+      - uses: Swatinem/rust-cache@v2
+
+      - name: Build without any audio or GPU support
+        run: cargo build -p aaron-app --no-default-features
+
+      - name: Smoke test the text path
+        run: |
+          BIN=target/debug/aaron
+          "$BIN" --version
+          "$BIN" --help
+          "$BIN" --config config/default.toml ask "check system status"
+          "$BIN" --config config/default.toml tools list
+          "$BIN" --config config/default.toml permissions show
+          "$BIN" --config config/default.toml model
+          "$BIN" --config config/default.toml resources status
+          "$BIN" --config config/default.toml dataset check
+
+  # ----------------------------------------------------------- model contract
+  model:
+    name: model parameter contract
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install the pinned toolchain
+        run: rustup toolchain install 1.90.0 --profile minimal
+
+      - uses: Swatinem/rust-cache@v2
+
+      - name: Assert the 1,000,000-parameter budget from the real tensors
+        run: cargo test -p aaron-brain model::tests
+
+      - name: Assert the shipped dataset is valid and leak-free
+        run: cargo test -p aaron-brain dataset::tests
+
+      - name: Assert checkpoint integrity checks reject tampering
+        run: cargo test -p aaron-brain checkpoint::tests
+
+      - name: Assert the analysis and quality modules behave
+        run: cargo test -p aaron-brain analysis::tests dataquality::tests
+
+  # --------------------------------------------------- configuration contract
+  config:
+    name: configuration and migrations
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install the pinned toolchain
+        run: rustup toolchain install 1.90.0 --profile minimal
+
+      - uses: Swatinem/rust-cache@v2
+
+      - name: The shipped configuration must load and validate
+        run: |
+          cargo build -p aaron-app
+          target/debug/aaron --config config/default.toml doctor
+
+      - name: The shipped policy must parse
+        run: target/debug/aaron --config config/default.toml permissions show
+
+      - name: Database migrations
+        run: cargo test -p aaron-memory
+
+      - name: Resource budgets are validated, not trusted
+        run: cargo test -p aaron-core config::tests
+
+  # ---------------------------------------------------------------- security
+  security:
+    name: security regressions
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install the pinned toolchain
+        run: rustup toolchain install 1.90.0 --profile minimal
+
+      - name: Install ALSA headers
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends libasound2-dev
+
+      - uses: Swatinem/rust-cache@v2
+
+      - name: Adversarial suite
+        run: cargo test -p aaron-app --test security
+
+      - name: Hard negatives at the model boundary
+        # Claims of authority, tool-name imitation, injected instructions in
+        # files and transcripts, confirmation bypass, corrupted checkpoints.
+        run: cargo test -p aaron-app --test hard_negatives
+
+      - name: The authorisation boundary, tested independently of the model
+        # Every test here uses a stub classifier that returns a chosen intent
+        # at confidence 1.0, so a confident wrong prediction must still be
+        # stopped by the policy, the argument validator and the confirmation
+        # gate.
+        run: cargo test -p aaron-app --test authorization
+
+      - name: Promotion gate and checkpoint identity
+        # A corrupt checkpoint must not be promoted, a stale one must not be
+        # selected, and the promoted file must be byte-identical to the
+        # candidate that was evaluated.
+        run: cargo test -p aaron-app --test promotion
+
+      - name: The agent-level safety numbers must be measured, not assumed
+        # The gate's "agent dispatch" threshold used to be compared against a
+        # hardcoded zero, so it could never fail. These tests drive the real
+        # binary and assert the number moves with the input.
+        run: cargo test -p aaron-app --test safety_measurement
+
+      - name: The readiness contract and the one-way valve
+        # The readiness verdict and the agent's argument builder must agree on
+        # every intent, and a readiness verdict must never be able to
+        # authorise a dispatch.
+        run: cargo test -p aaron-app --test readiness
+
+      - name: The frozen hold-out must be frozen during training too
+        # The trainer used to re-derive the splits and train on 12 of the 214
+        # rows the hold-out pinned.
+        run: cargo test -p aaron-app --test holdout
+
+      - name: Policy and sandbox units
+        run: cargo test -p aaron-security
+
+      - name: Tool argument validation
+        run: cargo test -p aaron-tools
+
+  # ------------------------------------------------------- resource stability
+  resources:
+    name: resource budgets and stability
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install the pinned toolchain
+        run: rustup toolchain install 1.90.0 --profile minimal
+
+      - uses: Swatinem/rust-cache@v2
+
+      - name: Resource manager units
+        run: cargo test -p aaron-resources
+
+      - name: Short stability run
+        run: |
+          cargo build -p aaron-app
+          target/debug/aaron --config config/default.toml resources stress --iterations 3000
+
+  # ------------------------------------------------------------- data quality
+  data:
+    name: dataset quality and benchmark isolation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install the pinned toolchain
+        run: rustup toolchain install 1.90.0 --profile minimal
+
+      - name: Install Python
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends python3
+
+      - uses: Swatinem/rust-cache@v2
+
+      - name: The dataset must pass its own quality checks
+        # A blocking finding — duplicate text, leakage, a duplicate id — fails
+        # the job. Near-duplicates and thin coverage are warnings.
+        run: |
+          cargo build -p aaron-app
+          target/debug/aaron --config config/default.toml dataset check
+
+      - name: The dataset must rebuild reproducibly
+        # The generator is deterministic: rebuilding must produce a byte-
+        # identical file, and must not change the dataset's content hash.
+        run: |
+          before=$(sha256sum training/dataset/current.jsonl | cut -d' ' -f1)
+          python3 training/build_hard_negatives.py
+          python3 training/build_dataset_v2.py
+          after=$(sha256sum training/dataset/current.jsonl | cut -d' ' -f1)
+          if [ "$before" != "$after" ]; then
+            echo "the dataset build is not reproducible: $before != $after"
+            exit 1
+          fi
+
+      - name: The hold-out must actually be held out
+        # The regression suite and the three evaluation sets must not appear in
+        # the training data, not even as a near-duplicate. This is the check
+        # that would have caught the 0.3 regime, where 41 of the 42 regression
+        # cases were inside the training set.
+        run: |
+          cargo build -p aaron-app
+          cargo test -p aaron-app --test review_verification
+
+      - name: The locked benchmark must stay disjoint from the training data
+        # The build script enforces this, and the check confirms it. A
+        # benchmark that overlaps the training data is not a benchmark.
+        run: python3 training/build_benchmark.py --check
+
+      - name: The adversarial safety benchmarks must stay disjoint too
+        # Two versions: v1 was used to select the release-0.3 dataset and is
+        # therefore a development set; v2 is the held-out replacement.
+        run: |
+          python3 training/build_safety_benchmark.py --version 1 --check
+          python3 training/build_safety_benchmark.py --version 2 --check
+
+      - name: The safety metrics module
+        run: cargo test -p aaron-brain safety::tests
+
+      - name: The readiness corpus must rebuild reproducibly
+        # The corpus is half machine-written, so its build is two stages: the
+        # hand-written corpus, then the merge with the generated slices, then
+        # the blind audit. All three are deterministic, and all three must
+        # produce byte-identical files — otherwise a corpus can drift between
+        # a local run and CI without anybody noticing.
+        run: |
+          before=$(sha256sum training/readiness/corpus-v3.jsonl | cut -d' ' -f1)
+          python3 training/build_readiness_corpus.py
+          python3 training/build_readiness_corpus_v2.py
+          python3 training/apply_readiness_audit.py
+          after=$(sha256sum training/readiness/corpus-v3.jsonl | cut -d' ' -f1)
+          if [ "$before" != "$after" ]; then
+            echo "the readiness corpus build is not reproducible: $before != $after"
+            exit 1
+          fi
+
+      - name: The readiness corpus must hold still
+        # Its disjointness from every protected set, its hold-out size, the
+        # absence of bare pronouns, the uniqueness of its texts, the absence
+        # of contradictory labels, and the contrast structure of every family.
+        run: cargo test -p aaron-app --test readiness_corpus
+
+  # ------------------------------------------------------------------- shell
+  scripts:
+    name: shell scripts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install shellcheck
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends shellcheck
+
+      - name: Lint the scripts
+        run: |
+          shellcheck --severity=warning \
+            scripts/install-arch.sh \
+            scripts/check-environment.sh \
+            scripts/benchmark.sh \
+            scripts/uninstall.sh
+
+      - name: The environment check must run without changing anything
+        run: |
+          chmod +x scripts/*.sh
+          set +e
+          ./scripts/check-environment.sh
+          rc=$?
+          if [ "$rc" -gt 2 ]; then
+            echo "check-environment.sh returned $rc"
+            exit 1
+          fi
+
+      - name: The installer must refuse to run as root and must not install
+        run: |
+          set +e
+          out=$(sudo -E ./scripts/install-arch.sh --check-only 2>&1)
+          rc=$?
+          if [ "$rc" -eq 0 ]; then
+            echo "FAIL: the installer ran as root"
+            echo "$out"
+            exit 1
+          fi
+          echo "$out" | grep -q "Do not run this script as root"
+
+          out=$(./scripts/install-arch.sh --check-only 2>&1)
+          rc=$?
+          [ "$rc" -eq 0 ] || [ "$rc" -eq 2 ] || { echo "unexpected exit $rc"; echo "$out"; exit 1; }
+          echo "$out" | grep -q "Packages AARON will NOT install for you"
+
+  # ------------------------------------------------- optional: real hardware
+  #
+  # Not run by default. Self-hosted only: it needs a real GPU and a real
+  # microphone, and a benchmark on hardware the run never touched is worse than
+  # no benchmark at all.
+  hardware-benchmark:
+    name: NVIDIA and microphone benchmark (self-hosted only)
+    runs-on: [self-hosted, gpu]
+    if: github.event_name == 'workflow_dispatch'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install the pinned toolchain
+        run: rustup toolchain install 1.90.0 --profile minimal
+
+      - name: Install audio and CUDA tooling
+        run: sudo pacman -S --needed --noconfirm alsa-lib alsa-utils pipewire-pulse
+
+      - name: Environment report
+        run: ./scripts/check-environment.sh
+
+      - name: Hardware benchmark
+        run: ./scripts/benchmark.sh --release --iterations 500
+
+      - name: Microphone capture test
+        run: |
+          cargo build --release
+          timeout 30 target/release/aaron --config config/default.toml audio test --seconds 10
+
+      - name: Upload the report
+        uses: actions/upload-artifact@v4
+        with:
+          name: benchmark-report
+          path: benchmark-report.json
+          if-no-files-found: ignore

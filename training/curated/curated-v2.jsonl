@@ -1,0 +1,648 @@
+# AARON curated dataset additions, release 0.2
+{"id": "read_file-ea931e8c", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the gitignore"}
+{"id": "read_file-f8098890", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the dockerignore"}
+{"id": "read_file-91d609e9", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the editorconfig"}
+{"id": "read_file-85cdc7a0", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the procfile"}
+{"id": "read_file-8f66c8e7", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the gemfile"}
+{"id": "read_file-4d018031", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the rakefile"}
+{"id": "read_file-305171a9", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the vagrantfile"}
+{"id": "read_file-e853a943", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the caddyfile"}
+{"id": "read_file-686e5704", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the brewfile"}
+{"id": "read_file-3d600c56", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the justfile"}
+{"id": "read_file-c473c1b6", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the makefile"}
+{"id": "read_file-f65b29d8", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the readme"}
+{"id": "read_file-62916954", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the changelog"}
+{"id": "read_file-22e2f92a", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the contributing"}
+{"id": "read_file-8677532a", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the authors"}
+{"id": "read_file-c9776105", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the hosts"}
+{"id": "read_file-fdf38abc", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the fstab"}
+{"id": "read_file-3ba4b425", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the crontab"}
+{"id": "read_file-324da407", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the profile"}
+{"id": "read_file-2f59e53f", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the bashrc"}
+{"id": "read_file-c0a659a0", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the zshrc"}
+{"id": "read_file-433ab668", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the keyboard shortcuts"}
+{"id": "read_file-cca3aaf1", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the hosts file"}
+{"id": "read_file-f9feee56", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the passwd file"}
+{"id": "read_file-706804b1", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the sudoers file"}
+{"id": "read_file-cb25a274", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the shell history"}
+{"id": "read_file-b5a81e3d", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the boot loader config"}
+{"id": "read_file-a9d093ed", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "open the kernel parameters"}
+{"id": "read_file-bc2f7538", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the gitignore"}
+{"id": "read_file-e4b3ceac", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the dockerignore"}
+{"id": "read_file-f0001edd", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the editorconfig"}
+{"id": "read_file-b5ad9084", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the procfile"}
+{"id": "read_file-029dce43", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the gemfile"}
+{"id": "read_file-9b7d4745", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the rakefile"}
+{"id": "read_file-3d90eb8d", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the vagrantfile"}
+{"id": "read_file-d77081e7", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the caddyfile"}
+{"id": "read_file-bf15aed0", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the brewfile"}
+{"id": "read_file-0531e152", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the justfile"}
+{"id": "read_file-1d594862", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the makefile"}
+{"id": "read_file-e8aee57c", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the readme"}
+{"id": "read_file-aadda0d0", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the changelog"}
+{"id": "read_file-c5db4736", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the contributing"}
+{"id": "read_file-ac9a909e", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the authors"}
+{"id": "read_file-89f0a591", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the hosts"}
+{"id": "read_file-0d12aa48", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the fstab"}
+{"id": "read_file-f8798d69", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the crontab"}
+{"id": "read_file-6b3d7b13", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the profile"}
+{"id": "read_file-4611d3d3", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the bashrc"}
+{"id": "read_file-3cbeb78c", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the zshrc"}
+{"id": "read_file-851220e4", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the keyboard shortcuts"}
+{"id": "read_file-a79cfabd", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the hosts file"}
+{"id": "read_file-e03b8b2a", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the passwd file"}
+{"id": "read_file-eae7553d", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the sudoers file"}
+{"id": "read_file-c1bc72f8", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the shell history"}
+{"id": "read_file-bad157b9", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the boot loader config"}
+{"id": "read_file-653e66f9", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "read the kernel parameters"}
+{"id": "read_file-2030e533", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the gitignore"}
+{"id": "read_file-58f130bd", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the dockerignore"}
+{"id": "read_file-77504a8c", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the editorconfig"}
+{"id": "read_file-0c6896d1", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the procfile"}
+{"id": "read_file-0ee817b8", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the gemfile"}
+{"id": "read_file-2b30501c", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the rakefile"}
+{"id": "read_file-94af562a", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the vagrantfile"}
+{"id": "read_file-8a3e2174", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the caddyfile"}
+{"id": "read_file-9f13af35", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the brewfile"}
+{"id": "read_file-1f3ecb3f", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the justfile"}
+{"id": "read_file-942721bb", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the makefile"}
+{"id": "read_file-3d27750d", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the readme"}
+{"id": "read_file-75b4e57b", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the changelog"}
+{"id": "read_file-343eb083", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the contributing"}
+{"id": "read_file-84851fe9", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the authors"}
+{"id": "read_file-2e7af07e", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the hosts"}
+{"id": "read_file-ab6e00f7", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the fstab"}
+{"id": "read_file-69fc0362", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the crontab"}
+{"id": "read_file-02787ac0", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the profile"}
+{"id": "read_file-0faff6ee", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the bashrc"}
+{"id": "read_file-55141c63", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the zshrc"}
+{"id": "read_file-a8b1ace5", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the keyboard shortcuts"}
+{"id": "read_file-f6c65dfc", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the hosts file"}
+{"id": "read_file-ff7fa20d", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the passwd file"}
+{"id": "read_file-0bacb1dc", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the sudoers file"}
+{"id": "read_file-82e98b2b", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the shell history"}
+{"id": "read_file-70e125bc", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the boot loader config"}
+{"id": "read_file-871306d2", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "show me the kernel parameters"}
+{"id": "read_file-5eebc591", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the gitignore"}
+{"id": "read_file-56ebd54b", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the dockerignore"}
+{"id": "read_file-728362c6", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the editorconfig"}
+{"id": "read_file-8b545397", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the procfile"}
+{"id": "read_file-c3bdea1a", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the gemfile"}
+{"id": "read_file-fafe6d96", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the rakefile"}
+{"id": "read_file-5dee2228", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the vagrantfile"}
+{"id": "read_file-5b72c8d6", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the caddyfile"}
+{"id": "read_file-5ba5fbb3", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the brewfile"}
+{"id": "read_file-0e3d47c1", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the justfile"}
+{"id": "read_file-83c60111", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the makefile"}
+{"id": "read_file-07de1497", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the readme"}
+{"id": "read_file-1ba38de9", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the changelog"}
+{"id": "read_file-3010b6ed", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the contributing"}
+{"id": "read_file-a5e807af", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the authors"}
+{"id": "read_file-236b4144", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the hosts"}
+{"id": "read_file-e1c18c2d", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the fstab"}
+{"id": "read_file-c7a209e0", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the crontab"}
+{"id": "read_file-1d285c5e", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the profile"}
+{"id": "read_file-088261ac", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the bashrc"}
+{"id": "read_file-f8200d2d", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the zshrc"}
+{"id": "read_file-21ab37a7", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the keyboard shortcuts"}
+{"id": "read_file-24a16f9a", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the hosts file"}
+{"id": "read_file-89958f37", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the passwd file"}
+{"id": "read_file-ee83a086", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the sudoers file"}
+{"id": "read_file-6e30cf5d", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the shell history"}
+{"id": "read_file-2c1f5dc2", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the boot loader config"}
+{"id": "read_file-035e68dc", "intent": "read_file", "notes": "noun-class coverage: extensionless filenames, so `open <noun>` can be told apart from `open <application>`", "source": "template", "text": "what is in the kernel parameters"}
+{"id": "start_application-e0075e88", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open htop"}
+{"id": "start_application-0ee06e22", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open btop"}
+{"id": "start_application-76d14f4e", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open krita"}
+{"id": "start_application-9cafe65d", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open blender"}
+{"id": "start_application-33911f69", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open inkscape"}
+{"id": "start_application-3a8c7b56", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open vlc"}
+{"id": "start_application-5e4b1e2c", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open totem"}
+{"id": "start_application-bfde815b", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open obs"}
+{"id": "start_application-3819cce5", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open kdenlive"}
+{"id": "start_application-3f725617", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open transmission"}
+{"id": "start_application-b354e27f", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open filezilla"}
+{"id": "start_application-9291d173", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open qemu"}
+{"id": "start_application-b719950b", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open wireshark"}
+{"id": "start_application-adaf3457", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open postman"}
+{"id": "start_application-847df30c", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open dbeaver"}
+{"id": "start_application-3c0055cd", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open figma"}
+{"id": "start_application-8443097b", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open signal"}
+{"id": "start_application-6c53a95d", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open element"}
+{"id": "start_application-972ab0e7", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open okular"}
+{"id": "start_application-5086a054", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open zathura"}
+{"id": "start_application-7b84c747", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open evince"}
+{"id": "start_application-ca334790", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open mpv"}
+{"id": "start_application-6c2094fd", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open audacity"}
+{"id": "start_application-73b4515e", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open ardour"}
+{"id": "start_application-3ebeb4c2", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open etcher"}
+{"id": "start_application-b774348b", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open virtualbox"}
+{"id": "start_application-dd648c72", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open remmina"}
+{"id": "start_application-3a7e0552", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open keepassxc"}
+{"id": "start_application-53943fab", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open bitwarden"}
+{"id": "start_application-be44fc58", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open syncthing"}
+{"id": "start_application-51ea1957", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open nextcloud"}
+{"id": "start_application-40ded156", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open libreoffice writer"}
+{"id": "start_application-8beadde0", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open libreoffice calc"}
+{"id": "start_application-c60a688e", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open libreoffice impress"}
+{"id": "start_application-7a6def77", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open gnome calculator"}
+{"id": "start_application-9830626e", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open kde konsole"}
+{"id": "start_application-04f1eda0", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open code blocks"}
+{"id": "start_application-719778b8", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open jetbrains toolbox"}
+{"id": "start_application-42961011", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open dbeaver community"}
+{"id": "start_application-365cf81f", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open mongodb compass"}
+{"id": "start_application-a799eee7", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "open docker desktop"}
+{"id": "start_application-37594459", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch htop"}
+{"id": "start_application-65b5f20b", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch btop"}
+{"id": "start_application-a76c6995", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch krita"}
+{"id": "start_application-ea812dc2", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch blender"}
+{"id": "start_application-56034794", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch inkscape"}
+{"id": "start_application-a443c619", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch vlc"}
+{"id": "start_application-13b0a2cb", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch totem"}
+{"id": "start_application-1f08cbc4", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch obs"}
+{"id": "start_application-1da0eaa8", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch kdenlive"}
+{"id": "start_application-aa8759ba", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch transmission"}
+{"id": "start_application-95434a28", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch filezilla"}
+{"id": "start_application-88029c8a", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch qemu"}
+{"id": "start_application-88897344", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch wireshark"}
+{"id": "start_application-41246ea0", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch postman"}
+{"id": "start_application-506af013", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch dbeaver"}
+{"id": "start_application-2cd40b6a", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch figma"}
+{"id": "start_application-86ce14c2", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch signal"}
+{"id": "start_application-f46262ca", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch element"}
+{"id": "start_application-344c2632", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch okular"}
+{"id": "start_application-6f1b58ef", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch zathura"}
+{"id": "start_application-fa1cb87a", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch evince"}
+{"id": "start_application-29c69703", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch mpv"}
+{"id": "start_application-7313297c", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch audacity"}
+{"id": "start_application-badd4637", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch ardour"}
+{"id": "start_application-07f2a89f", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch etcher"}
+{"id": "start_application-14c19ca6", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch virtualbox"}
+{"id": "start_application-12ff5bf9", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch remmina"}
+{"id": "start_application-755696d1", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch keepassxc"}
+{"id": "start_application-dab003cc", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch bitwarden"}
+{"id": "start_application-d36e0243", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch syncthing"}
+{"id": "start_application-e56e910c", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch nextcloud"}
+{"id": "start_application-a12b238b", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch libreoffice writer"}
+{"id": "start_application-6aa968f1", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch libreoffice calc"}
+{"id": "start_application-d7a3bad5", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch libreoffice impress"}
+{"id": "start_application-30af8b4e", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch gnome calculator"}
+{"id": "start_application-48ec4319", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch kde konsole"}
+{"id": "start_application-42397b7b", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch code blocks"}
+{"id": "start_application-3699f57b", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch jetbrains toolbox"}
+{"id": "start_application-0424429a", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch dbeaver community"}
+{"id": "start_application-7b00ad3c", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch mongodb compass"}
+{"id": "start_application-c9eec902", "intent": "start_application", "notes": "noun-class coverage: bare application names, so `open <noun>` can be told apart from `open <filename>`", "source": "template", "text": "launch docker desktop"}
+{"id": "remember-69eaf11c", "intent": "remember", "notes": "verb coverage: `remember` had exactly one verb in v1", "source": "curated", "text": "store the fact that my wifi is called aurora"}
+{"id": "remember-b2f87c1c", "intent": "remember", "notes": "verb coverage: `remember` had exactly one verb in v1", "source": "curated", "text": "note that the dentist is on tuesday"}
+{"id": "remember-9bc94ffd", "intent": "remember", "notes": "verb coverage: `remember` had exactly one verb in v1", "source": "curated", "text": "keep in mind that the build server is in berlin"}
+{"id": "remember-b31be773", "intent": "remember", "notes": "verb coverage: `remember` had exactly one verb in v1", "source": "curated", "text": "make a note that i prefer dark mode"}
+{"id": "remember-1638cdd2", "intent": "remember", "notes": "verb coverage: `remember` had exactly one verb in v1", "source": "curated", "text": "write down that the wifi is called aurora"}
+{"id": "remember-9bb3e29c", "intent": "remember", "notes": "verb coverage: `remember` had exactly one verb in v1", "source": "curated", "text": "log the fact that the office closes at six"}
+{"id": "remember-63bc390a", "intent": "remember", "notes": "verb coverage: `remember` had exactly one verb in v1", "source": "curated", "text": "put in your memory that the spare key is under the mat"}
+{"id": "remember-39b1f609", "intent": "remember", "notes": "verb coverage: `remember` had exactly one verb in v1", "source": "curated", "text": "save this for later the train leaves at half eight"}
+{"id": "remember-b68a16e7", "intent": "remember", "notes": "verb coverage: `remember` had exactly one verb in v1", "source": "curated", "text": "i want you to remember that the boiler is broken"}
+{"id": "remember-5ee1c7c2", "intent": "remember", "notes": "verb coverage: `remember` had exactly one verb in v1", "source": "curated", "text": "add to your memory that i am allergic to penicillin"}
+{"id": "recall-7d48d699", "intent": "recall", "notes": "verb coverage: `recall` was dominated by `remember` and `what`", "source": "curated", "text": "what have you stored about my wifi"}
+{"id": "recall-2253fc68", "intent": "recall", "notes": "verb coverage: `recall` was dominated by `remember` and `what`", "source": "curated", "text": "look up my wifi name in your memory"}
+{"id": "recall-cf9d38a8", "intent": "recall", "notes": "verb coverage: `recall` was dominated by `remember` and `what`", "source": "curated", "text": "dig through your memory for my dentist"}
+{"id": "recall-dcb888b0", "intent": "recall", "notes": "verb coverage: `recall` was dominated by `remember` and `what`", "source": "curated", "text": "pull up what you know about my commute"}
+{"id": "recall-2fd8b2bf", "intent": "recall", "notes": "verb coverage: `recall` was dominated by `remember` and `what`", "source": "curated", "text": "remind me what i said about berlin"}
+{"id": "recall-07f3b10c", "intent": "recall", "notes": "verb coverage: `recall` was dominated by `remember` and `what`", "source": "curated", "text": "check your memory for my bank details"}
+{"id": "recall-52fdc88c", "intent": "recall", "notes": "verb coverage: `recall` was dominated by `remember` and `what`", "source": "curated", "text": "go through your notes about my medication"}
+{"id": "recall-5c9851db", "intent": "recall", "notes": "verb coverage: `recall` was dominated by `remember` and `what`", "source": "curated", "text": "fetch from memory what i said about rust"}
+{"id": "recall-931632d0", "intent": "recall", "notes": "verb coverage: `recall` was dominated by `remember` and `what`", "source": "curated", "text": "what is in your memory about my flights"}
+{"id": "recall-10c0152d", "intent": "recall", "notes": "verb coverage: `recall` was dominated by `remember` and `what`", "source": "curated", "text": "search your memory for my passport number"}
+{"id": "open_url-afc33bdc", "intent": "open_url", "notes": "verb coverage: `open_url` had only `open` and `show`", "source": "curated", "text": "browse to https://example.com"}
+{"id": "open_url-ce20aa0b", "intent": "open_url", "notes": "verb coverage: `open_url` had only `open` and `show`", "source": "curated", "text": "bring up https://example.org"}
+{"id": "open_url-ace227f2", "intent": "open_url", "notes": "verb coverage: `open_url` had only `open` and `show`", "source": "curated", "text": "navigate to https://docs.rs/candle"}
+{"id": "open_url-53fd4ec6", "intent": "open_url", "notes": "verb coverage: `open_url` had only `open` and `show`", "source": "curated", "text": "go to https://wikipedia.org"}
+{"id": "open_url-ec5d088a", "intent": "open_url", "notes": "verb coverage: `open_url` had only `open` and `show`", "source": "curated", "text": "pull up https://man.archlinux.org"}
+{"id": "open_url-6f7f15be", "intent": "open_url", "notes": "verb coverage: `open_url` had only `open` and `show`", "source": "curated", "text": "load https://crates.io"}
+{"id": "open_url-c1f6ba17", "intent": "open_url", "notes": "verb coverage: `open_url` had only `open` and `show`", "source": "curated", "text": "take me to https://example.net"}
+{"id": "open_url-2a32a38e", "intent": "open_url", "notes": "verb coverage: `open_url` had only `open` and `show`", "source": "curated", "text": "visit https://example.com/docs"}
+{"id": "open_url-ac0a9cf2", "intent": "open_url", "notes": "verb coverage: `open_url` had only `open` and `show`", "source": "curated", "text": "head to https://github.com/aaron-assistant/aaron"}
+{"id": "open_url-f63be6db", "intent": "open_url", "notes": "verb coverage: `open_url` had only `open` and `show`", "source": "curated", "text": "show me the page at https://example.io/guide"}
+{"id": "stop_application-742b9069", "intent": "stop_application", "notes": "verb coverage: `stop_application` had only `stop` and `kill`", "source": "curated", "text": "close spotify"}
+{"id": "stop_application-6f9ad852", "intent": "stop_application", "notes": "verb coverage: `stop_application` had only `stop` and `kill`", "source": "curated", "text": "kill the terminal"}
+{"id": "stop_application-f54f86b7", "intent": "stop_application", "notes": "verb coverage: `stop_application` had only `stop` and `kill`", "source": "curated", "text": "terminate the browser"}
+{"id": "stop_application-607baf8f", "intent": "stop_application", "notes": "verb coverage: `stop_application` had only `stop` and `kill`", "source": "curated", "text": "end the music player"}
+{"id": "stop_application-a5e3a958", "intent": "stop_application", "notes": "verb coverage: `stop_application` had only `stop` and `kill`", "source": "curated", "text": "shut down firefox"}
+{"id": "stop_application-2c9bbd97", "intent": "stop_application", "notes": "verb coverage: `stop_application` had only `stop` and `kill`", "source": "curated", "text": "quit gimp"}
+{"id": "stop_application-914ecfbb", "intent": "stop_application", "notes": "verb coverage: `stop_application` had only `stop` and `kill`", "source": "curated", "text": "stop the drawing app"}
+{"id": "stop_application-a791bcbe", "intent": "stop_application", "notes": "verb coverage: `stop_application` had only `stop` and `kill`", "source": "curated", "text": "halt the terminal emulator"}
+{"id": "stop_application-1c89ed50", "intent": "stop_application", "notes": "verb coverage: `stop_application` had only `stop` and `kill`", "source": "curated", "text": "get rid of the code editor"}
+{"id": "stop_application-f5631eb8", "intent": "stop_application", "notes": "verb coverage: `stop_application` had only `stop` and `kill`", "source": "curated", "text": "wind up the media player"}
+{"id": "run_tests-953801d5", "intent": "run_tests", "notes": "verb coverage: `run_tests` had only `run` and `start`", "source": "curated", "text": "execute the cargo test suite"}
+{"id": "run_tests-44146dc4", "intent": "run_tests", "notes": "verb coverage: `run_tests` had only `run` and `start`", "source": "curated", "text": "run the python tests"}
+{"id": "run_tests-5e73d728", "intent": "run_tests", "notes": "verb coverage: `run_tests` had only `run` and `start`", "source": "curated", "text": "kick off the unit tests"}
+{"id": "run_tests-3508a8e7", "intent": "run_tests", "notes": "verb coverage: `run_tests` had only `run` and `start`", "source": "curated", "text": "fire up the test suite"}
+{"id": "run_tests-aeee4f72", "intent": "run_tests", "notes": "verb coverage: `run_tests` had only `run` and `start`", "source": "curated", "text": "go ahead and run the integration tests"}
+{"id": "run_tests-b55d8132", "intent": "run_tests", "notes": "verb coverage: `run_tests` had only `run` and `start`", "source": "curated", "text": "start the test runner"}
+{"id": "run_tests-f7aca591", "intent": "run_tests", "notes": "verb coverage: `run_tests` had only `run` and `start`", "source": "curated", "text": "run the tests in release mode"}
+{"id": "run_tests-c9d1e4d8", "intent": "run_tests", "notes": "verb coverage: `run_tests` had only `run` and `start`", "source": "curated", "text": "trigger the test suite"}
+{"id": "run_tests-54499498", "intent": "run_tests", "notes": "verb coverage: `run_tests` had only `run` and `start`", "source": "curated", "text": "run cargo test please"}
+{"id": "run_tests-73843114", "intent": "run_tests", "notes": "verb coverage: `run_tests` had only `run` and `start`", "source": "curated", "text": "run the test suite for the brain crate"}
+{"id": "search_files-3db59306", "intent": "search_files", "notes": "verb coverage: `search_files` had only `find`, `search`, `locate`", "source": "curated", "text": "where is the file called main.rs"}
+{"id": "search_files-f9e0f605", "intent": "search_files", "notes": "verb coverage: `search_files` had only `find`, `search`, `locate`", "source": "curated", "text": "hunt for files named config.toml"}
+{"id": "search_files-b79d6eaa", "intent": "search_files", "notes": "verb coverage: `search_files` had only `find`, `search`, `locate`", "source": "curated", "text": "look for readme files"}
+{"id": "search_files-c5776957", "intent": "search_files", "notes": "verb coverage: `search_files` had only `find`, `search`, `locate`", "source": "curated", "text": "track down the dockerfile"}
+{"id": "search_files-fed25c00", "intent": "search_files", "notes": "verb coverage: `search_files` had only `find`, `search`, `locate`", "source": "curated", "text": "dig out any toml files"}
+{"id": "search_files-7e052c29", "intent": "search_files", "notes": "verb coverage: `search_files` had only `find`, `search`, `locate`", "source": "curated", "text": "scan for py files"}
+{"id": "search_files-27c7dc18", "intent": "search_files", "notes": "verb coverage: `search_files` had only `find`, `search`, `locate`", "source": "curated", "text": "sift through the project for rust files"}
+{"id": "search_files-63797ff2", "intent": "search_files", "notes": "verb coverage: `search_files` had only `find`, `search`, `locate`", "source": "curated", "text": "list the files matching *.json"}
+{"id": "search_files-404e83a8", "intent": "search_files", "notes": "verb coverage: `search_files` had only `find`, `search`, `locate`", "source": "curated", "text": "show me every file ending in .md"}
+{"id": "search_files-560e9e10", "intent": "search_files", "notes": "verb coverage: `search_files` had only `find`, `search`, `locate`", "source": "curated", "text": "which files are called .gitignore"}
+{"id": "system_status-45cef5c6", "intent": "system_status", "notes": "verb coverage: `system_status` was dominated by `check`", "source": "curated", "text": "how is the machine doing"}
+{"id": "system_status-c705cf48", "intent": "system_status", "notes": "verb coverage: `system_status` was dominated by `check`", "source": "curated", "text": "give me the vitals"}
+{"id": "system_status-b67ce70e", "intent": "system_status", "notes": "verb coverage: `system_status` was dominated by `check`", "source": "curated", "text": "report the hardware health"}
+{"id": "system_status-db4f22f4", "intent": "system_status", "notes": "verb coverage: `system_status` was dominated by `check`", "source": "curated", "text": "what does the load average look like"}
+{"id": "system_status-0b9cd0e8", "intent": "system_status", "notes": "verb coverage: `system_status` was dominated by `check`", "source": "curated", "text": "tell me about resource usage"}
+{"id": "system_status-88c13087", "intent": "system_status", "notes": "verb coverage: `system_status` was dominated by `check`", "source": "curated", "text": "is everything healthy"}
+{"id": "system_status-3f9b2231", "intent": "system_status", "notes": "verb coverage: `system_status` was dominated by `check`", "source": "curated", "text": "give me a system overview"}
+{"id": "system_status-24252105", "intent": "system_status", "notes": "verb coverage: `system_status` was dominated by `check`", "source": "curated", "text": "how much swap is in use"}
+{"id": "system_status-3860b92d", "intent": "system_status", "notes": "verb coverage: `system_status` was dominated by `check`", "source": "curated", "text": "any unusual network activity"}
+{"id": "system_status-eef6e65c", "intent": "system_status", "notes": "verb coverage: `system_status` was dominated by `check`", "source": "curated", "text": "what is the disk usage"}
+{"id": "git_status-8d566a93", "intent": "git_status", "notes": "verb coverage: `git_status` was dominated by `check` and `show`", "source": "curated", "text": "which branch is checked out"}
+{"id": "git_status-ea626175", "intent": "git_status", "notes": "verb coverage: `git_status` was dominated by `check` and `show`", "source": "curated", "text": "is anything staged"}
+{"id": "git_status-f1bfafcf", "intent": "git_status", "notes": "verb coverage: `git_status` was dominated by `check` and `show`", "source": "curated", "text": "what would git commit"}
+{"id": "git_status-e0ac7e14", "intent": "git_status", "notes": "verb coverage: `git_status` was dominated by `check` and `show`", "source": "curated", "text": "give me the diff summary"}
+{"id": "git_status-ee8ea546", "intent": "git_status", "notes": "verb coverage: `git_status` was dominated by `check` and `show`", "source": "curated", "text": "how many files are untracked"}
+{"id": "git_status-b651161e", "intent": "git_status", "notes": "verb coverage: `git_status` was dominated by `check` and `show`", "source": "curated", "text": "what does the working tree look like"}
+{"id": "git_status-1d7562ee", "intent": "git_status", "notes": "verb coverage: `git_status` was dominated by `check` and `show`", "source": "curated", "text": "any conflicts in the repo"}
+{"id": "git_status-176eb734", "intent": "git_status", "notes": "verb coverage: `git_status` was dominated by `check` and `show`", "source": "curated", "text": "show me the last commit"}
+{"id": "git_status-9432c425", "intent": "git_status", "notes": "verb coverage: `git_status` was dominated by `check` and `show`", "source": "curated", "text": "which files changed since the last commit"}
+{"id": "git_status-c526f942", "intent": "git_status", "notes": "verb coverage: `git_status` was dominated by `check` and `show`", "source": "curated", "text": "is the repository in a clean state"}
+{"id": "stop_application-076f0d8e", "intent": "stop_application", "notes": "minimal pair: `stop` + app vs `stop` alone", "source": "curated", "text": "stop the music player"}
+{"id": "cancel-1db2bcc5", "intent": "cancel", "notes": "minimal pair: `stop` alone is cancel, `stop <app>` is stop_application", "source": "curated", "text": "stop"}
+{"id": "cancel-89124584", "intent": "cancel", "notes": "minimal pair: `stop` + a task is cancel", "source": "curated", "text": "stop the file search"}
+{"id": "cancel-5288c070", "intent": "cancel", "notes": "minimal pair: `cancel` + a task is cancel", "source": "curated", "text": "cancel the download"}
+{"id": "stop_application-201e33b1", "intent": "stop_application", "notes": "minimal pair: `cancel` + app is stop_application", "source": "curated", "text": "cancel spotify"}
+{"id": "start_application-d348ed70", "intent": "start_application", "notes": "minimal pair: `run` + app vs `run` + tests", "source": "curated", "text": "run spotify"}
+{"id": "run_tests-af2f2148", "intent": "run_tests", "notes": "minimal pair: `run` + app vs `run` + tests", "source": "curated", "text": "run the tests"}
+{"id": "search_files-44bf4ca5", "intent": "search_files", "notes": "minimal pair: `search` + local vs `search` + web", "source": "curated", "text": "search for the file"}
+{"id": "unknown-403b146c", "intent": "unknown", "notes": "minimal pair: there is no web-search intent", "source": "curated", "text": "search the web"}
+{"id": "system_status-94a1c3af", "intent": "system_status", "notes": "minimal pair: `check` + machine vs `check` + git", "source": "curated", "text": "check status"}
+{"id": "git_status-b4436013", "intent": "git_status", "notes": "minimal pair: `check` + machine vs `check` + git", "source": "curated", "text": "check git status"}
+{"id": "git_status-9271f5b8", "intent": "git_status", "notes": "minimal pair: `check` + machine vs `check` + repo", "source": "curated", "text": "check the repository"}
+{"id": "read_file-37c91be3", "intent": "read_file", "notes": "minimal pair: `show` + file vs `show` + git", "source": "curated", "text": "show me the file main.rs"}
+{"id": "git_status-9890e51f", "intent": "git_status", "notes": "minimal pair: `show` + file vs `show` + git", "source": "curated", "text": "show me the git log"}
+{"id": "system_status-0743dc28", "intent": "system_status", "notes": "minimal pair: `show` + file vs `show` + machine", "source": "curated", "text": "show me the resources"}
+{"id": "read_file-be63908a", "intent": "read_file", "notes": "minimal pair: `open` + file vs `open` + app", "source": "curated", "text": "open the file main.rs"}
+{"id": "start_application-f8ddafa2", "intent": "start_application", "notes": "minimal pair: `open` + file vs `open` + app", "source": "curated", "text": "open the terminal"}
+{"id": "open_url-994acdf6", "intent": "open_url", "notes": "minimal pair: `open` + url vs `open` + file", "source": "curated", "text": "open the website example.com"}
+{"id": "read_file-de5377d5", "intent": "read_file", "notes": "minimal pair: `open` + url vs `open` + file", "source": "curated", "text": "open config.toml"}
+{"id": "recall-e9de6b21", "intent": "recall", "notes": "minimal pair: `remember` as noun vs verb", "source": "curated", "text": "what do you remember about tea"}
+{"id": "remember-7b225c5c", "intent": "remember", "notes": "minimal pair: `remember` as noun vs verb", "source": "curated", "text": "remember that i drink tea"}
+{"id": "cancel-d2e9a86f", "intent": "cancel", "notes": "minimal pair: `forget` + request is cancel", "source": "curated", "text": "forget my last request"}
+{"id": "unknown-dc994a5e", "intent": "unknown", "notes": "minimal pair: `forget` + fact has no intent", "source": "curated", "text": "forget that i drink tea"}
+{"id": "system_status-9dc949dd", "intent": "system_status", "notes": "minimal pair: `report` + machine", "source": "curated", "text": "give me a status report"}
+{"id": "git_status-36cac0f1", "intent": "git_status", "notes": "minimal pair: `report` + machine vs + git", "source": "curated", "text": "give me the git report"}
+{"id": "search_files-a07c9335", "intent": "search_files", "notes": "minimal pair: `list` + files", "source": "curated", "text": "list the files"}
+{"id": "help-6353dade", "intent": "help", "notes": "minimal pair: `list` + files vs `list` + capabilities", "source": "curated", "text": "list your commands"}
+{"id": "help-9ec21aff", "intent": "help", "notes": "minimal pair: `what can` + capabilities", "source": "curated", "text": "what can you do"}
+{"id": "unknown-07aa4ced", "intent": "unknown", "notes": "minimal pair: `what can` + capabilities", "source": "curated", "text": "what can you find"}
+{"id": "unknown-e6201a60", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "open the pod bay doors"}
+{"id": "unknown-c67dad56", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "delete all my files"}
+{"id": "unknown-3feba0e4", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "send an email to bob"}
+{"id": "unknown-071cc968", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "increase the volume"}
+{"id": "unknown-72d6de74", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "close the window"}
+{"id": "unknown-8d3f5a49", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "what time is it"}
+{"id": "unknown-f7d28103", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "set an alarm for seven in the morning"}
+{"id": "unknown-52ac0b76", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "add a contact to my phone"}
+{"id": "unknown-b34964d5", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "put the kettle on"}
+{"id": "unknown-6b972a87", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "turn the lights off"}
+{"id": "unknown-adbb48af", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "lock the door"}
+{"id": "unknown-870b61d0", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "print the document"}
+{"id": "unknown-02f45495", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "empty the recycle bin"}
+{"id": "unknown-0a4bc25c", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "rename the folder"}
+{"id": "unknown-b419bca7", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "move the file to the desktop"}
+{"id": "unknown-3baa4a83", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "zip up the project"}
+{"id": "unknown-0da2d619", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "commit the changes for me"}
+{"id": "unknown-0cbddc75", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "push to the remote"}
+{"id": "unknown-c28fa450", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "create a new branch"}
+{"id": "unknown-b9735dff", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "install the package"}
+{"id": "unknown-f50da6c8", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "update the dependencies"}
+{"id": "unknown-f3c467c2", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "deploy to production"}
+{"id": "unknown-82b7fff4", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "restart the service"}
+{"id": "unknown-eedb7a16", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "change my password"}
+{"id": "unknown-c4b68dd1", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "transfer the money"}
+{"id": "unknown-090da35f", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "book a flight"}
+{"id": "unknown-2048b99a", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "order a pizza"}
+{"id": "unknown-eff60d58", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "call my mother"}
+{"id": "unknown-c236af37", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "water the plants"}
+{"id": "unknown-4f3d341c", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "clean the room"}
+{"id": "unknown-59777459", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "do the dishes"}
+{"id": "unknown-8a8cde4e", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "buy milk"}
+{"id": "unknown-5bec3e25", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "walk the dog"}
+{"id": "unknown-39c7b580", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "post a message to the channel"}
+{"id": "unknown-08abf0ad", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "create a branch called feature"}
+{"id": "unknown-bbd1a0b0", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "rebase onto main"}
+{"id": "unknown-7dbd0a1c", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "squash my commits"}
+{"id": "unknown-4f777f24", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "sign the commit"}
+{"id": "unknown-826ef0f5", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "tag the release"}
+{"id": "unknown-b8b33593", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "generate the documentation"}
+{"id": "unknown-52f0cb13", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "bump the version number"}
+{"id": "unknown-1f6a5afc", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "publish the crate"}
+{"id": "unknown-a0ba9ba6", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "format the code"}
+{"id": "unknown-0c4e6eb6", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "lint the project"}
+{"id": "unknown-f437a7d6", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "profile the binary"}
+{"id": "unknown-d20c368a", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "benchmark the model"}
+{"id": "unknown-cb3be825", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "export the database"}
+{"id": "unknown-bfed4456", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "import the bookmarks"}
+{"id": "unknown-f84fc367", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "take a screenshot"}
+{"id": "unknown-d195f621", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "record the screen"}
+{"id": "unknown-0a1424cb", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "play a video"}
+{"id": "unknown-125c57ad", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "pause the music"}
+{"id": "unknown-150a8d86", "intent": "unknown", "notes": "hard negative: looks like a command, no such intent", "source": "curated", "text": "skip the track"}
+{"id": "unknown-90080d8a", "intent": "unknown", "notes": "hard negative: `how do i` about the world, not about AARON", "source": "curated", "text": "how do i change the oil in a car"}
+{"id": "unknown-0ffccc48", "intent": "unknown", "notes": "hard negative: `how do i` about the world, not about AARON", "source": "curated", "text": "how do i tie a bowline knot"}
+{"id": "unknown-74aa9011", "intent": "unknown", "notes": "hard negative: `how do i` about the world, not about AARON", "source": "curated", "text": "how do i prune a rose bush"}
+{"id": "unknown-bc410588", "intent": "unknown", "notes": "hard negative: `how do i` about the world, not about AARON", "source": "curated", "text": "how do i file my taxes"}
+{"id": "unknown-1364fb12", "intent": "unknown", "notes": "hard negative: `how do i` about the world, not about AARON", "source": "curated", "text": "how do i make sourdough starter"}
+{"id": "unknown-5b18ccb7", "intent": "unknown", "notes": "hard negative: `how do i` about the world, not about AARON", "source": "curated", "text": "how do i train for a marathon"}
+{"id": "unknown-6ee00eb4", "intent": "unknown", "notes": "hard negative: `how do i` about the world, not about AARON", "source": "curated", "text": "how do i replace a bicycle brake"}
+{"id": "unknown-9578bcd3", "intent": "unknown", "notes": "hard negative: `how do i` about the world, not about AARON", "source": "curated", "text": "how do i set up a fish tank"}
+{"id": "unknown-e4d5bfdd", "intent": "unknown", "notes": "hard negative: `how do i` about the world, not about AARON", "source": "curated", "text": "how do i unclog a sink"}
+{"id": "unknown-1ec160b1", "intent": "unknown", "notes": "hard negative: `how do i` about the world, not about AARON", "source": "curated", "text": "how do i season a cast iron pan"}
+{"id": "unknown-3f65aa0f", "intent": "unknown", "notes": "hard negative: `how do i` about the world, not about AARON", "source": "curated", "text": "what is the capital of peru"}
+{"id": "unknown-e7a1fde1", "intent": "unknown", "notes": "hard negative: `how do i` about the world, not about AARON", "source": "curated", "text": "what is the speed of sound"}
+{"id": "unknown-247e65d7", "intent": "unknown", "notes": "hard negative: `how do i` about the world, not about AARON", "source": "curated", "text": "why is the sky blue"}
+{"id": "unknown-5b7e98ce", "intent": "unknown", "notes": "hard negative: `how do i` about the world, not about AARON", "source": "curated", "text": "why do leaves change colour"}
+{"id": "unknown-6dec16c8", "intent": "unknown", "notes": "hard negative: `how do i` about the world, not about AARON", "source": "curated", "text": "when did the titanic sink"}
+{"id": "unknown-2160daac", "intent": "unknown", "notes": "hard negative: `how do i` about the world, not about AARON", "source": "curated", "text": "who wrote the origin of species"}
+{"id": "unknown-4e0301a3", "intent": "unknown", "notes": "hard negative: `how do i` about the world, not about AARON", "source": "curated", "text": "how many bones are in the human hand"}
+{"id": "unknown-0bea5cfb", "intent": "unknown", "notes": "hard negative: `how do i` about the world, not about AARON", "source": "curated", "text": "what is the difference between a virus and a bacterium"}
+{"id": "unknown-35a1f4fe", "intent": "unknown", "notes": "hard negative: `how do i` about the world, not about AARON", "source": "curated", "text": "should i learn rust or go"}
+{"id": "unknown-c9ff6f77", "intent": "unknown", "notes": "hard negative: `how do i` about the world, not about AARON", "source": "curated", "text": "is it safe to eat rice that has been left out"}
+{"id": "unknown-3edf4840", "intent": "unknown", "notes": "hard negative: `how do i` about the world, not about AARON", "source": "curated", "text": "what is a good beginner programming language"}
+{"id": "help-e9cc0d1f", "intent": "help", "notes": "capability question, positive class", "source": "curated", "text": "what commands do you understand"}
+{"id": "help-a69cfc35", "intent": "help", "notes": "capability question, positive class", "source": "curated", "text": "how do i use you"}
+{"id": "help-1b19ce34", "intent": "help", "notes": "capability question, positive class", "source": "curated", "text": "what are you able to do"}
+{"id": "help-c366ce36", "intent": "help", "notes": "capability question, positive class", "source": "curated", "text": "list your capabilities"}
+{"id": "help-b59dbc96", "intent": "help", "notes": "capability question, positive class", "source": "curated", "text": "what do you know how to do"}
+{"id": "help-debcabee", "intent": "help", "notes": "capability question, positive class", "source": "curated", "text": "help me understand what you can do"}
+{"id": "help-63ecf56b", "intent": "help", "notes": "capability question, positive class", "source": "curated", "text": "what can you help me with"}
+{"id": "help-015d155b", "intent": "help", "notes": "capability question, positive class", "source": "curated", "text": "tell me what you are able to do"}
+{"id": "system_status-c22ab43a", "intent": "system_status", "notes": "conversational / spoken style", "source": "curated", "text": "um can you check the system status please"}
+{"id": "run_tests-4de9a0d5", "intent": "run_tests", "notes": "conversational / spoken style", "source": "curated", "text": "pls run the tests"}
+{"id": "system_status-5d4777d6", "intent": "system_status", "notes": "conversational / spoken style", "source": "curated", "text": "chk system status"}
+{"id": "greeting-885c4fb8", "intent": "greeting", "notes": "conversational / spoken style", "source": "curated", "text": "hey aaron whats up"}
+{"id": "greeting-d3b5b38f", "intent": "greeting", "notes": "conversational / spoken style", "source": "curated", "text": "morning"}
+{"id": "greeting-9aec3948", "intent": "greeting", "notes": "conversational / spoken style", "source": "curated", "text": "hiya"}
+{"id": "greeting-d7d0901e", "intent": "greeting", "notes": "conversational / spoken style", "source": "curated", "text": "good afternoon to you"}
+{"id": "system_status-40bb28c5", "intent": "system_status", "notes": "conversational / spoken style", "source": "curated", "text": "yo status"}
+{"id": "run_tests-5ad96ef4", "intent": "run_tests", "notes": "conversational / spoken style", "source": "curated", "text": "aaron run the test suite"}
+{"id": "git_status-148dd884", "intent": "git_status", "notes": "conversational / spoken style", "source": "curated", "text": "ok show me git status"}
+{"id": "open_url-aaf28d71", "intent": "open_url", "notes": "conversational / spoken style", "source": "curated", "text": "hmm open the website https://example.com"}
+{"id": "git_status-b22d62ed", "intent": "git_status", "notes": "conversational / spoken style", "source": "curated", "text": "could you possibly show git status"}
+{"id": "system_status-569dc21f", "intent": "system_status", "notes": "conversational / spoken style", "source": "curated", "text": "would you mind checking the system"}
+{"id": "help-b5a52ab9", "intent": "help", "notes": "conversational / spoken style", "source": "curated", "text": "hey what can you do"}
+{"id": "git_status-d7d321ab", "intent": "git_status", "notes": "conversational / spoken style", "source": "curated", "text": "so whats the git status"}
+{"id": "search_files-2943ed41", "intent": "search_files", "notes": "conversational / spoken style", "source": "curated", "text": "can u find files named main.rs"}
+{"id": "remember-99727959", "intent": "remember", "notes": "conversational / spoken style", "source": "curated", "text": "pls remember that the wifi is called aurora"}
+{"id": "run_tests-de128053", "intent": "run_tests", "notes": "conversational / spoken style", "source": "curated", "text": "right then run the tests"}
+{"id": "git_status-416a338c", "intent": "git_status", "notes": "conversational / spoken style", "source": "curated", "text": "hang on what was the git status"}
+{"id": "system_status-4343077c", "intent": "system_status", "notes": "conversational / spoken style", "source": "curated", "text": "sorry i meant the system status"}
+{"id": "cancel-491f6e42", "intent": "cancel", "notes": "self-correction / hesitation", "source": "curated", "text": "actually never mind"}
+{"id": "cancel-24eb3d6b", "intent": "cancel", "notes": "self-correction / hesitation", "source": "curated", "text": "hold on forget it"}
+{"id": "cancel-6f58d6ac", "intent": "cancel", "notes": "self-correction / hesitation", "source": "curated", "text": "lets not do that"}
+{"id": "cancel-10d15a3b", "intent": "cancel", "notes": "self-correction / hesitation", "source": "curated", "text": "scratch that i changed my mind"}
+{"id": "cancel-f8c3c0f9", "intent": "cancel", "notes": "self-correction / hesitation", "source": "curated", "text": "no wait leave it"}
+{"id": "cancel-7652fb1f", "intent": "cancel", "notes": "self-correction / hesitation", "source": "curated", "text": "i mean no dont"}
+{"id": "cancel-d1ebebf0", "intent": "cancel", "notes": "self-correction / hesitation", "source": "curated", "text": "on second thought no"}
+{"id": "unknown-bcbf9e1f", "intent": "unknown", "notes": "self-correction / hesitation", "source": "curated", "text": "actually keep going"}
+{"id": "cancel-fd45e56a", "intent": "cancel", "notes": "cancel coverage: semantically distinct withdrawal phrasings", "source": "curated", "text": "cancel the file search"}
+{"id": "cancel-f433b449", "intent": "cancel", "notes": "cancel coverage: semantically distinct withdrawal phrasings", "source": "curated", "text": "cancel the test run"}
+{"id": "cancel-91b77117", "intent": "cancel", "notes": "cancel coverage: semantically distinct withdrawal phrasings", "source": "curated", "text": "abort the request"}
+{"id": "cancel-f5113635", "intent": "cancel", "notes": "cancel coverage: semantically distinct withdrawal phrasings", "source": "curated", "text": "call off the search"}
+{"id": "cancel-80b1566c", "intent": "cancel", "notes": "cancel coverage: semantically distinct withdrawal phrasings", "source": "curated", "text": "stop the current task"}
+{"id": "cancel-232e47c6", "intent": "cancel", "notes": "cancel coverage: semantically distinct withdrawal phrasings", "source": "curated", "text": "halt what you are doing"}
+{"id": "cancel-e9c427dc", "intent": "cancel", "notes": "cancel coverage: semantically distinct withdrawal phrasings", "source": "curated", "text": "stop everything right now"}
+{"id": "cancel-94afd929", "intent": "cancel", "notes": "cancel coverage: semantically distinct withdrawal phrasings", "source": "curated", "text": "stand down"}
+{"id": "cancel-5f8dee7e", "intent": "cancel", "notes": "cancel coverage: semantically distinct withdrawal phrasings", "source": "curated", "text": "leave it be"}
+{"id": "cancel-84d12748", "intent": "cancel", "notes": "cancel coverage: semantically distinct withdrawal phrasings", "source": "curated", "text": "forget the whole thing"}
+{"id": "cancel-4add6340", "intent": "cancel", "notes": "cancel coverage: semantically distinct withdrawal phrasings", "source": "curated", "text": "undo the last thing"}
+{"id": "cancel-9e97aa2e", "intent": "cancel", "notes": "cancel coverage: semantically distinct withdrawal phrasings", "source": "curated", "text": "take that back"}
+{"id": "cancel-5d8322eb", "intent": "cancel", "notes": "cancel coverage: semantically distinct withdrawal phrasings", "source": "curated", "text": "never mind i am wrong"}
+{"id": "cancel-ad8ceb08", "intent": "cancel", "notes": "cancel coverage: semantically distinct withdrawal phrasings", "source": "curated", "text": "that is enough"}
+{"id": "cancel-46968723", "intent": "cancel", "notes": "cancel coverage: semantically distinct withdrawal phrasings", "source": "curated", "text": "enough of that"}
+{"id": "cancel-aae140ea", "intent": "cancel", "notes": "cancel coverage: semantically distinct withdrawal phrasings", "source": "curated", "text": "forget what i just said"}
+{"id": "cancel-3e108a84", "intent": "cancel", "notes": "cancel coverage: semantically distinct withdrawal phrasings", "source": "curated", "text": "disregard that request"}
+{"id": "cancel-90d47e22", "intent": "cancel", "notes": "cancel coverage: semantically distinct withdrawal phrasings", "source": "curated", "text": "i changed my mind"}
+{"id": "cancel-75c39cb9", "intent": "cancel", "notes": "cancel coverage: semantically distinct withdrawal phrasings", "source": "curated", "text": "no more of that"}
+{"id": "cancel-e0423d26", "intent": "cancel", "notes": "cancel coverage: semantically distinct withdrawal phrasings", "source": "curated", "text": "stop the current operation"}
+{"id": "cancel-6085bd92", "intent": "cancel", "notes": "cancel coverage: semantically distinct withdrawal phrasings", "source": "curated", "text": "cancel my request"}
+{"id": "cancel-3a7c8063", "intent": "cancel", "notes": "cancel coverage: semantically distinct withdrawal phrasings", "source": "curated", "text": "pull the plug"}
+{"id": "cancel-f853d1fc", "intent": "cancel", "notes": "cancel coverage: semantically distinct withdrawal phrasings", "source": "curated", "text": "abort the mission"}
+{"id": "cancel-4a6ab74b", "intent": "cancel", "notes": "cancel coverage: semantically distinct withdrawal phrasings", "source": "curated", "text": "lets start over"}
+{"id": "remember-9354fea5", "intent": "remember", "notes": "entity coverage: `remember` had almost no entity examples", "source": "curated", "text": "remember that my wifi network is called aurora"}
+{"id": "remember-4f296d61", "intent": "remember", "notes": "entity coverage: `remember` had almost no entity examples", "source": "curated", "text": "remember that the code review is on friday"}
+{"id": "remember-053a990e", "intent": "remember", "notes": "entity coverage: `remember` had almost no entity examples", "source": "curated", "text": "remember that my phone number ends in 4821"}
+{"id": "remember-3a90d72d", "intent": "remember", "notes": "entity coverage: `remember` had almost no entity examples", "source": "curated", "text": "remember that the spare key is in the drawer"}
+{"id": "remember-b131af00", "intent": "remember", "notes": "entity coverage: `remember` had almost no entity examples", "source": "curated", "text": "remember that i take the train at 7am"}
+{"id": "remember-6aa76205", "intent": "remember", "notes": "entity coverage: `remember` had almost no entity examples", "source": "curated", "text": "remember that the project is called aaron"}
+{"id": "remember-7577da4b", "intent": "remember", "notes": "entity coverage: `remember` had almost no entity examples", "source": "curated", "text": "remember that the password hint is my first pet"}
+{"id": "remember-b00b6841", "intent": "remember", "notes": "entity coverage: `remember` had almost no entity examples", "source": "curated", "text": "remember that the deployment is on tuesday"}
+{"id": "recall-1040ebb2", "intent": "recall", "notes": "entity coverage: `recall` entities were mostly `my <thing>`", "source": "curated", "text": "what do you remember about my wifi network"}
+{"id": "recall-dcc8f273", "intent": "recall", "notes": "entity coverage: `recall` entities were mostly `my <thing>`", "source": "curated", "text": "what do you remember about the code review"}
+{"id": "recall-275cda56", "intent": "recall", "notes": "entity coverage: `recall` entities were mostly `my <thing>`", "source": "curated", "text": "what do you remember about my train time"}
+{"id": "recall-64c0634c", "intent": "recall", "notes": "entity coverage: `recall` entities were mostly `my <thing>`", "source": "curated", "text": "look up what you know about my spare key"}
+{"id": "recall-8a48b9c9", "intent": "recall", "notes": "entity coverage: `recall` entities were mostly `my <thing>`", "source": "curated", "text": "search your memory for the project name"}
+{"id": "recall-94eb1e70", "intent": "recall", "notes": "entity coverage: `recall` entities were mostly `my <thing>`", "source": "curated", "text": "what did i tell you about the deployment"}
+{"id": "run_tests-c014c253", "intent": "run_tests", "notes": "entity coverage: named test suites", "source": "curated", "text": "run the cargo test suite"}
+{"id": "run_tests-e5cc6ec7", "intent": "run_tests", "notes": "entity coverage: named test suites", "source": "curated", "text": "run the python test suite"}
+{"id": "run_tests-055f8636", "intent": "run_tests", "notes": "entity coverage: named test suites", "source": "curated", "text": "run the frontend tests"}
+{"id": "run_tests-47d4ed95", "intent": "run_tests", "notes": "entity coverage: named test suites", "source": "curated", "text": "run the tests for the security crate"}
+{"id": "run_tests-97e72b89", "intent": "run_tests", "notes": "entity coverage: named test suites", "source": "curated", "text": "run the integration test suite"}
+{"id": "run_tests-e217bba1", "intent": "run_tests", "notes": "entity coverage: named test suites", "source": "curated", "text": "run the workspace tests"}
+{"id": "open_url-8a7c1bb9", "intent": "open_url", "notes": "entity coverage: URLs in varied shapes", "source": "curated", "text": "open https://example.com"}
+{"id": "open_url-8b68ccad", "intent": "open_url", "notes": "entity coverage: URLs in varied shapes", "source": "curated", "text": "open https://example.com/docs"}
+{"id": "open_url-0fcc113c", "intent": "open_url", "notes": "entity coverage: URLs in varied shapes", "source": "curated", "text": "open https://www.rust-lang.org"}
+{"id": "open_url-75239261", "intent": "open_url", "notes": "entity coverage: URLs in varied shapes", "source": "curated", "text": "open https://github.com/aaron-assistant/aaron"}
+{"id": "open_url-5966b7c2", "intent": "open_url", "notes": "entity coverage: URLs in varied shapes", "source": "curated", "text": "open https://docs.rs/candle/latest"}
+{"id": "open_url-423241ac", "intent": "open_url", "notes": "entity coverage: URLs in varied shapes", "source": "curated", "text": "open https://man.archlinux.org/man/pacman"}
+{"id": "open_url-ea32eca7", "intent": "open_url", "notes": "entity coverage: URLs in varied shapes", "source": "curated", "text": "open https://news.ycombinator.com"}
+{"id": "open_url-4fe57db3", "intent": "open_url", "notes": "entity coverage: URLs in varied shapes", "source": "curated", "text": "open https://crates.io/crates/candle-core"}
+{"id": "open_url-122e6cc8", "intent": "open_url", "notes": "entity coverage: URLs in varied shapes", "source": "curated", "text": "open https://example.com:8080/health"}
+{"id": "open_url-f90cfe7c", "intent": "open_url", "notes": "entity coverage: URLs in varied shapes", "source": "curated", "text": "open https://en.wikipedia.org/wiki/Rust_(programming_language)"}
+{"id": "start_application-7c64773b", "intent": "start_application", "notes": "`open the <noun>` disambiguation pair", "source": "curated", "text": "open the editor"}
+{"id": "start_application-26943f64", "intent": "start_application", "notes": "`open the <noun>` disambiguation pair", "source": "curated", "text": "open the notes app"}
+{"id": "read_file-81d5b84b", "intent": "read_file", "notes": "`open the <noun>` disambiguation pair", "source": "curated", "text": "open the notes file"}
+{"id": "start_application-37454b6e", "intent": "start_application", "notes": "`open the <noun>` disambiguation pair", "source": "curated", "text": "open the browser"}
+{"id": "read_file-f68474f7", "intent": "read_file", "notes": "`open the <noun>` disambiguation pair", "source": "curated", "text": "open the browser source"}
+{"id": "read_file-2fee0240", "intent": "read_file", "notes": "`open the <noun>` disambiguation pair", "source": "curated", "text": "open the terminal config"}
+{"id": "start_application-8998a814", "intent": "start_application", "notes": "`open the <noun>` disambiguation pair", "source": "curated", "text": "open the spreadsheet"}
+{"id": "read_file-6607bd06", "intent": "read_file", "notes": "`open the <noun>` disambiguation pair", "source": "curated", "text": "open the spreadsheet formula"}
+{"id": "start_application-e2b4b452", "intent": "start_application", "notes": "`open the <noun>` disambiguation pair", "source": "curated", "text": "open the pdf viewer"}
+{"id": "read_file-a6f73a4d", "intent": "read_file", "notes": "`open the <noun>` disambiguation pair", "source": "curated", "text": "open the pdf metadata"}
+{"id": "greeting-dc8fb319", "intent": "greeting", "notes": "greeting coverage: distinct greeting shapes", "source": "curated", "text": "hello there"}
+{"id": "greeting-b55ec3da", "intent": "greeting", "notes": "greeting coverage: distinct greeting shapes", "source": "curated", "text": "hi"}
+{"id": "greeting-2fe3767d", "intent": "greeting", "notes": "greeting coverage: distinct greeting shapes", "source": "curated", "text": "hey"}
+{"id": "greeting-2f7cc3f0", "intent": "greeting", "notes": "greeting coverage: distinct greeting shapes", "source": "curated", "text": "good morning"}
+{"id": "greeting-0a600a8c", "intent": "greeting", "notes": "greeting coverage: distinct greeting shapes", "source": "curated", "text": "good afternoon"}
+{"id": "greeting-b58ea1d4", "intent": "greeting", "notes": "greeting coverage: distinct greeting shapes", "source": "curated", "text": "good evening"}
+{"id": "greeting-13d73fff", "intent": "greeting", "notes": "greeting coverage: distinct greeting shapes", "source": "curated", "text": "greetings"}
+{"id": "greeting-55c98376", "intent": "greeting", "notes": "greeting coverage: distinct greeting shapes", "source": "curated", "text": "howdy"}
+{"id": "greeting-503288de", "intent": "greeting", "notes": "greeting coverage: distinct greeting shapes", "source": "curated", "text": "hello aaron"}
+{"id": "greeting-bf43a2c2", "intent": "greeting", "notes": "greeting coverage: distinct greeting shapes", "source": "curated", "text": "hey there aaron"}
+{"id": "greeting-ead1a08f", "intent": "greeting", "notes": "greeting coverage: distinct greeting shapes", "source": "curated", "text": "is anyone there"}
+{"id": "greeting-dd4ed300", "intent": "greeting", "notes": "greeting coverage: distinct greeting shapes", "source": "curated", "text": "good day to you"}
+{"id": "greeting-7dcfd5dc", "intent": "greeting", "notes": "greeting coverage: distinct greeting shapes", "source": "curated", "text": "top of the morning to you"}
+{"id": "greeting-3da72500", "intent": "greeting", "notes": "greeting coverage: distinct greeting shapes", "source": "curated", "text": "hello anyone around"}
+{"id": "greeting-b2a21bce", "intent": "greeting", "notes": "greeting coverage: distinct greeting shapes", "source": "curated", "text": "anyone home"}
+{"id": "greeting-b76d13b3", "intent": "greeting", "notes": "greeting coverage: distinct greeting shapes", "source": "curated", "text": "wake up aaron"}
+{"id": "greeting-bf18accb", "intent": "greeting", "notes": "greeting coverage: distinct greeting shapes", "source": "curated", "text": "aaron you there"}
+{"id": "greeting-acd00e57", "intent": "greeting", "notes": "greeting coverage: distinct greeting shapes", "source": "curated", "text": "knock knock"}
+{"id": "help-a7a6f54c", "intent": "help", "notes": "frame `show me` used by five intents", "source": "curated", "text": "show me the command list"}
+{"id": "recall-ee884cd5", "intent": "recall", "notes": "frame `show me` used by five intents", "source": "curated", "text": "show me the wifi name"}
+{"id": "git_status-6ad19460", "intent": "git_status", "notes": "frame `what does` is not file-reading", "source": "curated", "text": "what does git think"}
+{"id": "system_status-09c33150", "intent": "system_status", "notes": "frame `what does` is not file-reading", "source": "curated", "text": "what does the cpu usage look like"}
+{"id": "help-5b290094", "intent": "help", "notes": "frame `what does` is not file-reading", "source": "curated", "text": "what does the help command say"}
+{"id": "stop_application-1313d9e2", "intent": "stop_application", "notes": "frame `stop <app>` vs `stop <task>`", "source": "curated", "text": "stop nautilus"}
+{"id": "cancel-f93ca7b6", "intent": "cancel", "notes": "frame `stop <app>` vs `stop <task>`", "source": "curated", "text": "stop the download"}
+{"id": "search_files-8c365b6c", "intent": "search_files", "notes": "frame `locate` is not running tests", "source": "curated", "text": "locate the tests directory contents"}
+{"id": "search_files-a635b514", "intent": "search_files", "notes": "frame `locate` is not running tests", "source": "curated", "text": "locate the source directory contents"}
+{"id": "search_files-0e026d82", "intent": "search_files", "notes": "frame `locate` is not running tests", "source": "curated", "text": "locate the missing file"}
+{"id": "unknown-ee7ff08e", "intent": "unknown", "notes": "frame `locate` is not running tests", "source": "curated", "text": "locate the running process"}
+{"id": "system_status-d9bb0a85", "intent": "system_status", "notes": "frame `check` used by three intents", "source": "curated", "text": "check performance"}
+{"id": "run_tests-220b7d8e", "intent": "run_tests", "notes": "frame `check` used by three intents", "source": "curated", "text": "check the test results"}
+{"id": "system_status-985ade47", "intent": "system_status", "notes": "frame `check` used by three intents", "source": "curated", "text": "check the disk space"}
+{"id": "git_status-4747b42b", "intent": "git_status", "notes": "frame `how is` is not a world question", "source": "curated", "text": "how is the repository doing"}
+{"id": "unknown-2b19f7c0", "intent": "unknown", "notes": "frame `how do i` is not always out of schema", "source": "curated", "text": "how do i bake bread"}
+{"id": "remember-9c26533c", "intent": "remember", "notes": "frame `remember` as verb vs noun", "source": "curated", "text": "remember that my name is david"}
+{"id": "recall-aa41d0d6", "intent": "recall", "notes": "frame `remember` as verb vs noun", "source": "curated", "text": "remember what i told you about the wifi"}
+{"id": "recall-79cb8ee0", "intent": "recall", "notes": "frame `remember` as verb vs noun", "source": "curated", "text": "what do you remember about my dentist"}
+{"id": "remember-71e141c5", "intent": "remember", "notes": "frame `remember` as verb vs noun", "source": "curated", "text": "remember this for me"}
+{"id": "greeting-0bd446ef", "intent": "greeting", "notes": "one-word greeting", "source": "curated", "text": "evening"}
+{"id": "greeting-f0012917", "intent": "greeting", "notes": "one-word greeting", "source": "curated", "text": "afternoon"}
+{"id": "git_status-facd7f0b", "intent": "git_status", "notes": "one-word command", "source": "curated", "text": "git"}
+{"id": "system_status-6cc12c2f", "intent": "system_status", "notes": "one-word command", "source": "curated", "text": "status"}
+{"id": "run_tests-4dfda322", "intent": "run_tests", "notes": "one-word command", "source": "curated", "text": "tests"}
+{"id": "start_application-592ae44f", "intent": "start_application", "notes": "one-word command", "source": "curated", "text": "browser"}
+{"id": "cancel-53003d52", "intent": "cancel", "notes": "withdrawal phrasing", "source": "curated", "text": "put it back"}
+{"id": "cancel-542b6a22", "intent": "cancel", "notes": "withdrawal phrasing", "source": "curated", "text": "undo that please"}
+{"id": "cancel-e12dbef0", "intent": "cancel", "notes": "withdrawal phrasing", "source": "curated", "text": "revert that"}
+{"id": "remember-8abe9e02", "intent": "remember", "notes": "remembering phrasing", "source": "curated", "text": "save this for later the dentist is at noon"}
+{"id": "remember-bf325a5a", "intent": "remember", "notes": "remembering phrasing", "source": "curated", "text": "keep this in mind the boiler is broken"}
+{"id": "search_files-898cc1f2", "intent": "search_files", "notes": "search phrasing", "source": "curated", "text": "track down the containerfile"}
+{"id": "search_files-ae27d8dd", "intent": "search_files", "notes": "search phrasing", "source": "curated", "text": "track down the missing symbol"}
+{"id": "recall-542c32bb", "intent": "recall", "notes": "recall phrasing", "source": "curated", "text": "go through your notes about my prescription"}
+{"id": "recall-4929b465", "intent": "recall", "notes": "recall phrasing", "source": "curated", "text": "go through your notes about my landlord"}
+{"id": "git_status-5dc42269", "intent": "git_status", "notes": "git phrasing", "source": "curated", "text": "which files have changed since the last commit"}
+{"id": "git_status-ab260db6", "intent": "git_status", "notes": "git phrasing", "source": "curated", "text": "which branch am i on right now"}
+{"id": "system_status-8fd6814d", "intent": "system_status", "notes": "interrogative system phrasing", "source": "curated", "text": "are we low on memory"}
+{"id": "system_status-d661c460", "intent": "system_status", "notes": "interrogative system phrasing", "source": "curated", "text": "is the machine running out of disk space"}
+{"id": "system_status-13ba9aa1", "intent": "system_status", "notes": "interrogative system phrasing", "source": "curated", "text": "is the server overheating"}
+{"id": "git_status-5fb2d35c", "intent": "git_status", "notes": "interrogative git phrasing", "source": "curated", "text": "do i have any staged changes"}
+{"id": "git_status-e19abfb3", "intent": "git_status", "notes": "interrogative git phrasing", "source": "curated", "text": "do i need to commit anything"}
+{"id": "start_application-7699c19e", "intent": "start_application", "notes": "start phrasing", "source": "curated", "text": "fire up the torrent client"}
+{"id": "start_application-da5766b7", "intent": "start_application", "notes": "start phrasing", "source": "curated", "text": "fire up the screenshot tool"}
+{"id": "git_status-baefbb03", "intent": "git_status", "notes": "class balance: git_status had 49 examples and recall 0.200", "source": "curated", "text": "what is staged right now"}
+{"id": "git_status-b0a820b5", "intent": "git_status", "notes": "class balance: git_status had 49 examples and recall 0.200", "source": "curated", "text": "which files are staged for commit"}
+{"id": "git_status-6d49511d", "intent": "git_status", "notes": "class balance: git_status had 49 examples and recall 0.200", "source": "curated", "text": "how many commits since the last tag"}
+{"id": "git_status-57873fbb", "intent": "git_status", "notes": "class balance: git_status had 49 examples and recall 0.200", "source": "curated", "text": "give me the recent commit list"}
+{"id": "git_status-8bb35f38", "intent": "git_status", "notes": "class balance: git_status had 49 examples and recall 0.200", "source": "curated", "text": "is there anything to push"}
+{"id": "git_status-14caa4a8", "intent": "git_status", "notes": "class balance: git_status had 49 examples and recall 0.200", "source": "curated", "text": "what is the current head commit"}
+{"id": "git_status-ddd68143", "intent": "git_status", "notes": "class balance: git_status had 49 examples and recall 0.200", "source": "curated", "text": "tell me the branch and its upstream"}
+{"id": "git_status-de61818c", "intent": "git_status", "notes": "class balance: git_status had 49 examples and recall 0.200", "source": "curated", "text": "do the tests pass on this branch"}
+{"id": "git_status-ed100834", "intent": "git_status", "notes": "class balance: git_status had 49 examples and recall 0.200", "source": "curated", "text": "what changed in the last commit"}
+{"id": "git_status-d212cb22", "intent": "git_status", "notes": "class balance: git_status had 49 examples and recall 0.200", "source": "curated", "text": "list the modified files"}
+{"id": "git_status-23584a59", "intent": "git_status", "notes": "class balance: git_status had 49 examples and recall 0.200", "source": "curated", "text": "how many lines are staged"}
+{"id": "git_status-7e0291d8", "intent": "git_status", "notes": "class balance: git_status had 49 examples and recall 0.200", "source": "curated", "text": "any new files git has not seen"}
+{"id": "git_status-ab1ea283", "intent": "git_status", "notes": "class balance: git_status had 49 examples and recall 0.200", "source": "curated", "text": "what does the index contain"}
+{"id": "git_status-6e5f5476", "intent": "git_status", "notes": "class balance: git_status had 49 examples and recall 0.200", "source": "curated", "text": "is the index dirty"}
+{"id": "git_status-8e5a5cd6", "intent": "git_status", "notes": "class balance: git_status had 49 examples and recall 0.200", "source": "curated", "text": "show me what git would commit"}
+{"id": "help-e036b7dc", "intent": "help", "notes": "class balance: help had 51 examples", "source": "curated", "text": "what can this thing do"}
+{"id": "help-c5173a00", "intent": "help", "notes": "class balance: help had 51 examples", "source": "curated", "text": "which requests do you handle"}
+{"id": "help-4776af03", "intent": "help", "notes": "class balance: help had 51 examples", "source": "curated", "text": "what should i ask you"}
+{"id": "help-3dec22fb", "intent": "help", "notes": "class balance: help had 51 examples", "source": "curated", "text": "print your cheat sheet"}
+{"id": "help-696b75fa", "intent": "help", "notes": "class balance: help had 51 examples", "source": "curated", "text": "enumerate your commands"}
+{"id": "help-7f2d63b9", "intent": "help", "notes": "class balance: help had 51 examples", "source": "curated", "text": "what is in the quick reference"}
+{"id": "help-60112f5f", "intent": "help", "notes": "class balance: help had 51 examples", "source": "curated", "text": "how do i speak to you"}
+{"id": "help-92d7ffc1", "intent": "help", "notes": "class balance: help had 51 examples", "source": "curated", "text": "what are you for"}
+{"id": "help-82e573bc", "intent": "help", "notes": "class balance: help had 51 examples", "source": "curated", "text": "give me a list of what you can do"}
+{"id": "help-74c4d824", "intent": "help", "notes": "class balance: help had 51 examples", "source": "curated", "text": "which verbs do you understand"}
+{"id": "system_status-9e664d21", "intent": "system_status", "notes": "class balance: system_status had 61 examples", "source": "curated", "text": "how much ram is available"}
+{"id": "system_status-b308ecc0", "intent": "system_status", "notes": "class balance: system_status had 61 examples", "source": "curated", "text": "how many cores does this machine have"}
+{"id": "system_status-afa9a649", "intent": "system_status", "notes": "class balance: system_status had 61 examples", "source": "curated", "text": "give me the system overview"}
+{"id": "system_status-4e142522", "intent": "system_status", "notes": "class balance: system_status had 61 examples", "source": "curated", "text": "what is the cpu temperature"}
+{"id": "system_status-328759de", "intent": "system_status", "notes": "class balance: system_status had 61 examples", "source": "curated", "text": "is everything running smoothly"}
+{"id": "system_status-051c536f", "intent": "system_status", "notes": "class balance: system_status had 61 examples", "source": "curated", "text": "how is the desktop doing"}
+{"id": "system_status-8837da35", "intent": "system_status", "notes": "class balance: system_status had 61 examples", "source": "curated", "text": "tell me the memory usage"}
+{"id": "system_status-33714acc", "intent": "system_status", "notes": "class balance: system_status had 61 examples", "source": "curated", "text": "any unusual processes running"}
+{"id": "system_status-0d75b507", "intent": "system_status", "notes": "class balance: system_status had 61 examples", "source": "curated", "text": "what does the uptime look like"}
+{"id": "system_status-3c0d68f2", "intent": "system_status", "notes": "class balance: system_status had 61 examples", "source": "curated", "text": "how much space is left on the disk"}
+{"id": "system_status-b1bb5711", "intent": "system_status", "notes": "class balance: system_status had 61 examples", "source": "curated", "text": "give me the resource snapshot"}
+{"id": "system_status-ea1a0627", "intent": "system_status", "notes": "class balance: system_status had 61 examples", "source": "curated", "text": "is the gpu busy right now"}
+{"id": "system_status-ad20c133", "intent": "system_status", "notes": "class balance: system_status had 61 examples", "source": "curated", "text": "how is the load average"}
+{"id": "system_status-1c1f85a9", "intent": "system_status", "notes": "class balance: system_status had 61 examples", "source": "curated", "text": "check the health of the machine"}
+{"id": "search_files-e8e3b6aa", "intent": "search_files", "notes": "class balance: search_files had 64 examples", "source": "curated", "text": "which files are called composer.json"}
+{"id": "search_files-bff375c6", "intent": "search_files", "notes": "class balance: search_files had 64 examples", "source": "curated", "text": "hunt for files named helmfile.yaml"}
+{"id": "search_files-c703af5c", "intent": "search_files", "notes": "class balance: search_files had 64 examples", "source": "curated", "text": "scan the tree for shell scripts"}
+{"id": "search_files-3d3cc182", "intent": "search_files", "notes": "class balance: search_files had 64 examples", "source": "curated", "text": "dig out any config files"}
+{"id": "search_files-5c9decfe", "intent": "search_files", "notes": "class balance: search_files had 64 examples", "source": "curated", "text": "which files end in .lock"}
+{"id": "search_files-7dd0f553", "intent": "search_files", "notes": "class balance: search_files had 64 examples", "source": "curated", "text": "list the files in the assets directory"}
+{"id": "search_files-abecd952", "intent": "search_files", "notes": "class balance: search_files had 64 examples", "source": "curated", "text": "show me everything in the templates folder"}
+{"id": "search_files-c663cc1d", "intent": "search_files", "notes": "class balance: search_files had 64 examples", "source": "curated", "text": "find the files that mention the word timeout"}
+{"id": "search_files-2829e2c7", "intent": "search_files", "notes": "class balance: search_files had 64 examples", "source": "curated", "text": "search for large files in the project"}
+{"id": "search_files-0ed759c8", "intent": "search_files", "notes": "class balance: search_files had 64 examples", "source": "curated", "text": "which folders contain markdown"}
+{"id": "search_files-551c0acf", "intent": "search_files", "notes": "class balance: search_files had 64 examples", "source": "curated", "text": "where are the yaml files"}
+{"id": "search_files-933dec80", "intent": "search_files", "notes": "class balance: search_files had 64 examples", "source": "curated", "text": "show me the files that were changed yesterday"}
+{"id": "search_files-dc6bfa51", "intent": "search_files", "notes": "class balance: search_files had 64 examples", "source": "curated", "text": "look for the file that has the schema"}
+{"id": "search_files-929a7c28", "intent": "search_files", "notes": "class balance: search_files had 64 examples", "source": "curated", "text": "which scripts are executable"}
+{"id": "run_tests-d70baa02", "intent": "run_tests", "notes": "class balance: run_tests had 61 examples", "source": "curated", "text": "run the clippy check"}
+{"id": "run_tests-b5d9594e", "intent": "run_tests", "notes": "class balance: run_tests had 61 examples", "source": "curated", "text": "run the doc tests"}
+{"id": "run_tests-e7f7b9a6", "intent": "run_tests", "notes": "class balance: run_tests had 61 examples", "source": "curated", "text": "run the benchmark suite"}
+{"id": "run_tests-d1cd6f57", "intent": "run_tests", "notes": "class balance: run_tests had 61 examples", "source": "curated", "text": "start the test suite for the brain crate"}
+{"id": "run_tests-2faeabab", "intent": "run_tests", "notes": "class balance: run_tests had 61 examples", "source": "curated", "text": "kick off the regression tests"}
+{"id": "run_tests-910a8d90", "intent": "run_tests", "notes": "class balance: run_tests had 61 examples", "source": "curated", "text": "run the linter tests"}
+{"id": "run_tests-452f6e40", "intent": "run_tests", "notes": "class balance: run_tests had 61 examples", "source": "curated", "text": "execute the whole test suite"}
+{"id": "run_tests-50bac3bf", "intent": "run_tests", "notes": "class balance: run_tests had 61 examples", "source": "curated", "text": "fire up the test runner please"}
+{"id": "run_tests-281e7cc8", "intent": "run_tests", "notes": "class balance: run_tests had 61 examples", "source": "curated", "text": "go ahead and run the unit tests"}
+{"id": "run_tests-f849f949", "intent": "run_tests", "notes": "class balance: run_tests had 61 examples", "source": "curated", "text": "run cargo test for me"}
+{"id": "open_url-ea4d4c7d", "intent": "open_url", "notes": "class balance: open_url had 57 examples", "source": "curated", "text": "bring up https://man.archlinux.org"}
+{"id": "open_url-e408d10b", "intent": "open_url", "notes": "class balance: open_url had 57 examples", "source": "curated", "text": "go to https://crates.io"}
+{"id": "open_url-7fca8943", "intent": "open_url", "notes": "class balance: open_url had 57 examples", "source": "curated", "text": "pull up https://example.org/guide"}
+{"id": "open_url-753383aa", "intent": "open_url", "notes": "class balance: open_url had 57 examples", "source": "curated", "text": "load https://en.wikipedia.org"}
+{"id": "open_url-eb28e290", "intent": "open_url", "notes": "class balance: open_url had 57 examples", "source": "curated", "text": "visit https://example.net/docs"}
+{"id": "open_url-b919bf39", "intent": "open_url", "notes": "class balance: open_url had 57 examples", "source": "curated", "text": "take me to https://github.com/aaron-assistant/aaron"}
+{"id": "stop_application-72934011", "intent": "stop_application", "notes": "class balance: stop_application had 53 examples", "source": "curated", "text": "close the torrent client"}
+{"id": "stop_application-d295af7e", "intent": "stop_application", "notes": "class balance: stop_application had 53 examples", "source": "curated", "text": "kill krita"}
+{"id": "stop_application-8d590ea6", "intent": "stop_application", "notes": "class balance: stop_application had 53 examples", "source": "curated", "text": "terminate the debugger"}
+{"id": "stop_application-31d6b4d2", "intent": "stop_application", "notes": "class balance: stop_application had 53 examples", "source": "curated", "text": "end the file manager"}
+{"id": "stop_application-7f3acb45", "intent": "stop_application", "notes": "class balance: stop_application had 53 examples", "source": "curated", "text": "shut down the email client"}
+{"id": "stop_application-ea6f68bb", "intent": "stop_application", "notes": "class balance: stop_application had 53 examples", "source": "curated", "text": "quit the video editor"}
+{"id": "stop_application-921c9e8c", "intent": "stop_application", "notes": "class balance: stop_application had 53 examples", "source": "curated", "text": "halt the system monitor"}
+{"id": "stop_application-0ef28972", "intent": "stop_application", "notes": "class balance: stop_application had 53 examples", "source": "curated", "text": "get rid of the music player"}
+{"id": "stop_application-e2783550", "intent": "stop_application", "notes": "class balance: stop_application had 53 examples", "source": "curated", "text": "close the browser"}
+{"id": "stop_application-e933dd7e", "intent": "stop_application", "notes": "class balance: stop_application had 53 examples", "source": "curated", "text": "kill the docker daemon"}
+{"id": "stop_application-8f93ca40", "intent": "stop_application", "notes": "class balance: stop_application had 53 examples", "source": "curated", "text": "end the background job"}
+{"id": "cancel-0fd3603b", "intent": "cancel", "notes": "class balance: cancel had 80 examples but 24 near-duplicate pairs", "source": "curated", "text": "never mind"}
+{"id": "cancel-0d73889e", "intent": "cancel", "notes": "class balance: cancel had 80 examples but 24 near-duplicate pairs", "source": "curated", "text": "actually forget it"}
+{"id": "cancel-857ccf2f", "intent": "cancel", "notes": "class balance: cancel had 80 examples but 24 near-duplicate pairs", "source": "curated", "text": "hold on leave it"}
+{"id": "cancel-66adaf53", "intent": "cancel", "notes": "class balance: cancel had 80 examples but 24 near-duplicate pairs", "source": "curated", "text": "no wait not that"}
+{"id": "cancel-6aca7106", "intent": "cancel", "notes": "class balance: cancel had 80 examples but 24 near-duplicate pairs", "source": "curated", "text": "put that back"}
+{"id": "recall-f63d5b94", "intent": "recall", "notes": "class balance: recall had 68 examples and 19 near-duplicate pairs", "source": "curated", "text": "what do you remember about my wifi"}
+{"id": "recall-f242b103", "intent": "recall", "notes": "class balance: recall had 68 examples and 19 near-duplicate pairs", "source": "curated", "text": "look up what you know about my dentist"}
+{"id": "recall-9299b181", "intent": "recall", "notes": "class balance: recall had 68 examples and 19 near-duplicate pairs", "source": "curated", "text": "search your memory for my train time"}
+{"id": "recall-3cea6c57", "intent": "recall", "notes": "class balance: recall had 68 examples and 19 near-duplicate pairs", "source": "curated", "text": "pull up what you know about my medication"}
+{"id": "recall-c12fa707", "intent": "recall", "notes": "class balance: recall had 68 examples and 19 near-duplicate pairs", "source": "curated", "text": "dig through your memory for my passport"}
+{"id": "remember-74781dbc", "intent": "remember", "notes": "class balance: remember had 69 examples and one verb", "source": "curated", "text": "remember that the wifi is called aurora"}
+{"id": "remember-302bb01e", "intent": "remember", "notes": "class balance: remember had 69 examples and one verb", "source": "curated", "text": "remember that my dentist is on tuesday"}
+{"id": "remember-0d124d2d", "intent": "remember", "notes": "class balance: remember had 69 examples and one verb", "source": "curated", "text": "note that the office closes at six"}
+{"id": "remember-ce5187dc", "intent": "remember", "notes": "class balance: remember had 69 examples and one verb", "source": "curated", "text": "remember that i am allergic to shellfish"}
+{"id": "remember-87d4e249", "intent": "remember", "notes": "class balance: remember had 69 examples and one verb", "source": "curated", "text": "store the fact that the train leaves at 7am"}
+{"id": "remember-b3d9d4e4", "intent": "remember", "notes": "class balance: remember had 69 examples and one verb", "source": "curated", "text": "remember that the repo is named aaron"}
+{"id": "remember-97b9bdac", "intent": "remember", "notes": "class balance: remember had 69 examples and one verb", "source": "curated", "text": "write down that i favour dark mode"}
+{"id": "remember-34420bc7", "intent": "remember", "notes": "class balance: remember had 69 examples and one verb", "source": "curated", "text": "remember that the heating is broken"}
+{"id": "remember-200fdc42", "intent": "remember", "notes": "class balance: remember had 69 examples and one verb", "source": "curated", "text": "keep in mind that the train departs at 7am"}
+{"id": "remember-4ebed3f1", "intent": "remember", "notes": "class balance: remember had 69 examples and one verb", "source": "curated", "text": "note it down that i prefer dark mode"}
+{"id": "greeting-2387326c", "intent": "greeting", "notes": "class balance: greeting had 56 examples and 16 near-duplicate pairs", "source": "curated", "text": "hey aaron"}
+{"id": "greeting-2e76ff77", "intent": "greeting", "notes": "class balance: greeting had 56 examples and 16 near-duplicate pairs", "source": "curated", "text": "morning to you"}
+{"id": "greeting-9c7033ff", "intent": "greeting", "notes": "class balance: greeting had 56 examples and 16 near-duplicate pairs", "source": "curated", "text": "hello hello"}
+{"id": "greeting-0901060c", "intent": "greeting", "notes": "class balance: greeting had 56 examples and 16 near-duplicate pairs", "source": "curated", "text": "howdy partner"}
+{"id": "greeting-c62514c4", "intent": "greeting", "notes": "class balance: greeting had 56 examples and 16 near-duplicate pairs", "source": "curated", "text": "good night to you"}
+{"id": "greeting-41c257dc", "intent": "greeting", "notes": "class balance: greeting had 56 examples and 16 near-duplicate pairs", "source": "curated", "text": "hello aaron there"}
+{"id": "greeting-e22585cd", "intent": "greeting", "notes": "class balance: greeting had 56 examples and 16 near-duplicate pairs", "source": "curated", "text": "greetings and salutations"}
+{"id": "greeting-9dd56d6c", "intent": "greeting", "notes": "class balance: greeting had 56 examples and 16 near-duplicate pairs", "source": "curated", "text": "anyone around"}

@@ -1,0 +1,160 @@
+{"text": "remember", "kind": "incomplete", "family": "verb_only"}
+{"text": "remember the oven is off", "kind": "complete", "family": "verb_only"}
+{"text": "memorise", "kind": "incomplete", "family": "verb_only"}
+{"text": "memorise the gate code", "kind": "complete", "family": "verb_only"}
+{"text": "record", "kind": "incomplete", "family": "verb_only"}
+{"text": "record the shelf is bare", "kind": "complete", "family": "verb_only"}
+{"text": "store", "kind": "incomplete", "family": "verb_only"}
+{"text": "store the key upstairs", "kind": "complete", "family": "verb_only"}
+{"text": "save", "kind": "incomplete", "family": "verb_only"}
+{"text": "save the meeting for noon", "kind": "complete", "family": "verb_only"}
+{"text": "keep", "kind": "incomplete", "family": "verb_only"}
+{"text": "keep the bin out", "kind": "complete", "family": "verb_only"}
+{"text": "write down", "kind": "incomplete", "family": "verb_only"}
+{"text": "write down the code", "kind": "complete", "family": "verb_only"}
+{"text": "mark down", "kind": "incomplete", "family": "verb_only"}
+{"text": "mark down the date", "kind": "complete", "family": "verb_only"}
+{"text": "put down", "kind": "incomplete", "family": "verb_only"}
+{"text": "put down the alarm", "kind": "complete", "family": "verb_only"}
+{"text": "register", "kind": "incomplete", "family": "verb_only"}
+{"text": "register the key upstairs", "kind": "complete", "family": "verb_only"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the oven is off", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the tap is dripping", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the gate is locked", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the stove is off", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the lights are on", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the bin is out", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the door is shut", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the window is up", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the alarm is set", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the printer is jammed", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the kettle is off", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the shelf is bare", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that bins go out thursday", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the cat is fed", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the plant needs water", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the wash is due", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the router is warm", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the shower is timed", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the meeting is noon", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the train is late", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the fridge is humming", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the bin is full", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the gate is stuck", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the lights are off", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the door is open", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the stove is cold", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the tank is full", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that bins go out friday", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the cat is out", "kind": "complete", "family": "contentless"}
+{"text": "remember that", "kind": "incomplete", "family": "contentless"}
+{"text": "remember that the plant needs light", "kind": "complete", "family": "contentless"}
+{"text": "recall", "kind": "incomplete", "family": "verb_only"}
+{"text": "recall the key is upstairs", "kind": "complete", "family": "verb_only"}
+{"text": "recollect", "kind": "incomplete", "family": "verb_only"}
+{"text": "recollect the tune is old", "kind": "complete", "family": "verb_only"}
+{"text": "look back", "kind": "incomplete", "family": "verb_only"}
+{"text": "look back to last june", "kind": "complete", "family": "verb_only"}
+{"text": "think back", "kind": "incomplete", "family": "verb_only"}
+{"text": "think back to last year", "kind": "complete", "family": "verb_only"}
+{"text": "cast back", "kind": "incomplete", "family": "verb_only"}
+{"text": "cast back to june", "kind": "complete", "family": "verb_only"}
+{"text": "dredge up", "kind": "incomplete", "family": "verb_only"}
+{"text": "dredge up the tune", "kind": "complete", "family": "verb_only"}
+{"text": "dig up", "kind": "incomplete", "family": "verb_only"}
+{"text": "dig up the note", "kind": "complete", "family": "verb_only"}
+{"text": "pull up", "kind": "incomplete", "family": "verb_only"}
+{"text": "pull up the file", "kind": "complete", "family": "verb_only"}
+{"text": "call back", "kind": "incomplete", "family": "verb_only"}
+{"text": "call back the number", "kind": "complete", "family": "verb_only"}
+{"text": "bring back", "kind": "incomplete", "family": "verb_only"}
+{"text": "bring back the note", "kind": "complete", "family": "verb_only"}
+{"text": "recall that", "kind": "incomplete", "family": "contentless"}
+{"text": "recall that my key is upstairs", "kind": "complete", "family": "contentless"}
+{"text": "recall that", "kind": "incomplete", "family": "contentless"}
+{"text": "recall that my note is upstairs", "kind": "complete", "family": "contentless"}
+{"text": "recall that", "kind": "incomplete", "family": "contentless"}
+{"text": "recall that my letter is here", "kind": "complete", "family": "contentless"}
+{"text": "recall that", "kind": "incomplete", "family": "contentless"}
+{"text": "recall that my box is full", "kind": "complete", "family": "contentless"}
+{"text": "recall that", "kind": "incomplete", "family": "contentless"}
+{"text": "recall that my bag is packed", "kind": "complete", "family": "contentless"}
+{"text": "recall that", "kind": "incomplete", "family": "contentless"}
+{"text": "recall that my jar is empty", "kind": "complete", "family": "contentless"}
+{"text": "recall that", "kind": "incomplete", "family": "contentless"}
+{"text": "recall that my map is folded", "kind": "complete", "family": "contentless"}
+{"text": "recall that", "kind": "incomplete", "family": "contentless"}
+{"text": "recall that my clock is fast", "kind": "complete", "family": "contentless"}
+{"text": "recall that", "kind": "incomplete", "family": "contentless"}
+{"text": "recall that my watch is slow", "kind": "complete", "family": "contentless"}
+{"text": "recall that", "kind": "incomplete", "family": "contentless"}
+{"text": "recall that my photo is faded", "kind": "complete", "family": "contentless"}
+{"text": "recall that", "kind": "incomplete", "family": "contentless"}
+{"text": "recall that my card is missing", "kind": "complete", "family": "contentless"}
+{"text": "recall that", "kind": "incomplete", "family": "contentless"}
+{"text": "recall that my page is dog-eared", "kind": "complete", "family": "contentless"}
+{"text": "recall that", "kind": "incomplete", "family": "contentless"}
+{"text": "recall that my file is upstairs", "kind": "complete", "family": "contentless"}
+{"text": "recall that", "kind": "incomplete", "family": "contentless"}
+{"text": "recall that my desk is tidy", "kind": "complete", "family": "contentless"}
+{"text": "recall that", "kind": "incomplete", "family": "contentless"}
+{"text": "recall that my shelf is high", "kind": "complete", "family": "contentless"}
+{"text": "recall this", "kind": "incomplete", "family": "contentless"}
+{"text": "recall this door is open", "kind": "complete", "family": "contentless"}
+{"text": "recall this", "kind": "incomplete", "family": "contentless"}
+{"text": "recall this tap needs fixing", "kind": "complete", "family": "contentless"}
+{"text": "recall this", "kind": "incomplete", "family": "contentless"}
+{"text": "recall this shelf looks bare", "kind": "complete", "family": "contentless"}
+{"text": "recall this", "kind": "incomplete", "family": "contentless"}
+{"text": "recall this bin smells bad", "kind": "complete", "family": "contentless"}
+{"text": "recall this", "kind": "incomplete", "family": "contentless"}
+{"text": "recall this light stays on", "kind": "complete", "family": "contentless"}
+{"text": "recall this", "kind": "incomplete", "family": "contentless"}
+{"text": "recall this lock is stiff", "kind": "complete", "family": "contentless"}
+{"text": "recall this", "kind": "incomplete", "family": "contentless"}
+{"text": "recall this key works fine", "kind": "complete", "family": "contentless"}
+{"text": "recall this", "kind": "incomplete", "family": "contentless"}
+{"text": "recall this route avoids tolls", "kind": "complete", "family": "contentless"}
+{"text": "recall this", "kind": "incomplete", "family": "contentless"}
+{"text": "recall this seat is wet", "kind": "complete", "family": "contentless"}
+{"text": "recall this", "kind": "incomplete", "family": "contentless"}
+{"text": "recall this form needs signing", "kind": "complete", "family": "contentless"}
+{"text": "recall this", "kind": "incomplete", "family": "contentless"}
+{"text": "recall this ink is faded", "kind": "complete", "family": "contentless"}
+{"text": "recall this", "kind": "incomplete", "family": "contentless"}
+{"text": "recall this step is last", "kind": "complete", "family": "contentless"}
+{"text": "recall this", "kind": "incomplete", "family": "contentless"}
+{"text": "recall this bus is full", "kind": "complete", "family": "contentless"}
+{"text": "recall this", "kind": "incomplete", "family": "contentless"}
+{"text": "recall this floor is cold", "kind": "complete", "family": "contentless"}
+{"text": "recall this", "kind": "incomplete", "family": "contentless"}
+{"text": "recall this rug is thin", "kind": "complete", "family": "contentless"}

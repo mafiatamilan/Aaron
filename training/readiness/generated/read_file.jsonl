@@ -1,0 +1,80 @@
+{"text": "read", "kind": "incomplete", "family": "verb_only"}
+{"text": "read fieldnotes.md", "kind": "complete", "family": "verb_only"}
+{"text": "open", "kind": "incomplete", "family": "verb_only"}
+{"text": "open itinerary.md", "kind": "complete", "family": "verb_only"}
+{"text": "show", "kind": "incomplete", "family": "verb_only"}
+{"text": "show roster.csv", "kind": "complete", "family": "verb_only"}
+{"text": "display", "kind": "incomplete", "family": "verb_only"}
+{"text": "display metrics.log", "kind": "complete", "family": "verb_only"}
+{"text": "cat", "kind": "incomplete", "family": "verb_only"}
+{"text": "cat mkdocs.yml", "kind": "complete", "family": "verb_only"}
+{"text": "print", "kind": "incomplete", "family": "verb_only"}
+{"text": "print agenda.md", "kind": "complete", "family": "verb_only"}
+{"text": "view", "kind": "incomplete", "family": "verb_only"}
+{"text": "view releaseplan.md", "kind": "complete", "family": "verb_only"}
+{"text": "dump", "kind": "incomplete", "family": "verb_only"}
+{"text": "dump seed.sql", "kind": "complete", "family": "verb_only"}
+{"text": "read the invoice", "kind": "incomplete", "family": "bare_noun"}
+{"text": "read the invoice parking", "kind": "complete", "family": "bare_noun"}
+{"text": "read the poem", "kind": "incomplete", "family": "bare_noun"}
+{"text": "read the poem ozymandias", "kind": "complete", "family": "bare_noun"}
+{"text": "read the recipe", "kind": "incomplete", "family": "bare_noun"}
+{"text": "read the recipe sourdough", "kind": "complete", "family": "bare_noun"}
+{"text": "read the essay", "kind": "incomplete", "family": "bare_noun"}
+{"text": "read the essay cicadas", "kind": "complete", "family": "bare_noun"}
+{"text": "read the receipt", "kind": "incomplete", "family": "bare_noun"}
+{"text": "read the receipt ferry", "kind": "complete", "family": "bare_noun"}
+{"text": "read the timetable", "kind": "incomplete", "family": "bare_noun"}
+{"text": "read the timetable winter", "kind": "complete", "family": "bare_noun"}
+{"text": "read the draft", "kind": "incomplete", "family": "bare_noun"}
+{"text": "read the draft opening", "kind": "complete", "family": "bare_noun"}
+{"text": "read the pamphlet", "kind": "incomplete", "family": "bare_noun"}
+{"text": "read the pamphlet vaccination", "kind": "complete", "family": "bare_noun"}
+{"text": "read the last 30 lines", "kind": "incomplete", "family": "quantity"}
+{"text": "read the last 30 lines syslog.log", "kind": "complete", "family": "quantity"}
+{"text": "show the last 15 lines", "kind": "incomplete", "family": "quantity"}
+{"text": "show the last 15 lines deploy.log", "kind": "complete", "family": "quantity"}
+{"text": "print lines 200 through 240", "kind": "incomplete", "family": "quantity"}
+{"text": "print lines 200 through 240 build.log", "kind": "complete", "family": "quantity"}
+{"text": "read lines 12 to 40", "kind": "incomplete", "family": "quantity"}
+{"text": "read lines 12 to 40 schema.sql", "kind": "complete", "family": "quantity"}
+{"text": "show the middle 20 lines", "kind": "incomplete", "family": "quantity"}
+{"text": "show the middle 20 lines template.html", "kind": "complete", "family": "quantity"}
+{"text": "read the final 12 lines", "kind": "incomplete", "family": "quantity"}
+{"text": "read the final 12 lines sync.log", "kind": "complete", "family": "quantity"}
+{"text": "print lines 50 through 90", "kind": "incomplete", "family": "quantity"}
+{"text": "print lines 50 through 90 audit.csv", "kind": "complete", "family": "quantity"}
+{"text": "show the last 8 lines", "kind": "incomplete", "family": "quantity"}
+{"text": "show the last 8 lines wireless.log", "kind": "complete", "family": "quantity"}
+{"text": "read the document titled", "kind": "incomplete", "family": "dangling_qualifier"}
+{"text": "read the document titled glossary.md", "kind": "complete", "family": "dangling_qualifier"}
+{"text": "read the file labelled", "kind": "incomplete", "family": "dangling_qualifier"}
+{"text": "read the file labelled backup.txt", "kind": "complete", "family": "dangling_qualifier"}
+{"text": "read the file tagged", "kind": "incomplete", "family": "dangling_qualifier"}
+{"text": "read the file tagged urgent.txt", "kind": "complete", "family": "dangling_qualifier"}
+{"text": "open the document marked", "kind": "incomplete", "family": "dangling_qualifier"}
+{"text": "open the document marked final.docx", "kind": "complete", "family": "dangling_qualifier"}
+{"text": "show the file dated", "kind": "incomplete", "family": "dangling_qualifier"}
+{"text": "show the file dated monday.txt", "kind": "complete", "family": "dangling_qualifier"}
+{"text": "read the transcript titled", "kind": "incomplete", "family": "dangling_qualifier"}
+{"text": "read the transcript titled interview.md", "kind": "complete", "family": "dangling_qualifier"}
+{"text": "open the appendix labelled", "kind": "incomplete", "family": "dangling_qualifier"}
+{"text": "open the appendix labelled charts.md", "kind": "complete", "family": "dangling_qualifier"}
+{"text": "read the entry called", "kind": "incomplete", "family": "dangling_qualifier"}
+{"text": "read the entry called beacon.txt", "kind": "complete", "family": "dangling_qualifier"}
+{"text": "read the snippet", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "read the snippet hello.py", "kind": "complete", "family": "category_outside_list"}
+{"text": "read the preset", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "read the preset warm.toml", "kind": "complete", "family": "category_outside_list"}
+{"text": "read the fixture", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "read the fixture orders.json", "kind": "complete", "family": "category_outside_list"}
+{"text": "read the stub", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "read the stub adapter.rs", "kind": "complete", "family": "category_outside_list"}
+{"text": "read the alias", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "read the alias build.txt", "kind": "complete", "family": "category_outside_list"}
+{"text": "open the mockup", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "open the mockup dashboard.svg", "kind": "complete", "family": "category_outside_list"}
+{"text": "read the overlay", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "read the overlay night.yml", "kind": "complete", "family": "category_outside_list"}
+{"text": "open the widget", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "open the widget clock.js", "kind": "complete", "family": "category_outside_list"}

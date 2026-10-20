@@ -1,0 +1,85 @@
+# AARON — systemd user service
+#
+# NOT ENABLED AUTOMATICALLY. Installing this file changes nothing until you
+# explicitly enable it, and enabling it means AARON opens your microphone when
+# you log in. That is a privacy decision, and it is yours to make.
+#
+# To install:
+#   cp systemd/aaron.service ~/.config/systemd/user/
+#   systemctl --user daemon-reload
+#   systemctl --user enable --now aaron
+#
+# To remove:
+#   systemctl --user disable --now aaron
+#   rm ~/.config/systemd/user/aaron.service
+#
+# Microphone access with PipeWire is granted through your desktop's
+# "Application Permissions" settings, not here.
+
+[Unit]
+Description=AARON offline voice assistant
+Documentation=file:///usr/local/share/doc/aaron/README.md
+After=graphical-session.target pipewire.service pipewire-pulse.service
+Wants=pipewire.service pipewire-pulse.service
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/aaron run
+
+# Start well after the session is ready, so audio has settled.
+ExecStartPre=/bin/sh -c 'sleep 5'
+
+# --- Safety -------------------------------------------------------------
+# AARON refuses to execute tools as root, so never let systemd escalate.
+User=%U
+
+# --- Restart ------------------------------------------------------------
+# `on-failure` rather than `always`: a configuration error should not produce
+# a restart loop. Fix it and start it again.
+Restart=on-failure
+RestartSec=10
+# Give up after 5 failures within 2 minutes rather than thrashing.
+StartLimitIntervalSec=120
+StartLimitBurst=5
+
+# --- Environment --------------------------------------------------------
+# AARON finds its own config and runtime paths; these are here for clarity.
+# AARON_HOME=%h/.local/state/aaron
+# XDG_CONFIG_HOME=%h/.config
+
+# A service has no terminal, so a confirmation-gated action is DECLINED rather
+# than assumed. That is deliberate: see docs/security.md.
+Environment=NO_COLOR=1
+
+# --- Hardening ----------------------------------------------------------
+# The assistant needs no privileges beyond its own user's.
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=%h/.local/state/aaron %h/.config/aaron
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+RestrictRealtime=true
+LockPersonality=true
+MemoryDenyWriteExecute=false
+SystemCallFilter=@system-service
+SystemCallErrorNumber=EPERM
+
+# Memory limits. These are *caps*, not targets: AARON's own RSS is around
+# 16 MiB, and the rest is headroom for whichever optional speech model you
+# chose to install.
+MemoryMax=2G
+MemoryHigh=1500M
+TasksMax=256
+
+# --- Logging ------------------------------------------------------------
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=aaron
+
+[Install]
+WantedBy=default.target

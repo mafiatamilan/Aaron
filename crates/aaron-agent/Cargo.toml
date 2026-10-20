@@ -1,0 +1,26 @@
+[package]
+name = "aaron-agent"
+description = "The AARON state machine: classification, policy, confirmation, execution and truthful responses."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+aaron-core.workspace = true
+aaron-security.workspace = true
+aaron-tools.workspace = true
+aaron-memory.workspace = true
+aaron-brain.workspace = true
+aaron-asr.workspace = true
+aaron-tts.workspace = true
+aaron-wake.workspace = true
+aaron-audio.workspace = true
+aaron-resources.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tracing.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true

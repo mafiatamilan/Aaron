@@ -1,0 +1,74 @@
+{"id": "readiness-search_files-ef4e3f50", "intent": "search_files", "text": "comb"}
+{"id": "readiness-search_files-9bae4e69", "intent": "search_files", "text": "comb *.log"}
+{"id": "readiness-search_files-ebbde58a", "intent": "search_files", "text": "dig"}
+{"id": "readiness-search_files-0756095c", "intent": "search_files", "text": "dig *.tmp"}
+{"id": "readiness-search_files-dfc3376b", "intent": "search_files", "text": "filter"}
+{"id": "readiness-search_files-e25ea4f9", "intent": "search_files", "text": "filter node_modules"}
+{"id": "readiness-search_files-34c4ef9b", "intent": "search_files", "text": "rummage"}
+{"id": "readiness-search_files-637c4487", "intent": "search_files", "text": "rummage *.orig"}
+{"id": "readiness-search_files-c657f270", "intent": "search_files", "text": "search for the 3 newest files"}
+{"id": "readiness-search_files-df9cfb47", "intent": "search_files", "text": "search for the 3 newest files in tmp"}
+{"id": "readiness-search_files-f53ff01c", "intent": "search_files", "text": "search for the archive containing"}
+{"id": "readiness-search_files-d59a88a0", "intent": "search_files", "text": "search for the archive containing backups"}
+{"id": "readiness-search_files-6400055b", "intent": "search_files", "text": "search for the board minutes"}
+{"id": "readiness-search_files-0548f0e4", "intent": "search_files", "text": "search for the code review"}
+{"id": "readiness-search_files-c3c50556", "intent": "search_files", "text": "search for the comment mentioning"}
+{"id": "readiness-search_files-915d6e33", "intent": "search_files", "text": "search for the comment mentioning alice"}
+{"id": "readiness-search_files-28b0c6db", "intent": "search_files", "text": "search for the directory holding"}
+{"id": "readiness-search_files-5300fd15", "intent": "search_files", "text": "search for the directory holding fixtures"}
+{"id": "readiness-search_files-d6cbe67f", "intent": "search_files", "text": "search for the error"}
+{"id": "readiness-search_files-ee09e8cd", "intent": "search_files", "text": "search for the error econnrefused"}
+{"id": "readiness-search_files-cd5af3fc", "intent": "search_files", "text": "search for the files containing"}
+{"id": "readiness-search_files-b4a37b26", "intent": "search_files", "text": "search for the files containing serde"}
+{"id": "readiness-search_files-ba29deff", "intent": "search_files", "text": "search for the first 100 occurrences"}
+{"id": "readiness-search_files-92f2c180", "intent": "search_files", "text": "search for the first 100 occurrences of todo"}
+{"id": "readiness-search_files-7cf6a17a", "intent": "search_files", "text": "search for the first 20 hits"}
+{"id": "readiness-search_files-d073d3d8", "intent": "search_files", "text": "search for the first 20 hits in src"}
+{"id": "readiness-search_files-f2219b3a", "intent": "search_files", "text": "search for the first 25 results"}
+{"id": "readiness-search_files-6a0172b3", "intent": "search_files", "text": "search for the first 25 results in logs"}
+{"id": "readiness-search_files-ee95ade7", "intent": "search_files", "text": "search for the first 50 lines"}
+{"id": "readiness-search_files-91ff24e4", "intent": "search_files", "text": "search for the first 50 lines in the log"}
+{"id": "readiness-search_files-9945999b", "intent": "search_files", "text": "search for the flag"}
+{"id": "readiness-search_files-3fcae108", "intent": "search_files", "text": "search for the flag --verbose"}
+{"id": "readiness-search_files-759a72be", "intent": "search_files", "text": "search for the guide"}
+{"id": "readiness-search_files-c146180b", "intent": "search_files", "text": "search for the identifier"}
+{"id": "readiness-search_files-1cd49f3a", "intent": "search_files", "text": "search for the identifier max_retries"}
+{"id": "readiness-search_files-7b7c8675", "intent": "search_files", "text": "search for the invoice"}
+{"id": "readiness-search_files-b0c2a95c", "intent": "search_files", "text": "search for the invoice pdf"}
+{"id": "readiness-search_files-66ae2148", "intent": "search_files", "text": "search for the label"}
+{"id": "readiness-search_files-e4cded5b", "intent": "search_files", "text": "search for the label bug"}
+{"id": "readiness-search_files-e63a5763", "intent": "search_files", "text": "search for the last 10 matches"}
+{"id": "readiness-search_files-593e4b66", "intent": "search_files", "text": "search for the last 10 matches in repo"}
+{"id": "readiness-search_files-911823d8", "intent": "search_files", "text": "search for the last 5 instances"}
+{"id": "readiness-search_files-4d9fd262", "intent": "search_files", "text": "search for the last 5 instances in cache"}
+{"id": "readiness-search_files-19a16cf4", "intent": "search_files", "text": "search for the log covering"}
+{"id": "readiness-search_files-f8274b92", "intent": "search_files", "text": "search for the log covering monday"}
+{"id": "readiness-search_files-86660c88", "intent": "search_files", "text": "search for the manual"}
+{"id": "readiness-search_files-20ddec73", "intent": "search_files", "text": "search for the meeting transcript"}
+{"id": "readiness-search_files-f2dcd440", "intent": "search_files", "text": "search for the minutes"}
+{"id": "readiness-search_files-ba776e01", "intent": "search_files", "text": "search for the name starting"}
+{"id": "readiness-search_files-4267288a", "intent": "search_files", "text": "search for the name starting lib"}
+{"id": "readiness-search_files-0714b074", "intent": "search_files", "text": "search for the next 10 entries"}
+{"id": "readiness-search_files-405a2a08", "intent": "search_files", "text": "search for the next 10 entries in docs"}
+{"id": "readiness-search_files-7349b698", "intent": "search_files", "text": "search for the notes"}
+{"id": "readiness-search_files-5cbcdd0a", "intent": "search_files", "text": "search for the path ending"}
+{"id": "readiness-search_files-92645d75", "intent": "search_files", "text": "search for the path ending .toml"}
+{"id": "readiness-search_files-a550d897", "intent": "search_files", "text": "search for the policy"}
+{"id": "readiness-search_files-0ba18622", "intent": "search_files", "text": "search for the privacy policy"}
+{"id": "readiness-search_files-6637ae0e", "intent": "search_files", "text": "search for the release notes"}
+{"id": "readiness-search_files-710c2970", "intent": "search_files", "text": "search for the review"}
+{"id": "readiness-search_files-e11490cb", "intent": "search_files", "text": "search for the string"}
+{"id": "readiness-search_files-e0ef86b9", "intent": "search_files", "text": "search for the string foobar"}
+{"id": "readiness-search_files-8e8b2297", "intent": "search_files", "text": "search for the style guide"}
+{"id": "readiness-search_files-bf1abc43", "intent": "search_files", "text": "search for the symbol"}
+{"id": "readiness-search_files-604b0079", "intent": "search_files", "text": "search for the symbol serde"}
+{"id": "readiness-search_files-9a76b507", "intent": "search_files", "text": "search for the tag"}
+{"id": "readiness-search_files-e23eed7b", "intent": "search_files", "text": "search for the tag v1.0"}
+{"id": "readiness-search_files-5e01c7b1", "intent": "search_files", "text": "search for the transcript"}
+{"id": "readiness-search_files-d63ae416", "intent": "search_files", "text": "search for the user manual"}
+{"id": "readiness-search_files-6a11ed65", "intent": "search_files", "text": "search for the word"}
+{"id": "readiness-search_files-a6bda4f0", "intent": "search_files", "text": "search for the word serendipity"}
+{"id": "readiness-search_files-cbd345d6", "intent": "search_files", "text": "seek"}
+{"id": "readiness-search_files-6e30a507", "intent": "search_files", "text": "seek *.bak"}
+{"id": "readiness-search_files-dfd33796", "intent": "search_files", "text": "sweep"}
+{"id": "readiness-search_files-5b99e3a6", "intent": "search_files", "text": "sweep *.swp"}

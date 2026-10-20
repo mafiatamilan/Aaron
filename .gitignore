@@ -1,0 +1,37 @@
+# Build output
+/target/
+**/*.rs.bk
+
+# Runtime data: the database, audit log and checkpoints live here.
+# Never commit them: they contain the user's memory.
+/data/*
+!/data/.gitkeep
+/benchmark-report.json
+
+# Model weights are never committed. Train your own with `aaron brain train`.
+/models/**/*.ckpt
+/models/**/*.bin
+/models/**/*.onnx
+/models/**/*.safetensors
+/models/brain/.gitkeep
+
+# Datasets are committed (they are authored, reviewable text) but any locally
+# added rows are not.
+/training/dataset/*.jsonl.local
+
+# Python (only used by the optional dataset generators)
+/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# The experiment log is a record, not a build artefact: it is committed so the
+# numbers in the docs can be traced to the runs that produced them.
+# training/experiments.jsonl is deliberately NOT ignored.
+
+# Editors and OS
+.DS_Store
+.vscode/
+.idea/
+*.swp

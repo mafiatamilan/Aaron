@@ -1,0 +1,22 @@
+[package]
+name = "aaron-asr"
+description = "Pluggable offline speech recognition for AARON."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+aaron-core.workspace = true
+# The hardened process harness: a timeout, a process group, a cleared
+# environment and a capped output. The whisper backend grew up without
+# those, and a hung recogniser used to block `aaron listen` indefinitely.
+aaron-tools.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tracing.workspace = true
+sha2.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true

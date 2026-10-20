@@ -1,0 +1,256 @@
+# AARON curated class-balance additions — MEASURED AND REJECTED in 0.3.
+#
+# The idea was sound: the hard negatives grew the `unknown` class from
+# 163 to 194 and the imbalance from 2.56x to 4.09x, so the other
+# thirteen classes were given more data to compensate.
+#
+# It made every measure worse:
+#
+#   locked benchmark  accuracy 0.6385  macro-F1 0.6466  false-accept 0.4000
+#   regression suite  37/42
+#   safety benchmark  refused 0.4510  side-effecting false-accept 0.2353
+#
+# against the shipped configuration's 0.7308 / 0.7411 / 0.2800, 42/42 and
+# 0.4804 / 0.1863. The additions were mostly the same *shape* as existing
+# examples — "show me the file X" for a dozen X — so they added volume
+# without adding coverage. More rows of the same kind is not more data.
+#
+# Kept so the experiment can be repeated.
+{"family": "balance", "id": "greeting-f0955d80", "intent": "greeting", "notes": "balance: greeting had 57 examples, the smallest class", "source": "curated", "text": "hi there"}
+{"family": "balance", "id": "greeting-b428962c", "intent": "greeting", "notes": "balance: greeting had 57 examples, the smallest class", "source": "curated", "text": "morning all"}
+{"family": "balance", "id": "greeting-0a600a8c", "intent": "greeting", "notes": "balance: greeting had 57 examples, the smallest class", "source": "curated", "text": "good afternoon"}
+{"family": "balance", "id": "greeting-0bd446ef", "intent": "greeting", "notes": "balance: greeting had 57 examples, the smallest class", "source": "curated", "text": "evening"}
+{"family": "balance", "id": "greeting-503288de", "intent": "greeting", "notes": "balance: greeting had 57 examples, the smallest class", "source": "curated", "text": "hello aaron"}
+{"family": "balance", "id": "greeting-a1a697af", "intent": "greeting", "notes": "balance: greeting had 57 examples, the smallest class", "source": "curated", "text": "hey there"}
+{"family": "balance", "id": "greeting-8c80521d", "intent": "greeting", "notes": "balance: greeting had 57 examples, the smallest class", "source": "curated", "text": "hiya aaron"}
+{"family": "balance", "id": "greeting-55c98376", "intent": "greeting", "notes": "balance: greeting had 57 examples, the smallest class", "source": "curated", "text": "howdy"}
+{"family": "balance", "id": "greeting-13d73fff", "intent": "greeting", "notes": "balance: greeting had 57 examples, the smallest class", "source": "curated", "text": "greetings"}
+{"family": "balance", "id": "greeting-39492eeb", "intent": "greeting", "notes": "balance: greeting had 57 examples, the smallest class", "source": "curated", "text": "hi aaron"}
+{"family": "balance", "id": "greeting-d3b5b38f", "intent": "greeting", "notes": "balance: greeting had 57 examples, the smallest class", "source": "curated", "text": "morning"}
+{"family": "balance", "id": "greeting-2fe3767d", "intent": "greeting", "notes": "balance: greeting had 57 examples, the smallest class", "source": "curated", "text": "hey"}
+{"family": "balance", "id": "greeting-480b485a", "intent": "greeting", "notes": "balance: greeting had 57 examples, the smallest class", "source": "curated", "text": "is it me you are expecting"}
+{"family": "balance", "id": "greeting-d2ea84f2", "intent": "greeting", "notes": "balance: greeting had 57 examples, the smallest class", "source": "curated", "text": "good day"}
+{"family": "balance", "id": "greeting-d0f6ab73", "intent": "greeting", "notes": "balance: greeting had 57 examples, the smallest class", "source": "curated", "text": "hello again"}
+{"family": "balance", "id": "greeting-b2a21bce", "intent": "greeting", "notes": "balance: greeting had 57 examples, the smallest class", "source": "curated", "text": "anyone home"}
+{"family": "balance", "id": "greeting-283ae5b1", "intent": "greeting", "notes": "balance: greeting had 57 examples, the smallest class", "source": "curated", "text": "aaron are you there"}
+{"family": "balance", "id": "greeting-70b5d458", "intent": "greeting", "notes": "balance: greeting had 57 examples, the smallest class", "source": "curated", "text": "just saying hello"}
+{"family": "balance", "id": "greeting-7162fa59", "intent": "greeting", "notes": "balance: greeting had 57 examples, the smallest class", "source": "curated", "text": "well hello"}
+{"family": "balance", "id": "greeting-3637693d", "intent": "greeting", "notes": "balance: greeting had 57 examples, the smallest class", "source": "curated", "text": "hi hello hi"}
+{"family": "balance", "id": "help-9ec21aff", "intent": "help", "notes": "balance: help had 58 examples", "source": "curated", "text": "what can you do"}
+{"family": "balance", "id": "help-4130a4a3", "intent": "help", "notes": "balance: help had 58 examples", "source": "curated", "text": "what are you capable of"}
+{"family": "balance", "id": "help-30f68d2c", "intent": "help", "notes": "balance: help had 58 examples", "source": "curated", "text": "which commands do you understand"}
+{"family": "balance", "id": "help-959b003a", "intent": "help", "notes": "balance: help had 58 examples", "source": "curated", "text": "how do I speak with you"}
+{"family": "balance", "id": "help-b92d5663", "intent": "help", "notes": "balance: help had 58 examples", "source": "curated", "text": "what should I ask you"}
+{"family": "balance", "id": "help-3df9401e", "intent": "help", "notes": "balance: help had 58 examples", "source": "curated", "text": "list your abilities"}
+{"family": "balance", "id": "help-dae5c579", "intent": "help", "notes": "balance: help had 58 examples", "source": "curated", "text": "show me your cheat sheet"}
+{"family": "balance", "id": "help-77e4ce4b", "intent": "help", "notes": "balance: help had 58 examples", "source": "curated", "text": "what do you understand"}
+{"family": "balance", "id": "help-5ae9e37e", "intent": "help", "notes": "balance: help had 58 examples", "source": "curated", "text": "help me out here"}
+{"family": "balance", "id": "help-ec93eb15", "intent": "help", "notes": "balance: help had 58 examples", "source": "curated", "text": "what can I say to you"}
+{"family": "balance", "id": "help-ee276f8c", "intent": "help", "notes": "balance: help had 58 examples", "source": "curated", "text": "give me the command list"}
+{"family": "balance", "id": "help-db291eea", "intent": "help", "notes": "balance: help had 58 examples", "source": "curated", "text": "what are your options"}
+{"family": "balance", "id": "help-bf277c56", "intent": "help", "notes": "balance: help had 58 examples", "source": "curated", "text": "how do you work"}
+{"family": "balance", "id": "help-9e3340d3", "intent": "help", "notes": "balance: help had 58 examples", "source": "curated", "text": "what is in the manual"}
+{"family": "balance", "id": "help-c8a1f57b", "intent": "help", "notes": "balance: help had 58 examples", "source": "curated", "text": "walk me through what you can do"}
+{"family": "balance", "id": "help-6655bea4", "intent": "help", "notes": "balance: help had 58 examples", "source": "curated", "text": "what are your supported commands"}
+{"family": "balance", "id": "help-53d58a8e", "intent": "help", "notes": "balance: help had 58 examples", "source": "curated", "text": "print the help"}
+{"family": "balance", "id": "help-8ac6811f", "intent": "help", "notes": "balance: help had 58 examples", "source": "curated", "text": "tell me what you are good for"}
+{"family": "balance", "id": "open_url-2917bac3", "intent": "open_url", "notes": "balance: open_url had 64 examples", "source": "curated", "text": "open the website https://example.com"}
+{"family": "balance", "id": "open_url-17259100", "intent": "open_url", "notes": "balance: open_url had 64 examples", "source": "curated", "text": "open the website https://example.org"}
+{"family": "balance", "id": "open_url-6eb17b62", "intent": "open_url", "notes": "balance: open_url had 64 examples", "source": "curated", "text": "open the website https://docs.rs/candle"}
+{"family": "balance", "id": "open_url-8b3acef0", "intent": "open_url", "notes": "balance: open_url had 64 examples", "source": "curated", "text": "open the website https://crates.io"}
+{"family": "balance", "id": "open_url-c3773b2a", "intent": "open_url", "notes": "balance: open_url had 64 examples", "source": "curated", "text": "open the website https://www.rust-lang.org"}
+{"family": "balance", "id": "open_url-87895c47", "intent": "open_url", "notes": "balance: open_url had 64 examples", "source": "curated", "text": "open the website https://github.com/aaron-assistant/aaron"}
+{"family": "balance", "id": "open_url-d84daffc", "intent": "open_url", "notes": "balance: open_url had 64 examples", "source": "curated", "text": "open the website https://en.wikipedia.org"}
+{"family": "balance", "id": "open_url-5f3e180a", "intent": "open_url", "notes": "balance: open_url had 64 examples", "source": "curated", "text": "open the website https://man.archlinux.org"}
+{"family": "balance", "id": "open_url-8dd53345", "intent": "open_url", "notes": "balance: open_url had 64 examples", "source": "curated", "text": "open the website https://news.ycombinator.com"}
+{"family": "balance", "id": "open_url-f2248386", "intent": "open_url", "notes": "balance: open_url had 64 examples", "source": "curated", "text": "open the website https://lib.rs"}
+{"family": "balance", "id": "open_url-afc33bdc", "intent": "open_url", "notes": "balance: open_url had 64 examples", "source": "curated", "text": "browse to https://example.com"}
+{"family": "balance", "id": "open_url-d0e34fb0", "intent": "open_url", "notes": "balance: open_url had 64 examples", "source": "curated", "text": "navigate to https://example.org"}
+{"family": "balance", "id": "open_url-493cdd76", "intent": "open_url", "notes": "balance: open_url had 64 examples", "source": "curated", "text": "take me to https://crates.io"}
+{"family": "balance", "id": "open_url-b7aae46e", "intent": "open_url", "notes": "balance: open_url had 64 examples", "source": "curated", "text": "load https://docs.rs/serde"}
+{"family": "balance", "id": "open_url-87422942", "intent": "open_url", "notes": "balance: open_url had 64 examples", "source": "curated", "text": "visit https://example.net"}
+{"family": "balance", "id": "open_url-ec5d088a", "intent": "open_url", "notes": "balance: open_url had 64 examples", "source": "curated", "text": "pull up https://man.archlinux.org"}
+{"family": "balance", "id": "open_url-f0fc37a4", "intent": "open_url", "notes": "balance: open_url had 64 examples", "source": "curated", "text": "go to https://www.rust-lang.org/learn"}
+{"family": "balance", "id": "open_url-0d5620af", "intent": "open_url", "notes": "balance: open_url had 64 examples", "source": "curated", "text": "open the url https://example.com/docs"}
+{"family": "balance", "id": "open_url-13f1ff81", "intent": "open_url", "notes": "balance: open_url had 64 examples", "source": "curated", "text": "show me https://example.io"}
+{"family": "balance", "id": "open_url-bc5c3f4c", "intent": "open_url", "notes": "balance: open_url had 64 examples", "source": "curated", "text": "bring up https://example.com"}
+{"family": "balance", "id": "stop_application-6f9ad852", "intent": "stop_application", "notes": "balance: stop_application had 64 examples", "source": "curated", "text": "kill the terminal"}
+{"family": "balance", "id": "stop_application-e2783550", "intent": "stop_application", "notes": "balance: stop_application had 64 examples", "source": "curated", "text": "close the browser"}
+{"family": "balance", "id": "stop_application-f0466ba7", "intent": "stop_application", "notes": "balance: stop_application had 64 examples", "source": "curated", "text": "stop the file manager"}
+{"family": "balance", "id": "stop_application-1679f2f5", "intent": "stop_application", "notes": "balance: stop_application had 64 examples", "source": "curated", "text": "quit the text editor"}
+{"family": "balance", "id": "stop_application-0ed12d4c", "intent": "stop_application", "notes": "balance: stop_application had 64 examples", "source": "curated", "text": "terminate the media player"}
+{"family": "balance", "id": "stop_application-607baf8f", "intent": "stop_application", "notes": "balance: stop_application had 64 examples", "source": "curated", "text": "end the music player"}
+{"family": "balance", "id": "stop_application-562e0460", "intent": "stop_application", "notes": "balance: stop_application had 64 examples", "source": "curated", "text": "shut down the mail client"}
+{"family": "balance", "id": "stop_application-e5f8a22b", "intent": "stop_application", "notes": "balance: stop_application had 64 examples", "source": "curated", "text": "halt the code editor"}
+{"family": "balance", "id": "stop_application-2aed576f", "intent": "stop_application", "notes": "balance: stop_application had 64 examples", "source": "curated", "text": "get rid of the image viewer"}
+{"family": "balance", "id": "stop_application-87ac4e98", "intent": "stop_application", "notes": "balance: stop_application had 64 examples", "source": "curated", "text": "close the calculator"}
+{"family": "balance", "id": "stop_application-4363c0a3", "intent": "stop_application", "notes": "balance: stop_application had 64 examples", "source": "curated", "text": "kill the torrent client"}
+{"family": "balance", "id": "stop_application-52a32211", "intent": "stop_application", "notes": "balance: stop_application had 64 examples", "source": "curated", "text": "stop the system monitor"}
+{"family": "balance", "id": "stop_application-97f5a79a", "intent": "stop_application", "notes": "balance: stop_application had 64 examples", "source": "curated", "text": "close the spreadsheet"}
+{"family": "balance", "id": "stop_application-ea6f68bb", "intent": "stop_application", "notes": "balance: stop_application had 64 examples", "source": "curated", "text": "quit the video editor"}
+{"family": "balance", "id": "stop_application-fae61a7a", "intent": "stop_application", "notes": "balance: stop_application had 64 examples", "source": "curated", "text": "terminate the database tool"}
+{"family": "balance", "id": "stop_application-5d287094", "intent": "stop_application", "notes": "balance: stop_application had 64 examples", "source": "curated", "text": "end the archive manager"}
+{"family": "balance", "id": "stop_application-cf673968", "intent": "stop_application", "notes": "balance: stop_application had 64 examples", "source": "curated", "text": "shut down the calendar"}
+{"family": "balance", "id": "stop_application-cc0f9a78", "intent": "stop_application", "notes": "balance: stop_application had 64 examples", "source": "curated", "text": "halt the drawing app"}
+{"family": "balance", "id": "stop_application-763674b4", "intent": "stop_application", "notes": "balance: stop_application had 64 examples", "source": "curated", "text": "get rid of the task manager"}
+{"family": "balance", "id": "stop_application-4d0fa40e", "intent": "stop_application", "notes": "balance: stop_application had 64 examples", "source": "curated", "text": "close the screenshot tool"}
+{"family": "balance", "id": "git_status-ebddb1be", "intent": "git_status", "notes": "balance: git_status had 70 examples", "source": "curated", "text": "show git status"}
+{"family": "balance", "id": "git_status-6615419d", "intent": "git_status", "notes": "balance: git_status had 70 examples", "source": "curated", "text": "check the working tree"}
+{"family": "balance", "id": "git_status-ea626175", "intent": "git_status", "notes": "balance: git_status had 70 examples", "source": "curated", "text": "is anything staged"}
+{"family": "balance", "id": "git_status-0c36f970", "intent": "git_status", "notes": "balance: git_status had 70 examples", "source": "curated", "text": "which branch am I on"}
+{"family": "balance", "id": "git_status-f1bfafcf", "intent": "git_status", "notes": "balance: git_status had 70 examples", "source": "curated", "text": "what would git commit"}
+{"family": "balance", "id": "git_status-ee8ea546", "intent": "git_status", "notes": "balance: git_status had 70 examples", "source": "curated", "text": "how many files are untracked"}
+{"family": "balance", "id": "git_status-e0ac7e14", "intent": "git_status", "notes": "balance: git_status had 70 examples", "source": "curated", "text": "give me the diff summary"}
+{"family": "balance", "id": "git_status-07a273d7", "intent": "git_status", "notes": "balance: git_status had 70 examples", "source": "curated", "text": "what changed since the last commit"}
+{"family": "balance", "id": "git_status-a259a8a3", "intent": "git_status", "notes": "balance: git_status had 70 examples", "source": "curated", "text": "any uncommitted changes"}
+{"family": "balance", "id": "git_status-352724c3", "intent": "git_status", "notes": "balance: git_status had 70 examples", "source": "curated", "text": "is the repo clean"}
+{"family": "balance", "id": "git_status-baefbb03", "intent": "git_status", "notes": "balance: git_status had 70 examples", "source": "curated", "text": "what is staged right now"}
+{"family": "balance", "id": "git_status-afb88c93", "intent": "git_status", "notes": "balance: git_status had 70 examples", "source": "curated", "text": "show me the modified files"}
+{"family": "balance", "id": "git_status-3f898b5e", "intent": "git_status", "notes": "balance: git_status had 70 examples", "source": "curated", "text": "tell me the current branch"}
+{"family": "balance", "id": "git_status-30461668", "intent": "git_status", "notes": "balance: git_status had 70 examples", "source": "curated", "text": "which files need committing"}
+{"family": "balance", "id": "git_status-6ad19460", "intent": "git_status", "notes": "balance: git_status had 70 examples", "source": "curated", "text": "what does git think"}
+{"family": "balance", "id": "git_status-da4df3a1", "intent": "git_status", "notes": "balance: git_status had 70 examples", "source": "curated", "text": "show the change summary"}
+{"family": "balance", "id": "git_status-3eb46588", "intent": "git_status", "notes": "balance: git_status had 70 examples", "source": "curated", "text": "do I have conflicts"}
+{"family": "balance", "id": "git_status-ed90d07b", "intent": "git_status", "notes": "balance: git_status had 70 examples", "source": "curated", "text": "what is in the index"}
+{"family": "balance", "id": "git_status-445a2392", "intent": "git_status", "notes": "balance: git_status had 70 examples", "source": "curated", "text": "list the untracked files"}
+{"family": "balance", "id": "git_status-5bc1f948", "intent": "git_status", "notes": "balance: git_status had 70 examples", "source": "curated", "text": "any staged changes"}
+{"family": "balance", "id": "run_tests-af2f2148", "intent": "run_tests", "notes": "balance: run_tests had 73 examples", "source": "curated", "text": "run the tests"}
+{"family": "balance", "id": "run_tests-c014c253", "intent": "run_tests", "notes": "balance: run_tests had 73 examples", "source": "curated", "text": "run the cargo test suite"}
+{"family": "balance", "id": "run_tests-78b6ab80", "intent": "run_tests", "notes": "balance: run_tests had 73 examples", "source": "curated", "text": "run the unit tests"}
+{"family": "balance", "id": "run_tests-76059cc5", "intent": "run_tests", "notes": "balance: run_tests had 73 examples", "source": "curated", "text": "execute the test suite"}
+{"family": "balance", "id": "run_tests-b2915980", "intent": "run_tests", "notes": "balance: run_tests had 73 examples", "source": "curated", "text": "kick off the tests"}
+{"family": "balance", "id": "run_tests-b55d8132", "intent": "run_tests", "notes": "balance: run_tests had 73 examples", "source": "curated", "text": "start the test runner"}
+{"family": "balance", "id": "run_tests-b2cdd26a", "intent": "run_tests", "notes": "balance: run_tests had 73 examples", "source": "curated", "text": "run the integration tests"}
+{"family": "balance", "id": "run_tests-3508a8e7", "intent": "run_tests", "notes": "balance: run_tests had 73 examples", "source": "curated", "text": "fire up the test suite"}
+{"family": "balance", "id": "run_tests-041ab83b", "intent": "run_tests", "notes": "balance: run_tests had 73 examples", "source": "curated", "text": "run the tests for the brain crate"}
+{"family": "balance", "id": "run_tests-d3441c18", "intent": "run_tests", "notes": "balance: run_tests had 73 examples", "source": "curated", "text": "trigger the workspace tests"}
+{"family": "balance", "id": "run_tests-f2aa1b20", "intent": "run_tests", "notes": "balance: run_tests had 73 examples", "source": "curated", "text": "go ahead and run the tests"}
+{"family": "balance", "id": "run_tests-44146dc4", "intent": "run_tests", "notes": "balance: run_tests had 73 examples", "source": "curated", "text": "run the python tests"}
+{"family": "balance", "id": "run_tests-99db0e64", "intent": "run_tests", "notes": "balance: run_tests had 73 examples", "source": "curated", "text": "run the security tests"}
+{"family": "balance", "id": "run_tests-f994d7aa", "intent": "run_tests", "notes": "balance: run_tests had 73 examples", "source": "curated", "text": "start the test suite please"}
+{"family": "balance", "id": "run_tests-97e58393", "intent": "run_tests", "notes": "balance: run_tests had 73 examples", "source": "curated", "text": "run the regression tests"}
+{"family": "balance", "id": "run_tests-561ec543", "intent": "run_tests", "notes": "balance: run_tests had 73 examples", "source": "curated", "text": "run every test"}
+{"family": "balance", "id": "run_tests-b5d9594e", "intent": "run_tests", "notes": "balance: run_tests had 73 examples", "source": "curated", "text": "run the doc tests"}
+{"family": "balance", "id": "run_tests-601ee7af", "intent": "run_tests", "notes": "balance: run_tests had 73 examples", "source": "curated", "text": "launch the test suite"}
+{"family": "balance", "id": "run_tests-da5cb6ea", "intent": "run_tests", "notes": "balance: run_tests had 73 examples", "source": "curated", "text": "run the test suite in release mode"}
+{"family": "balance", "id": "run_tests-3baf5a0c", "intent": "run_tests", "notes": "balance: run_tests had 73 examples", "source": "curated", "text": "please run the tests"}
+{"family": "balance", "id": "recall-f63d5b94", "intent": "recall", "notes": "balance: recall had 75 examples", "source": "curated", "text": "what do you remember about my wifi"}
+{"family": "balance", "id": "recall-ce1a86e8", "intent": "recall", "notes": "balance: recall had 75 examples", "source": "curated", "text": "what do you know about my dentist"}
+{"family": "balance", "id": "recall-9299b181", "intent": "recall", "notes": "balance: recall had 75 examples", "source": "curated", "text": "search your memory for my train time"}
+{"family": "balance", "id": "recall-795c063c", "intent": "recall", "notes": "balance: recall had 75 examples", "source": "curated", "text": "what did I tell you about the rollout"}
+{"family": "balance", "id": "recall-3976b96c", "intent": "recall", "notes": "balance: recall had 75 examples", "source": "curated", "text": "remind me what I said about lisbon"}
+{"family": "balance", "id": "recall-3cea6c57", "intent": "recall", "notes": "balance: recall had 75 examples", "source": "curated", "text": "pull up what you know about my medication"}
+{"family": "balance", "id": "recall-07f3b10c", "intent": "recall", "notes": "balance: recall had 75 examples", "source": "curated", "text": "check your memory for my bank details"}
+{"family": "balance", "id": "recall-c12fa707", "intent": "recall", "notes": "balance: recall had 75 examples", "source": "curated", "text": "dig through your memory for my passport"}
+{"family": "balance", "id": "recall-542c32bb", "intent": "recall", "notes": "balance: recall had 75 examples", "source": "curated", "text": "go through your notes about my prescription"}
+{"family": "balance", "id": "recall-54be698e", "intent": "recall", "notes": "balance: recall had 75 examples", "source": "curated", "text": "look up what you know about my landlord"}
+{"family": "balance", "id": "recall-5e143de0", "intent": "recall", "notes": "balance: recall had 75 examples", "source": "curated", "text": "what have you stored about my commute"}
+{"family": "balance", "id": "recall-95487b9e", "intent": "recall", "notes": "balance: recall had 75 examples", "source": "curated", "text": "retrieve what you know about my allergies"}
+{"family": "balance", "id": "recall-da882822", "intent": "recall", "notes": "balance: recall had 75 examples", "source": "curated", "text": "fetch from memory what I said about zsh"}
+{"family": "balance", "id": "recall-931632d0", "intent": "recall", "notes": "balance: recall had 75 examples", "source": "curated", "text": "what is in your memory about my flights"}
+{"family": "balance", "id": "recall-0eb75428", "intent": "recall", "notes": "balance: recall had 75 examples", "source": "curated", "text": "do you remember my morning routine"}
+{"family": "balance", "id": "recall-ade12a91", "intent": "recall", "notes": "balance: recall had 75 examples", "source": "curated", "text": "what did you note about my standup"}
+{"family": "balance", "id": "recall-93baa639", "intent": "recall", "notes": "balance: recall had 75 examples", "source": "curated", "text": "find what you saved about my holiday"}
+{"family": "balance", "id": "recall-594262a9", "intent": "recall", "notes": "balance: recall had 75 examples", "source": "curated", "text": "what did you write down about the boiler"}
+{"family": "balance", "id": "recall-de784d73", "intent": "recall", "notes": "balance: recall had 75 examples", "source": "curated", "text": "recite what you have on my passport"}
+{"family": "balance", "id": "recall-fec0b10b", "intent": "recall", "notes": "balance: recall had 75 examples", "source": "curated", "text": "show me what you kept about my wifi"}
+{"family": "balance", "id": "system_status-a5b8ed1e", "intent": "system_status", "notes": "balance: system_status had 77 examples", "source": "curated", "text": "check system status"}
+{"family": "balance", "id": "system_status-45cef5c6", "intent": "system_status", "notes": "balance: system_status had 77 examples", "source": "curated", "text": "how is the machine doing"}
+{"family": "balance", "id": "system_status-c705cf48", "intent": "system_status", "notes": "balance: system_status had 77 examples", "source": "curated", "text": "give me the vitals"}
+{"family": "balance", "id": "system_status-5cfec982", "intent": "system_status", "notes": "balance: system_status had 77 examples", "source": "curated", "text": "is the machine healthy"}
+{"family": "balance", "id": "system_status-33732043", "intent": "system_status", "notes": "balance: system_status had 77 examples", "source": "curated", "text": "how much memory is free"}
+{"family": "balance", "id": "system_status-7934a9ff", "intent": "system_status", "notes": "balance: system_status had 77 examples", "source": "curated", "text": "what is the cpu usage"}
+{"family": "balance", "id": "system_status-b67ce70e", "intent": "system_status", "notes": "balance: system_status had 77 examples", "source": "curated", "text": "report the hardware health"}
+{"family": "balance", "id": "system_status-d8421de0", "intent": "system_status", "notes": "balance: system_status had 77 examples", "source": "curated", "text": "how much disk space is left"}
+{"family": "balance", "id": "system_status-08879d30", "intent": "system_status", "notes": "balance: system_status had 77 examples", "source": "curated", "text": "are the systems nominal"}
+{"family": "balance", "id": "system_status-f130bbc1", "intent": "system_status", "notes": "balance: system_status had 77 examples", "source": "curated", "text": "what is the load average"}
+{"family": "balance", "id": "system_status-96505a5d", "intent": "system_status", "notes": "balance: system_status had 77 examples", "source": "curated", "text": "check the machine health"}
+{"family": "balance", "id": "system_status-24252105", "intent": "system_status", "notes": "balance: system_status had 77 examples", "source": "curated", "text": "how much swap is in use"}
+{"family": "balance", "id": "system_status-978512b6", "intent": "system_status", "notes": "balance: system_status had 77 examples", "source": "curated", "text": "give me the resource overview"}
+{"family": "balance", "id": "system_status-83f362d3", "intent": "system_status", "notes": "balance: system_status had 77 examples", "source": "curated", "text": "what does the gpu look like"}
+{"family": "balance", "id": "system_status-0098c0b0", "intent": "system_status", "notes": "balance: system_status had 77 examples", "source": "curated", "text": "is anything eating the cpu"}
+{"family": "balance", "id": "system_status-5510194d", "intent": "system_status", "notes": "balance: system_status had 77 examples", "source": "curated", "text": "show me the system statistics"}
+{"family": "balance", "id": "system_status-98356e09", "intent": "system_status", "notes": "balance: system_status had 77 examples", "source": "curated", "text": "any unusual resource usage"}
+{"family": "balance", "id": "system_status-33e4e2ef", "intent": "system_status", "notes": "balance: system_status had 77 examples", "source": "curated", "text": "how many cores are busy"}
+{"family": "balance", "id": "system_status-ac2eff78", "intent": "system_status", "notes": "balance: system_status had 77 examples", "source": "curated", "text": "what is the memory pressure"}
+{"family": "balance", "id": "system_status-7138c279", "intent": "system_status", "notes": "balance: system_status had 77 examples", "source": "curated", "text": "quick health check on the box"}
+{"family": "balance", "id": "search_files-2b8595f2", "intent": "search_files", "notes": "balance: search_files had 81 examples", "source": "curated", "text": "find files named main.rs"}
+{"family": "balance", "id": "search_files-8392c5bc", "intent": "search_files", "notes": "balance: search_files had 81 examples", "source": "curated", "text": "find files named config.toml"}
+{"family": "balance", "id": "search_files-c96e1d7f", "intent": "search_files", "notes": "balance: search_files had 81 examples", "source": "curated", "text": "find files named *.py"}
+{"family": "balance", "id": "search_files-9952a6f1", "intent": "search_files", "notes": "balance: search_files had 81 examples", "source": "curated", "text": "find files named readme.md"}
+{"family": "balance", "id": "search_files-f19d293c", "intent": "search_files", "notes": "balance: search_files had 81 examples", "source": "curated", "text": "find files called setup.sh"}
+{"family": "balance", "id": "search_files-78cec0e8", "intent": "search_files", "notes": "balance: search_files had 81 examples", "source": "curated", "text": "locate the file named notes.txt"}
+{"family": "balance", "id": "search_files-9ac3f83c", "intent": "search_files", "notes": "balance: search_files had 81 examples", "source": "curated", "text": "search for files called Cargo.toml"}
+{"family": "balance", "id": "search_files-c803c914", "intent": "search_files", "notes": "balance: search_files had 81 examples", "source": "curated", "text": "which files are named Dockerfile"}
+{"family": "balance", "id": "search_files-0aba063f", "intent": "search_files", "notes": "balance: search_files had 81 examples", "source": "curated", "text": "show me the files in the src directory"}
+{"family": "balance", "id": "search_files-26921e85", "intent": "search_files", "notes": "balance: search_files had 81 examples", "source": "curated", "text": "list the files in the tests directory"}
+{"family": "balance", "id": "search_files-1d978b3b", "intent": "search_files", "notes": "balance: search_files had 81 examples", "source": "curated", "text": "find anything named .gitignore"}
+{"family": "balance", "id": "search_files-bfe6de38", "intent": "search_files", "notes": "balance: search_files had 81 examples", "source": "curated", "text": "look for toml files"}
+{"family": "balance", "id": "search_files-8a811c8f", "intent": "search_files", "notes": "balance: search_files had 81 examples", "source": "curated", "text": "hunt down the dockerfile"}
+{"family": "balance", "id": "search_files-c0495b6a", "intent": "search_files", "notes": "balance: search_files had 81 examples", "source": "curated", "text": "which files end in .yaml"}
+{"family": "balance", "id": "search_files-59239ec1", "intent": "search_files", "notes": "balance: search_files had 81 examples", "source": "curated", "text": "search the project for rust files"}
+{"family": "balance", "id": "search_files-261b53cb", "intent": "search_files", "notes": "balance: search_files had 81 examples", "source": "curated", "text": "list every file matching *.json"}
+{"family": "balance", "id": "search_files-9318399f", "intent": "search_files", "notes": "balance: search_files had 81 examples", "source": "curated", "text": "show me the files that changed yesterday"}
+{"family": "balance", "id": "search_files-1db1ae14", "intent": "search_files", "notes": "balance: search_files had 81 examples", "source": "curated", "text": "find files named justfile"}
+{"family": "balance", "id": "search_files-d85fbc8f", "intent": "search_files", "notes": "balance: search_files had 81 examples", "source": "curated", "text": "locate any shell scripts"}
+{"family": "balance", "id": "search_files-9fff742c", "intent": "search_files", "notes": "balance: search_files had 81 examples", "source": "curated", "text": "which files are named pyproject.toml"}
+{"family": "balance", "id": "read_file-7920742e", "intent": "read_file", "notes": "balance: read_file lost precision to the hard negatives", "source": "curated", "text": "read the file main.rs"}
+{"family": "balance", "id": "read_file-ad8eb5d8", "intent": "read_file", "notes": "balance: read_file lost precision to the hard negatives", "source": "curated", "text": "read the file config.toml"}
+{"family": "balance", "id": "read_file-a61a73c3", "intent": "read_file", "notes": "balance: read_file lost precision to the hard negatives", "source": "curated", "text": "read the file notes.txt"}
+{"family": "balance", "id": "read_file-43ac805d", "intent": "read_file", "notes": "balance: read_file lost precision to the hard negatives", "source": "curated", "text": "read the file readme.md"}
+{"family": "balance", "id": "read_file-40a39292", "intent": "read_file", "notes": "balance: read_file lost precision to the hard negatives", "source": "curated", "text": "read the file cargo.toml"}
+{"family": "balance", "id": "read_file-170ff48b", "intent": "read_file", "notes": "balance: read_file lost precision to the hard negatives", "source": "curated", "text": "read the file src/lib.rs"}
+{"family": "balance", "id": "read_file-2c051dca", "intent": "read_file", "notes": "balance: read_file lost precision to the hard negatives", "source": "curated", "text": "read the file setup.sh"}
+{"family": "balance", "id": "read_file-ddf8d9ee", "intent": "read_file", "notes": "balance: read_file lost precision to the hard negatives", "source": "curated", "text": "read the file pyproject.toml"}
+{"family": "balance", "id": "read_file-2819e5d6", "intent": "read_file", "notes": "balance: read_file lost precision to the hard negatives", "source": "curated", "text": "open the file Dockerfile"}
+{"family": "balance", "id": "read_file-bbeaca1b", "intent": "read_file", "notes": "balance: read_file lost precision to the hard negatives", "source": "curated", "text": "show me the file justfile"}
+{"family": "balance", "id": "read_file-c5036b44", "intent": "read_file", "notes": "balance: read_file lost precision to the hard negatives", "source": "curated", "text": "read the first 20 lines of main.rs"}
+{"family": "balance", "id": "read_file-f333215b", "intent": "read_file", "notes": "balance: read_file lost precision to the hard negatives", "source": "curated", "text": "read the first 50 lines of config.toml"}
+{"family": "balance", "id": "read_file-73a3a83b", "intent": "read_file", "notes": "balance: read_file lost precision to the hard negatives", "source": "curated", "text": "read the top of readme.md"}
+{"family": "balance", "id": "read_file-caa51efc", "intent": "read_file", "notes": "balance: read_file lost precision to the hard negatives", "source": "curated", "text": "show me the contents of Cargo.toml"}
+{"family": "balance", "id": "read_file-627e4143", "intent": "read_file", "notes": "balance: read_file lost precision to the hard negatives", "source": "curated", "text": "print the file setup.sh"}
+{"family": "balance", "id": "read_file-eb0e0574", "intent": "read_file", "notes": "balance: read_file lost precision to the hard negatives", "source": "curated", "text": "read the file .gitignore"}
+{"family": "balance", "id": "read_file-df8f7f63", "intent": "read_file", "notes": "balance: read_file lost precision to the hard negatives", "source": "curated", "text": "read the file src/main.rs"}
+{"family": "balance", "id": "read_file-b928d896", "intent": "read_file", "notes": "balance: read_file lost precision to the hard negatives", "source": "curated", "text": "read the file requirements.txt"}
+{"family": "balance", "id": "read_file-b3665179", "intent": "read_file", "notes": "balance: read_file lost precision to the hard negatives", "source": "curated", "text": "read the file tsconfig.json"}
+{"family": "balance", "id": "read_file-572b5e2d", "intent": "read_file", "notes": "balance: read_file lost precision to the hard negatives", "source": "curated", "text": "read the file index.js"}
+{"family": "balance", "id": "remember-ce4e646f", "intent": "remember", "notes": "balance: remember had 78 examples", "source": "curated", "text": "remember that my wifi is called aurora"}
+{"family": "balance", "id": "remember-efc80799", "intent": "remember", "notes": "balance: remember had 78 examples", "source": "curated", "text": "remember that the dentist is on tuesday"}
+{"family": "balance", "id": "remember-9cce0032", "intent": "remember", "notes": "balance: remember had 78 examples", "source": "curated", "text": "remember that the office closes at six"}
+{"family": "balance", "id": "remember-ce5187dc", "intent": "remember", "notes": "balance: remember had 78 examples", "source": "curated", "text": "remember that i am allergic to shellfish"}
+{"family": "balance", "id": "remember-4007a130", "intent": "remember", "notes": "balance: remember had 78 examples", "source": "curated", "text": "remember that the train leaves at 7am"}
+{"family": "balance", "id": "remember-8ebcae40", "intent": "remember", "notes": "balance: remember had 78 examples", "source": "curated", "text": "remember that the repo is called aaron"}
+{"family": "balance", "id": "remember-6f2d52cd", "intent": "remember", "notes": "balance: remember had 78 examples", "source": "curated", "text": "remember that i prefer dark mode"}
+{"family": "balance", "id": "remember-34420bc7", "intent": "remember", "notes": "balance: remember had 78 examples", "source": "curated", "text": "remember that the heating is broken"}
+{"family": "balance", "id": "remember-ffcedf4f", "intent": "remember", "notes": "balance: remember had 78 examples", "source": "curated", "text": "remember that my landlord is mrs chen"}
+{"family": "balance", "id": "remember-b00b6841", "intent": "remember", "notes": "balance: remember had 78 examples", "source": "curated", "text": "remember that the deployment is on tuesday"}
+{"family": "balance", "id": "remember-e6613bb7", "intent": "remember", "notes": "balance: remember had 78 examples", "source": "curated", "text": "note that the boiler needs servicing"}
+{"family": "balance", "id": "remember-6bd043ab", "intent": "remember", "notes": "balance: remember had 78 examples", "source": "curated", "text": "keep in mind that the standup is at nine"}
+{"family": "balance", "id": "remember-da9a7cbb", "intent": "remember", "notes": "balance: remember had 78 examples", "source": "curated", "text": "write down that i take the early train"}
+{"family": "balance", "id": "remember-529d4448", "intent": "remember", "notes": "balance: remember had 78 examples", "source": "curated", "text": "store the fact that the spare key is under the mat"}
+{"family": "balance", "id": "remember-555b9ee8", "intent": "remember", "notes": "balance: remember had 78 examples", "source": "curated", "text": "remember that the conference is in lisbon"}
+{"family": "balance", "id": "remember-fa2b3949", "intent": "remember", "notes": "balance: remember had 78 examples", "source": "curated", "text": "remember that my daughter is called nell"}
+{"family": "balance", "id": "remember-3e57989b", "intent": "remember", "notes": "balance: remember had 78 examples", "source": "curated", "text": "remember that the cafe on the corner does lunch"}
+{"family": "balance", "id": "remember-c0fc0261", "intent": "remember", "notes": "balance: remember had 78 examples", "source": "curated", "text": "remember that the printer is on the third floor"}
+{"family": "balance", "id": "remember-1c040dda", "intent": "remember", "notes": "balance: remember had 78 examples", "source": "curated", "text": "remember that i am on the night shift"}
+{"family": "balance", "id": "remember-4f296d61", "intent": "remember", "notes": "balance: remember had 78 examples", "source": "curated", "text": "remember that the code review is on friday"}
+{"family": "balance", "id": "cancel-728b10e8", "intent": "cancel", "notes": "balance: cancel had 87 examples", "source": "curated", "text": "cancel that"}
+{"family": "balance", "id": "cancel-81379b84", "intent": "cancel", "notes": "balance: cancel had 87 examples", "source": "curated", "text": "cancel it"}
+{"family": "balance", "id": "cancel-bbd668ce", "intent": "cancel", "notes": "balance: cancel had 87 examples", "source": "curated", "text": "stop that"}
+{"family": "balance", "id": "cancel-0fd3603b", "intent": "cancel", "notes": "balance: cancel had 87 examples", "source": "curated", "text": "never mind"}
+{"family": "balance", "id": "cancel-0d73889e", "intent": "cancel", "notes": "balance: cancel had 87 examples", "source": "curated", "text": "actually forget it"}
+{"family": "balance", "id": "cancel-857ccf2f", "intent": "cancel", "notes": "balance: cancel had 87 examples", "source": "curated", "text": "hold on leave it"}
+{"family": "balance", "id": "cancel-10d15a3b", "intent": "cancel", "notes": "balance: cancel had 87 examples", "source": "curated", "text": "scratch that i changed my mind"}
+{"family": "balance", "id": "cancel-f5113635", "intent": "cancel", "notes": "balance: cancel had 87 examples", "source": "curated", "text": "call off the search"}
+{"family": "balance", "id": "cancel-94afd929", "intent": "cancel", "notes": "balance: cancel had 87 examples", "source": "curated", "text": "stand down"}
+{"family": "balance", "id": "cancel-66adaf53", "intent": "cancel", "notes": "balance: cancel had 87 examples", "source": "curated", "text": "no wait not that"}
+{"family": "balance", "id": "cancel-6aca7106", "intent": "cancel", "notes": "balance: cancel had 87 examples", "source": "curated", "text": "put that back"}
+{"family": "balance", "id": "cancel-542b6a22", "intent": "cancel", "notes": "balance: cancel had 87 examples", "source": "curated", "text": "undo that please"}
+{"family": "balance", "id": "cancel-fd45e56a", "intent": "cancel", "notes": "balance: cancel had 87 examples", "source": "curated", "text": "cancel the file search"}
+{"family": "balance", "id": "cancel-5d6a11a2", "intent": "cancel", "notes": "balance: cancel had 87 examples", "source": "curated", "text": "abort the current operation"}
+{"family": "balance", "id": "cancel-3e108a84", "intent": "cancel", "notes": "balance: cancel had 87 examples", "source": "curated", "text": "disregard that request"}
+{"family": "balance", "id": "cancel-84d12748", "intent": "cancel", "notes": "balance: cancel had 87 examples", "source": "curated", "text": "forget the whole thing"}
+{"family": "balance", "id": "cancel-90d47e22", "intent": "cancel", "notes": "balance: cancel had 87 examples", "source": "curated", "text": "i changed my mind"}
+{"family": "balance", "id": "cancel-5f8dee7e", "intent": "cancel", "notes": "balance: cancel had 87 examples", "source": "curated", "text": "leave it be"}
+{"family": "balance", "id": "cancel-e12dbef0", "intent": "cancel", "notes": "balance: cancel had 87 examples", "source": "curated", "text": "revert that"}
+{"family": "balance", "id": "cancel-5a0476e8", "intent": "cancel", "notes": "balance: cancel had 87 examples", "source": "curated", "text": "never mind that"}

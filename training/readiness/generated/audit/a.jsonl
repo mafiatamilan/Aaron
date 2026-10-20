@@ -1,0 +1,250 @@
+{"id": "readiness-read_file-ea9df1be", "intent": "read_file", "text": "read the /etc path"}
+{"id": "readiness-read_file-a03423fc", "intent": "read_file", "text": "read the aaron project"}
+{"id": "readiness-read_file-13df10ac", "intent": "read_file", "text": "read the app"}
+{"id": "readiness-read_file-db6946cd", "intent": "read_file", "text": "read the bootstrap.sh"}
+{"id": "readiness-read_file-9c53860f", "intent": "read_file", "text": "read the command"}
+{"id": "readiness-read_file-d7f579a0", "intent": "read_file", "text": "read the directory"}
+{"id": "readiness-read_file-db75f972", "intent": "read_file", "text": "read the draft"}
+{"id": "readiness-read_file-65a8ecce", "intent": "read_file", "text": "read the draft opening"}
+{"id": "readiness-read_file-8222effa", "intent": "read_file", "text": "read the essay"}
+{"id": "readiness-read_file-11c47955", "intent": "read_file", "text": "read the essay cicadas"}
+{"id": "readiness-read_file-d2866fd0", "intent": "read_file", "text": "read the examples directory"}
+{"id": "readiness-read_file-6a549a51", "intent": "read_file", "text": "read the fixtures folder"}
+{"id": "readiness-read_file-23b6d441", "intent": "read_file", "text": "read the folder"}
+{"id": "readiness-read_file-64597f33", "intent": "read_file", "text": "read the integration suite"}
+{"id": "readiness-read_file-0bf70924", "intent": "read_file", "text": "read the invoice item"}
+{"id": "readiness-read_file-081de2d3", "intent": "read_file", "text": "read the invoice parking"}
+{"id": "readiness-read_file-185b1a3b", "intent": "read_file", "text": "read the item"}
+{"id": "readiness-read_file-87136431", "intent": "read_file", "text": "read the link"}
+{"id": "readiness-read_file-cf4e2af7", "intent": "read_file", "text": "read the marketing site"}
+{"id": "readiness-read_file-0bc60c3d", "intent": "read_file", "text": "read the pamphlet"}
+{"id": "readiness-read_file-e5af1a00", "intent": "read_file", "text": "read the pamphlet vaccination"}
+{"id": "readiness-read_file-822b9e62", "intent": "read_file", "text": "read the parcel thing"}
+{"id": "readiness-read_file-2d959538", "intent": "read_file", "text": "read the path"}
+{"id": "readiness-read_file-b3871a9e", "intent": "read_file", "text": "read the poem"}
+{"id": "readiness-read_file-ed4a5708", "intent": "read_file", "text": "read the poem ozymandias"}
+{"id": "readiness-read_file-8d002dfb", "intent": "read_file", "text": "read the project"}
+{"id": "readiness-read_file-57ca1864", "intent": "read_file", "text": "read the receipt ferry"}
+{"id": "readiness-read_file-31af5f2e", "intent": "read_file", "text": "read the recipe"}
+{"id": "readiness-read_file-c3b7b1d3", "intent": "read_file", "text": "read the recipe sourdough"}
+{"id": "readiness-read_file-6e408b0b", "intent": "read_file", "text": "read the reference link"}
+{"id": "readiness-read_file-096b2a23", "intent": "read_file", "text": "read the script"}
+{"id": "readiness-read_file-bfb7120d", "intent": "read_file", "text": "read the settings app"}
+{"id": "readiness-read_file-ad189924", "intent": "read_file", "text": "read the site"}
+{"id": "readiness-read_file-08bcb2b4", "intent": "read_file", "text": "read the suite"}
+{"id": "readiness-read_file-39f6f310", "intent": "read_file", "text": "read the thing"}
+{"id": "readiness-read_file-ab3c100d", "intent": "read_file", "text": "read the timetable"}
+{"id": "readiness-read_file-d6a9a302", "intent": "read_file", "text": "read the timetable winter"}
+{"id": "readiness-read_file-879cb2fb", "intent": "read_file", "text": "read the vendor website"}
+{"id": "readiness-read_file-b750ea65", "intent": "read_file", "text": "read the website"}
+{"id": "readiness-read_file-c85fc69a", "intent": "read_file", "text": "open the mockup"}
+{"id": "readiness-read_file-9250452b", "intent": "read_file", "text": "open the mockup dashboard.svg"}
+{"id": "readiness-read_file-1ec1a60f", "intent": "read_file", "text": "open the widget"}
+{"id": "readiness-read_file-8deec60f", "intent": "read_file", "text": "open the widget clock.js"}
+{"id": "readiness-read_file-a438ceed", "intent": "read_file", "text": "read the agenda"}
+{"id": "readiness-read_file-574dea61", "intent": "read_file", "text": "read the agenda agenda.md"}
+{"id": "readiness-read_file-0ad8b9ab", "intent": "read_file", "text": "read the alias"}
+{"id": "readiness-read_file-20cecf01", "intent": "read_file", "text": "read the alias build.txt"}
+{"id": "readiness-read_file-8500606d", "intent": "read_file", "text": "read the blueprint"}
+{"id": "readiness-read_file-8a8c71df", "intent": "read_file", "text": "read the blueprint design.svg"}
+{"id": "readiness-read_file-0d27c1d6", "intent": "read_file", "text": "read the budget"}
+{"id": "readiness-read_file-6ddcf85c", "intent": "read_file", "text": "read the budget budget.csv"}
+{"id": "readiness-read_file-d7f852f0", "intent": "read_file", "text": "read the checklist"}
+{"id": "readiness-read_file-afd33e8b", "intent": "read_file", "text": "read the checklist release.md"}
+{"id": "readiness-read_file-8efb6cad", "intent": "read_file", "text": "read the contract"}
+{"id": "readiness-read_file-2e6b459a", "intent": "read_file", "text": "read the contract lease.pdf"}
+{"id": "readiness-read_file-6e50d469", "intent": "read_file", "text": "read the dashboard"}
+{"id": "readiness-read_file-3d179bac", "intent": "read_file", "text": "read the dashboard panel.html"}
+{"id": "readiness-read_file-cdfac2f5", "intent": "read_file", "text": "read the diary"}
+{"id": "readiness-read_file-fd797941", "intent": "read_file", "text": "read the diary journal.md"}
+{"id": "readiness-read_file-097d03ba", "intent": "read_file", "text": "read the fixture"}
+{"id": "readiness-read_file-e4e871eb", "intent": "read_file", "text": "read the fixture orders.json"}
+{"id": "readiness-read_file-29983442", "intent": "read_file", "text": "read the gist"}
+{"id": "readiness-read_file-d39b65fe", "intent": "read_file", "text": "read the gist snippet.rs"}
+{"id": "readiness-read_file-9c728462", "intent": "read_file", "text": "read the invoice"}
+{"id": "readiness-read_file-eb127134", "intent": "read_file", "text": "read the invoice invoice-0042.pdf"}
+{"id": "readiness-read_file-2eb761d4", "intent": "read_file", "text": "read the manifest"}
+{"id": "readiness-read_file-0cf5e160", "intent": "read_file", "text": "read the manifest Cargo.toml"}
+{"id": "readiness-read_file-1506e96b", "intent": "read_file", "text": "read the manuscript"}
+{"id": "readiness-read_file-17c1c5e4", "intent": "read_file", "text": "read the manuscript chapter-one.md"}
+{"id": "readiness-read_file-5203e263", "intent": "read_file", "text": "read the notebook"}
+{"id": "readiness-read_file-3809d9f7", "intent": "read_file", "text": "read the notebook analysis.ipynb"}
+{"id": "readiness-read_file-e6d47014", "intent": "read_file", "text": "read the overlay"}
+{"id": "readiness-read_file-f335123c", "intent": "read_file", "text": "read the overlay night.yml"}
+{"id": "readiness-read_file-728cd0f3", "intent": "read_file", "text": "read the plugin"}
+{"id": "readiness-read_file-65f07807", "intent": "read_file", "text": "read the plugin plugin.json"}
+{"id": "readiness-read_file-ccb3da98", "intent": "read_file", "text": "read the preset"}
+{"id": "readiness-read_file-319481b1", "intent": "read_file", "text": "read the preset warm.toml"}
+{"id": "readiness-read_file-3f688448", "intent": "read_file", "text": "read the receipt"}
+{"id": "readiness-read_file-ca815292", "intent": "read_file", "text": "read the receipt receipt-march.txt"}
+{"id": "readiness-read_file-ffb7176d", "intent": "read_file", "text": "read the recording"}
+{"id": "readiness-read_file-b5d7e03d", "intent": "read_file", "text": "read the recording session.log"}
+{"id": "readiness-read_file-02885ee8", "intent": "read_file", "text": "read the roadmap"}
+{"id": "readiness-read_file-0efb4e74", "intent": "read_file", "text": "read the roadmap roadmap.md"}
+{"id": "readiness-read_file-a94be80a", "intent": "read_file", "text": "read the schedule"}
+{"id": "readiness-read_file-73233596", "intent": "read_file", "text": "read the schedule march.md"}
+{"id": "readiness-read_file-918d2bb3", "intent": "read_file", "text": "read the schema"}
+{"id": "readiness-read_file-3c7badc1", "intent": "read_file", "text": "read the schema schema.sql"}
+{"id": "readiness-read_file-66aff1b1", "intent": "read_file", "text": "read the screenshot"}
+{"id": "readiness-read_file-756d33f6", "intent": "read_file", "text": "read the screenshot desktop.png"}
+{"id": "readiness-read_file-4a903b6f", "intent": "read_file", "text": "read the snippet"}
+{"id": "readiness-read_file-bd2fa62e", "intent": "read_file", "text": "read the snippet example.rs"}
+{"id": "readiness-read_file-81c28cf6", "intent": "read_file", "text": "read the snippet hello.py"}
+{"id": "readiness-read_file-cf5fa321", "intent": "read_file", "text": "read the spreadsheet"}
+{"id": "readiness-read_file-c00aca08", "intent": "read_file", "text": "read the spreadsheet budget.csv"}
+{"id": "readiness-read_file-558f2383", "intent": "read_file", "text": "read the stub"}
+{"id": "readiness-read_file-ed8d7f2a", "intent": "read_file", "text": "read the stub adapter.rs"}
+{"id": "readiness-read_file-f95d5940", "intent": "read_file", "text": "read the template"}
+{"id": "readiness-read_file-0eb3305e", "intent": "read_file", "text": "read the template base.html"}
+{"id": "readiness-read_file-2afddd81", "intent": "read_file", "text": "read the theme"}
+{"id": "readiness-read_file-47291174", "intent": "read_file", "text": "read the theme theme.toml"}
+{"id": "readiness-read_file-8d139000", "intent": "read_file", "text": "read the transcript meeting.md"}
+{"id": "readiness-read_file-80e72afb", "intent": "read_file", "text": "open the appendix labelled"}
+{"id": "readiness-read_file-a02eb0db", "intent": "read_file", "text": "open the appendix labelled charts.md"}
+{"id": "readiness-read_file-3d4363b9", "intent": "read_file", "text": "open the document marked"}
+{"id": "readiness-read_file-94f99c11", "intent": "read_file", "text": "open the document marked final.docx"}
+{"id": "readiness-read_file-c5e6ec23", "intent": "read_file", "text": "read the entry called"}
+{"id": "readiness-read_file-2ee040d7", "intent": "read_file", "text": "read the entry called beacon.txt"}
+{"id": "readiness-read_file-403fbbde", "intent": "read_file", "text": "read the entry mentioning"}
+{"id": "readiness-read_file-051c09e8", "intent": "read_file", "text": "read the entry mentioning the timeout"}
+{"id": "readiness-read_file-a817a89a", "intent": "read_file", "text": "read the folder called"}
+{"id": "readiness-read_file-2d9076f6", "intent": "read_file", "text": "read the folder called fixtures"}
+{"id": "readiness-read_file-f8434025", "intent": "read_file", "text": "read the list including"}
+{"id": "readiness-read_file-78a01e39", "intent": "read_file", "text": "read the list including the backups"}
+{"id": "readiness-read_file-e8a2bce9", "intent": "read_file", "text": "read the log containing"}
+{"id": "readiness-read_file-cb176717", "intent": "read_file", "text": "read the log containing the panic"}
+{"id": "readiness-read_file-9947e86e", "intent": "read_file", "text": "read the record showing"}
+{"id": "readiness-read_file-04c785ea", "intent": "read_file", "text": "read the record showing the error"}
+{"id": "readiness-read_file-cd44c51f", "intent": "read_file", "text": "read the report titled"}
+{"id": "readiness-read_file-8ec1efd2", "intent": "read_file", "text": "read the report titled summary"}
+{"id": "readiness-read_file-087780f6", "intent": "read_file", "text": "read the script named"}
+{"id": "readiness-read_file-fb6dc927", "intent": "read_file", "text": "read the script named bootstrap.sh"}
+{"id": "readiness-read_file-d3f7d6ef", "intent": "read_file", "text": "read the transcript titled"}
+{"id": "readiness-read_file-aa8b9297", "intent": "read_file", "text": "read the transcript titled interview.md"}
+{"id": "readiness-read_file-46b09e4b", "intent": "read_file", "text": "show the file dated"}
+{"id": "readiness-read_file-1b7f96d0", "intent": "read_file", "text": "show the file dated monday.txt"}
+{"id": "readiness-read_file-43ea5647", "intent": "read_file", "text": "print lines 200 through 240"}
+{"id": "readiness-read_file-10101b3e", "intent": "read_file", "text": "print lines 200 through 240 build.log"}
+{"id": "readiness-read_file-c5cdeb50", "intent": "read_file", "text": "print lines 50 through 90"}
+{"id": "readiness-read_file-a59d2ceb", "intent": "read_file", "text": "print lines 50 through 90 audit.csv"}
+{"id": "readiness-read_file-b0429d25", "intent": "read_file", "text": "read lines 12 to 40"}
+{"id": "readiness-read_file-b6055bff", "intent": "read_file", "text": "read lines 12 to 40 schema.sql"}
+{"id": "readiness-read_file-b3dd4f11", "intent": "read_file", "text": "read the final 12 lines"}
+{"id": "readiness-read_file-ed1e3a8f", "intent": "read_file", "text": "read the final 12 lines sync.log"}
+{"id": "readiness-read_file-803c6d1a", "intent": "read_file", "text": "read the final paragraph"}
+{"id": "readiness-read_file-cd254d42", "intent": "read_file", "text": "read the final paragraph of the report"}
+{"id": "readiness-read_file-83d422cb", "intent": "read_file", "text": "read the first 40 lines"}
+{"id": "readiness-read_file-0c2a8d8b", "intent": "read_file", "text": "read the first 40 lines of the changelog"}
+{"id": "readiness-read_file-2b585750", "intent": "read_file", "text": "read the first hundred bytes"}
+{"id": "readiness-read_file-e43fb9a2", "intent": "read_file", "text": "read the first hundred bytes of main.rs"}
+{"id": "readiness-read_file-220e4c3b", "intent": "read_file", "text": "read the first two pages"}
+{"id": "readiness-read_file-42b47f1b", "intent": "read_file", "text": "read the first two pages of the paper"}
+{"id": "readiness-read_file-091b8ea3", "intent": "read_file", "text": "read the last 10 lines"}
+{"id": "readiness-read_file-799e5917", "intent": "read_file", "text": "read the last 10 lines of the changelog"}
+{"id": "readiness-read_file-ecf257ae", "intent": "read_file", "text": "read the last 30 lines"}
+{"id": "readiness-read_file-e27f5e5e", "intent": "read_file", "text": "read the last 30 lines syslog.log"}
+{"id": "readiness-read_file-66a495ff", "intent": "read_file", "text": "read the last two kilobytes"}
+{"id": "readiness-read_file-c12fcda1", "intent": "read_file", "text": "read the last two kilobytes of the log"}
+{"id": "readiness-read_file-0fa7ad2c", "intent": "read_file", "text": "read the middle 10 lines"}
+{"id": "readiness-read_file-63e38881", "intent": "read_file", "text": "read the middle 10 lines of the config"}
+{"id": "readiness-read_file-4c049af7", "intent": "read_file", "text": "read the next 3 paragraphs"}
+{"id": "readiness-read_file-32067d32", "intent": "read_file", "text": "read the next 3 paragraphs of the paper"}
+{"id": "readiness-read_file-4e205826", "intent": "read_file", "text": "read the top 5 lines"}
+{"id": "readiness-read_file-f4720e26", "intent": "read_file", "text": "read the top 5 lines of the config"}
+{"id": "readiness-read_file-55445b02", "intent": "read_file", "text": "search for the top 5 matches"}
+{"id": "readiness-read_file-8244aac6", "intent": "read_file", "text": "search for the top 5 matches in src"}
+{"id": "readiness-read_file-efd6bb0e", "intent": "read_file", "text": "show the first 3 results"}
+{"id": "readiness-read_file-25b978b6", "intent": "read_file", "text": "show the first 3 results in the log"}
+{"id": "readiness-read_file-51309395", "intent": "read_file", "text": "show the last 15 lines"}
+{"id": "readiness-read_file-19a0c5df", "intent": "read_file", "text": "show the last 15 lines deploy.log"}
+{"id": "readiness-read_file-104040aa", "intent": "read_file", "text": "show the last 8 lines"}
+{"id": "readiness-read_file-3b745ec9", "intent": "read_file", "text": "show the last 8 lines wireless.log"}
+{"id": "readiness-read_file-1699c361", "intent": "read_file", "text": "show the middle 20 lines"}
+{"id": "readiness-read_file-89b08089", "intent": "read_file", "text": "show the middle 20 lines template.html"}
+{"id": "readiness-read_file-77af778b", "intent": "read_file", "text": "cat"}
+{"id": "readiness-read_file-18410d07", "intent": "read_file", "text": "cat mkdocs.yml"}
+{"id": "readiness-read_file-3d964301", "intent": "read_file", "text": "cat the manifest"}
+{"id": "readiness-read_file-dfbb889c", "intent": "read_file", "text": "display"}
+{"id": "readiness-read_file-8a5ae424", "intent": "read_file", "text": "display metrics.log"}
+{"id": "readiness-read_file-88bc6f47", "intent": "read_file", "text": "display the config"}
+{"id": "readiness-read_file-b6ca0868", "intent": "read_file", "text": "dump"}
+{"id": "readiness-read_file-2fcb702d", "intent": "read_file", "text": "dump seed.sql"}
+{"id": "readiness-read_file-6514ec52", "intent": "read_file", "text": "dump the journal"}
+{"id": "readiness-read_file-9f2e6d33", "intent": "read_file", "text": "head"}
+{"id": "readiness-read_file-f23455a4", "intent": "read_file", "text": "head the notice"}
+{"id": "readiness-read_file-5975cf1b", "intent": "read_file", "text": "preview"}
+{"id": "readiness-read_file-987ea847", "intent": "read_file", "text": "preview the sketch"}
+{"id": "readiness-read_file-ce953a0e", "intent": "read_file", "text": "print"}
+{"id": "readiness-read_file-1b6a32be", "intent": "read_file", "text": "print agenda.md"}
+{"id": "readiness-read_file-975b7033", "intent": "read_file", "text": "print the licence"}
+{"id": "readiness-read_file-3316348d", "intent": "read_file", "text": "read"}
+{"id": "readiness-read_file-e48e9267", "intent": "read_file", "text": "read fieldnotes.md"}
+{"id": "readiness-read_file-b96ad3f4", "intent": "read_file", "text": "read main.rs"}
+{"id": "readiness-read_file-887270d0", "intent": "read_file", "text": "render"}
+{"id": "readiness-read_file-dc8d0970", "intent": "read_file", "text": "render the template"}
+{"id": "readiness-read_file-dfabcd70", "intent": "read_file", "text": "show the changelog"}
+{"id": "readiness-read_file-0c62f876", "intent": "read_file", "text": "tail"}
+{"id": "readiness-read_file-0b54f90e", "intent": "read_file", "text": "tail the logfile"}
+{"id": "readiness-read_file-2bcb43cb", "intent": "read_file", "text": "view"}
+{"id": "readiness-read_file-a66ecc89", "intent": "read_file", "text": "view releaseplan.md"}
+{"id": "readiness-search_files-7f9b5061", "intent": "search_files", "text": "search for the aaron project"}
+{"id": "readiness-search_files-38f0dd16", "intent": "search_files", "text": "search for the app"}
+{"id": "readiness-search_files-ee84b5d3", "intent": "search_files", "text": "search for the build script"}
+{"id": "readiness-search_files-391614a3", "intent": "search_files", "text": "search for the changelog"}
+{"id": "readiness-search_files-fa967e92", "intent": "search_files", "text": "search for the document"}
+{"id": "readiness-search_files-0ea1ea11", "intent": "search_files", "text": "search for the folder"}
+{"id": "readiness-search_files-ccb36a05", "intent": "search_files", "text": "search for the integration suite"}
+{"id": "readiness-search_files-752c12c3", "intent": "search_files", "text": "search for the item"}
+{"id": "readiness-search_files-a29594bf", "intent": "search_files", "text": "search for the link"}
+{"id": "readiness-search_files-4bcf8037", "intent": "search_files", "text": "search for the marketing site"}
+{"id": "readiness-search_files-db98b6ef", "intent": "search_files", "text": "search for the migrations folder"}
+{"id": "readiness-search_files-cefaa905", "intent": "search_files", "text": "search for the project"}
+{"id": "readiness-search_files-a9065574", "intent": "search_files", "text": "search for the readme"}
+{"id": "readiness-search_files-2f3b2438", "intent": "search_files", "text": "search for the reference link"}
+{"id": "readiness-search_files-1ceab444", "intent": "search_files", "text": "search for the script"}
+{"id": "readiness-search_files-d5c1b64f", "intent": "search_files", "text": "search for the settings app"}
+{"id": "readiness-search_files-50c71111", "intent": "search_files", "text": "search for the site"}
+{"id": "readiness-search_files-b417b17f", "intent": "search_files", "text": "search for the suite"}
+{"id": "readiness-search_files-934bf5fb", "intent": "search_files", "text": "search for the todo item"}
+{"id": "readiness-search_files-e8d4e061", "intent": "search_files", "text": "search for the annotation"}
+{"id": "readiness-search_files-64895ff1", "intent": "search_files", "text": "search for the annotation @deprecated"}
+{"id": "readiness-search_files-a72a1f92", "intent": "search_files", "text": "search for the extension"}
+{"id": "readiness-search_files-3cc02a39", "intent": "search_files", "text": "search for the extension .md"}
+{"id": "readiness-search_files-7220d500", "intent": "search_files", "text": "search for the filename"}
+{"id": "readiness-search_files-c448940a", "intent": "search_files", "text": "search for the filename Cargo.toml"}
+{"id": "readiness-search_files-c5e70796", "intent": "search_files", "text": "search for the glob"}
+{"id": "readiness-search_files-df75b933", "intent": "search_files", "text": "search for the glob **/*.rs"}
+{"id": "readiness-search_files-8b446129", "intent": "search_files", "text": "search for the import"}
+{"id": "readiness-search_files-b1dc7813", "intent": "search_files", "text": "search for the import serde"}
+{"id": "readiness-search_files-5126173b", "intent": "search_files", "text": "search for the macro"}
+{"id": "readiness-search_files-53465914", "intent": "search_files", "text": "search for the macro println"}
+{"id": "readiness-search_files-3e8c00bb", "intent": "search_files", "text": "search for the pattern"}
+{"id": "readiness-search_files-23e0ea85", "intent": "search_files", "text": "search for the pattern *.toml"}
+{"id": "readiness-search_files-b3a00565", "intent": "search_files", "text": "search for the prefix"}
+{"id": "readiness-search_files-25e535b7", "intent": "search_files", "text": "search for the prefix src/"}
+{"id": "readiness-search_files-3f4091df", "intent": "search_files", "text": "search for the regex"}
+{"id": "readiness-search_files-85a24f20", "intent": "search_files", "text": "search for the regex ^pub fn"}
+{"id": "readiness-search_files-d6278790", "intent": "search_files", "text": "search for the suffix"}
+{"id": "readiness-search_files-fc132bdc", "intent": "search_files", "text": "search for the suffix .rs"}
+{"id": "readiness-search_files-a699e10a", "intent": "search_files", "text": "search for the template"}
+{"id": "readiness-search_files-dc974a1a", "intent": "search_files", "text": "search for the template base.html"}
+{"id": "readiness-search_files-13076621", "intent": "search_files", "text": "search for the wildcard"}
+{"id": "readiness-search_files-c36299bd", "intent": "search_files", "text": "search for the wildcard *.log"}
+{"id": "readiness-search_files-558bfa08", "intent": "search_files", "text": "search for the folder containing"}
+{"id": "readiness-search_files-0aa9fb6f", "intent": "search_files", "text": "search for the folder containing fixtures"}
+{"id": "readiness-search_files-821047cc", "intent": "search_files", "text": "search for the glob matching"}
+{"id": "readiness-search_files-e74a2d02", "intent": "search_files", "text": "search for the glob matching *.rs"}
+{"id": "readiness-search_files-8e374515", "intent": "search_files", "text": "search for the pattern named"}
+{"id": "readiness-search_files-f63026ad", "intent": "search_files", "text": "search for the pattern named todo"}
+{"id": "readiness-search_files-f658d0b4", "intent": "search_files", "text": "find the todo marker"}
+{"id": "readiness-search_files-faefbbbf", "intent": "search_files", "text": "grep"}
+{"id": "readiness-search_files-cfc5a236", "intent": "search_files", "text": "grep the unwrap calls"}
+{"id": "readiness-search_files-18c3bc28", "intent": "search_files", "text": "hunt"}
+{"id": "readiness-search_files-1fde9db7", "intent": "search_files", "text": "hunt the compiler warning"}
+{"id": "readiness-search_files-c61d02ef", "intent": "search_files", "text": "locate"}
+{"id": "readiness-search_files-0a72c1fe", "intent": "search_files", "text": "locate the config file"}
+{"id": "readiness-search_files-59ad1b2f", "intent": "search_files", "text": "scan"}
+{"id": "readiness-search_files-1a1c991c", "intent": "search_files", "text": "scan the rust sources"}
+{"id": "readiness-search_files-69e778c0", "intent": "search_files", "text": "search main.rs"}
+{"id": "readiness-search_files-cda9593e", "intent": "search_files", "text": "sift"}
+{"id": "readiness-search_files-00fa8c46", "intent": "search_files", "text": "sift the changelog entries"}

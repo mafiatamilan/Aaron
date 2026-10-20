@@ -1,0 +1,281 @@
+{"id": "readiness-open_url-cef81d85", "intent": "open_url", "text": "open https://example.org"}
+{"id": "readiness-open_url-fe5e9f81", "intent": "open_url", "text": "open https://rust-lang.org"}
+{"id": "readiness-open_url-f15f3c18", "intent": "open_url", "text": "open https://wikipedia.org"}
+{"id": "readiness-open_url-4a58e573", "intent": "open_url", "text": "open the catalogue"}
+{"id": "readiness-open_url-f3905009", "intent": "open_url", "text": "open the catalogue https://www.loc.gov/collections"}
+{"id": "readiness-open_url-430ad79c", "intent": "open_url", "text": "open the channel"}
+{"id": "readiness-open_url-82f531b5", "intent": "open_url", "text": "open the channel https://www.youtube.com/@veritasium"}
+{"id": "readiness-open_url-842cf755", "intent": "open_url", "text": "open the directory"}
+{"id": "readiness-open_url-ecb56ec0", "intent": "open_url", "text": "open the directory https://www.dmoz.org/Computers"}
+{"id": "readiness-open_url-45afd402", "intent": "open_url", "text": "open the feed"}
+{"id": "readiness-open_url-fa9bef8d", "intent": "open_url", "text": "open the feed https://lwn.net/headlines/rss"}
+{"id": "readiness-open_url-fa3f4567", "intent": "open_url", "text": "open the forum"}
+{"id": "readiness-open_url-4068ae0b", "intent": "open_url", "text": "open the forum https://discourse.mozilla.org"}
+{"id": "readiness-open_url-dca11dee", "intent": "open_url", "text": "open the gallery"}
+{"id": "readiness-open_url-06ba0006", "intent": "open_url", "text": "open the gallery https://www.nga.gov/collection"}
+{"id": "readiness-open_url-018c28de", "intent": "open_url", "text": "open the homepage"}
+{"id": "readiness-open_url-152fed72", "intent": "open_url", "text": "open the listing"}
+{"id": "readiness-open_url-19aa0ce2", "intent": "open_url", "text": "open the listing https://www.airbnb.com/rooms/12345"}
+{"id": "readiness-open_url-665786db", "intent": "open_url", "text": "open the marketplace"}
+{"id": "readiness-open_url-2ac6d0e9", "intent": "open_url", "text": "open the marketplace https://www.etsy.com/market/ceramics"}
+{"id": "readiness-open_url-e4b72e78", "intent": "open_url", "text": "open the mirror"}
+{"id": "readiness-open_url-2a8fe94c", "intent": "open_url", "text": "open the mirror https://mirrors.kernel.org"}
+{"id": "readiness-open_url-cf2a2816", "intent": "open_url", "text": "open the site"}
+{"id": "readiness-open_url-3f8007d4", "intent": "open_url", "text": "open the thread"}
+{"id": "readiness-open_url-d0be88f0", "intent": "open_url", "text": "open the thread https://lwn.net/Articles/900001/"}
+{"id": "readiness-open_url-bf6926de", "intent": "open_url", "text": "open the tracker"}
+{"id": "readiness-open_url-3d6b2c1b", "intent": "open_url", "text": "open the tracker https://bugs.chromium.org/p/chromium"}
+{"id": "readiness-open_url-4f9c9132", "intent": "open_url", "text": "open the web page"}
+{"id": "readiness-open_url-b0f37ea4", "intent": "open_url", "text": "open the api docs"}
+{"id": "readiness-open_url-f3695349", "intent": "open_url", "text": "open the blog post"}
+{"id": "readiness-open_url-f3eb0fda", "intent": "open_url", "text": "open the boarding pass"}
+{"id": "readiness-open_url-79c61bd1", "intent": "open_url", "text": "open the boarding pass https://www.united.com/en/us/checkin"}
+{"id": "readiness-open_url-8e5c42f8", "intent": "open_url", "text": "open the datasheet"}
+{"id": "readiness-open_url-51fb8f79", "intent": "open_url", "text": "open the datasheet https://www.ti.com/lit/ds/symlink/lm358.pdf"}
+{"id": "readiness-open_url-3b2e8a00", "intent": "open_url", "text": "open the discussion"}
+{"id": "readiness-open_url-794ac36c", "intent": "open_url", "text": "open the documentation"}
+{"id": "readiness-open_url-acac7a17", "intent": "open_url", "text": "open the forecast"}
+{"id": "readiness-open_url-38f74b25", "intent": "open_url", "text": "open the forecast https://www.wunderground.com/forecast/us/ny/new-york"}
+{"id": "readiness-open_url-6608f2f5", "intent": "open_url", "text": "open the invoice"}
+{"id": "readiness-open_url-1481dc5e", "intent": "open_url", "text": "open the invoice https://dashboard.stripe.com/invoices/in_1q2w3"}
+{"id": "readiness-open_url-848793a0", "intent": "open_url", "text": "open the issue"}
+{"id": "readiness-open_url-69c9f099", "intent": "open_url", "text": "open the itinerary"}
+{"id": "readiness-open_url-f7b19cea", "intent": "open_url", "text": "open the itinerary https://www.expedia.com/trips/987654"}
+{"id": "readiness-open_url-458b7891", "intent": "open_url", "text": "open the leaderboard"}
+{"id": "readiness-open_url-d3db34a2", "intent": "open_url", "text": "open the leaderboard https://www.chess.com/leaderboard"}
+{"id": "readiness-open_url-697f3ce6", "intent": "open_url", "text": "open the lease"}
+{"id": "readiness-open_url-5523b8a1", "intent": "open_url", "text": "open the lease https://www.docusign.com/documents/lease-2026"}
+{"id": "readiness-open_url-344f5ace", "intent": "open_url", "text": "open the payslip"}
+{"id": "readiness-open_url-48e74b8a", "intent": "open_url", "text": "open the payslip https://payroll.adp.com/statements/2026-03"}
+{"id": "readiness-open_url-42eea5c0", "intent": "open_url", "text": "open the pull request"}
+{"id": "readiness-open_url-c5ad5dd1", "intent": "open_url", "text": "open the receipt"}
+{"id": "readiness-open_url-f582c6a2", "intent": "open_url", "text": "open the receipt https://www.apple.com/shop/order/w1234567890"}
+{"id": "readiness-open_url-50755d14", "intent": "open_url", "text": "open the reference"}
+{"id": "readiness-open_url-fcd09ed3", "intent": "open_url", "text": "open the release notes"}
+{"id": "readiness-open_url-c3add8f0", "intent": "open_url", "text": "open the survey"}
+{"id": "readiness-open_url-33ee12ec", "intent": "open_url", "text": "open the survey https://forms.gle/8fh2kl"}
+{"id": "readiness-open_url-9c4e0733", "intent": "open_url", "text": "open the syllabus"}
+{"id": "readiness-open_url-a016bcc8", "intent": "open_url", "text": "open the syllabus https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011"}
+{"id": "readiness-open_url-067f2803", "intent": "open_url", "text": "open the timetable"}
+{"id": "readiness-open_url-f48ba8a5", "intent": "open_url", "text": "open the timetable https://www.bahn.de/buchung/fahrplan"}
+{"id": "readiness-open_url-84b88e58", "intent": "open_url", "text": "open the transcript"}
+{"id": "readiness-open_url-ac90d256", "intent": "open_url", "text": "open the transcript https://www.studentclearinghouse.org/transcript"}
+{"id": "readiness-open_url-043d98e8", "intent": "open_url", "text": "open the tutorial"}
+{"id": "readiness-open_url-a729cd1b", "intent": "open_url", "text": "open the warranty"}
+{"id": "readiness-open_url-bb9f8b91", "intent": "open_url", "text": "open the warranty https://www.samsung.com/us/support/warranty"}
+{"id": "readiness-open_url-21830054", "intent": "open_url", "text": "open the wiki page"}
+{"id": "readiness-open_url-85d958e5", "intent": "open_url", "text": "bring up"}
+{"id": "readiness-open_url-d1511582", "intent": "open_url", "text": "bring up https://status.rust-lang.org"}
+{"id": "readiness-open_url-25070cd9", "intent": "open_url", "text": "browse"}
+{"id": "readiness-open_url-18324eef", "intent": "open_url", "text": "browse example.com"}
+{"id": "readiness-open_url-2cd723e8", "intent": "open_url", "text": "check out"}
+{"id": "readiness-open_url-23ce36b1", "intent": "open_url", "text": "check out https://github.com/rust-lang/rfcs"}
+{"id": "readiness-open_url-e7d3799e", "intent": "open_url", "text": "fetch"}
+{"id": "readiness-open_url-e4e19a57", "intent": "open_url", "text": "fetch example.org"}
+{"id": "readiness-open_url-caf22378", "intent": "open_url", "text": "go to"}
+{"id": "readiness-open_url-b4005d52", "intent": "open_url", "text": "go to https://lobste.rs"}
+{"id": "readiness-open_url-507143b5", "intent": "open_url", "text": "have a look at"}
+{"id": "readiness-open_url-95ce948d", "intent": "open_url", "text": "have a look at https://www.bbc.co.uk/news"}
+{"id": "readiness-open_url-82a35e9b", "intent": "open_url", "text": "head to"}
+{"id": "readiness-open_url-5ebeacec", "intent": "open_url", "text": "head to https://www.reuters.com/world"}
+{"id": "readiness-open_url-8f89a488", "intent": "open_url", "text": "hop over to"}
+{"id": "readiness-open_url-d2c26a75", "intent": "open_url", "text": "hop over to https://archive.org/details/nasa"}
+{"id": "readiness-open_url-660fad04", "intent": "open_url", "text": "jump to"}
+{"id": "readiness-open_url-62a63855", "intent": "open_url", "text": "jump to https://crates.io/crates/serde"}
+{"id": "readiness-open_url-39384b1a", "intent": "open_url", "text": "load up"}
+{"id": "readiness-open_url-c7d7ee2d", "intent": "open_url", "text": "load up https://docs.python.org/3/library/asyncio.html"}
+{"id": "readiness-open_url-d0cda655", "intent": "open_url", "text": "navigate"}
+{"id": "readiness-open_url-5413e21c", "intent": "open_url", "text": "navigate crates.io"}
+{"id": "readiness-open_url-b95ee894", "intent": "open_url", "text": "pop open"}
+{"id": "readiness-open_url-0bd27d04", "intent": "open_url", "text": "pop open https://imgur.com/gallery"}
+{"id": "readiness-open_url-6171db37", "intent": "open_url", "text": "pull up"}
+{"id": "readiness-open_url-f63f6c4f", "intent": "open_url", "text": "pull up https://www.weather.gov/forecast"}
+{"id": "readiness-open_url-34e159b1", "intent": "open_url", "text": "show me"}
+{"id": "readiness-open_url-c7a4e682", "intent": "open_url", "text": "show me https://www.wikidata.org/wiki/douglas_adams"}
+{"id": "readiness-open_url-01993117", "intent": "open_url", "text": "surf"}
+{"id": "readiness-open_url-308db650", "intent": "open_url", "text": "surf news.ycombinator.com"}
+{"id": "readiness-open_url-f93fcfee", "intent": "open_url", "text": "take a look at"}
+{"id": "readiness-open_url-8bbe4a1f", "intent": "open_url", "text": "take a look at https://www.npr.org/sections/news"}
+{"id": "readiness-open_url-f0e68ac2", "intent": "open_url", "text": "visit"}
+{"id": "readiness-open_url-e974799e", "intent": "open_url", "text": "visit wikipedia.org"}
+{"id": "readiness-start_application-a8d182e4", "intent": "start_application", "text": "boot keepassxc"}
+{"id": "readiness-start_application-c0f7478e", "intent": "start_application", "text": "boot the application"}
+{"id": "readiness-start_application-34057241", "intent": "start_application", "text": "bring up gimp"}
+{"id": "readiness-start_application-ae5de65e", "intent": "start_application", "text": "bring up the desktop app"}
+{"id": "readiness-start_application-c062b91e", "intent": "start_application", "text": "fire up kdenlive"}
+{"id": "readiness-start_application-e2a6c59a", "intent": "start_application", "text": "fire up the widget"}
+{"id": "readiness-start_application-289e3e1e", "intent": "start_application", "text": "launch the item"}
+{"id": "readiness-start_application-e2ea78d1", "intent": "start_application", "text": "load blender"}
+{"id": "readiness-start_application-41e0c144", "intent": "start_application", "text": "load the package"}
+{"id": "readiness-start_application-68146a40", "intent": "start_application", "text": "open discord"}
+{"id": "readiness-start_application-f2973040", "intent": "start_application", "text": "open firefox"}
+{"id": "readiness-start_application-035b919c", "intent": "start_application", "text": "open the app"}
+{"id": "readiness-start_application-d185d8b6", "intent": "start_application", "text": "open the application"}
+{"id": "readiness-start_application-2303532e", "intent": "start_application", "text": "open the client"}
+{"id": "readiness-start_application-86244aea", "intent": "start_application", "text": "open the command"}
+{"id": "readiness-start_application-affd529b", "intent": "start_application", "text": "open the frontend"}
+{"id": "readiness-start_application-abf3a5ac", "intent": "start_application", "text": "open the project"}
+{"id": "readiness-start_application-534dd258", "intent": "start_application", "text": "open the script"}
+{"id": "readiness-start_application-31d67602", "intent": "start_application", "text": "open the tool"}
+{"id": "readiness-start_application-68ad4057", "intent": "start_application", "text": "pull up spotify"}
+{"id": "readiness-start_application-be0841da", "intent": "start_application", "text": "pull up the binary"}
+{"id": "readiness-start_application-da2c6c29", "intent": "start_application", "text": "reopen obsidian"}
+{"id": "readiness-start_application-8bfee100", "intent": "start_application", "text": "reopen the program"}
+{"id": "readiness-start_application-89064696", "intent": "start_application", "text": "run signal"}
+{"id": "readiness-start_application-7bac8c30", "intent": "start_application", "text": "run the executable"}
+{"id": "readiness-start_application-218fca54", "intent": "start_application", "text": "start libreoffice"}
+{"id": "readiness-start_application-02aba7d8", "intent": "start_application", "text": "start the process"}
+{"id": "readiness-start_application-cd93b69a", "intent": "start_application", "text": "start the software"}
+{"id": "readiness-start_application-e1b84f30", "intent": "start_application", "text": "start the thing"}
+{"id": "readiness-start_application-a3677ca7", "intent": "start_application", "text": "launch pavucontrol"}
+{"id": "readiness-start_application-11a2798d", "intent": "start_application", "text": "launch spotify"}
+{"id": "readiness-start_application-e67f8a65", "intent": "start_application", "text": "launch the audio player"}
+{"id": "readiness-start_application-da6e524c", "intent": "start_application", "text": "launch the volume mixer"}
+{"id": "readiness-start_application-d71d0a70", "intent": "start_application", "text": "open eog"}
+{"id": "readiness-start_application-c6ed6e2d", "intent": "start_application", "text": "open flameshot"}
+{"id": "readiness-start_application-397a5a19", "intent": "start_application", "text": "open gdb"}
+{"id": "readiness-start_application-94bb0863", "intent": "start_application", "text": "open obsidian"}
+{"id": "readiness-start_application-362c5e9d", "intent": "start_application", "text": "open pacman"}
+{"id": "readiness-start_application-aa750d0c", "intent": "start_application", "text": "open spotifyd"}
+{"id": "readiness-start_application-1633fd9f", "intent": "start_application", "text": "open the chat client"}
+{"id": "readiness-start_application-79380929", "intent": "start_application", "text": "open the debugger"}
+{"id": "readiness-start_application-eadd87da", "intent": "start_application", "text": "open the music daemon"}
+{"id": "readiness-start_application-e48d1bb9", "intent": "start_application", "text": "open the music player"}
+{"id": "readiness-start_application-64a34826", "intent": "start_application", "text": "open the note app"}
+{"id": "readiness-start_application-06964e8e", "intent": "start_application", "text": "open the package manager"}
+{"id": "readiness-start_application-ec590784", "intent": "start_application", "text": "open the pdf reader"}
+{"id": "readiness-start_application-68c144a7", "intent": "start_application", "text": "open the screenshot tool"}
+{"id": "readiness-start_application-c58dda73", "intent": "start_application", "text": "open thunar"}
+{"id": "readiness-start_application-dd750c7f", "intent": "start_application", "text": "open vscode"}
+{"id": "readiness-start_application-7b5e90c4", "intent": "start_application", "text": "start eog"}
+{"id": "readiness-start_application-6f3e4a94", "intent": "start_application", "text": "start keepassxc"}
+{"id": "readiness-start_application-3f74b1b9", "intent": "start_application", "text": "start the image viewer"}
+{"id": "readiness-start_application-c43cf1d0", "intent": "start_application", "text": "start the password manager"}
+{"id": "readiness-start_application-4509beb0", "intent": "start_application", "text": "boot"}
+{"id": "readiness-start_application-4aeb8845", "intent": "start_application", "text": "boot discord"}
+{"id": "readiness-start_application-85d958e5", "intent": "start_application", "text": "bring up"}
+{"id": "readiness-start_application-28011376", "intent": "start_application", "text": "bring up obsidian"}
+{"id": "readiness-start_application-dc9f28b1", "intent": "start_application", "text": "fire"}
+{"id": "readiness-start_application-be0c2ae6", "intent": "start_application", "text": "fire the terminal"}
+{"id": "readiness-start_application-9d3bdf92", "intent": "start_application", "text": "fire up"}
+{"id": "readiness-start_application-8cb67c54", "intent": "start_application", "text": "fire up inkscape"}
+{"id": "readiness-start_application-0cf67fc7", "intent": "start_application", "text": "load"}
+{"id": "readiness-start_application-519dbe88", "intent": "start_application", "text": "load spotify"}
+{"id": "readiness-start_application-b95ee894", "intent": "start_application", "text": "pop open"}
+{"id": "readiness-start_application-33d0b103", "intent": "start_application", "text": "pop open keepassxc"}
+{"id": "readiness-start_application-6171db37", "intent": "start_application", "text": "pull up"}
+{"id": "readiness-start_application-481f1094", "intent": "start_application", "text": "pull up signal"}
+{"id": "readiness-start_application-e49b5c7a", "intent": "start_application", "text": "raise"}
+{"id": "readiness-start_application-38e46a0b", "intent": "start_application", "text": "raise the browser"}
+{"id": "readiness-start_application-d788567f", "intent": "start_application", "text": "relaunch"}
+{"id": "readiness-start_application-174f6663", "intent": "start_application", "text": "relaunch zoom"}
+{"id": "readiness-start_application-a04afb36", "intent": "start_application", "text": "spawn"}
+{"id": "readiness-start_application-fbceed6d", "intent": "start_application", "text": "spawn the editor"}
+{"id": "readiness-start_application-ec0fc73e", "intent": "start_application", "text": "spin up"}
+{"id": "readiness-start_application-efc490a8", "intent": "start_application", "text": "spin up kdenlive"}
+{"id": "readiness-start_application-3c2962a2", "intent": "start_application", "text": "start up"}
+{"id": "readiness-start_application-a39dfceb", "intent": "start_application", "text": "start up pavucontrol"}
+{"id": "readiness-start_application-387df190", "intent": "start_application", "text": "switch to"}
+{"id": "readiness-start_application-b60b2798", "intent": "start_application", "text": "switch to thunar"}
+{"id": "readiness-stop_application-2e2fa55b", "intent": "stop_application", "text": "close the application"}
+{"id": "readiness-stop_application-68242313", "intent": "stop_application", "text": "close the discord tray icon"}
+{"id": "readiness-stop_application-3e81990c", "intent": "stop_application", "text": "close the foreground window"}
+{"id": "readiness-stop_application-07b3b9a0", "intent": "stop_application", "text": "close the gimp foreground window"}
+{"id": "readiness-stop_application-8901c9db", "intent": "stop_application", "text": "close the player"}
+{"id": "readiness-stop_application-ee5a956f", "intent": "stop_application", "text": "close the program"}
+{"id": "readiness-stop_application-f910ad8b", "intent": "stop_application", "text": "close the tray icon"}
+{"id": "readiness-stop_application-071ac213", "intent": "stop_application", "text": "close the vlc player"}
+{"id": "readiness-stop_application-1267f544", "intent": "stop_application", "text": "force quit the client"}
+{"id": "readiness-stop_application-4ad633bc", "intent": "stop_application", "text": "force quit the spotify client"}
+{"id": "readiness-stop_application-4c9338dc", "intent": "stop_application", "text": "halt the helper"}
+{"id": "readiness-stop_application-4c6bd6dd", "intent": "stop_application", "text": "halt the keepassxc helper"}
+{"id": "readiness-stop_application-9bff19f7", "intent": "stop_application", "text": "kill the app"}
+{"id": "readiness-stop_application-3c5c1a62", "intent": "stop_application", "text": "kill the blender renderer"}
+{"id": "readiness-stop_application-5bcd4996", "intent": "stop_application", "text": "kill the instance"}
+{"id": "readiness-stop_application-54a63e92", "intent": "stop_application", "text": "kill the item"}
+{"id": "readiness-stop_application-20e5ed8e", "intent": "stop_application", "text": "kill the obsidian instance"}
+{"id": "readiness-stop_application-c68df66b", "intent": "stop_application", "text": "kill the renderer"}
+{"id": "readiness-stop_application-84750853", "intent": "stop_application", "text": "kill the stray editor"}
+{"id": "readiness-stop_application-29682d9e", "intent": "stop_application", "text": "shut down the background app"}
+{"id": "readiness-stop_application-632fcc6d", "intent": "stop_application", "text": "shut down the spotify background app"}
+{"id": "readiness-stop_application-198c4bed", "intent": "stop_application", "text": "stop the application"}
+{"id": "readiness-stop_application-f4143d3e", "intent": "stop_application", "text": "stop the background process"}
+{"id": "readiness-stop_application-7e96551c", "intent": "stop_application", "text": "stop the build server"}
+{"id": "readiness-stop_application-47acc04a", "intent": "stop_application", "text": "stop the builder"}
+{"id": "readiness-stop_application-08d20985", "intent": "stop_application", "text": "stop the daemon"}
+{"id": "readiness-stop_application-4ed3d7d0", "intent": "stop_application", "text": "stop the emulator"}
+{"id": "readiness-stop_application-66fd8efa", "intent": "stop_application", "text": "stop the firefox process"}
+{"id": "readiness-stop_application-c271d9ad", "intent": "stop_application", "text": "stop the leftover process"}
+{"id": "readiness-stop_application-9a315feb", "intent": "stop_application", "text": "stop the leftover zoom process"}
+{"id": "readiness-stop_application-666d40f4", "intent": "stop_application", "text": "stop the process"}
+{"id": "readiness-stop_application-5b11bf31", "intent": "stop_application", "text": "stop the program"}
+{"id": "readiness-stop_application-af0ae356", "intent": "stop_application", "text": "stop the project"}
+{"id": "readiness-stop_application-9474c995", "intent": "stop_application", "text": "stop the retroarch emulator"}
+{"id": "readiness-stop_application-a0ca9c2e", "intent": "stop_application", "text": "stop the signal background process"}
+{"id": "readiness-stop_application-e3c1e8cd", "intent": "stop_application", "text": "terminate the blender executable"}
+{"id": "readiness-stop_application-9f402987", "intent": "stop_application", "text": "terminate the executable"}
+{"id": "readiness-stop_application-180925af", "intent": "stop_application", "text": "terminate the script"}
+{"id": "readiness-stop_application-99371123", "intent": "stop_application", "text": "terminate the thing"}
+{"id": "readiness-stop_application-343832a7", "intent": "stop_application", "text": "terminate the worker"}
+{"id": "readiness-stop_application-7ed4b1fb", "intent": "stop_application", "text": "close out obs"}
+{"id": "readiness-stop_application-a17e04d3", "intent": "stop_application", "text": "close out the screen recorder"}
+{"id": "readiness-stop_application-d3d49be3", "intent": "stop_application", "text": "close qbittorrent"}
+{"id": "readiness-stop_application-ee3a05b8", "intent": "stop_application", "text": "close the download client"}
+{"id": "readiness-stop_application-8e6f2cb0", "intent": "stop_application", "text": "end copyq"}
+{"id": "readiness-stop_application-1902b256", "intent": "stop_application", "text": "end the clipboard manager"}
+{"id": "readiness-stop_application-b87c7a36", "intent": "stop_application", "text": "exit file-roller"}
+{"id": "readiness-stop_application-1c42ff87", "intent": "stop_application", "text": "exit the archive manager"}
+{"id": "readiness-stop_application-6267de68", "intent": "stop_application", "text": "force quit blender"}
+{"id": "readiness-stop_application-cb83a388", "intent": "stop_application", "text": "force quit the 3d modeller"}
+{"id": "readiness-stop_application-b471c298", "intent": "stop_application", "text": "force stop gpodder"}
+{"id": "readiness-stop_application-135e8c8d", "intent": "stop_application", "text": "force stop the podcast player"}
+{"id": "readiness-stop_application-92dc3890", "intent": "stop_application", "text": "halt audacity"}
+{"id": "readiness-stop_application-af7654ca", "intent": "stop_application", "text": "halt the audio recorder"}
+{"id": "readiness-stop_application-599d908e", "intent": "stop_application", "text": "kill eog"}
+{"id": "readiness-stop_application-0e2b8640", "intent": "stop_application", "text": "kill gdb"}
+{"id": "readiness-stop_application-78444cf7", "intent": "stop_application", "text": "kill keepassxc"}
+{"id": "readiness-stop_application-046ad74f", "intent": "stop_application", "text": "kill okular"}
+{"id": "readiness-stop_application-39afa0a2", "intent": "stop_application", "text": "kill pacman"}
+{"id": "readiness-stop_application-8e09a14b", "intent": "stop_application", "text": "kill signal"}
+{"id": "readiness-stop_application-1c42b92a", "intent": "stop_application", "text": "kill spotify"}
+{"id": "readiness-stop_application-b63404c2", "intent": "stop_application", "text": "kill the chat client"}
+{"id": "readiness-stop_application-4897870a", "intent": "stop_application", "text": "kill the debugger"}
+{"id": "readiness-stop_application-35b751cf", "intent": "stop_application", "text": "kill the editor"}
+{"id": "readiness-stop_application-44c78412", "intent": "stop_application", "text": "kill the file manager"}
+{"id": "readiness-stop_application-450741ec", "intent": "stop_application", "text": "kill the image viewer"}
+{"id": "readiness-stop_application-c927d116", "intent": "stop_application", "text": "kill the mail client"}
+{"id": "readiness-stop_application-6bb43221", "intent": "stop_application", "text": "kill the music player"}
+{"id": "readiness-stop_application-5e943448", "intent": "stop_application", "text": "kill the package manager"}
+{"id": "readiness-stop_application-66ff0ff9", "intent": "stop_application", "text": "kill the password manager"}
+{"id": "readiness-stop_application-ecef9375", "intent": "stop_application", "text": "kill the pdf reader"}
+{"id": "readiness-stop_application-7aa7ac62", "intent": "stop_application", "text": "kill thunar"}
+{"id": "readiness-stop_application-5a392eef", "intent": "stop_application", "text": "kill thunderbird"}
+{"id": "readiness-stop_application-8ef9979f", "intent": "stop_application", "text": "kill vscode"}
+{"id": "readiness-stop_application-ba4e8530", "intent": "stop_application", "text": "quit handbrake"}
+{"id": "readiness-stop_application-400e7c3e", "intent": "stop_application", "text": "quit out gnome-calendar"}
+{"id": "readiness-stop_application-d113412b", "intent": "stop_application", "text": "quit out the calendar app"}
+{"id": "readiness-stop_application-4232e39b", "intent": "stop_application", "text": "quit the media converter"}
+{"id": "readiness-stop_application-1881203c", "intent": "stop_application", "text": "shut down inkscape"}
+{"id": "readiness-stop_application-40519f40", "intent": "stop_application", "text": "shut down the vector editor"}
+{"id": "readiness-stop_application-6ccb42c2", "intent": "stop_application", "text": "terminate flameshot"}
+{"id": "readiness-stop_application-93a35bc3", "intent": "stop_application", "text": "terminate the screenshot utility"}
+{"id": "readiness-stop_application-a4b5d8a0", "intent": "stop_application", "text": "close down"}
+{"id": "readiness-stop_application-0df63ebf", "intent": "stop_application", "text": "close down libreoffice"}
+{"id": "readiness-stop_application-e61c6197", "intent": "stop_application", "text": "close out"}
+{"id": "readiness-stop_application-18bf08d0", "intent": "stop_application", "text": "close out keepassxc"}
+{"id": "readiness-stop_application-361e48d0", "intent": "stop_application", "text": "end"}
+{"id": "readiness-stop_application-96873b0a", "intent": "stop_application", "text": "end the editor"}
+{"id": "readiness-stop_application-e596899f", "intent": "stop_application", "text": "exit"}
+{"id": "readiness-stop_application-a81471fa", "intent": "stop_application", "text": "exit blender"}
+{"id": "readiness-stop_application-d62247ba", "intent": "stop_application", "text": "force quit"}
+{"id": "readiness-stop_application-6b652c49", "intent": "stop_application", "text": "force quit inkscape"}
+{"id": "readiness-stop_application-3fd07d7b", "intent": "stop_application", "text": "halt"}
+{"id": "readiness-stop_application-3ce5a894", "intent": "stop_application", "text": "halt kdenlive"}
+{"id": "readiness-stop_application-4349e230", "intent": "stop_application", "text": "quit out"}
+{"id": "readiness-stop_application-b9b815b5", "intent": "stop_application", "text": "quit out signal"}
+{"id": "readiness-stop_application-53a25cb6", "intent": "stop_application", "text": "shut down"}
+{"id": "readiness-stop_application-6121489e", "intent": "stop_application", "text": "shut down spotify"}
+{"id": "readiness-stop_application-d17e998b", "intent": "stop_application", "text": "shut off"}
+{"id": "readiness-stop_application-09f56417", "intent": "stop_application", "text": "shut off discord"}
+{"id": "readiness-stop_application-1bc0ed36", "intent": "stop_application", "text": "stop the server"}
+{"id": "readiness-stop_application-51c65647", "intent": "stop_application", "text": "terminate the service"}

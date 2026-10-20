@@ -1,0 +1,80 @@
+{"text": "quit", "kind": "incomplete", "family": "verb_only"}
+{"text": "quit firefox", "kind": "complete", "family": "verb_only"}
+{"text": "close", "kind": "incomplete", "family": "verb_only"}
+{"text": "close thunar", "kind": "complete", "family": "verb_only"}
+{"text": "kill", "kind": "incomplete", "family": "verb_only"}
+{"text": "kill gimp", "kind": "complete", "family": "verb_only"}
+{"text": "terminate", "kind": "incomplete", "family": "verb_only"}
+{"text": "terminate obsidian", "kind": "complete", "family": "verb_only"}
+{"text": "exit", "kind": "incomplete", "family": "verb_only"}
+{"text": "exit blender", "kind": "complete", "family": "verb_only"}
+{"text": "halt", "kind": "incomplete", "family": "verb_only"}
+{"text": "halt kdenlive", "kind": "complete", "family": "verb_only"}
+{"text": "shut down", "kind": "incomplete", "family": "verb_only"}
+{"text": "shut down spotify", "kind": "complete", "family": "verb_only"}
+{"text": "force quit", "kind": "incomplete", "family": "verb_only"}
+{"text": "force quit inkscape", "kind": "complete", "family": "verb_only"}
+{"text": "close out", "kind": "incomplete", "family": "verb_only"}
+{"text": "close out keepassxc", "kind": "complete", "family": "verb_only"}
+{"text": "shut off", "kind": "incomplete", "family": "verb_only"}
+{"text": "shut off discord", "kind": "complete", "family": "verb_only"}
+{"text": "force stop", "kind": "incomplete", "family": "verb_only"}
+{"text": "force stop zoom", "kind": "complete", "family": "verb_only"}
+{"text": "quit out", "kind": "incomplete", "family": "verb_only"}
+{"text": "quit out signal", "kind": "complete", "family": "verb_only"}
+{"text": "stop", "kind": "incomplete", "family": "verb_only"}
+{"text": "stop okular", "kind": "complete", "family": "verb_only"}
+{"text": "close down", "kind": "incomplete", "family": "verb_only"}
+{"text": "close down libreoffice", "kind": "complete", "family": "verb_only"}
+{"text": "stop the process", "kind": "incomplete", "family": "bare_noun"}
+{"text": "stop the firefox process", "kind": "complete", "family": "bare_noun"}
+{"text": "stop the emulator", "kind": "incomplete", "family": "bare_noun"}
+{"text": "stop the retroarch emulator", "kind": "complete", "family": "bare_noun"}
+{"text": "kill the instance", "kind": "incomplete", "family": "bare_noun"}
+{"text": "kill the obsidian instance", "kind": "complete", "family": "bare_noun"}
+{"text": "terminate the executable", "kind": "incomplete", "family": "bare_noun"}
+{"text": "terminate the blender executable", "kind": "complete", "family": "bare_noun"}
+{"text": "force quit the client", "kind": "incomplete", "family": "bare_noun"}
+{"text": "force quit the spotify client", "kind": "complete", "family": "bare_noun"}
+{"text": "close the player", "kind": "incomplete", "family": "bare_noun"}
+{"text": "close the vlc player", "kind": "complete", "family": "bare_noun"}
+{"text": "stop the background process", "kind": "incomplete", "family": "bare_noun"}
+{"text": "stop the signal background process", "kind": "complete", "family": "bare_noun"}
+{"text": "close the tray icon", "kind": "incomplete", "family": "bare_noun"}
+{"text": "close the discord tray icon", "kind": "complete", "family": "bare_noun"}
+{"text": "halt the helper", "kind": "incomplete", "family": "bare_noun"}
+{"text": "halt the keepassxc helper", "kind": "complete", "family": "bare_noun"}
+{"text": "kill the renderer", "kind": "incomplete", "family": "bare_noun"}
+{"text": "kill the blender renderer", "kind": "complete", "family": "bare_noun"}
+{"text": "shut down the background app", "kind": "incomplete", "family": "bare_noun"}
+{"text": "shut down the spotify background app", "kind": "complete", "family": "bare_noun"}
+{"text": "close the foreground window", "kind": "incomplete", "family": "bare_noun"}
+{"text": "close the gimp foreground window", "kind": "complete", "family": "bare_noun"}
+{"text": "stop the leftover process", "kind": "incomplete", "family": "bare_noun"}
+{"text": "stop the leftover zoom process", "kind": "complete", "family": "bare_noun"}
+{"text": "quit the media converter", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "quit handbrake", "kind": "complete", "family": "category_outside_list"}
+{"text": "kill the password manager", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "kill keepassxc", "kind": "complete", "family": "category_outside_list"}
+{"text": "close the download client", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "close qbittorrent", "kind": "complete", "family": "category_outside_list"}
+{"text": "stop the note taking app", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "stop obsidian", "kind": "complete", "family": "category_outside_list"}
+{"text": "terminate the screenshot utility", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "terminate flameshot", "kind": "complete", "family": "category_outside_list"}
+{"text": "exit the archive manager", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "exit file-roller", "kind": "complete", "family": "category_outside_list"}
+{"text": "halt the audio recorder", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "halt audacity", "kind": "complete", "family": "category_outside_list"}
+{"text": "close out the screen recorder", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "close out obs", "kind": "complete", "family": "category_outside_list"}
+{"text": "force quit the 3d modeller", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "force quit blender", "kind": "complete", "family": "category_outside_list"}
+{"text": "shut down the vector editor", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "shut down inkscape", "kind": "complete", "family": "category_outside_list"}
+{"text": "force stop the podcast player", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "force stop gpodder", "kind": "complete", "family": "category_outside_list"}
+{"text": "quit out the calendar app", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "quit out gnome-calendar", "kind": "complete", "family": "category_outside_list"}
+{"text": "end the clipboard manager", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "end copyq", "kind": "complete", "family": "category_outside_list"}

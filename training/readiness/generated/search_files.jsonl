@@ -1,0 +1,80 @@
+{"text": "search", "kind": "incomplete", "family": "verb_only"}
+{"text": "search *.rs", "kind": "complete", "family": "verb_only"}
+{"text": "find", "kind": "incomplete", "family": "verb_only"}
+{"text": "find todo", "kind": "complete", "family": "verb_only"}
+{"text": "seek", "kind": "incomplete", "family": "verb_only"}
+{"text": "seek *.bak", "kind": "complete", "family": "verb_only"}
+{"text": "comb", "kind": "incomplete", "family": "verb_only"}
+{"text": "comb *.log", "kind": "complete", "family": "verb_only"}
+{"text": "dig", "kind": "incomplete", "family": "verb_only"}
+{"text": "dig *.tmp", "kind": "complete", "family": "verb_only"}
+{"text": "sweep", "kind": "incomplete", "family": "verb_only"}
+{"text": "sweep *.swp", "kind": "complete", "family": "verb_only"}
+{"text": "rummage", "kind": "incomplete", "family": "verb_only"}
+{"text": "rummage *.orig", "kind": "complete", "family": "verb_only"}
+{"text": "filter", "kind": "incomplete", "family": "verb_only"}
+{"text": "filter node_modules", "kind": "complete", "family": "verb_only"}
+{"text": "search for the invoice", "kind": "incomplete", "family": "bare_noun"}
+{"text": "search for the invoice pdf", "kind": "complete", "family": "bare_noun"}
+{"text": "search for the notes", "kind": "incomplete", "family": "bare_noun"}
+{"text": "search for the release notes", "kind": "complete", "family": "bare_noun"}
+{"text": "search for the manual", "kind": "incomplete", "family": "bare_noun"}
+{"text": "search for the user manual", "kind": "complete", "family": "bare_noun"}
+{"text": "search for the guide", "kind": "incomplete", "family": "bare_noun"}
+{"text": "search for the style guide", "kind": "complete", "family": "bare_noun"}
+{"text": "search for the policy", "kind": "incomplete", "family": "bare_noun"}
+{"text": "search for the privacy policy", "kind": "complete", "family": "bare_noun"}
+{"text": "search for the transcript", "kind": "incomplete", "family": "bare_noun"}
+{"text": "search for the meeting transcript", "kind": "complete", "family": "bare_noun"}
+{"text": "search for the review", "kind": "incomplete", "family": "bare_noun"}
+{"text": "search for the code review", "kind": "complete", "family": "bare_noun"}
+{"text": "search for the minutes", "kind": "incomplete", "family": "bare_noun"}
+{"text": "search for the board minutes", "kind": "complete", "family": "bare_noun"}
+{"text": "search for the first 20 hits", "kind": "incomplete", "family": "quantity"}
+{"text": "search for the first 20 hits in src", "kind": "complete", "family": "quantity"}
+{"text": "search for the last 10 matches", "kind": "incomplete", "family": "quantity"}
+{"text": "search for the last 10 matches in repo", "kind": "complete", "family": "quantity"}
+{"text": "search for the 3 newest files", "kind": "incomplete", "family": "quantity"}
+{"text": "search for the 3 newest files in tmp", "kind": "complete", "family": "quantity"}
+{"text": "search for the first 50 lines", "kind": "incomplete", "family": "quantity"}
+{"text": "search for the first 50 lines in logs", "kind": "complete", "family": "quantity"}
+{"text": "search for the next 10 entries", "kind": "incomplete", "family": "quantity"}
+{"text": "search for the next 10 entries in docs", "kind": "complete", "family": "quantity"}
+{"text": "search for the first 100 occurrences", "kind": "incomplete", "family": "quantity"}
+{"text": "search for the first 100 occurrences of todo", "kind": "complete", "family": "quantity"}
+{"text": "search for the last 5 instances", "kind": "incomplete", "family": "quantity"}
+{"text": "search for the last 5 instances in cache", "kind": "complete", "family": "quantity"}
+{"text": "search for the first 25 results", "kind": "incomplete", "family": "quantity"}
+{"text": "search for the first 25 results in reports", "kind": "complete", "family": "quantity"}
+{"text": "search for the file called", "kind": "incomplete", "family": "dangling_qualifier"}
+{"text": "search for the file called main.rs", "kind": "complete", "family": "dangling_qualifier"}
+{"text": "search for the files containing", "kind": "incomplete", "family": "dangling_qualifier"}
+{"text": "search for the files containing serde", "kind": "complete", "family": "dangling_qualifier"}
+{"text": "search for the directory holding", "kind": "incomplete", "family": "dangling_qualifier"}
+{"text": "search for the directory holding fixtures", "kind": "complete", "family": "dangling_qualifier"}
+{"text": "search for the name starting", "kind": "incomplete", "family": "dangling_qualifier"}
+{"text": "search for the name starting lib", "kind": "complete", "family": "dangling_qualifier"}
+{"text": "search for the path ending", "kind": "incomplete", "family": "dangling_qualifier"}
+{"text": "search for the path ending .toml", "kind": "complete", "family": "dangling_qualifier"}
+{"text": "search for the comment mentioning", "kind": "incomplete", "family": "dangling_qualifier"}
+{"text": "search for the comment mentioning alice", "kind": "complete", "family": "dangling_qualifier"}
+{"text": "search for the archive containing", "kind": "incomplete", "family": "dangling_qualifier"}
+{"text": "search for the archive containing backups", "kind": "complete", "family": "dangling_qualifier"}
+{"text": "search for the log covering", "kind": "incomplete", "family": "dangling_qualifier"}
+{"text": "search for the log covering monday", "kind": "complete", "family": "dangling_qualifier"}
+{"text": "search for the symbol", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "search for the symbol serde", "kind": "complete", "family": "category_outside_list"}
+{"text": "search for the identifier", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "search for the identifier max_retries", "kind": "complete", "family": "category_outside_list"}
+{"text": "search for the flag", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "search for the flag --verbose", "kind": "complete", "family": "category_outside_list"}
+{"text": "search for the label", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "search for the label bug", "kind": "complete", "family": "category_outside_list"}
+{"text": "search for the tag", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "search for the tag v1.0", "kind": "complete", "family": "category_outside_list"}
+{"text": "search for the error", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "search for the error econnrefused", "kind": "complete", "family": "category_outside_list"}
+{"text": "search for the word", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "search for the word serendipity", "kind": "complete", "family": "category_outside_list"}
+{"text": "search for the string", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "search for the string foobar", "kind": "complete", "family": "category_outside_list"}

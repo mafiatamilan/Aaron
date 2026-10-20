@@ -1,0 +1,45 @@
+[package]
+name = "aaron-app"
+description = "The AARON command-line interface and application lifecycle."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[[bin]]
+name = "aaron"
+path = "src/main.rs"
+
+[dependencies]
+aaron-core.workspace = true
+aaron-resources.workspace = true
+aaron-security.workspace = true
+aaron-memory.workspace = true
+aaron-tools.workspace = true
+aaron-brain.workspace = true
+aaron-audio.workspace = true
+aaron-wake.workspace = true
+aaron-asr.workspace = true
+aaron-tts.workspace = true
+aaron-agent.workspace = true
+aaron-learning.workspace = true
+aaron-bench.workspace = true
+anyhow.workspace = true
+clap.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tracing.workspace = true
+
+[features]
+default = ["capture"]
+# Microphone capture. Disable for a headless build that never opens ALSA.
+capture = ["aaron-audio/capture"]
+
+[dev-dependencies]
+tempfile.workspace = true
+filetime = "=0.2.26"
+sha2 = "=0.10.9"
+serde_json.workspace = true
+aaron-brain.workspace = true
+aaron-tts.workspace = true

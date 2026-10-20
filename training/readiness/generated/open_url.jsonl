@@ -1,0 +1,80 @@
+{"text": "open up", "kind": "incomplete", "family": "verb_only"}
+{"text": "open up https://news.ycombinator.com", "kind": "complete", "family": "verb_only"}
+{"text": "go to", "kind": "incomplete", "family": "verb_only"}
+{"text": "go to https://lobste.rs", "kind": "complete", "family": "verb_only"}
+{"text": "pull up", "kind": "incomplete", "family": "verb_only"}
+{"text": "pull up https://www.weather.gov/forecast", "kind": "complete", "family": "verb_only"}
+{"text": "bring up", "kind": "incomplete", "family": "verb_only"}
+{"text": "bring up https://status.rust-lang.org", "kind": "complete", "family": "verb_only"}
+{"text": "check out", "kind": "incomplete", "family": "verb_only"}
+{"text": "check out https://github.com/rust-lang/rfcs", "kind": "complete", "family": "verb_only"}
+{"text": "load up", "kind": "incomplete", "family": "verb_only"}
+{"text": "load up https://docs.python.org/3/library/asyncio.html", "kind": "complete", "family": "verb_only"}
+{"text": "show me", "kind": "incomplete", "family": "verb_only"}
+{"text": "show me https://www.wikidata.org/wiki/douglas_adams", "kind": "complete", "family": "verb_only"}
+{"text": "head to", "kind": "incomplete", "family": "verb_only"}
+{"text": "head to https://www.reuters.com/world", "kind": "complete", "family": "verb_only"}
+{"text": "jump to", "kind": "incomplete", "family": "verb_only"}
+{"text": "jump to https://crates.io/crates/serde", "kind": "complete", "family": "verb_only"}
+{"text": "have a look at", "kind": "incomplete", "family": "verb_only"}
+{"text": "have a look at https://www.bbc.co.uk/news", "kind": "complete", "family": "verb_only"}
+{"text": "take a look at", "kind": "incomplete", "family": "verb_only"}
+{"text": "take a look at https://www.npr.org/sections/news", "kind": "complete", "family": "verb_only"}
+{"text": "pop open", "kind": "incomplete", "family": "verb_only"}
+{"text": "pop open https://imgur.com/gallery", "kind": "complete", "family": "verb_only"}
+{"text": "hop over to", "kind": "incomplete", "family": "verb_only"}
+{"text": "hop over to https://archive.org/details/nasa", "kind": "complete", "family": "verb_only"}
+{"text": "open the forum", "kind": "incomplete", "family": "bare_noun"}
+{"text": "open the forum https://discourse.mozilla.org", "kind": "complete", "family": "bare_noun"}
+{"text": "open the gallery", "kind": "incomplete", "family": "bare_noun"}
+{"text": "open the gallery https://www.nga.gov/collection", "kind": "complete", "family": "bare_noun"}
+{"text": "open the subreddit", "kind": "incomplete", "family": "bare_noun"}
+{"text": "open the subreddit https://www.reddit.com/r/rust", "kind": "complete", "family": "bare_noun"}
+{"text": "open the feed", "kind": "incomplete", "family": "bare_noun"}
+{"text": "open the feed https://lwn.net/headlines/rss", "kind": "complete", "family": "bare_noun"}
+{"text": "open the profile", "kind": "incomplete", "family": "bare_noun"}
+{"text": "open the profile https://keybase.io/ada", "kind": "complete", "family": "bare_noun"}
+{"text": "open the thread", "kind": "incomplete", "family": "bare_noun"}
+{"text": "open the thread https://lwn.net/Articles/900001/", "kind": "complete", "family": "bare_noun"}
+{"text": "open the mirror", "kind": "incomplete", "family": "bare_noun"}
+{"text": "open the mirror https://mirrors.kernel.org", "kind": "complete", "family": "bare_noun"}
+{"text": "open the directory", "kind": "incomplete", "family": "bare_noun"}
+{"text": "open the directory https://www.dmoz.org/Computers", "kind": "complete", "family": "bare_noun"}
+{"text": "open the tracker", "kind": "incomplete", "family": "bare_noun"}
+{"text": "open the tracker https://bugs.chromium.org/p/chromium", "kind": "complete", "family": "bare_noun"}
+{"text": "open the marketplace", "kind": "incomplete", "family": "bare_noun"}
+{"text": "open the marketplace https://www.etsy.com/market/ceramics", "kind": "complete", "family": "bare_noun"}
+{"text": "open the catalogue", "kind": "incomplete", "family": "bare_noun"}
+{"text": "open the catalogue https://www.loc.gov/collections", "kind": "complete", "family": "bare_noun"}
+{"text": "open the channel", "kind": "incomplete", "family": "bare_noun"}
+{"text": "open the channel https://www.youtube.com/@veritasium", "kind": "complete", "family": "bare_noun"}
+{"text": "open the listing", "kind": "incomplete", "family": "bare_noun"}
+{"text": "open the listing https://www.airbnb.com/rooms/12345", "kind": "complete", "family": "bare_noun"}
+{"text": "open the invoice", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "open the invoice https://dashboard.stripe.com/invoices/in_1q2w3", "kind": "complete", "family": "category_outside_list"}
+{"text": "open the receipt", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "open the receipt https://www.apple.com/shop/order/w1234567890", "kind": "complete", "family": "category_outside_list"}
+{"text": "open the timetable", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "open the timetable https://www.bahn.de/buchung/fahrplan", "kind": "complete", "family": "category_outside_list"}
+{"text": "open the boarding pass", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "open the boarding pass https://www.united.com/en/us/checkin", "kind": "complete", "family": "category_outside_list"}
+{"text": "open the forecast", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "open the forecast https://www.wunderground.com/forecast/us/ny/new-york", "kind": "complete", "family": "category_outside_list"}
+{"text": "open the survey", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "open the survey https://forms.gle/8fh2kl", "kind": "complete", "family": "category_outside_list"}
+{"text": "open the lease", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "open the lease https://www.docusign.com/documents/lease-2026", "kind": "complete", "family": "category_outside_list"}
+{"text": "open the datasheet", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "open the datasheet https://www.ti.com/lit/ds/symlink/lm358.pdf", "kind": "complete", "family": "category_outside_list"}
+{"text": "open the leaderboard", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "open the leaderboard https://www.chess.com/leaderboard", "kind": "complete", "family": "category_outside_list"}
+{"text": "open the transcript", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "open the transcript https://www.studentclearinghouse.org/transcript", "kind": "complete", "family": "category_outside_list"}
+{"text": "open the itinerary", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "open the itinerary https://www.expedia.com/trips/987654", "kind": "complete", "family": "category_outside_list"}
+{"text": "open the payslip", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "open the payslip https://payroll.adp.com/statements/2026-03", "kind": "complete", "family": "category_outside_list"}
+{"text": "open the syllabus", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "open the syllabus https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011", "kind": "complete", "family": "category_outside_list"}
+{"text": "open the warranty", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "open the warranty https://www.samsung.com/us/support/warranty", "kind": "complete", "family": "category_outside_list"}

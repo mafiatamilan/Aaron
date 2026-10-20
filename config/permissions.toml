@@ -1,0 +1,81 @@
+# AARON's shipped policy file.
+#
+# AARON is deny-by-default: a tool with no entry here cannot run. Effects are
+# `allow`, `ask` or `deny`.
+#
+# Start with read-only tools enabled and add state-changing ones one at a time.
+# `ask` is the right setting for anything irreversible until you trust it.
+
+version = 1
+unknown_tool = "deny"
+
+[limits]
+# Ceilings no tool entry may exceed. Lower them; never raise them here.
+max_runtime_secs = 30
+max_output_bytes = 65536
+max_audit_value_chars = 160
+refuse_root = true
+# Outbound network access is denied globally. `open_url` is the only tool in the
+# `network` category, so it stays refused until you enable this deliberately.
+allow_network = false
+
+# --- read-only tools -------------------------------------------------------
+
+[tools.system_status]
+effect = "allow"
+timeout_secs = 8
+max_output_bytes = 8192
+note = "reads /proc and optionally nvidia-smi; changes nothing"
+
+[tools.search_files]
+effect = "allow"
+timeout_secs = 15
+max_output_bytes = 16384
+note = "walks the configured roots only, never follows symlinks"
+
+[tools.git_status]
+effect = "allow"
+timeout_secs = 15
+max_output_bytes = 16384
+note = "runs `git status --porcelain` with a fixed argument vector"
+
+[tools.recall]
+effect = "allow"
+timeout_secs = 5
+max_output_bytes = 8192
+note = "reads your own memory; reveal the results before sharing"
+
+[tools.cancel]
+effect = "allow"
+note = "no side effects"
+
+# --- tools that read your files: start with `ask` ---------------------------
+
+[tools.read_file]
+effect = "ask"
+timeout_secs = 10
+max_output_bytes = 65536
+note = "shows the exact path before reading; your files can be private"
+
+# --- state-changing tools: uncomment only after you have read this ---------
+#
+# [tools.remember]
+# effect = "ask"
+# note = "writes a fact to your long-term memory database"
+#
+# [tools.run_tests]
+# effect = "ask"
+# timeout_secs = 300
+# note = "runs a pre-registered test command; never an arbitrary shell string"
+#
+# [tools.start_application]
+# effect = "ask"
+# note = "launches an application from your config allow-list"
+#
+# [tools.stop_application]
+# effect = "ask"
+# note = "SIGTERMs an application from your config allow-list"
+#
+# [tools.open_url]
+# effect = "ask"
+# note = "needs allow_network = true above, and hands a URL to your browser"

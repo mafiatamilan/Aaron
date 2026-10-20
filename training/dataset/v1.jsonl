@@ -1,0 +1,641 @@
+{"id": "cancel-618bda39", "text": "abort", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-e061fd7e", "text": "abort everything", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-8d4f7275", "text": "abort now", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-c789f61a", "text": "abort that", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-55ab1baf", "text": "abort the operation", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-0a34c967", "text": "abort the test run", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-4b387e3b", "text": "cancel", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-b174a73f", "text": "cancel cancel", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-bc8c5c9c", "text": "cancel everything", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-185de16d", "text": "cancel immediately", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-81379b84", "text": "cancel it", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-17a18ab7", "text": "cancel please", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-65331147", "text": "cancel please now", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-728b10e8", "text": "cancel that", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-e6614351", "text": "cancel that command", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-41394409", "text": "cancel that request", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-e7425909", "text": "cancel the command", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-83ed6c1c", "text": "cancel the current operation", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-9dadb28c", "text": "cancel the last thing", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-896687a9", "text": "cancel the open url", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-1f4e295b", "text": "cancel the whole thing", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-82478bd9", "text": "forget it", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-c7766ade", "text": "forget it all", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-d2e9a86f", "text": "forget my last request", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-b88a43cd", "text": "forget that", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-f3444548", "text": "forget the last command", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-92655f7e", "text": "forget what i said", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-83e7a5cd", "text": "leave it", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-0fd3603b", "text": "never mind", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-d2b2174d", "text": "never mind forget it", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-9cb49ea5", "text": "nevermind", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-b61598b9", "text": "nevermind cancel", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-c66a2cfe", "text": "nevermind cancel everything", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-0389b152", "text": "nevermind that was wrong", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-5e5c4624", "text": "no cancel", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-91318523", "text": "no wait", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-2ea2ed1c", "text": "no wait cancel that", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-715d385e", "text": "scratch that", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-1db2bcc5", "text": "stop", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-698da4e8", "text": "stop all of it", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-2352b042", "text": "stop everything", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-99d9aee7", "text": "stop stop", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-bbd668ce", "text": "stop that", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-91dfa74a", "text": "stop that now", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-ffe8b3ef", "text": "stop the current thing", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-9e97aa2e", "text": "take that back", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-f4cfd042", "text": "that's enough", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "cancel-d1d01574", "text": "undo that", "intent": "cancel", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-f5b528ae", "text": "any modified files in git", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-a259a8a3", "text": "any uncommitted changes", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-8cecbaae", "text": "are there staged changes", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-ec393faf", "text": "check for dirty files", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-b4436013", "text": "check git status", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-7c6de76a", "text": "check if anything needs committing", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-5dadc1de", "text": "check the branch status", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-da176bca", "text": "check the repository status", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-0199dc11", "text": "check the tree state", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-2c60dc54", "text": "check version control status", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-f66ed3ad", "text": "do i have uncommitted changes", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-e19abfb3", "text": "do i need to commit anything", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-f4b62102", "text": "git state", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-d14b9093", "text": "git status", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-4820092c", "text": "git status of this repo", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-a843350f", "text": "git status please", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-d7f44511", "text": "give me a git summary", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-66ae9e63", "text": "how many files changed", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-06cbc6a7", "text": "is the repository clean", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-1a0d6e2b", "text": "show git diff status", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-8fe06a46", "text": "show me untracked files", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-c5d5921b", "text": "show me what changed in git", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-1bbb701e", "text": "show the current branch", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-f75cd253", "text": "show the git status", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-391a048f", "text": "show the git summary", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-b3961608", "text": "show the repo state", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-d8e814c7", "text": "what branch am i on", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-6ad19460", "text": "what does git think", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-87074423", "text": "what has changed since the last commit", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-be5af870", "text": "what is in the working tree", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-de7b4225", "text": "what is staged", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "git_status-f621b754", "text": "what is the git status", "intent": "git_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-0bd446ef", "text": "evening", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-0a600a8c", "text": "good afternoon", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-d2ea84f2", "text": "good day", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-b58ea1d4", "text": "good evening", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-2f7cc3f0", "text": "good morning", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-3ab69345", "text": "good morning aaron", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-06b301e5", "text": "good to see you", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-13d73fff", "text": "greetings", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-d3026d32", "text": "greetings aaron", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-80aabd0b", "text": "hello", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-503288de", "text": "hello aaron", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-5e4689e5", "text": "hello aaron how are you", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-d0f6ab73", "text": "hello again", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-52a75366", "text": "hello again aaron", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-2e41fd63", "text": "hello assistant", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-9c7033ff", "text": "hello hello", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-dc8fb319", "text": "hello there", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-d4aaf308", "text": "hello there aaron", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-c0e675ca", "text": "hello there how are things", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-2fe3767d", "text": "hey", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-2387326c", "text": "hey aaron", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-d4486865", "text": "hey aaron good morning", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-245d9ced", "text": "hey aaron what's up", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-138c8747", "text": "hey are you awake", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-ec6ecf08", "text": "hey, are you there", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-b55ec3da", "text": "hi", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-39492eeb", "text": "hi aaron", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-04c80250", "text": "hi aaron good evening", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-dd4b2e19", "text": "hi aaron you around", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-84f398b6", "text": "hi again", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-84762e47", "text": "hi again aaron", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-828f9986", "text": "hi are you listening", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-32dcc6aa", "text": "hi assistant", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-eae22801", "text": "hi hi", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-f0955d80", "text": "hi there", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-fa089843", "text": "hi, anyone home", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-9aec3948", "text": "hiya", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-55c98376", "text": "howdy", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-156fbfa8", "text": "just checking in", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-70b5d458", "text": "just saying hello", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-acd00e57", "text": "knock knock", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-d3b5b38f", "text": "morning", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-94c7b3a2", "text": "morning aaron", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-ffa84ee6", "text": "nice to meet you aaron", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-5d0fa45f", "text": "sup", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "greeting-b58a1341", "text": "yo", "intent": "greeting", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-c866a469", "text": "can you help me", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-042ef695", "text": "command overview", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-fcd79554", "text": "examples please", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-9c35a492", "text": "explain what you do", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-e584546a", "text": "features list", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-dcb403fe", "text": "give me an example command", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-ee276f8c", "text": "give me the command list", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-5fa26aba", "text": "help", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-c04a7505", "text": "help me understand you", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-037e3778", "text": "help please", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-85609ad4", "text": "help with commands", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-72d18efe", "text": "how can i use aaron", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-5f5c02a1", "text": "how do i talk to you", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-a69cfc35", "text": "how do i use you", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-bf277c56", "text": "how do you work", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-2bdc2484", "text": "i don't know what to ask you", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-a5b2476f", "text": "i forgot what you can do", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-d9eb6e43", "text": "i need help", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-29fd82e0", "text": "list everything you can do", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-6353dade", "text": "list your commands", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-1517bf97", "text": "list your features", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-7870eacb", "text": "overview of commands", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-10860fa7", "text": "print the manual", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-d3e676d5", "text": "quick reference please", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-da9df3e4", "text": "remind me what you support", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-6bc81e92", "text": "show capabilities", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-d44abdd7", "text": "show help", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-ecaa1edc", "text": "show me the help", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-2d81b629", "text": "show the quick reference", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-b53ca392", "text": "tell me about yourself", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-4db75ac8", "text": "usage", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-3c8ceb43", "text": "what are my options", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-7d7df392", "text": "what are the available intents", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-1b19ce34", "text": "what are you able to do", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-52c098bc", "text": "what are you good at", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-25a000d2", "text": "what are your capabilities", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-9ec21aff", "text": "what can you do", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-e9cc0d1f", "text": "what commands do you understand", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-cbc7c71d", "text": "what do the commands look like", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-b59dbc96", "text": "what do you know how to do", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-89a93372", "text": "what does aaron do", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-6010a38d", "text": "what does aaron understand", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-e1d0a2aa", "text": "what should i say", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-7dedcb3b", "text": "what syntax do you use", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-f248417d", "text": "what's the syntax", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "help-a9f8e19f", "text": "which commands exist", "intent": "help", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-0733b0c2", "text": "browse https://developer.mozilla.org", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-2485f287", "text": "browse https://www.gnu.org", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-ab976f9f", "text": "browse to https://crates.io", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-a3e80280", "text": "browse to https://news.ycombinator.com", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-f1fd1a73", "text": "browse to https://news.ycombinator.com/newest", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-4f4f2622", "text": "browse to https://www.phoronix.com", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-87e90b02", "text": "go to https://archlinux.org/packages/extra/x86_64/whisper.cpp", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-3f16fd57", "text": "go to https://arxiv.org/abs/1706.03762", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-11a80511", "text": "go to https://en.wikipedia.org/wiki/Rust", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-54f2fcf3", "text": "go to https://wiki.archlinux.org", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-f3233415", "text": "go to https://www.kernel.org", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-2aa222f1", "text": "go to the site https://github.com", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-60c39f98", "text": "open https://code.visualstudio.com", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-4fe57db3", "text": "open https://crates.io/crates/candle-core", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-5966b7c2", "text": "open https://docs.rs/candle/latest", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-8a7c1bb9", "text": "open https://example.com", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-56f3b0bc", "text": "open https://example.com/a?b=c", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-75239261", "text": "open https://github.com/aaron-assistant/aaron", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-fb49b7bf", "text": "open https://github.com/huggingface/candle", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-adb42b21", "text": "open https://jsonplaceholder.typicode.com", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-a762c1bc", "text": "open https://lib.rs", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-d046f452", "text": "open https://localhost:3000", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-f05dacd0", "text": "open https://localhost:8080/health", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-71dd37d9", "text": "open https://sourceforge.net", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-df4c1437", "text": "open https://stackoverflow.com/questions/1", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-42e73fea", "text": "open https://this-week-in-rust.org", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-6f68c344", "text": "open https://www.reddit.com/r/rust", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-cb6d1c69", "text": "open https://www.rust-lang.org/learn", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-f0a3f46e", "text": "open the url https://example.org/docs", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-994acdf6", "text": "open the website example.com", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-d79e2e5c", "text": "open the website https://aaron.local/docs", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-4698e7f3", "text": "open the website https://rust-lang.org", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-fbb7ddbc", "text": "show https://example.net/index.html", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-bc3ce000", "text": "show me https://docs.python.org/3", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-b2315ec7", "text": "show me https://man.archlinux.org", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-849cb668", "text": "show me https://wikipedia.org", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-137ae4c7", "text": "visit https://archlinux.org", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-e0c4af3c", "text": "visit https://doc.rust-lang.org", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-e7f5525d", "text": "visit https://status.github.com", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "open_url-13949bfd", "text": "visit https://www.rust-lang.org", "intent": "open_url", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-3282e9c4", "text": "cat .env.example", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-feccba04", "text": "cat changelog.md", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-d7c7456b", "text": "cat the license file", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-0fe9303e", "text": "cat the top of main.rs", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-6cb6f7be", "text": "open docker-compose.yml", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-0d903a3e", "text": "open notes.txt", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-9fd5f014", "text": "open readme.md", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-62916954", "text": "open the changelog", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-e20d6329", "text": "open the file index.js", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-e450a9af", "text": "open the file license", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-6737d8f9", "text": "open the file notes", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-ea931e8c", "text": "open the gitignore", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-c473c1b6", "text": "open the makefile", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-f65b29d8", "text": "open the readme", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-6c298018", "text": "open the test file", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-ba607d98", "text": "open tsconfig.json", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-422f0197", "text": "read app.py", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-bd035b89", "text": "read config.toml", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-e39aebfb", "text": "read config/default.toml", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-34432d69", "text": "read setup.sh", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-99f852e4", "text": "read src/lib.rs", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-c22dccba", "text": "read src/main.rs", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-eb0e0574", "text": "read the file .gitignore", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-40a39292", "text": "read the file cargo.toml", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-6811485a", "text": "read the file dockerfile", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-255073b8", "text": "read the file justfile", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-99f2ae07", "text": "read the file license file", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-7d5d53ec", "text": "read the file main.rs please", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-ddf8d9ee", "text": "read the file pyproject.toml", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-0aaa0f76", "text": "read the file rust-toolchain.toml", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-0bde68c6", "text": "read the first 10 lines of the changelog", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-08a69f58", "text": "read the first 100 lines of readme.md", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-f64d38f8", "text": "read the first 20 lines of dockerfile", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-8dff4263", "text": "read the first 25 lines of setup.sh", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-be7e4add", "text": "read the first 50 lines of main.rs", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-253f13a4", "text": "read the requirements file", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-08bd4b07", "text": "read the settings file", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-d64819ff", "text": "read the source file", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-73a3a83b", "text": "read the top of readme.md", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-43049192", "text": "show me package.json", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-3ea05979", "text": "show me the dockerfile", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-37c91be3", "text": "show me the file main.rs", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-1e40c6a0", "text": "show me the file src/lib.rs", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-7a26e295", "text": "show me the first lines of config.toml", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-f70f1065", "text": "show the contents of build.rs", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "read_file-ed0b8f3a", "text": "show the contents of pyproject.toml", "intent": "read_file", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-90d3544b", "text": "do you know anything about my family", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-63e9570b", "text": "do you know my name", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-50989965", "text": "do you remember anything about my diet", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-315302a1", "text": "do you remember my birthday", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-40b271ac", "text": "do you remember my commute", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-e70c41ca", "text": "do you remember my dog", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-2341691a", "text": "do you remember my language", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-0eb75428", "text": "do you remember my morning routine", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-63796be1", "text": "do you remember my standing desk", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-6817d310", "text": "do you remember the office hours", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-8a3c6e4c", "text": "do you remember what i do for work", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-3f2237ab", "text": "from memory what is my name", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-4a34836d", "text": "look up in memory my email", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-ee3f1cfb", "text": "look up my bank details in memory", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-6d967663", "text": "look up my preferences in memory", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-a1b382c6", "text": "look up what i said about rust", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-6d5bff9a", "text": "look up what you know about my car", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-fa1551cd", "text": "recall my name", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-eece6e1c", "text": "recall my wifi password", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-666eee8c", "text": "recall the things i told you about linux", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-446b2a2a", "text": "recall the wifi details", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-d378e8c7", "text": "recall the wifi name", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-5230386c", "text": "search memory for dark mode", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-b8613108", "text": "search memory for subscription", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-fbeef849", "text": "search memory for team meeting", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-b3763c54", "text": "search memory for the printer", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-30d8cdf2", "text": "search your memory for my address", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-ca57dc18", "text": "search your memory for my flight", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-c58891f7", "text": "search your memory for my password", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-353eed2b", "text": "search your memory for my project", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-5d533f6d", "text": "search your memory for the account number", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-673062af", "text": "what did i say about neovim", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-9ae05deb", "text": "what did i tell you about my rent", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-2830e2a0", "text": "what did i tell you my dog is called", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-01301741", "text": "what do you know about berlin", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-58fe6710", "text": "what do you know about my birthday", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-b07d246b", "text": "what do you know about my hobbies", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-a23a1b70", "text": "what do you know about my job", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-a2c75dc1", "text": "what do you know about my nickname", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-fa5e3347", "text": "what do you know about my passport", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-bab6bc10", "text": "what do you know about my training schedule", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-bf866126", "text": "what do you recall about my birthday", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-1f4c3069", "text": "what do you recall about my meetings", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-96967425", "text": "what do you recall about my phone", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-c2d47d1c", "text": "what do you recall about my weekend", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-56414099", "text": "what do you remember about coffee", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-ae5af1d3", "text": "what do you remember about my allergy", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-1edf9163", "text": "what do you remember about my commute", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-d09667de", "text": "what do you remember about my medication", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-e9de6b21", "text": "what do you remember about tea", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-95a0aafa", "text": "what have i stored about my car", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "recall-14dece23", "text": "what have i told you about my allergies", "intent": "recall", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-390113a3", "text": "keep in mind that i am vegetarian", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-4c24836b", "text": "make a note that i use a standing desk", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-dbc26f63", "text": "note that i take the bus to work", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-f4a572bf", "text": "remember my api key is abc123", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-3a385284", "text": "remember that i am allergic to latex", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-f548fdd0", "text": "remember that i am allergic to nuts", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-fe225aed", "text": "remember that i am allergic to penicillin", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-8fc1a84a", "text": "remember that i am learning rust", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-8e9a43cc", "text": "remember that i am learning spanish", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-81f4628d", "text": "remember that i am on the committee", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-08663374", "text": "remember that i cycle to work", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-f047cd40", "text": "remember that i do not drive", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-d7ec2e11", "text": "remember that i do not eat mushrooms", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-547d4bd7", "text": "remember that i do not like cilantro", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-7b225c5c", "text": "remember that i drink tea", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-2cdc40e2", "text": "remember that i hate monday meetings", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-23f5eea4", "text": "remember that i have a check up in may", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-d8fe7866", "text": "remember that i have a meeting every monday at nine", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-89756431", "text": "remember that i keep backups on sunday", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-bd539937", "text": "remember that i like window seats", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-2cde107b", "text": "remember that i live at number 12", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-7e1cfcac", "text": "remember that i owe rent on the first", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-bdefc179", "text": "remember that i prefer dark roast coffee", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-ae947faa", "text": "remember that i prefer to meet in the morning", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-bf0dd558", "text": "remember that i read before bed", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-d882a5da", "text": "remember that i run every morning", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-d6541f69", "text": "remember that i switched to linux last year", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-1e4a697f", "text": "remember that i take the train on fridays", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-7aac95b0", "text": "remember that i take vitamins at eight", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-b29ebafb", "text": "remember that i use a standing desk mat", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-739ffbcc", "text": "remember that i use i3 window manager", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-f161c63b", "text": "remember that i use neovim", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-5c92656c", "text": "remember that i work in berlin", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-c1347c0d", "text": "remember that my birthday is in june", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-fddd692e", "text": "remember that my commute is 40 minutes", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-9b616e6e", "text": "remember that my daughter starts school in september", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-b2c888cf", "text": "remember that my dog is called rex", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-763b43cf", "text": "remember that my email ends in example.com", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-71884081", "text": "remember that my flight is at seven in the morning", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-9c26533c", "text": "remember that my name is david", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-053a990e", "text": "remember that my phone number ends in 4821", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-a5779fae", "text": "remember that my project is called aaron", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-1ac48922", "text": "remember that my subscription renews in august", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-6f5db58c", "text": "remember that the code review is on thursday", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-9cce0032", "text": "remember that the office closes at six", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-6988f36c", "text": "remember that the printer is on the second floor", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-6c539c03", "text": "remember that the spare key is under the mat", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-de08c150", "text": "remember that the wifi is called office5g", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-c077277a", "text": "remember that the wifi password is hunter2", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-579d7c19", "text": "remember this that i prefer dark mode", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "remember-aa581437", "text": "store that i prefer tabs over spaces", "intent": "remember", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-6df24e4d", "text": "can you run the tests", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-443f22c6", "text": "execute the tests", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-3285fd4f", "text": "please run the test suite", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-d96b1bb7", "text": "run all the tests", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-0987d3b1", "text": "run cargo nextest", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-abf152da", "text": "run cargo test", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-361f5aa2", "text": "run cargo test quiet", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-ffb60fd0", "text": "run clippy and the tests", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-c8aa3bd5", "text": "run npm test", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-fc6841e1", "text": "run pytest", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-1f4c92ef", "text": "run tests", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-5206475f", "text": "run tests now", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-1e378d8b", "text": "run tests please", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-595324ae", "text": "run tests with output", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-7c54072b", "text": "run the benchmark tests", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-fef89220", "text": "run the cargo tests", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-8d30c0a4", "text": "run the doctests", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-b2cdd26a", "text": "run the integration tests", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-dcea375e", "text": "run the linter and the tests", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-39914267", "text": "run the quick tests", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-97e58393", "text": "run the regression tests", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-5deb0155", "text": "run the smoke tests", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-cd33e5eb", "text": "run the test", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-a427607e", "text": "run the test command", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-0485067b", "text": "run the test suite", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-d637e32d", "text": "run the test suite and tell me", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-7866fd19", "text": "run the test suite for aaron", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-af2f2148", "text": "run the tests", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-dd4a1c74", "text": "run the tests again", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-dd93127a", "text": "run the tests and show me the failures", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-a318e58d", "text": "run the tests and summarise", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-2788b2a8", "text": "run the tests and time them", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-ea7cfd32", "text": "run the tests for this crate", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-3f0e988b", "text": "run the tests in debug mode", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-9146ba0e", "text": "run the tests once more", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-78b6ab80", "text": "run the unit tests", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-189c2f92", "text": "run the unit tests only", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-00380f32", "text": "run the whole suite", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-8abaf32d", "text": "start the test run", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-1e01b11c", "text": "start the test suite", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-4e31aea2", "text": "test everything", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "run_tests-8fed2100", "text": "tests please", "intent": "run_tests", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-ab17d228", "text": "find *.c files", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-69147b5f", "text": "find *.ini files", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-2d706c61", "text": "find *.py", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-35cfe361", "text": "find *.sh scripts", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-afcb652c", "text": "find all *.log files", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-9ff3c3fe", "text": "find documents named invoice", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-fed5eb4a", "text": "find files called .gitignore", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-890173bc", "text": "find files called pyproject.toml", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-b922dde8", "text": "find files called rust-toolchain.toml", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-261a3d20", "text": "find files ending in .md", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-265b46d6", "text": "find files matching *.json", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-b22b5d61", "text": "find files named .env.example", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-4457cd1f", "text": "find files named favicon.ico", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-2b8595f2", "text": "find files named main.rs", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-f4d39086", "text": "find files named readme", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-3d775e3a", "text": "find files named requirements.txt", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-e9ba1739", "text": "find files named test.rs", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-f99e7244", "text": "find the LICENSE file", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-4cfe94f9", "text": "find the dockerfile", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-6772aedb", "text": "find the license header", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-3caa31e6", "text": "find the schema file", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-af55dfe0", "text": "find the settings file", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-2f9d6261", "text": "find the vendored dependencies", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-c64944ca", "text": "locate *.png images", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-b2c2e0fa", "text": "locate *.rs files in the src directory", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-80a5e671", "text": "locate *.yaml files", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-f62a1b0d", "text": "locate a file called makefile", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-e6ae580c", "text": "locate files named tsconfig.json", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-1c937b06", "text": "locate the file config.toml", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-8c365b6c", "text": "locate the tests directory contents", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-b0cc526a", "text": "look for a file called notes.txt", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-eb022726", "text": "search files for build.rs", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-68b9e772", "text": "search files for docker-compose.yml", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-f41faef1", "text": "search files for setup.sh", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-0299a760", "text": "search for *.html files", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-7573003d", "text": "search for *.md documentation", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-561b3863", "text": "search for *.rs in my code", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-4344980a", "text": "search for *.rs in the project", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-f2e987b5", "text": "search for *.sql files", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-9dce9578", "text": "search for *.tex files", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-47b74574", "text": "search for *.toml in my project", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-1ec170ce", "text": "search for files called package.json", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-c6721f63", "text": "search for files called readme.md", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-45d7d0c0", "text": "search for files named justfile", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-b3279199", "text": "where are the css files", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-7f8940f1", "text": "where is cargo.lock", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-65daf759", "text": "where is my resume", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-84a3b07d", "text": "where is the changelog", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-aefb3447", "text": "where is the install script", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-9d7f02da", "text": "where is the main file", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "search_files-3cde5341", "text": "where is the main.rs file", "intent": "search_files", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-ea812dc2", "text": "launch blender", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-acd8de9f", "text": "launch code", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-9d1e47e6", "text": "launch discord", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-9cea7ece", "text": "launch my notes app", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-80e7ef07", "text": "launch obsidian", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-0992634a", "text": "launch slack", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-559c5e1a", "text": "launch steam", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-b2f5fcf0", "text": "launch the archive manager", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-36e1a109", "text": "launch the browser", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-176a9d2f", "text": "launch the code editor", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-41642294", "text": "launch the drawing app", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-854a3a26", "text": "launch the editor", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-05bea14e", "text": "launch the file manager", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-8e47a79f", "text": "launch the terminal", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-a5a88322", "text": "launch the terminal emulator", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-2a123403", "text": "open chromium", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-89b0457a", "text": "open gimp", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-ee916323", "text": "open libreoffice", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-c963b623", "text": "open spotify", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-df5d1ca2", "text": "open the calculator", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-7d5dbf5b", "text": "open the file manager", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-2629d9a7", "text": "open the image viewer", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-d730b88c", "text": "open the mail client", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-6ae4eb94", "text": "open the settings app", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-749a4d4c", "text": "open the task manager", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-f8ddafa2", "text": "open the terminal", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-b4a4b02c", "text": "open the web browser", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-476325c0", "text": "open the webcam app", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-8071dc28", "text": "open thunderbird", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-efef7802", "text": "start firefox", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-02759b4b", "text": "start inkscape", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-e0ce9c84", "text": "start krita", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-2c597630", "text": "start nautilus", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-559a4ed4", "text": "start the browser", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-7d14eaea", "text": "start the clock", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-69990642", "text": "start the file browser", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-e419c2d5", "text": "start the media player", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-60f2c790", "text": "start the music player", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-3250410c", "text": "start the pdf viewer", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-ad74ade2", "text": "start the screenshot tool", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-96edb3cf", "text": "start the system monitor", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-a96bbd84", "text": "start the text editor", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-b32253cd", "text": "start the torrent client", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "start_application-4b5ff0ba", "text": "start zoom", "intent": "start_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-61fd6295", "text": "close everything in chromium", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-edfca4b0", "text": "close krita", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-9896c8fe", "text": "close the file browser", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-67be98a1", "text": "close the file manager", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-40ce84ed", "text": "close the image viewer", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-883edb78", "text": "close the pdf viewer", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-e47be03a", "text": "close the settings app", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-0361576b", "text": "close the system monitor", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-53604c50", "text": "close the terminal", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-86f6efd0", "text": "close the text editor", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-a350cb2d", "text": "kill blender", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-f60256d3", "text": "kill chromium", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-cfdd4eb4", "text": "kill firefox", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-acba130e", "text": "kill obsidian", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-c767aba5", "text": "kill slack", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-86b57ff2", "text": "kill the calculator", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-370a9aae", "text": "kill the camera app", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-2924ec74", "text": "kill the clock", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-577d7b67", "text": "kill the media player", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-4363c0a3", "text": "kill the torrent client", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-8c9b15f6", "text": "quit discord", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-2c9bbd97", "text": "quit gimp", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-3d0c2474", "text": "quit libreoffice", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-525cc4f9", "text": "quit the browser", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-ea71a283", "text": "quit the mail client", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-a63ebea3", "text": "quit the music player", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-5d3bd96b", "text": "quit the notes app", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-8032a28f", "text": "quit the screenshot tool", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-c969e92f", "text": "quit the terminal", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-1313d9e2", "text": "stop nautilus", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-04b08a87", "text": "stop spotify", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-3ba281e5", "text": "stop steam", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-8b82bcbb", "text": "stop the archive manager", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-2ce19d62", "text": "stop the browser", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-4aed367c", "text": "stop the code editor", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-66d30884", "text": "stop the game", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-c2942555", "text": "stop the music", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-b89be928", "text": "stop the task manager", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-693de987", "text": "stop the webcam", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-3e1b7729", "text": "terminate code", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-f96bbfc1", "text": "terminate the download", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "stop_application-62eddc02", "text": "terminate the drawing app", "intent": "stop_application", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-ab0c9873", "text": "any problems with the machine", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-08879d30", "text": "are the systems nominal", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-91c00b7c", "text": "are we running out of memory", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-89d6b4ec", "text": "are you ok", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-be025337", "text": "check cpu and memory", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-9ff9689a", "text": "check on the machine", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-d9bb0a85", "text": "check performance", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-cb2819de", "text": "check resource usage", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-90597962", "text": "check system health", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-a5b8ed1e", "text": "check system status", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-97d2909d", "text": "check the computer", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-c969bb8a", "text": "check the gpu", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-33fde1f9", "text": "check the machine", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-aea6f890", "text": "check the system resources", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-9dc949dd", "text": "give me a status report", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-fb571de6", "text": "give me diagnostics", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-a30515ab", "text": "give me the hardware summary", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-c705cf48", "text": "give me the vitals", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-5cc941e7", "text": "host status", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-c55fad5a", "text": "how are the resources doing", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-b4b20673", "text": "how are things running", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-1b6708e5", "text": "how is the cpu doing", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-ad20c133", "text": "how is the load average", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-775b8c0a", "text": "how is the pc doing", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-ba2cb0d1", "text": "how is the system", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-022a78fc", "text": "how many cores do you have", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-d8421de0", "text": "how much disk space is left", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-29773fc8", "text": "how much memory is left", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-08a594e1", "text": "is the gpu busy", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-ecc1dbfa", "text": "is the system healthy", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-c6da1fe0", "text": "machine health", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-c58b8434", "text": "machine status", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-89849a2a", "text": "quick status check", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-be23e275", "text": "report the system status", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-2431b5d5", "text": "run a health check", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-5566f8f4", "text": "show me system stats", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-0743dc28", "text": "show me the resources", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-3d1cd92f", "text": "status check", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-a3c28075", "text": "status of this computer", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-d98669ea", "text": "system check please", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-d870dee2", "text": "system health", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-edd0529e", "text": "system status", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-e229cef2", "text": "what is the memory usage", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-2408f8fd", "text": "what is your cpu usage", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-0f7d598a", "text": "what temperature is the cpu", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "system_status-46e22978", "text": "what's the system doing", "intent": "system_status", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-e3496c51", "text": "could you pass me the salt", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-577287b2", "text": "explain quantum entanglement to me", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-55cd053a", "text": "give me a recipe for pancakes", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-7eddd578", "text": "how do i bake sourdough bread", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-2d4bbe5e", "text": "how do i change the wallpaper", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-0ffccc48", "text": "how do i tie a bowline knot", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-1066ca57", "text": "how long does it take to boil an egg", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-a1de2207", "text": "how tall is the eiffel tower", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-8298e134", "text": "i am reading a book about distributed systems", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-3d0ab50e", "text": "i finished reading that book last night", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-d5a391c5", "text": "i finished the report last night", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-b8332566", "text": "i had a sandwich earlier and it was fine", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-bc4b8270", "text": "i think i left the oven on", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-b45f9c46", "text": "i would like to order a coffee", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-3a2f4297", "text": "it has been a long week", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-220e7232", "text": "it is raining quite hard outside", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-8918b23e", "text": "my cat knocked over the plant again", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-292683cf", "text": "my favourite colour is a difficult question", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-0e5ad92c", "text": "my keyboard is making a strange noise", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-86dfd63f", "text": "my phone battery is nearly dead", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-d3b60f12", "text": "my wife is called sarah and she likes gardening", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-7e9677b1", "text": "play some jazz music", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-9579f05f", "text": "remind me to water the plants", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-ba56bbe3", "text": "she plays the cello and the piano", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-a4fcfcb1", "text": "should i invest in index funds", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-671ebf6f", "text": "somebody left a package at the door", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-b866be52", "text": "summarise the news for me", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-f45523d0", "text": "tell me a joke about penguins", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-71b30a4f", "text": "tell me about the history of this building", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-5873b7df", "text": "that film was really well made", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-7414fa33", "text": "the bus was late this morning", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-1fb69c8b", "text": "the library closes at eight on fridays", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-47781e97", "text": "the meeting has been moved to thursday", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-601eddfd", "text": "the mitochondria is the powerhouse of the cell", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-08231057", "text": "the plants need watering", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-360f1079", "text": "the shop on the corner closes at six", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-787535f5", "text": "the traffic was terrible this morning", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-49833003", "text": "the train leaves at half past eight", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-c956581c", "text": "the wifi keeps dropping out", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-f6b15060", "text": "translate good morning into french", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-2e3fbdee", "text": "what are the odds of rain this weekend", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-11f7e155", "text": "what are the rules of cricket", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-150d1eff", "text": "what do you think about this code", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-c310a739", "text": "what does the acronym api stand for", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-cfacdf51", "text": "what does the fox say", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-93822b9c", "text": "what is the airspeed velocity of an unladen swallow", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-1bae5240", "text": "what is the boiling point of water", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-c057c715", "text": "what is the capital of australia", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-e5277121", "text": "what is the difference between rust and c", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-2b7f6f31", "text": "what is the smallest prime number", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-0123b6c2", "text": "what is the weather in copenhagen tomorrow", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-568ec9af", "text": "what is two plus two", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-45022d5e", "text": "what was the score in the match last night", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-d0a36811", "text": "who painted the mona lisa", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}
+{"id": "unknown-055e85f9", "text": "write me a poem about the sea", "intent": "unknown", "source": "template", "notes": "authored in training/generate_dataset.py"}

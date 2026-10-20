@@ -1,0 +1,76 @@
+{"id": "readiness-remember-7cd76fa1", "intent": "remember", "text": "remember it is in the drawer"}
+{"id": "readiness-remember-4f31d4f1", "intent": "remember", "text": "remember that one"}
+{"id": "readiness-remember-5e8df26f", "intent": "remember", "text": "remember that one about the boiler"}
+{"id": "readiness-remember-c4b06adf", "intent": "remember", "text": "remember the stuff"}
+{"id": "readiness-remember-7119f784", "intent": "remember", "text": "remember the stuff about the boiler"}
+{"id": "readiness-remember-e5fc9c87", "intent": "remember", "text": "remember the thing"}
+{"id": "readiness-remember-dc014d07", "intent": "remember", "text": "remember the thing about the boiler"}
+{"id": "readiness-remember-8699bdec", "intent": "remember", "text": "remember this"}
+{"id": "readiness-remember-3d83883a", "intent": "remember", "text": "remember this is important"}
+{"id": "readiness-remember-6ca7ea2f", "intent": "remember", "text": "keep"}
+{"id": "readiness-remember-2e7c6f43", "intent": "remember", "text": "keep the bin out"}
+{"id": "readiness-remember-836ff184", "intent": "remember", "text": "log"}
+{"id": "readiness-remember-a8ba9fc5", "intent": "remember", "text": "log the office closes at six"}
+{"id": "readiness-remember-69272d36", "intent": "remember", "text": "mark down"}
+{"id": "readiness-remember-7171c14f", "intent": "remember", "text": "mark down the date"}
+{"id": "readiness-remember-849df67a", "intent": "remember", "text": "memorise"}
+{"id": "readiness-remember-19c4f1d5", "intent": "remember", "text": "memorise the gate code"}
+{"id": "readiness-remember-61bbff73", "intent": "remember", "text": "memorize"}
+{"id": "readiness-remember-5bcb1235", "intent": "remember", "text": "memorize the wifi password"}
+{"id": "readiness-remember-edb46562", "intent": "remember", "text": "note"}
+{"id": "readiness-remember-27eef7c7", "intent": "remember", "text": "note the boiler is broken"}
+{"id": "readiness-remember-b15f21a6", "intent": "remember", "text": "put down"}
+{"id": "readiness-remember-54dab785", "intent": "remember", "text": "put down the alarm"}
+{"id": "readiness-remember-70ce871f", "intent": "remember", "text": "record"}
+{"id": "readiness-remember-369cde14", "intent": "remember", "text": "record the shelf is bare"}
+{"id": "readiness-remember-87780fa5", "intent": "remember", "text": "register"}
+{"id": "readiness-remember-d71c1b61", "intent": "remember", "text": "register the key upstairs"}
+{"id": "readiness-remember-8edeedb7", "intent": "remember", "text": "remember my birthday is in June"}
+{"id": "readiness-remember-157dca92", "intent": "remember", "text": "save"}
+{"id": "readiness-remember-a580704a", "intent": "remember", "text": "save the meeting for noon"}
+{"id": "readiness-remember-824d80d7", "intent": "remember", "text": "store"}
+{"id": "readiness-remember-ba965dfe", "intent": "remember", "text": "store the key upstairs"}
+{"id": "readiness-remember-373e55a6", "intent": "remember", "text": "write down"}
+{"id": "readiness-remember-050c63d3", "intent": "remember", "text": "write down the code"}
+{"id": "readiness-recall-e74a8f0b", "intent": "recall", "text": "recall that one"}
+{"id": "readiness-recall-1199d1c9", "intent": "recall", "text": "recall that one about the boiler"}
+{"id": "readiness-recall-f39dffa9", "intent": "recall", "text": "recall that the boiler is broken"}
+{"id": "readiness-recall-27347dad", "intent": "recall", "text": "recall the stuff"}
+{"id": "readiness-recall-ca4285cf", "intent": "recall", "text": "recall the stuff about the boiler"}
+{"id": "readiness-recall-10492954", "intent": "recall", "text": "recall the thing"}
+{"id": "readiness-recall-877dbb0c", "intent": "recall", "text": "recall the thing about the boiler"}
+{"id": "readiness-recall-d1e70e77", "intent": "recall", "text": "recall what it was about"}
+{"id": "readiness-recall-ed270cb8", "intent": "recall", "text": "recall what this was about"}
+{"id": "readiness-recall-518eee0c", "intent": "recall", "text": "bring back"}
+{"id": "readiness-recall-dd6767c0", "intent": "recall", "text": "bring back the note"}
+{"id": "readiness-recall-03671c30", "intent": "recall", "text": "call back"}
+{"id": "readiness-recall-9c1db45f", "intent": "recall", "text": "call back the number"}
+{"id": "readiness-recall-bbf8f8a5", "intent": "recall", "text": "cast back"}
+{"id": "readiness-recall-5b385e2f", "intent": "recall", "text": "cast back to june"}
+{"id": "readiness-recall-fb25f220", "intent": "recall", "text": "dig up"}
+{"id": "readiness-recall-b190ff28", "intent": "recall", "text": "dig up the note"}
+{"id": "readiness-recall-9080ad9a", "intent": "recall", "text": "dredge up"}
+{"id": "readiness-recall-39e39f6d", "intent": "recall", "text": "dredge up the tune"}
+{"id": "readiness-recall-2c9a72a6", "intent": "recall", "text": "look back"}
+{"id": "readiness-recall-a2b89a0b", "intent": "recall", "text": "look back to last june"}
+{"id": "readiness-recall-6171db37", "intent": "recall", "text": "pull up"}
+{"id": "readiness-recall-467499b0", "intent": "recall", "text": "pull up the file"}
+{"id": "readiness-recall-3f7449be", "intent": "recall", "text": "recall my birthday"}
+{"id": "readiness-recall-be358794", "intent": "recall", "text": "recollect"}
+{"id": "readiness-recall-1490a004", "intent": "recall", "text": "recollect the tune is old"}
+{"id": "readiness-recall-efafcd96", "intent": "recall", "text": "remind"}
+{"id": "readiness-recall-0fd6b448", "intent": "recall", "text": "remind me about the dentist"}
+{"id": "readiness-recall-50f2a151", "intent": "recall", "text": "retrieve"}
+{"id": "readiness-recall-9e905889", "intent": "recall", "text": "retrieve my passport number"}
+{"id": "readiness-recall-84367bd5", "intent": "recall", "text": "think back"}
+{"id": "readiness-recall-7e4041a7", "intent": "recall", "text": "think back to last year"}
+{"id": "readiness-help-f5b9c7ca", "intent": "help", "text": "what are my capabilities"}
+{"id": "readiness-unknown-245e8e8f", "intent": "unknown", "text": "he bought a new bicycle"}
+{"id": "readiness-unknown-8713eacb", "intent": "unknown", "text": "it is raining outside"}
+{"id": "readiness-unknown-486daed3", "intent": "unknown", "text": "she left the office at noon"}
+{"id": "readiness-unknown-141a8606", "intent": "unknown", "text": "that was a long journey"}
+{"id": "readiness-unknown-d1897793", "intent": "unknown", "text": "the meeting starts at nine"}
+{"id": "readiness-unknown-abef469b", "intent": "unknown", "text": "the package arrived yesterday"}
+{"id": "readiness-unknown-72060b77", "intent": "unknown", "text": "the report was long"}
+{"id": "readiness-unknown-79c1973e", "intent": "unknown", "text": "they finished the migration last week"}
+{"id": "readiness-unknown-229d33a3", "intent": "unknown", "text": "we should leave before six"}

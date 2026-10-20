@@ -1,0 +1,42 @@
+{"id": "system_status-89d6b4ec", "text": "are you ok", "intent": "system_status", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "system_status-ba2cb0d1", "text": "how is the system", "intent": "system_status", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "system_status-edd0529e", "text": "system status", "intent": "system_status", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "system_status-08879d30", "text": "are the systems nominal", "intent": "system_status", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "system_status-ab0c9873", "text": "any problems with the machine", "intent": "system_status", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "git_status-f66ed3ad", "text": "do i have uncommitted changes", "intent": "git_status", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "git_status-06cbc6a7", "text": "is the repository clean", "intent": "git_status", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "remember-7b225c5c", "text": "remember that i drink tea", "intent": "remember", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "recall-e9de6b21", "text": "what do you remember about tea", "intent": "recall", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "recall-e70c41ca", "text": "do you remember my dog", "intent": "recall", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "remember-4c24836b", "text": "make a note that i use a standing desk", "intent": "remember", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "recall-30d8cdf2", "text": "search your memory for my address", "intent": "recall", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "open_url-8a7c1bb9", "text": "open https://example.com", "intent": "open_url", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "start_application-37454b6e", "text": "open the browser", "intent": "start_application", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "start_application-8e47a79f", "text": "launch the terminal", "intent": "start_application", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "search_files-2b8595f2", "text": "find files named main.rs", "intent": "search_files", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "read_file-40a39292", "text": "read the file cargo.toml", "intent": "read_file", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "read_file-9fd5f014", "text": "open readme.md", "intent": "read_file", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "search_files-1ef9d157", "text": "where is the dockerfile", "intent": "search_files", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "cancel-728b10e8", "text": "cancel that", "intent": "cancel", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "cancel-bbd668ce", "text": "stop that", "intent": "cancel", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "cancel-9cb49ea5", "text": "nevermind", "intent": "cancel", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "cancel-896687a9", "text": "cancel the open url", "intent": "cancel", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "cancel-0a34c967", "text": "abort the test run", "intent": "cancel", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "unknown-601eddfd", "text": "the mitochondria is the powerhouse of the cell", "intent": "unknown", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "unknown-c057c715", "text": "what is the capital of australia", "intent": "unknown", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "unknown-f45523d0", "text": "tell me a joke about penguins", "intent": "unknown", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "unknown-8918b23e", "text": "my cat knocked over the plant again", "intent": "unknown", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "unknown-7414fa33", "text": "the bus was late this morning", "intent": "unknown", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "unknown-3d0ab50e", "text": "i finished reading that book last night", "intent": "unknown", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "unknown-3a2f4297", "text": "it has been a long week", "intent": "unknown", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "unknown-7eddd578", "text": "how do i bake sourdough bread", "intent": "unknown", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "greeting-80aabd0b", "text": "hello", "intent": "greeting", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "greeting-2f7cc3f0", "text": "good morning", "intent": "greeting", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "help-9ec21aff", "text": "what can you do", "intent": "help", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "help-bf277c56", "text": "how do you work", "intent": "help", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "read_file-f64d38f8", "text": "read the first 20 lines of dockerfile", "intent": "read_file", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "read_file-37c91be3", "text": "show me the file main.rs", "intent": "read_file", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "search_files-4344980a", "text": "search for *.rs in the project", "intent": "search_files", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "search_files-2d706c61", "text": "find *.py", "intent": "search_files", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "run_tests-abf152da", "text": "run cargo test", "intent": "run_tests", "source": "authored", "notes": "regression suite; must not regress on promotion"}
+{"id": "run_tests-0485067b", "text": "run the test suite", "intent": "run_tests", "source": "authored", "notes": "regression suite; must not regress on promotion"}

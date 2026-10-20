@@ -1,0 +1,147 @@
+# AARON model manifest
+#
+# AARON ships one model and optionally uses others you install yourself.
+# The 1,000,000-parameter budget applies to AARON's own intent model ONLY.
+#
+# Nothing in this file is downloaded by AARON. `aaron setup` and
+# `scripts/install-arch.sh` never fetch a model file.
+
+format = 1
+
+# ------------------------------------------------------------ AARON's own model
+# Covered by the parameter budget. Verified by `aaron-brain`'s
+# `parameter_count_is_exactly_one_million`, which walks the real architecture.
+
+[[models]]
+id = "aaron-intent-1m"
+role = "intent_classifier"
+covered_by_budget = true
+path = "models/brain/aaron-intent-1m.ckpt"
+arch_id = "aaron-intent-1m-v1:10240x84h754c14L96"
+trainable_parameters = 1_000_000
+bytes_f32 = 4_000_000
+classes = 14
+embedding = 10_240
+embedding_dim = 84
+hidden = 754
+sequence_length = 96
+dtype = "f32"
+device = "cpu"
+framework = "candle-nn 0.11"
+license = "MIT"
+origin = "trained from training/dataset/current.jsonl"
+downloaded_by_aaron = false
+install = "aaron brain train"
+notes = """
+The parameter count is computed from the architecture, not stored, so it
+cannot drift away from the code. `aaron model` prints the same figure.
+"""
+
+# ------------------------------------------------------ optional components
+# NOT covered by the budget. Each is installed by you, from your distribution
+# or from a download you perform yourself.
+
+[[models]]
+id = "whisper-ggml"
+role = "speech_recognition"
+covered_by_budget = false
+trained_by = "OpenAI / whisper.cpp community"
+license = "MIT (code); weights under upstream release terms"
+downloaded_by_aaron = false
+sizes = [
+  { name = "ggml-tiny.en",    parameters = 39_000_000,  bytes = 75_000_000 },
+  { name = "ggml-base.en",    parameters = 74_000_000,  bytes = 142_000_000 },
+  { name = "ggml-small.en",   parameters = 244_000_000, bytes = 466_000_000 },
+  { name = "ggml-medium.en",  parameters = 769_000_000, bytes = 1_500_000_000 },
+  { name = "ggml-large-v3",   parameters = 1_550_000_000, bytes = 3_100_000_000 },
+]
+install = "sudo pacman -S whisper.cpp; download a ggml model yourself"
+configure = "asr.model_path, asr.model_sha256"
+notes = """
+AARON never downloads a model. With no model installed, `aaron doctor` says so
+and the assistant degrades to text. Set asr.model_sha256 to have AARON verify
+the file before use.
+"""
+
+[[models]]
+id = "espeak-ng"
+role = "speech_synthesis"
+covered_by_budget = false
+trainable_parameters = 0
+license = "GPL-3.0"
+downloaded_by_aaron = false
+install = "sudo pacman -S espeak-ng"
+notes = "Formant synthesiser with no model file. Robotic, tiny, always available."
+
+[[models]]
+id = "piper-voice"
+role = "speech_synthesis"
+covered_by_budget = false
+trainable_parameters = 30_000_000   # approximate, varies per voice
+license = "MIT (code); per-voice terms"
+downloaded_by_aaron = false
+install = "download a voice yourself"
+configure = "tts.model_path"
+notes = "Neural TTS. AARON reports a missing voice file rather than downloading one."
+
+[[models]]
+id = "wake-word-none"
+role = "wake_detection"
+covered_by_budget = false
+trainable_parameters = 0
+license = "n/a"
+downloaded_by_aaron = false
+notes = """
+AARON ships NO wake-word neural model. It matches the configured phrase against
+the ASR transcript, or falls back to an energy burst with no ASR installed.
+A production wake-word model would be a separate download with its own licence
+and parameter count, outside the budget.
+"""
+
+# ------------------------------------------------------------ optional: Phonon
+# Real, open ASR. The engine fetches the weights itself on first use; AARON
+# never downloads a model.
+
+[[models]]
+id = "phonon-2"
+role = "speech_recognition"
+covered_by_budget = false
+trained_by = "Fermion Research"
+license = "Apache-2.0 (CLI); CC-BY-4.0 (weights)"
+downloaded_by_aaron = false
+sizes = [
+  { name = "phonon-2", bytes = 164_000_000 },
+]
+unpacked_bytes = 178_000_000
+install = "pip install fermion-research"
+configure = "asr.backend = \"phonon\", asr.model = \"phonon-2\", asr.phonon_binary_path = \"fermion\""
+notes = """
+Phonon-2: 164 MB download, 178 MB unpacked, 5.21 % average word error across
+seven English benchmarks, runs on an ordinary x86-64 CPU through the `avx2`
+kernel tier. The engine fetches the model on first use and caches it under
+~/.cache/fermion/speech/. AARON never downloads a model; `fermion models`
+lists what is installed and `fermion describe` reports the CPU tier. Install
+torch from the CPU wheel index first on Linux:
+`pip install --no-deps torch --index-url https://download.pytorch.org/whl/cpu`.
+"""
+
+# ---------------------------------------------------- optional: piper voice
+# Neural TTS voice, user-fetched.
+
+[[models]]
+id = "piper-voice-en-us-lessac-medium"
+role = "speech_synthesis"
+covered_by_budget = false
+trainable_parameters = 30_000_000   # approximate, varies per voice
+license = "MIT (code); per-voice terms"
+downloaded_by_aaron = false
+sizes = [
+  { name = "en_US-lessac-medium", bytes = 63_000_000 },
+]
+install = "pip install piper-tts"
+configure = "tts.backend = \"piper\", tts.model_path = \"/path/to/en_US-lessac-medium.onnx\""
+notes = """
+A piper voice downloaded from huggingface.co/rhasspy/piper-voices. AARON
+reports a missing voice file rather than downloading one. `piper`'s `--speaker`
+is a numeric speaker id, not a voice name.
+"""

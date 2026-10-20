@@ -1,0 +1,80 @@
+{"text": "launch", "kind": "incomplete", "family": "verb_only"}
+{"text": "launch firefox", "kind": "complete", "family": "verb_only"}
+{"text": "start", "kind": "incomplete", "family": "verb_only"}
+{"text": "start okular", "kind": "complete", "family": "verb_only"}
+{"text": "open", "kind": "incomplete", "family": "verb_only"}
+{"text": "open gimp", "kind": "complete", "family": "verb_only"}
+{"text": "run", "kind": "incomplete", "family": "verb_only"}
+{"text": "run blender", "kind": "complete", "family": "verb_only"}
+{"text": "boot", "kind": "incomplete", "family": "verb_only"}
+{"text": "boot discord", "kind": "complete", "family": "verb_only"}
+{"text": "fire up", "kind": "incomplete", "family": "verb_only"}
+{"text": "fire up inkscape", "kind": "complete", "family": "verb_only"}
+{"text": "spin up", "kind": "incomplete", "family": "verb_only"}
+{"text": "spin up kdenlive", "kind": "complete", "family": "verb_only"}
+{"text": "bring up", "kind": "incomplete", "family": "verb_only"}
+{"text": "bring up obsidian", "kind": "complete", "family": "verb_only"}
+{"text": "pull up", "kind": "incomplete", "family": "verb_only"}
+{"text": "pull up signal", "kind": "complete", "family": "verb_only"}
+{"text": "load", "kind": "incomplete", "family": "verb_only"}
+{"text": "load spotify", "kind": "complete", "family": "verb_only"}
+{"text": "switch to", "kind": "incomplete", "family": "verb_only"}
+{"text": "switch to thunar", "kind": "complete", "family": "verb_only"}
+{"text": "pop open", "kind": "incomplete", "family": "verb_only"}
+{"text": "pop open keepassxc", "kind": "complete", "family": "verb_only"}
+{"text": "start up", "kind": "incomplete", "family": "verb_only"}
+{"text": "start up pavucontrol", "kind": "complete", "family": "verb_only"}
+{"text": "relaunch", "kind": "incomplete", "family": "verb_only"}
+{"text": "relaunch zoom", "kind": "complete", "family": "verb_only"}
+{"text": "launch the program", "kind": "incomplete", "family": "bare_noun"}
+{"text": "launch vscode", "kind": "complete", "family": "bare_noun"}
+{"text": "start the software", "kind": "incomplete", "family": "bare_noun"}
+{"text": "start libreoffice", "kind": "complete", "family": "bare_noun"}
+{"text": "open the tool", "kind": "incomplete", "family": "bare_noun"}
+{"text": "open firefox", "kind": "complete", "family": "bare_noun"}
+{"text": "bring up the desktop app", "kind": "incomplete", "family": "bare_noun"}
+{"text": "bring up gimp", "kind": "complete", "family": "bare_noun"}
+{"text": "load the package", "kind": "incomplete", "family": "bare_noun"}
+{"text": "load blender", "kind": "complete", "family": "bare_noun"}
+{"text": "run the executable", "kind": "incomplete", "family": "bare_noun"}
+{"text": "run signal", "kind": "complete", "family": "bare_noun"}
+{"text": "open the utility", "kind": "incomplete", "family": "bare_noun"}
+{"text": "open okular", "kind": "complete", "family": "bare_noun"}
+{"text": "open the client", "kind": "incomplete", "family": "bare_noun"}
+{"text": "open discord", "kind": "complete", "family": "bare_noun"}
+{"text": "fire up the widget", "kind": "incomplete", "family": "bare_noun"}
+{"text": "fire up kdenlive", "kind": "complete", "family": "bare_noun"}
+{"text": "pull up the binary", "kind": "incomplete", "family": "bare_noun"}
+{"text": "pull up spotify", "kind": "complete", "family": "bare_noun"}
+{"text": "reopen the program", "kind": "incomplete", "family": "bare_noun"}
+{"text": "reopen obsidian", "kind": "complete", "family": "bare_noun"}
+{"text": "boot the application", "kind": "incomplete", "family": "bare_noun"}
+{"text": "boot keepassxc", "kind": "complete", "family": "bare_noun"}
+{"text": "open the editor", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "open gedit", "kind": "complete", "family": "category_outside_list"}
+{"text": "launch the file manager", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "launch thunar", "kind": "complete", "family": "category_outside_list"}
+{"text": "start the image viewer", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "start eog", "kind": "complete", "family": "category_outside_list"}
+{"text": "open the mail client", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "open thunderbird", "kind": "complete", "family": "category_outside_list"}
+{"text": "open the torrent client", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "open transmission", "kind": "complete", "family": "category_outside_list"}
+{"text": "launch the video editor", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "launch kdenlive", "kind": "complete", "family": "category_outside_list"}
+{"text": "start the vector editor", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "start inkscape", "kind": "complete", "family": "category_outside_list"}
+{"text": "open the 3d modeller", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "open blender", "kind": "complete", "family": "category_outside_list"}
+{"text": "start the password manager", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "start keepassxc", "kind": "complete", "family": "category_outside_list"}
+{"text": "launch the volume mixer", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "launch pavucontrol", "kind": "complete", "family": "category_outside_list"}
+{"text": "open the messaging app", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "open signal", "kind": "complete", "family": "category_outside_list"}
+{"text": "launch the audio player", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "launch spotify", "kind": "complete", "family": "category_outside_list"}
+{"text": "launch the document viewer", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "launch okular", "kind": "complete", "family": "category_outside_list"}
+{"text": "open the screenshot tool", "kind": "incomplete", "family": "category_outside_list"}
+{"text": "open flameshot", "kind": "complete", "family": "category_outside_list"}

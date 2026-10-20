@@ -1,0 +1,199 @@
+[assistant]
+name = "AARON"
+offline_only = true
+greeting_enabled = true
+
+[audio]
+input_device = "default"
+sample_rate = 16000
+channels = 1
+frame_ms = 30
+max_capture_secs = 12
+backend = "cpal"
+activity_indicator_path = ""
+
+[audio.vad]
+enabled = true
+energy_threshold_dbfs = -42.0
+silence_ms = 700
+min_speech_ms = 200
+onset_ratio = 0.30
+
+[wake]
+enabled = true
+# The word you say to wake AARON. One word, so a recogniser that merges
+# words still leaves it recognisable, and so the same word can be given to
+# the recogniser as a hotword.
+phrase = "aaron"
+strategy = "transcript"
+command_window_secs = 8
+match_threshold = 0.72
+
+[asr]
+# `auto` prefers a real recogniser: Phonon (Fermion Research) if its engine is
+# installed, then whisper.cpp if a model is present, and only then the
+# fixed-phrase test double, which is not speech recognition and is refused by
+# `aaron listen`.
+#
+#   backend = "phonon"   Phonon-2, 164 MB, runs on an ordinary CPU
+#   backend = "whisper"   whisper.cpp with a ggml model file
+#   backend = "auto"      the first of the above that is installed
+backend = "auto"
+# The model a *named* backend uses. Phonon names its models and fetches them
+# itself; whisper.cpp takes a file path in `model_path` instead.
+model = "phonon-2"
+model_path = ""
+model_sha256 = ""
+# The engine binary. `fermion` ships with the `fermion-research` package;
+# `whisper-cli` ships with whisper.cpp.
+binary_path = "whisper-cli"
+# The Phonon engine's command. It ships with the `fermion-research` package.
+phonon_binary_path = "fermion"
+language = "en"
+threads = 4
+use_gpu = false
+
+[tts]
+backend = "auto"
+binary_path = ""
+voice = "en-us"
+rate_wpm = 175
+model_path = ""
+echo_to_terminal = true
+
+[brain]
+backend = "auto"
+checkpoint_path = ""
+confidence_threshold = 0.60
+temperature = 1.0
+max_features = 256
+
+[runtime]
+confirm_timeout_secs = 60
+max_tool_runtime_secs = 30
+max_output_bytes = 65536
+max_tool_calls_per_utterance = 1
+max_repeat_identical_actions = 2
+abort_after_consecutive_errors = 5
+
+[logging]
+level = "info"
+format = "text"
+file = ""
+max_file_bytes = 8388608
+
+[memory]
+database_path = "data/memory.db"
+retention_days = 365
+max_entries = 10000
+backup_on_start = true
+max_value_chars = 4000
+
+[learning]
+enabled = true
+queue_path = "data/learning/pending.jsonl"
+dataset_path = "training/dataset/current.jsonl"
+auto_promote = false
+min_macro_f1 = 0.92
+min_accuracy = 0.93
+redact_patterns = [
+    "password",
+    "api_key",
+    "api-key",
+    "secret",
+    "bearer ",
+    "ssn",
+]
+
+[security]
+permissions_file = "permissions.toml"
+# Directories the filesystem tools may read. Empty means read_file and
+# search_files refuse everything, which is the correct default for a fresh
+# install. `aaron setup` fills this in with directories that actually exist on
+# your machine.
+#
+# allowed_roots = ["~/projects", "~/Documents"]
+allowed_roots = []
+always_confirm = [
+    "open_url",
+    "start_application",
+    "stop_application",
+    "run_tests",
+    "read_file",
+]
+allow_network = false
+refuse_root = true
+audit_log_path = "data/audit/audit.jsonl"
+
+[limits]
+max_entity_chars = 2000
+max_read_bytes = 65536
+max_search_results = 200
+
+[tools]
+url_opener = "xdg-open"
+git_binary = "git"
+allowed_url_schemes = [
+    "http",
+    "https",
+]
+
+[tools.applications.browser]
+program = "xdg-open"
+args = ["https://example.com"]
+
+[tools.applications.terminal]
+program = "x-terminal-emulator"
+args = []
+
+[tools.test_suites.cargo]
+program = "cargo"
+args = ["test"]
+
+[tools.test_suites.cargo-unit]
+program = "cargo"
+args = [
+    "test",
+    "--lib",
+]
+
+[resources]
+low_memory_mode = true
+monitor_interval_seconds = 5
+reserve_system_ram_mb = 1024
+reserve_gpu_vram_mb = 768
+low_memory_free_percent = 12
+low_memory_recover_percent = 20
+max_audio_buffer_seconds = 10
+max_pending_requests = 4
+max_conversation_turns_in_context = 8
+max_tool_output_bytes = 65536
+max_transcript_chars = 12000
+allow_model_unloading = true
+
+[resources.models]
+load_asr_on_demand = true
+load_tts_on_demand = true
+unload_idle_models = true
+idle_unload_seconds = 120
+
+[resources.memory]
+sqlite_cache_kib = 2048
+max_retrieved_memories = 10
+max_memory_content_bytes = 16384
+max_learning_queue_items_in_memory = 100
+
+# ---------------------------------------------------------------------------
+# Notes for anyone editing this file
+# ---------------------------------------------------------------------------
+#
+# * `allowed_roots` is the ONLY place the filesystem tools may read. An empty
+#   list disables read_file and search_files entirely, which is the correct
+#   default for a fresh install.
+# * `offline_only` is true. AARON has no code path that opens a socket; the
+#   flag documents the intent rather than enforcing it.
+# * `brain.backend = "auto"` uses the trained checkpoint when one exists and the
+#   deterministic router otherwise, so a fresh install works with no downloads.
+# * See docs/resources.md before changing anything under [resources]: those are
+#   budgets, and the loader rejects unsafe values.
+# * See docs/permissions.md for what each policy decision means.

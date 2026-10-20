@@ -1,0 +1,45 @@
+# AARON curated hard negatives, release 0.3
+# Only the families that measured as an improvement are here. The
+# rejected families are in `experimental/`, with the measurement
+# that rejected them; see docs/release-0.3-report.md.
+{"family": "verb_no_object", "id": "unknown-d1629d36", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "open that one"}
+{"family": "verb_no_object", "id": "unknown-63c5a7f2", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "open it now"}
+{"family": "verb_no_object", "id": "unknown-154fa838", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "run them"}
+{"family": "verb_no_object", "id": "unknown-b22f9e73", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "run it"}
+{"family": "verb_no_object", "id": "unknown-7d0edde6", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "kill it"}
+{"family": "verb_no_object", "id": "unknown-024666d0", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "recall"}
+{"family": "verb_no_object", "id": "unknown-ee700748", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "start it"}
+{"family": "verb_no_object", "id": "unknown-99d02462", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "the file"}
+{"family": "verb_no_object", "id": "unknown-1150d927", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "the app"}
+{"family": "verb_no_object", "id": "unknown-c3605bc4", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "the link"}
+{"family": "verb_no_object", "id": "unknown-c638a84f", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "the script"}
+{"family": "verb_no_object", "id": "unknown-d7261668", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "the suite"}
+{"family": "verb_no_object", "id": "unknown-4147379d", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "the command"}
+{"family": "verb_no_object", "id": "unknown-c1392df8", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "that one"}
+{"family": "verb_no_object", "id": "unknown-46008185", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "and so on"}
+{"family": "verb_no_object", "id": "unknown-a9ecfa77", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "do that instead"}
+{"family": "verb_no_object", "id": "unknown-c692fd6b", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "go on then"}
+{"family": "verb_no_object", "id": "unknown-a0b60483", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "same again"}
+{"family": "verb_no_object", "id": "unknown-3168fe9d", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "like before"}
+{"family": "verb_no_object", "id": "unknown-e6b09912", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "the usual"}
+{"family": "verb_no_object", "id": "unknown-33f0579e", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "open up"}
+{"family": "verb_no_object", "id": "unknown-1d1884cb", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "run along"}
+{"family": "verb_no_object", "id": "unknown-9c1ad1a6", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "search around"}
+{"family": "verb_no_object", "id": "unknown-9166ebef", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "check over"}
+{"family": "verb_no_object", "id": "unknown-786665b5", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "read it back"}
+{"family": "verb_no_object", "id": "unknown-a07722d9", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "open the thingy"}
+{"family": "verb_no_object", "id": "unknown-3a4f3360", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "launch whatever"}
+{"family": "verb_no_object", "id": "unknown-7309162b", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "remember it"}
+{"family": "verb_no_object", "id": "unknown-01762edd", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "recall it"}
+{"family": "verb_no_object", "id": "unknown-54c04683", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "find it"}
+{"family": "verb_no_object", "id": "unknown-f71d3570", "intent": "unknown", "notes": "hard negative: a command verb with no object is not a command", "source": "curated", "text": "check it"}
+{"family": "control", "id": "start_application-f8ddafa2", "intent": "start_application", "notes": "control: a verb WITH an object is a command", "source": "curated", "text": "open the terminal"}
+{"family": "control", "id": "run_tests-af2f2148", "intent": "run_tests", "notes": "control: a verb WITH an object is a command", "source": "curated", "text": "run the tests"}
+{"family": "control", "id": "remember-ce4e646f", "intent": "remember", "notes": "control: the object makes it a command", "source": "curated", "text": "remember that my wifi is called aurora"}
+{"family": "control", "id": "read_file-7920742e", "intent": "read_file", "notes": "control: the object makes it a command", "source": "curated", "text": "read the file main.rs"}
+{"family": "control", "id": "search_files-2b8595f2", "intent": "search_files", "notes": "control: the object makes it a command", "source": "curated", "text": "find files named main.rs"}
+{"family": "control", "id": "open_url-2917bac3", "intent": "open_url", "notes": "control: a valid URL is a command", "source": "curated", "text": "open the website https://example.com"}
+{"family": "control", "id": "git_status-ebddb1be", "intent": "git_status", "notes": "control: a complete request is a command", "source": "curated", "text": "show git status"}
+{"family": "control", "id": "system_status-a5b8ed1e", "intent": "system_status", "notes": "control: a complete request is a command", "source": "curated", "text": "check system status"}
+{"family": "control", "id": "recall-79cb8ee0", "intent": "recall", "notes": "control: a complete request is a command", "source": "curated", "text": "what do you remember about my dentist"}
+{"family": "control", "id": "stop_application-6f9ad852", "intent": "stop_application", "notes": "control: the object makes it a command", "source": "curated", "text": "kill the terminal"}

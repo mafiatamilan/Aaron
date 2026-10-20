@@ -1,0 +1,681 @@
+{"id": "readiness-help-f5b9c7ca", "intent": "help", "text": "what are my capabilities"}
+{"id": "readiness-open_url-cef81d85", "intent": "open_url", "text": "open https://example.org"}
+{"id": "readiness-open_url-fe5e9f81", "intent": "open_url", "text": "open https://rust-lang.org"}
+{"id": "readiness-open_url-f15f3c18", "intent": "open_url", "text": "open https://wikipedia.org"}
+{"id": "readiness-open_url-4a58e573", "intent": "open_url", "text": "open the catalogue"}
+{"id": "readiness-open_url-f3905009", "intent": "open_url", "text": "open the catalogue https://www.loc.gov/collections"}
+{"id": "readiness-open_url-430ad79c", "intent": "open_url", "text": "open the channel"}
+{"id": "readiness-open_url-82f531b5", "intent": "open_url", "text": "open the channel https://www.youtube.com/@veritasium"}
+{"id": "readiness-open_url-842cf755", "intent": "open_url", "text": "open the directory"}
+{"id": "readiness-open_url-ecb56ec0", "intent": "open_url", "text": "open the directory https://www.dmoz.org/Computers"}
+{"id": "readiness-open_url-45afd402", "intent": "open_url", "text": "open the feed"}
+{"id": "readiness-open_url-fa9bef8d", "intent": "open_url", "text": "open the feed https://lwn.net/headlines/rss"}
+{"id": "readiness-open_url-fa3f4567", "intent": "open_url", "text": "open the forum"}
+{"id": "readiness-open_url-4068ae0b", "intent": "open_url", "text": "open the forum https://discourse.mozilla.org"}
+{"id": "readiness-open_url-dca11dee", "intent": "open_url", "text": "open the gallery"}
+{"id": "readiness-open_url-06ba0006", "intent": "open_url", "text": "open the gallery https://www.nga.gov/collection"}
+{"id": "readiness-open_url-018c28de", "intent": "open_url", "text": "open the homepage"}
+{"id": "readiness-open_url-152fed72", "intent": "open_url", "text": "open the listing"}
+{"id": "readiness-open_url-19aa0ce2", "intent": "open_url", "text": "open the listing https://www.airbnb.com/rooms/12345"}
+{"id": "readiness-open_url-665786db", "intent": "open_url", "text": "open the marketplace"}
+{"id": "readiness-open_url-2ac6d0e9", "intent": "open_url", "text": "open the marketplace https://www.etsy.com/market/ceramics"}
+{"id": "readiness-open_url-e4b72e78", "intent": "open_url", "text": "open the mirror"}
+{"id": "readiness-open_url-2a8fe94c", "intent": "open_url", "text": "open the mirror https://mirrors.kernel.org"}
+{"id": "readiness-open_url-cf2a2816", "intent": "open_url", "text": "open the site"}
+{"id": "readiness-open_url-3f8007d4", "intent": "open_url", "text": "open the thread"}
+{"id": "readiness-open_url-d0be88f0", "intent": "open_url", "text": "open the thread https://lwn.net/Articles/900001/"}
+{"id": "readiness-open_url-bf6926de", "intent": "open_url", "text": "open the tracker"}
+{"id": "readiness-open_url-3d6b2c1b", "intent": "open_url", "text": "open the tracker https://bugs.chromium.org/p/chromium"}
+{"id": "readiness-open_url-4f9c9132", "intent": "open_url", "text": "open the web page"}
+{"id": "readiness-open_url-b0f37ea4", "intent": "open_url", "text": "open the api docs"}
+{"id": "readiness-open_url-f3695349", "intent": "open_url", "text": "open the blog post"}
+{"id": "readiness-open_url-f3eb0fda", "intent": "open_url", "text": "open the boarding pass"}
+{"id": "readiness-open_url-79c61bd1", "intent": "open_url", "text": "open the boarding pass https://www.united.com/en/us/checkin"}
+{"id": "readiness-open_url-8e5c42f8", "intent": "open_url", "text": "open the datasheet"}
+{"id": "readiness-open_url-51fb8f79", "intent": "open_url", "text": "open the datasheet https://www.ti.com/lit/ds/symlink/lm358.pdf"}
+{"id": "readiness-open_url-3b2e8a00", "intent": "open_url", "text": "open the discussion"}
+{"id": "readiness-open_url-794ac36c", "intent": "open_url", "text": "open the documentation"}
+{"id": "readiness-open_url-acac7a17", "intent": "open_url", "text": "open the forecast"}
+{"id": "readiness-open_url-38f74b25", "intent": "open_url", "text": "open the forecast https://www.wunderground.com/forecast/us/ny/new-york"}
+{"id": "readiness-open_url-6608f2f5", "intent": "open_url", "text": "open the invoice"}
+{"id": "readiness-open_url-1481dc5e", "intent": "open_url", "text": "open the invoice https://dashboard.stripe.com/invoices/in_1q2w3"}
+{"id": "readiness-open_url-848793a0", "intent": "open_url", "text": "open the issue"}
+{"id": "readiness-open_url-69c9f099", "intent": "open_url", "text": "open the itinerary"}
+{"id": "readiness-open_url-f7b19cea", "intent": "open_url", "text": "open the itinerary https://www.expedia.com/trips/987654"}
+{"id": "readiness-open_url-458b7891", "intent": "open_url", "text": "open the leaderboard"}
+{"id": "readiness-open_url-d3db34a2", "intent": "open_url", "text": "open the leaderboard https://www.chess.com/leaderboard"}
+{"id": "readiness-open_url-697f3ce6", "intent": "open_url", "text": "open the lease"}
+{"id": "readiness-open_url-5523b8a1", "intent": "open_url", "text": "open the lease https://www.docusign.com/documents/lease-2026"}
+{"id": "readiness-open_url-344f5ace", "intent": "open_url", "text": "open the payslip"}
+{"id": "readiness-open_url-48e74b8a", "intent": "open_url", "text": "open the payslip https://payroll.adp.com/statements/2026-03"}
+{"id": "readiness-open_url-42eea5c0", "intent": "open_url", "text": "open the pull request"}
+{"id": "readiness-open_url-c5ad5dd1", "intent": "open_url", "text": "open the receipt"}
+{"id": "readiness-open_url-f582c6a2", "intent": "open_url", "text": "open the receipt https://www.apple.com/shop/order/w1234567890"}
+{"id": "readiness-open_url-50755d14", "intent": "open_url", "text": "open the reference"}
+{"id": "readiness-open_url-fcd09ed3", "intent": "open_url", "text": "open the release notes"}
+{"id": "readiness-open_url-c3add8f0", "intent": "open_url", "text": "open the survey"}
+{"id": "readiness-open_url-33ee12ec", "intent": "open_url", "text": "open the survey https://forms.gle/8fh2kl"}
+{"id": "readiness-open_url-9c4e0733", "intent": "open_url", "text": "open the syllabus"}
+{"id": "readiness-open_url-a016bcc8", "intent": "open_url", "text": "open the syllabus https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011"}
+{"id": "readiness-open_url-067f2803", "intent": "open_url", "text": "open the timetable"}
+{"id": "readiness-open_url-f48ba8a5", "intent": "open_url", "text": "open the timetable https://www.bahn.de/buchung/fahrplan"}
+{"id": "readiness-open_url-84b88e58", "intent": "open_url", "text": "open the transcript"}
+{"id": "readiness-open_url-ac90d256", "intent": "open_url", "text": "open the transcript https://www.studentclearinghouse.org/transcript"}
+{"id": "readiness-open_url-043d98e8", "intent": "open_url", "text": "open the tutorial"}
+{"id": "readiness-open_url-a729cd1b", "intent": "open_url", "text": "open the warranty"}
+{"id": "readiness-open_url-bb9f8b91", "intent": "open_url", "text": "open the warranty https://www.samsung.com/us/support/warranty"}
+{"id": "readiness-open_url-21830054", "intent": "open_url", "text": "open the wiki page"}
+{"id": "readiness-open_url-85d958e5", "intent": "open_url", "text": "bring up"}
+{"id": "readiness-open_url-d1511582", "intent": "open_url", "text": "bring up https://status.rust-lang.org"}
+{"id": "readiness-open_url-25070cd9", "intent": "open_url", "text": "browse"}
+{"id": "readiness-open_url-18324eef", "intent": "open_url", "text": "browse example.com"}
+{"id": "readiness-open_url-2cd723e8", "intent": "open_url", "text": "check out"}
+{"id": "readiness-open_url-23ce36b1", "intent": "open_url", "text": "check out https://github.com/rust-lang/rfcs"}
+{"id": "readiness-open_url-e7d3799e", "intent": "open_url", "text": "fetch"}
+{"id": "readiness-open_url-e4e19a57", "intent": "open_url", "text": "fetch example.org"}
+{"id": "readiness-open_url-caf22378", "intent": "open_url", "text": "go to"}
+{"id": "readiness-open_url-b4005d52", "intent": "open_url", "text": "go to https://lobste.rs"}
+{"id": "readiness-open_url-507143b5", "intent": "open_url", "text": "have a look at"}
+{"id": "readiness-open_url-95ce948d", "intent": "open_url", "text": "have a look at https://www.bbc.co.uk/news"}
+{"id": "readiness-open_url-82a35e9b", "intent": "open_url", "text": "head to"}
+{"id": "readiness-open_url-5ebeacec", "intent": "open_url", "text": "head to https://www.reuters.com/world"}
+{"id": "readiness-open_url-8f89a488", "intent": "open_url", "text": "hop over to"}
+{"id": "readiness-open_url-d2c26a75", "intent": "open_url", "text": "hop over to https://archive.org/details/nasa"}
+{"id": "readiness-open_url-660fad04", "intent": "open_url", "text": "jump to"}
+{"id": "readiness-open_url-62a63855", "intent": "open_url", "text": "jump to https://crates.io/crates/serde"}
+{"id": "readiness-open_url-39384b1a", "intent": "open_url", "text": "load up"}
+{"id": "readiness-open_url-c7d7ee2d", "intent": "open_url", "text": "load up https://docs.python.org/3/library/asyncio.html"}
+{"id": "readiness-open_url-d0cda655", "intent": "open_url", "text": "navigate"}
+{"id": "readiness-open_url-5413e21c", "intent": "open_url", "text": "navigate crates.io"}
+{"id": "readiness-open_url-b95ee894", "intent": "open_url", "text": "pop open"}
+{"id": "readiness-open_url-0bd27d04", "intent": "open_url", "text": "pop open https://imgur.com/gallery"}
+{"id": "readiness-open_url-6171db37", "intent": "open_url", "text": "pull up"}
+{"id": "readiness-open_url-f63f6c4f", "intent": "open_url", "text": "pull up https://www.weather.gov/forecast"}
+{"id": "readiness-open_url-34e159b1", "intent": "open_url", "text": "show me"}
+{"id": "readiness-open_url-c7a4e682", "intent": "open_url", "text": "show me https://www.wikidata.org/wiki/douglas_adams"}
+{"id": "readiness-open_url-01993117", "intent": "open_url", "text": "surf"}
+{"id": "readiness-open_url-308db650", "intent": "open_url", "text": "surf news.ycombinator.com"}
+{"id": "readiness-open_url-f93fcfee", "intent": "open_url", "text": "take a look at"}
+{"id": "readiness-open_url-8bbe4a1f", "intent": "open_url", "text": "take a look at https://www.npr.org/sections/news"}
+{"id": "readiness-open_url-f0e68ac2", "intent": "open_url", "text": "visit"}
+{"id": "readiness-open_url-e974799e", "intent": "open_url", "text": "visit wikipedia.org"}
+{"id": "readiness-read_file-ea9df1be", "intent": "read_file", "text": "read the /etc path"}
+{"id": "readiness-read_file-a03423fc", "intent": "read_file", "text": "read the aaron project"}
+{"id": "readiness-read_file-13df10ac", "intent": "read_file", "text": "read the app"}
+{"id": "readiness-read_file-db6946cd", "intent": "read_file", "text": "read the bootstrap.sh"}
+{"id": "readiness-read_file-9c53860f", "intent": "read_file", "text": "read the command"}
+{"id": "readiness-read_file-d7f579a0", "intent": "read_file", "text": "read the directory"}
+{"id": "readiness-read_file-db75f972", "intent": "read_file", "text": "read the draft"}
+{"id": "readiness-read_file-65a8ecce", "intent": "read_file", "text": "read the draft opening"}
+{"id": "readiness-read_file-8222effa", "intent": "read_file", "text": "read the essay"}
+{"id": "readiness-read_file-11c47955", "intent": "read_file", "text": "read the essay cicadas"}
+{"id": "readiness-read_file-d2866fd0", "intent": "read_file", "text": "read the examples directory"}
+{"id": "readiness-read_file-6a549a51", "intent": "read_file", "text": "read the fixtures folder"}
+{"id": "readiness-read_file-23b6d441", "intent": "read_file", "text": "read the folder"}
+{"id": "readiness-read_file-64597f33", "intent": "read_file", "text": "read the integration suite"}
+{"id": "readiness-read_file-0bf70924", "intent": "read_file", "text": "read the invoice item"}
+{"id": "readiness-read_file-081de2d3", "intent": "read_file", "text": "read the invoice parking"}
+{"id": "readiness-read_file-185b1a3b", "intent": "read_file", "text": "read the item"}
+{"id": "readiness-read_file-87136431", "intent": "read_file", "text": "read the link"}
+{"id": "readiness-read_file-cf4e2af7", "intent": "read_file", "text": "read the marketing site"}
+{"id": "readiness-read_file-0bc60c3d", "intent": "read_file", "text": "read the pamphlet"}
+{"id": "readiness-read_file-e5af1a00", "intent": "read_file", "text": "read the pamphlet vaccination"}
+{"id": "readiness-read_file-822b9e62", "intent": "read_file", "text": "read the parcel thing"}
+{"id": "readiness-read_file-2d959538", "intent": "read_file", "text": "read the path"}
+{"id": "readiness-read_file-b3871a9e", "intent": "read_file", "text": "read the poem"}
+{"id": "readiness-read_file-ed4a5708", "intent": "read_file", "text": "read the poem ozymandias"}
+{"id": "readiness-read_file-8d002dfb", "intent": "read_file", "text": "read the project"}
+{"id": "readiness-read_file-57ca1864", "intent": "read_file", "text": "read the receipt ferry"}
+{"id": "readiness-read_file-31af5f2e", "intent": "read_file", "text": "read the recipe"}
+{"id": "readiness-read_file-c3b7b1d3", "intent": "read_file", "text": "read the recipe sourdough"}
+{"id": "readiness-read_file-6e408b0b", "intent": "read_file", "text": "read the reference link"}
+{"id": "readiness-read_file-096b2a23", "intent": "read_file", "text": "read the script"}
+{"id": "readiness-read_file-bfb7120d", "intent": "read_file", "text": "read the settings app"}
+{"id": "readiness-read_file-ad189924", "intent": "read_file", "text": "read the site"}
+{"id": "readiness-read_file-08bcb2b4", "intent": "read_file", "text": "read the suite"}
+{"id": "readiness-read_file-39f6f310", "intent": "read_file", "text": "read the thing"}
+{"id": "readiness-read_file-ab3c100d", "intent": "read_file", "text": "read the timetable"}
+{"id": "readiness-read_file-d6a9a302", "intent": "read_file", "text": "read the timetable winter"}
+{"id": "readiness-read_file-879cb2fb", "intent": "read_file", "text": "read the vendor website"}
+{"id": "readiness-read_file-b750ea65", "intent": "read_file", "text": "read the website"}
+{"id": "readiness-read_file-c85fc69a", "intent": "read_file", "text": "open the mockup"}
+{"id": "readiness-read_file-9250452b", "intent": "read_file", "text": "open the mockup dashboard.svg"}
+{"id": "readiness-read_file-1ec1a60f", "intent": "read_file", "text": "open the widget"}
+{"id": "readiness-read_file-8deec60f", "intent": "read_file", "text": "open the widget clock.js"}
+{"id": "readiness-read_file-a438ceed", "intent": "read_file", "text": "read the agenda"}
+{"id": "readiness-read_file-574dea61", "intent": "read_file", "text": "read the agenda agenda.md"}
+{"id": "readiness-read_file-0ad8b9ab", "intent": "read_file", "text": "read the alias"}
+{"id": "readiness-read_file-20cecf01", "intent": "read_file", "text": "read the alias build.txt"}
+{"id": "readiness-read_file-8500606d", "intent": "read_file", "text": "read the blueprint"}
+{"id": "readiness-read_file-8a8c71df", "intent": "read_file", "text": "read the blueprint design.svg"}
+{"id": "readiness-read_file-0d27c1d6", "intent": "read_file", "text": "read the budget"}
+{"id": "readiness-read_file-6ddcf85c", "intent": "read_file", "text": "read the budget budget.csv"}
+{"id": "readiness-read_file-d7f852f0", "intent": "read_file", "text": "read the checklist"}
+{"id": "readiness-read_file-afd33e8b", "intent": "read_file", "text": "read the checklist release.md"}
+{"id": "readiness-read_file-8efb6cad", "intent": "read_file", "text": "read the contract"}
+{"id": "readiness-read_file-2e6b459a", "intent": "read_file", "text": "read the contract lease.pdf"}
+{"id": "readiness-read_file-6e50d469", "intent": "read_file", "text": "read the dashboard"}
+{"id": "readiness-read_file-3d179bac", "intent": "read_file", "text": "read the dashboard panel.html"}
+{"id": "readiness-read_file-cdfac2f5", "intent": "read_file", "text": "read the diary"}
+{"id": "readiness-read_file-fd797941", "intent": "read_file", "text": "read the diary journal.md"}
+{"id": "readiness-read_file-097d03ba", "intent": "read_file", "text": "read the fixture"}
+{"id": "readiness-read_file-e4e871eb", "intent": "read_file", "text": "read the fixture orders.json"}
+{"id": "readiness-read_file-29983442", "intent": "read_file", "text": "read the gist"}
+{"id": "readiness-read_file-d39b65fe", "intent": "read_file", "text": "read the gist snippet.rs"}
+{"id": "readiness-read_file-9c728462", "intent": "read_file", "text": "read the invoice"}
+{"id": "readiness-read_file-eb127134", "intent": "read_file", "text": "read the invoice invoice-0042.pdf"}
+{"id": "readiness-read_file-2eb761d4", "intent": "read_file", "text": "read the manifest"}
+{"id": "readiness-read_file-0cf5e160", "intent": "read_file", "text": "read the manifest Cargo.toml"}
+{"id": "readiness-read_file-1506e96b", "intent": "read_file", "text": "read the manuscript"}
+{"id": "readiness-read_file-17c1c5e4", "intent": "read_file", "text": "read the manuscript chapter-one.md"}
+{"id": "readiness-read_file-5203e263", "intent": "read_file", "text": "read the notebook"}
+{"id": "readiness-read_file-3809d9f7", "intent": "read_file", "text": "read the notebook analysis.ipynb"}
+{"id": "readiness-read_file-e6d47014", "intent": "read_file", "text": "read the overlay"}
+{"id": "readiness-read_file-f335123c", "intent": "read_file", "text": "read the overlay night.yml"}
+{"id": "readiness-read_file-728cd0f3", "intent": "read_file", "text": "read the plugin"}
+{"id": "readiness-read_file-65f07807", "intent": "read_file", "text": "read the plugin plugin.json"}
+{"id": "readiness-read_file-ccb3da98", "intent": "read_file", "text": "read the preset"}
+{"id": "readiness-read_file-319481b1", "intent": "read_file", "text": "read the preset warm.toml"}
+{"id": "readiness-read_file-3f688448", "intent": "read_file", "text": "read the receipt"}
+{"id": "readiness-read_file-ca815292", "intent": "read_file", "text": "read the receipt receipt-march.txt"}
+{"id": "readiness-read_file-ffb7176d", "intent": "read_file", "text": "read the recording"}
+{"id": "readiness-read_file-b5d7e03d", "intent": "read_file", "text": "read the recording session.log"}
+{"id": "readiness-read_file-02885ee8", "intent": "read_file", "text": "read the roadmap"}
+{"id": "readiness-read_file-0efb4e74", "intent": "read_file", "text": "read the roadmap roadmap.md"}
+{"id": "readiness-read_file-a94be80a", "intent": "read_file", "text": "read the schedule"}
+{"id": "readiness-read_file-73233596", "intent": "read_file", "text": "read the schedule march.md"}
+{"id": "readiness-read_file-918d2bb3", "intent": "read_file", "text": "read the schema"}
+{"id": "readiness-read_file-3c7badc1", "intent": "read_file", "text": "read the schema schema.sql"}
+{"id": "readiness-read_file-66aff1b1", "intent": "read_file", "text": "read the screenshot"}
+{"id": "readiness-read_file-756d33f6", "intent": "read_file", "text": "read the screenshot desktop.png"}
+{"id": "readiness-read_file-4a903b6f", "intent": "read_file", "text": "read the snippet"}
+{"id": "readiness-read_file-bd2fa62e", "intent": "read_file", "text": "read the snippet example.rs"}
+{"id": "readiness-read_file-81c28cf6", "intent": "read_file", "text": "read the snippet hello.py"}
+{"id": "readiness-read_file-cf5fa321", "intent": "read_file", "text": "read the spreadsheet"}
+{"id": "readiness-read_file-c00aca08", "intent": "read_file", "text": "read the spreadsheet budget.csv"}
+{"id": "readiness-read_file-558f2383", "intent": "read_file", "text": "read the stub"}
+{"id": "readiness-read_file-ed8d7f2a", "intent": "read_file", "text": "read the stub adapter.rs"}
+{"id": "readiness-read_file-f95d5940", "intent": "read_file", "text": "read the template"}
+{"id": "readiness-read_file-0eb3305e", "intent": "read_file", "text": "read the template base.html"}
+{"id": "readiness-read_file-2afddd81", "intent": "read_file", "text": "read the theme"}
+{"id": "readiness-read_file-47291174", "intent": "read_file", "text": "read the theme theme.toml"}
+{"id": "readiness-read_file-8d139000", "intent": "read_file", "text": "read the transcript meeting.md"}
+{"id": "readiness-read_file-80e72afb", "intent": "read_file", "text": "open the appendix labelled"}
+{"id": "readiness-read_file-a02eb0db", "intent": "read_file", "text": "open the appendix labelled charts.md"}
+{"id": "readiness-read_file-3d4363b9", "intent": "read_file", "text": "open the document marked"}
+{"id": "readiness-read_file-94f99c11", "intent": "read_file", "text": "open the document marked final.docx"}
+{"id": "readiness-read_file-c5e6ec23", "intent": "read_file", "text": "read the entry called"}
+{"id": "readiness-read_file-2ee040d7", "intent": "read_file", "text": "read the entry called beacon.txt"}
+{"id": "readiness-read_file-403fbbde", "intent": "read_file", "text": "read the entry mentioning"}
+{"id": "readiness-read_file-051c09e8", "intent": "read_file", "text": "read the entry mentioning the timeout"}
+{"id": "readiness-read_file-a817a89a", "intent": "read_file", "text": "read the folder called"}
+{"id": "readiness-read_file-2d9076f6", "intent": "read_file", "text": "read the folder called fixtures"}
+{"id": "readiness-read_file-f8434025", "intent": "read_file", "text": "read the list including"}
+{"id": "readiness-read_file-78a01e39", "intent": "read_file", "text": "read the list including the backups"}
+{"id": "readiness-read_file-e8a2bce9", "intent": "read_file", "text": "read the log containing"}
+{"id": "readiness-read_file-cb176717", "intent": "read_file", "text": "read the log containing the panic"}
+{"id": "readiness-read_file-9947e86e", "intent": "read_file", "text": "read the record showing"}
+{"id": "readiness-read_file-04c785ea", "intent": "read_file", "text": "read the record showing the error"}
+{"id": "readiness-read_file-cd44c51f", "intent": "read_file", "text": "read the report titled"}
+{"id": "readiness-read_file-8ec1efd2", "intent": "read_file", "text": "read the report titled summary"}
+{"id": "readiness-read_file-087780f6", "intent": "read_file", "text": "read the script named"}
+{"id": "readiness-read_file-fb6dc927", "intent": "read_file", "text": "read the script named bootstrap.sh"}
+{"id": "readiness-read_file-d3f7d6ef", "intent": "read_file", "text": "read the transcript titled"}
+{"id": "readiness-read_file-aa8b9297", "intent": "read_file", "text": "read the transcript titled interview.md"}
+{"id": "readiness-read_file-46b09e4b", "intent": "read_file", "text": "show the file dated"}
+{"id": "readiness-read_file-1b7f96d0", "intent": "read_file", "text": "show the file dated monday.txt"}
+{"id": "readiness-read_file-43ea5647", "intent": "read_file", "text": "print lines 200 through 240"}
+{"id": "readiness-read_file-10101b3e", "intent": "read_file", "text": "print lines 200 through 240 build.log"}
+{"id": "readiness-read_file-c5cdeb50", "intent": "read_file", "text": "print lines 50 through 90"}
+{"id": "readiness-read_file-a59d2ceb", "intent": "read_file", "text": "print lines 50 through 90 audit.csv"}
+{"id": "readiness-read_file-b0429d25", "intent": "read_file", "text": "read lines 12 to 40"}
+{"id": "readiness-read_file-b6055bff", "intent": "read_file", "text": "read lines 12 to 40 schema.sql"}
+{"id": "readiness-read_file-b3dd4f11", "intent": "read_file", "text": "read the final 12 lines"}
+{"id": "readiness-read_file-ed1e3a8f", "intent": "read_file", "text": "read the final 12 lines sync.log"}
+{"id": "readiness-read_file-803c6d1a", "intent": "read_file", "text": "read the final paragraph"}
+{"id": "readiness-read_file-cd254d42", "intent": "read_file", "text": "read the final paragraph of the report"}
+{"id": "readiness-read_file-83d422cb", "intent": "read_file", "text": "read the first 40 lines"}
+{"id": "readiness-read_file-0c2a8d8b", "intent": "read_file", "text": "read the first 40 lines of the changelog"}
+{"id": "readiness-read_file-2b585750", "intent": "read_file", "text": "read the first hundred bytes"}
+{"id": "readiness-read_file-e43fb9a2", "intent": "read_file", "text": "read the first hundred bytes of main.rs"}
+{"id": "readiness-read_file-220e4c3b", "intent": "read_file", "text": "read the first two pages"}
+{"id": "readiness-read_file-42b47f1b", "intent": "read_file", "text": "read the first two pages of the paper"}
+{"id": "readiness-read_file-091b8ea3", "intent": "read_file", "text": "read the last 10 lines"}
+{"id": "readiness-read_file-799e5917", "intent": "read_file", "text": "read the last 10 lines of the changelog"}
+{"id": "readiness-read_file-ecf257ae", "intent": "read_file", "text": "read the last 30 lines"}
+{"id": "readiness-read_file-e27f5e5e", "intent": "read_file", "text": "read the last 30 lines syslog.log"}
+{"id": "readiness-read_file-66a495ff", "intent": "read_file", "text": "read the last two kilobytes"}
+{"id": "readiness-read_file-c12fcda1", "intent": "read_file", "text": "read the last two kilobytes of the log"}
+{"id": "readiness-read_file-0fa7ad2c", "intent": "read_file", "text": "read the middle 10 lines"}
+{"id": "readiness-read_file-63e38881", "intent": "read_file", "text": "read the middle 10 lines of the config"}
+{"id": "readiness-read_file-4c049af7", "intent": "read_file", "text": "read the next 3 paragraphs"}
+{"id": "readiness-read_file-32067d32", "intent": "read_file", "text": "read the next 3 paragraphs of the paper"}
+{"id": "readiness-read_file-4e205826", "intent": "read_file", "text": "read the top 5 lines"}
+{"id": "readiness-read_file-f4720e26", "intent": "read_file", "text": "read the top 5 lines of the config"}
+{"id": "readiness-read_file-55445b02", "intent": "read_file", "text": "search for the top 5 matches"}
+{"id": "readiness-read_file-8244aac6", "intent": "read_file", "text": "search for the top 5 matches in src"}
+{"id": "readiness-read_file-efd6bb0e", "intent": "read_file", "text": "show the first 3 results"}
+{"id": "readiness-read_file-25b978b6", "intent": "read_file", "text": "show the first 3 results in the log"}
+{"id": "readiness-read_file-51309395", "intent": "read_file", "text": "show the last 15 lines"}
+{"id": "readiness-read_file-19a0c5df", "intent": "read_file", "text": "show the last 15 lines deploy.log"}
+{"id": "readiness-read_file-104040aa", "intent": "read_file", "text": "show the last 8 lines"}
+{"id": "readiness-read_file-3b745ec9", "intent": "read_file", "text": "show the last 8 lines wireless.log"}
+{"id": "readiness-read_file-1699c361", "intent": "read_file", "text": "show the middle 20 lines"}
+{"id": "readiness-read_file-89b08089", "intent": "read_file", "text": "show the middle 20 lines template.html"}
+{"id": "readiness-read_file-77af778b", "intent": "read_file", "text": "cat"}
+{"id": "readiness-read_file-18410d07", "intent": "read_file", "text": "cat mkdocs.yml"}
+{"id": "readiness-read_file-3d964301", "intent": "read_file", "text": "cat the manifest"}
+{"id": "readiness-read_file-dfbb889c", "intent": "read_file", "text": "display"}
+{"id": "readiness-read_file-8a5ae424", "intent": "read_file", "text": "display metrics.log"}
+{"id": "readiness-read_file-88bc6f47", "intent": "read_file", "text": "display the config"}
+{"id": "readiness-read_file-b6ca0868", "intent": "read_file", "text": "dump"}
+{"id": "readiness-read_file-2fcb702d", "intent": "read_file", "text": "dump seed.sql"}
+{"id": "readiness-read_file-6514ec52", "intent": "read_file", "text": "dump the journal"}
+{"id": "readiness-read_file-9f2e6d33", "intent": "read_file", "text": "head"}
+{"id": "readiness-read_file-f23455a4", "intent": "read_file", "text": "head the notice"}
+{"id": "readiness-read_file-5975cf1b", "intent": "read_file", "text": "preview"}
+{"id": "readiness-read_file-987ea847", "intent": "read_file", "text": "preview the sketch"}
+{"id": "readiness-read_file-ce953a0e", "intent": "read_file", "text": "print"}
+{"id": "readiness-read_file-1b6a32be", "intent": "read_file", "text": "print agenda.md"}
+{"id": "readiness-read_file-975b7033", "intent": "read_file", "text": "print the licence"}
+{"id": "readiness-read_file-3316348d", "intent": "read_file", "text": "read"}
+{"id": "readiness-read_file-e48e9267", "intent": "read_file", "text": "read fieldnotes.md"}
+{"id": "readiness-read_file-b96ad3f4", "intent": "read_file", "text": "read main.rs"}
+{"id": "readiness-read_file-887270d0", "intent": "read_file", "text": "render"}
+{"id": "readiness-read_file-dc8d0970", "intent": "read_file", "text": "render the template"}
+{"id": "readiness-read_file-dfabcd70", "intent": "read_file", "text": "show the changelog"}
+{"id": "readiness-read_file-0c62f876", "intent": "read_file", "text": "tail"}
+{"id": "readiness-read_file-0b54f90e", "intent": "read_file", "text": "tail the logfile"}
+{"id": "readiness-read_file-2bcb43cb", "intent": "read_file", "text": "view"}
+{"id": "readiness-read_file-a66ecc89", "intent": "read_file", "text": "view releaseplan.md"}
+{"id": "readiness-recall-e74a8f0b", "intent": "recall", "text": "recall that one"}
+{"id": "readiness-recall-1199d1c9", "intent": "recall", "text": "recall that one about the boiler"}
+{"id": "readiness-recall-f39dffa9", "intent": "recall", "text": "recall that the boiler is broken"}
+{"id": "readiness-recall-27347dad", "intent": "recall", "text": "recall the stuff"}
+{"id": "readiness-recall-ca4285cf", "intent": "recall", "text": "recall the stuff about the boiler"}
+{"id": "readiness-recall-10492954", "intent": "recall", "text": "recall the thing"}
+{"id": "readiness-recall-877dbb0c", "intent": "recall", "text": "recall the thing about the boiler"}
+{"id": "readiness-recall-d1e70e77", "intent": "recall", "text": "recall what it was about"}
+{"id": "readiness-recall-ed270cb8", "intent": "recall", "text": "recall what this was about"}
+{"id": "readiness-recall-518eee0c", "intent": "recall", "text": "bring back"}
+{"id": "readiness-recall-dd6767c0", "intent": "recall", "text": "bring back the note"}
+{"id": "readiness-recall-03671c30", "intent": "recall", "text": "call back"}
+{"id": "readiness-recall-9c1db45f", "intent": "recall", "text": "call back the number"}
+{"id": "readiness-recall-bbf8f8a5", "intent": "recall", "text": "cast back"}
+{"id": "readiness-recall-5b385e2f", "intent": "recall", "text": "cast back to june"}
+{"id": "readiness-recall-fb25f220", "intent": "recall", "text": "dig up"}
+{"id": "readiness-recall-b190ff28", "intent": "recall", "text": "dig up the note"}
+{"id": "readiness-recall-9080ad9a", "intent": "recall", "text": "dredge up"}
+{"id": "readiness-recall-39e39f6d", "intent": "recall", "text": "dredge up the tune"}
+{"id": "readiness-recall-2c9a72a6", "intent": "recall", "text": "look back"}
+{"id": "readiness-recall-a2b89a0b", "intent": "recall", "text": "look back to last june"}
+{"id": "readiness-recall-6171db37", "intent": "recall", "text": "pull up"}
+{"id": "readiness-recall-467499b0", "intent": "recall", "text": "pull up the file"}
+{"id": "readiness-recall-3f7449be", "intent": "recall", "text": "recall my birthday"}
+{"id": "readiness-recall-be358794", "intent": "recall", "text": "recollect"}
+{"id": "readiness-recall-1490a004", "intent": "recall", "text": "recollect the tune is old"}
+{"id": "readiness-recall-efafcd96", "intent": "recall", "text": "remind"}
+{"id": "readiness-recall-0fd6b448", "intent": "recall", "text": "remind me about the dentist"}
+{"id": "readiness-recall-50f2a151", "intent": "recall", "text": "retrieve"}
+{"id": "readiness-recall-9e905889", "intent": "recall", "text": "retrieve my passport number"}
+{"id": "readiness-recall-84367bd5", "intent": "recall", "text": "think back"}
+{"id": "readiness-recall-7e4041a7", "intent": "recall", "text": "think back to last year"}
+{"id": "readiness-remember-7cd76fa1", "intent": "remember", "text": "remember it is in the drawer"}
+{"id": "readiness-remember-4f31d4f1", "intent": "remember", "text": "remember that one"}
+{"id": "readiness-remember-5e8df26f", "intent": "remember", "text": "remember that one about the boiler"}
+{"id": "readiness-remember-c4b06adf", "intent": "remember", "text": "remember the stuff"}
+{"id": "readiness-remember-7119f784", "intent": "remember", "text": "remember the stuff about the boiler"}
+{"id": "readiness-remember-e5fc9c87", "intent": "remember", "text": "remember the thing"}
+{"id": "readiness-remember-dc014d07", "intent": "remember", "text": "remember the thing about the boiler"}
+{"id": "readiness-remember-8699bdec", "intent": "remember", "text": "remember this"}
+{"id": "readiness-remember-3d83883a", "intent": "remember", "text": "remember this is important"}
+{"id": "readiness-remember-6ca7ea2f", "intent": "remember", "text": "keep"}
+{"id": "readiness-remember-2e7c6f43", "intent": "remember", "text": "keep the bin out"}
+{"id": "readiness-remember-836ff184", "intent": "remember", "text": "log"}
+{"id": "readiness-remember-a8ba9fc5", "intent": "remember", "text": "log the office closes at six"}
+{"id": "readiness-remember-69272d36", "intent": "remember", "text": "mark down"}
+{"id": "readiness-remember-7171c14f", "intent": "remember", "text": "mark down the date"}
+{"id": "readiness-remember-849df67a", "intent": "remember", "text": "memorise"}
+{"id": "readiness-remember-19c4f1d5", "intent": "remember", "text": "memorise the gate code"}
+{"id": "readiness-remember-61bbff73", "intent": "remember", "text": "memorize"}
+{"id": "readiness-remember-5bcb1235", "intent": "remember", "text": "memorize the wifi password"}
+{"id": "readiness-remember-edb46562", "intent": "remember", "text": "note"}
+{"id": "readiness-remember-27eef7c7", "intent": "remember", "text": "note the boiler is broken"}
+{"id": "readiness-remember-b15f21a6", "intent": "remember", "text": "put down"}
+{"id": "readiness-remember-54dab785", "intent": "remember", "text": "put down the alarm"}
+{"id": "readiness-remember-70ce871f", "intent": "remember", "text": "record"}
+{"id": "readiness-remember-369cde14", "intent": "remember", "text": "record the shelf is bare"}
+{"id": "readiness-remember-87780fa5", "intent": "remember", "text": "register"}
+{"id": "readiness-remember-d71c1b61", "intent": "remember", "text": "register the key upstairs"}
+{"id": "readiness-remember-8edeedb7", "intent": "remember", "text": "remember my birthday is in June"}
+{"id": "readiness-remember-157dca92", "intent": "remember", "text": "save"}
+{"id": "readiness-remember-a580704a", "intent": "remember", "text": "save the meeting for noon"}
+{"id": "readiness-remember-824d80d7", "intent": "remember", "text": "store"}
+{"id": "readiness-remember-ba965dfe", "intent": "remember", "text": "store the key upstairs"}
+{"id": "readiness-remember-373e55a6", "intent": "remember", "text": "write down"}
+{"id": "readiness-remember-050c63d3", "intent": "remember", "text": "write down the code"}
+{"id": "readiness-search_files-7f9b5061", "intent": "search_files", "text": "search for the aaron project"}
+{"id": "readiness-search_files-38f0dd16", "intent": "search_files", "text": "search for the app"}
+{"id": "readiness-search_files-6400055b", "intent": "search_files", "text": "search for the board minutes"}
+{"id": "readiness-search_files-ee84b5d3", "intent": "search_files", "text": "search for the build script"}
+{"id": "readiness-search_files-391614a3", "intent": "search_files", "text": "search for the changelog"}
+{"id": "readiness-search_files-0548f0e4", "intent": "search_files", "text": "search for the code review"}
+{"id": "readiness-search_files-fa967e92", "intent": "search_files", "text": "search for the document"}
+{"id": "readiness-search_files-0ea1ea11", "intent": "search_files", "text": "search for the folder"}
+{"id": "readiness-search_files-759a72be", "intent": "search_files", "text": "search for the guide"}
+{"id": "readiness-search_files-ccb36a05", "intent": "search_files", "text": "search for the integration suite"}
+{"id": "readiness-search_files-7b7c8675", "intent": "search_files", "text": "search for the invoice"}
+{"id": "readiness-search_files-b0c2a95c", "intent": "search_files", "text": "search for the invoice pdf"}
+{"id": "readiness-search_files-752c12c3", "intent": "search_files", "text": "search for the item"}
+{"id": "readiness-search_files-a29594bf", "intent": "search_files", "text": "search for the link"}
+{"id": "readiness-search_files-86660c88", "intent": "search_files", "text": "search for the manual"}
+{"id": "readiness-search_files-4bcf8037", "intent": "search_files", "text": "search for the marketing site"}
+{"id": "readiness-search_files-20ddec73", "intent": "search_files", "text": "search for the meeting transcript"}
+{"id": "readiness-search_files-db98b6ef", "intent": "search_files", "text": "search for the migrations folder"}
+{"id": "readiness-search_files-f2dcd440", "intent": "search_files", "text": "search for the minutes"}
+{"id": "readiness-search_files-7349b698", "intent": "search_files", "text": "search for the notes"}
+{"id": "readiness-search_files-a550d897", "intent": "search_files", "text": "search for the policy"}
+{"id": "readiness-search_files-0ba18622", "intent": "search_files", "text": "search for the privacy policy"}
+{"id": "readiness-search_files-cefaa905", "intent": "search_files", "text": "search for the project"}
+{"id": "readiness-search_files-a9065574", "intent": "search_files", "text": "search for the readme"}
+{"id": "readiness-search_files-2f3b2438", "intent": "search_files", "text": "search for the reference link"}
+{"id": "readiness-search_files-6637ae0e", "intent": "search_files", "text": "search for the release notes"}
+{"id": "readiness-search_files-710c2970", "intent": "search_files", "text": "search for the review"}
+{"id": "readiness-search_files-1ceab444", "intent": "search_files", "text": "search for the script"}
+{"id": "readiness-search_files-d5c1b64f", "intent": "search_files", "text": "search for the settings app"}
+{"id": "readiness-search_files-50c71111", "intent": "search_files", "text": "search for the site"}
+{"id": "readiness-search_files-8e8b2297", "intent": "search_files", "text": "search for the style guide"}
+{"id": "readiness-search_files-b417b17f", "intent": "search_files", "text": "search for the suite"}
+{"id": "readiness-search_files-934bf5fb", "intent": "search_files", "text": "search for the todo item"}
+{"id": "readiness-search_files-5e01c7b1", "intent": "search_files", "text": "search for the transcript"}
+{"id": "readiness-search_files-d63ae416", "intent": "search_files", "text": "search for the user manual"}
+{"id": "readiness-search_files-e8d4e061", "intent": "search_files", "text": "search for the annotation"}
+{"id": "readiness-search_files-64895ff1", "intent": "search_files", "text": "search for the annotation @deprecated"}
+{"id": "readiness-search_files-d6cbe67f", "intent": "search_files", "text": "search for the error"}
+{"id": "readiness-search_files-ee09e8cd", "intent": "search_files", "text": "search for the error econnrefused"}
+{"id": "readiness-search_files-a72a1f92", "intent": "search_files", "text": "search for the extension"}
+{"id": "readiness-search_files-3cc02a39", "intent": "search_files", "text": "search for the extension .md"}
+{"id": "readiness-search_files-7220d500", "intent": "search_files", "text": "search for the filename"}
+{"id": "readiness-search_files-c448940a", "intent": "search_files", "text": "search for the filename Cargo.toml"}
+{"id": "readiness-search_files-9945999b", "intent": "search_files", "text": "search for the flag"}
+{"id": "readiness-search_files-3fcae108", "intent": "search_files", "text": "search for the flag --verbose"}
+{"id": "readiness-search_files-c5e70796", "intent": "search_files", "text": "search for the glob"}
+{"id": "readiness-search_files-df75b933", "intent": "search_files", "text": "search for the glob **/*.rs"}
+{"id": "readiness-search_files-c146180b", "intent": "search_files", "text": "search for the identifier"}
+{"id": "readiness-search_files-1cd49f3a", "intent": "search_files", "text": "search for the identifier max_retries"}
+{"id": "readiness-search_files-8b446129", "intent": "search_files", "text": "search for the import"}
+{"id": "readiness-search_files-b1dc7813", "intent": "search_files", "text": "search for the import serde"}
+{"id": "readiness-search_files-66ae2148", "intent": "search_files", "text": "search for the label"}
+{"id": "readiness-search_files-e4cded5b", "intent": "search_files", "text": "search for the label bug"}
+{"id": "readiness-search_files-5126173b", "intent": "search_files", "text": "search for the macro"}
+{"id": "readiness-search_files-53465914", "intent": "search_files", "text": "search for the macro println"}
+{"id": "readiness-search_files-3e8c00bb", "intent": "search_files", "text": "search for the pattern"}
+{"id": "readiness-search_files-23e0ea85", "intent": "search_files", "text": "search for the pattern *.toml"}
+{"id": "readiness-search_files-b3a00565", "intent": "search_files", "text": "search for the prefix"}
+{"id": "readiness-search_files-25e535b7", "intent": "search_files", "text": "search for the prefix src/"}
+{"id": "readiness-search_files-3f4091df", "intent": "search_files", "text": "search for the regex"}
+{"id": "readiness-search_files-85a24f20", "intent": "search_files", "text": "search for the regex ^pub fn"}
+{"id": "readiness-search_files-e11490cb", "intent": "search_files", "text": "search for the string"}
+{"id": "readiness-search_files-e0ef86b9", "intent": "search_files", "text": "search for the string foobar"}
+{"id": "readiness-search_files-d6278790", "intent": "search_files", "text": "search for the suffix"}
+{"id": "readiness-search_files-fc132bdc", "intent": "search_files", "text": "search for the suffix .rs"}
+{"id": "readiness-search_files-bf1abc43", "intent": "search_files", "text": "search for the symbol"}
+{"id": "readiness-search_files-604b0079", "intent": "search_files", "text": "search for the symbol serde"}
+{"id": "readiness-search_files-9a76b507", "intent": "search_files", "text": "search for the tag"}
+{"id": "readiness-search_files-e23eed7b", "intent": "search_files", "text": "search for the tag v1.0"}
+{"id": "readiness-search_files-a699e10a", "intent": "search_files", "text": "search for the template"}
+{"id": "readiness-search_files-dc974a1a", "intent": "search_files", "text": "search for the template base.html"}
+{"id": "readiness-search_files-13076621", "intent": "search_files", "text": "search for the wildcard"}
+{"id": "readiness-search_files-c36299bd", "intent": "search_files", "text": "search for the wildcard *.log"}
+{"id": "readiness-search_files-6a11ed65", "intent": "search_files", "text": "search for the word"}
+{"id": "readiness-search_files-a6bda4f0", "intent": "search_files", "text": "search for the word serendipity"}
+{"id": "readiness-search_files-f53ff01c", "intent": "search_files", "text": "search for the archive containing"}
+{"id": "readiness-search_files-d59a88a0", "intent": "search_files", "text": "search for the archive containing backups"}
+{"id": "readiness-search_files-c3c50556", "intent": "search_files", "text": "search for the comment mentioning"}
+{"id": "readiness-search_files-915d6e33", "intent": "search_files", "text": "search for the comment mentioning alice"}
+{"id": "readiness-search_files-28b0c6db", "intent": "search_files", "text": "search for the directory holding"}
+{"id": "readiness-search_files-5300fd15", "intent": "search_files", "text": "search for the directory holding fixtures"}
+{"id": "readiness-search_files-cd5af3fc", "intent": "search_files", "text": "search for the files containing"}
+{"id": "readiness-search_files-b4a37b26", "intent": "search_files", "text": "search for the files containing serde"}
+{"id": "readiness-search_files-558bfa08", "intent": "search_files", "text": "search for the folder containing"}
+{"id": "readiness-search_files-0aa9fb6f", "intent": "search_files", "text": "search for the folder containing fixtures"}
+{"id": "readiness-search_files-821047cc", "intent": "search_files", "text": "search for the glob matching"}
+{"id": "readiness-search_files-e74a2d02", "intent": "search_files", "text": "search for the glob matching *.rs"}
+{"id": "readiness-search_files-19a16cf4", "intent": "search_files", "text": "search for the log covering"}
+{"id": "readiness-search_files-f8274b92", "intent": "search_files", "text": "search for the log covering monday"}
+{"id": "readiness-search_files-ba776e01", "intent": "search_files", "text": "search for the name starting"}
+{"id": "readiness-search_files-4267288a", "intent": "search_files", "text": "search for the name starting lib"}
+{"id": "readiness-search_files-5cbcdd0a", "intent": "search_files", "text": "search for the path ending"}
+{"id": "readiness-search_files-92645d75", "intent": "search_files", "text": "search for the path ending .toml"}
+{"id": "readiness-search_files-8e374515", "intent": "search_files", "text": "search for the pattern named"}
+{"id": "readiness-search_files-f63026ad", "intent": "search_files", "text": "search for the pattern named todo"}
+{"id": "readiness-search_files-c657f270", "intent": "search_files", "text": "search for the 3 newest files"}
+{"id": "readiness-search_files-df9cfb47", "intent": "search_files", "text": "search for the 3 newest files in tmp"}
+{"id": "readiness-search_files-ba29deff", "intent": "search_files", "text": "search for the first 100 occurrences"}
+{"id": "readiness-search_files-92f2c180", "intent": "search_files", "text": "search for the first 100 occurrences of todo"}
+{"id": "readiness-search_files-7cf6a17a", "intent": "search_files", "text": "search for the first 20 hits"}
+{"id": "readiness-search_files-d073d3d8", "intent": "search_files", "text": "search for the first 20 hits in src"}
+{"id": "readiness-search_files-f2219b3a", "intent": "search_files", "text": "search for the first 25 results"}
+{"id": "readiness-search_files-a22f6a5d", "intent": "search_files", "text": "search for the first 25 results in reports"}
+{"id": "readiness-search_files-ee95ade7", "intent": "search_files", "text": "search for the first 50 lines"}
+{"id": "readiness-search_files-bfc1c723", "intent": "search_files", "text": "search for the first 50 lines in logs"}
+{"id": "readiness-search_files-e63a5763", "intent": "search_files", "text": "search for the last 10 matches"}
+{"id": "readiness-search_files-593e4b66", "intent": "search_files", "text": "search for the last 10 matches in repo"}
+{"id": "readiness-search_files-911823d8", "intent": "search_files", "text": "search for the last 5 instances"}
+{"id": "readiness-search_files-4d9fd262", "intent": "search_files", "text": "search for the last 5 instances in cache"}
+{"id": "readiness-search_files-0714b074", "intent": "search_files", "text": "search for the next 10 entries"}
+{"id": "readiness-search_files-405a2a08", "intent": "search_files", "text": "search for the next 10 entries in docs"}
+{"id": "readiness-search_files-ef4e3f50", "intent": "search_files", "text": "comb"}
+{"id": "readiness-search_files-9bae4e69", "intent": "search_files", "text": "comb *.log"}
+{"id": "readiness-search_files-ebbde58a", "intent": "search_files", "text": "dig"}
+{"id": "readiness-search_files-0756095c", "intent": "search_files", "text": "dig *.tmp"}
+{"id": "readiness-search_files-dfc3376b", "intent": "search_files", "text": "filter"}
+{"id": "readiness-search_files-e25ea4f9", "intent": "search_files", "text": "filter node_modules"}
+{"id": "readiness-search_files-f658d0b4", "intent": "search_files", "text": "find the todo marker"}
+{"id": "readiness-search_files-faefbbbf", "intent": "search_files", "text": "grep"}
+{"id": "readiness-search_files-cfc5a236", "intent": "search_files", "text": "grep the unwrap calls"}
+{"id": "readiness-search_files-18c3bc28", "intent": "search_files", "text": "hunt"}
+{"id": "readiness-search_files-1fde9db7", "intent": "search_files", "text": "hunt the compiler warning"}
+{"id": "readiness-search_files-c61d02ef", "intent": "search_files", "text": "locate"}
+{"id": "readiness-search_files-0a72c1fe", "intent": "search_files", "text": "locate the config file"}
+{"id": "readiness-search_files-34c4ef9b", "intent": "search_files", "text": "rummage"}
+{"id": "readiness-search_files-637c4487", "intent": "search_files", "text": "rummage *.orig"}
+{"id": "readiness-search_files-59ad1b2f", "intent": "search_files", "text": "scan"}
+{"id": "readiness-search_files-1a1c991c", "intent": "search_files", "text": "scan the rust sources"}
+{"id": "readiness-search_files-69e778c0", "intent": "search_files", "text": "search main.rs"}
+{"id": "readiness-search_files-cbd345d6", "intent": "search_files", "text": "seek"}
+{"id": "readiness-search_files-6e30a507", "intent": "search_files", "text": "seek *.bak"}
+{"id": "readiness-search_files-cda9593e", "intent": "search_files", "text": "sift"}
+{"id": "readiness-search_files-00fa8c46", "intent": "search_files", "text": "sift the changelog entries"}
+{"id": "readiness-search_files-dfd33796", "intent": "search_files", "text": "sweep"}
+{"id": "readiness-search_files-5b99e3a6", "intent": "search_files", "text": "sweep *.swp"}
+{"id": "readiness-start_application-a8d182e4", "intent": "start_application", "text": "boot keepassxc"}
+{"id": "readiness-start_application-c0f7478e", "intent": "start_application", "text": "boot the application"}
+{"id": "readiness-start_application-34057241", "intent": "start_application", "text": "bring up gimp"}
+{"id": "readiness-start_application-ae5de65e", "intent": "start_application", "text": "bring up the desktop app"}
+{"id": "readiness-start_application-c062b91e", "intent": "start_application", "text": "fire up kdenlive"}
+{"id": "readiness-start_application-e2a6c59a", "intent": "start_application", "text": "fire up the widget"}
+{"id": "readiness-start_application-289e3e1e", "intent": "start_application", "text": "launch the item"}
+{"id": "readiness-start_application-e2ea78d1", "intent": "start_application", "text": "load blender"}
+{"id": "readiness-start_application-41e0c144", "intent": "start_application", "text": "load the package"}
+{"id": "readiness-start_application-68146a40", "intent": "start_application", "text": "open discord"}
+{"id": "readiness-start_application-f2973040", "intent": "start_application", "text": "open firefox"}
+{"id": "readiness-start_application-035b919c", "intent": "start_application", "text": "open the app"}
+{"id": "readiness-start_application-d185d8b6", "intent": "start_application", "text": "open the application"}
+{"id": "readiness-start_application-2303532e", "intent": "start_application", "text": "open the client"}
+{"id": "readiness-start_application-86244aea", "intent": "start_application", "text": "open the command"}
+{"id": "readiness-start_application-affd529b", "intent": "start_application", "text": "open the frontend"}
+{"id": "readiness-start_application-abf3a5ac", "intent": "start_application", "text": "open the project"}
+{"id": "readiness-start_application-534dd258", "intent": "start_application", "text": "open the script"}
+{"id": "readiness-start_application-31d67602", "intent": "start_application", "text": "open the tool"}
+{"id": "readiness-start_application-68ad4057", "intent": "start_application", "text": "pull up spotify"}
+{"id": "readiness-start_application-be0841da", "intent": "start_application", "text": "pull up the binary"}
+{"id": "readiness-start_application-da2c6c29", "intent": "start_application", "text": "reopen obsidian"}
+{"id": "readiness-start_application-8bfee100", "intent": "start_application", "text": "reopen the program"}
+{"id": "readiness-start_application-89064696", "intent": "start_application", "text": "run signal"}
+{"id": "readiness-start_application-7bac8c30", "intent": "start_application", "text": "run the executable"}
+{"id": "readiness-start_application-218fca54", "intent": "start_application", "text": "start libreoffice"}
+{"id": "readiness-start_application-02aba7d8", "intent": "start_application", "text": "start the process"}
+{"id": "readiness-start_application-cd93b69a", "intent": "start_application", "text": "start the software"}
+{"id": "readiness-start_application-e1b84f30", "intent": "start_application", "text": "start the thing"}
+{"id": "readiness-start_application-a3677ca7", "intent": "start_application", "text": "launch pavucontrol"}
+{"id": "readiness-start_application-11a2798d", "intent": "start_application", "text": "launch spotify"}
+{"id": "readiness-start_application-e67f8a65", "intent": "start_application", "text": "launch the audio player"}
+{"id": "readiness-start_application-da6e524c", "intent": "start_application", "text": "launch the volume mixer"}
+{"id": "readiness-start_application-d71d0a70", "intent": "start_application", "text": "open eog"}
+{"id": "readiness-start_application-c6ed6e2d", "intent": "start_application", "text": "open flameshot"}
+{"id": "readiness-start_application-397a5a19", "intent": "start_application", "text": "open gdb"}
+{"id": "readiness-start_application-94bb0863", "intent": "start_application", "text": "open obsidian"}
+{"id": "readiness-start_application-362c5e9d", "intent": "start_application", "text": "open pacman"}
+{"id": "readiness-start_application-aa750d0c", "intent": "start_application", "text": "open spotifyd"}
+{"id": "readiness-start_application-1633fd9f", "intent": "start_application", "text": "open the chat client"}
+{"id": "readiness-start_application-79380929", "intent": "start_application", "text": "open the debugger"}
+{"id": "readiness-start_application-eadd87da", "intent": "start_application", "text": "open the music daemon"}
+{"id": "readiness-start_application-e48d1bb9", "intent": "start_application", "text": "open the music player"}
+{"id": "readiness-start_application-64a34826", "intent": "start_application", "text": "open the note app"}
+{"id": "readiness-start_application-06964e8e", "intent": "start_application", "text": "open the package manager"}
+{"id": "readiness-start_application-ec590784", "intent": "start_application", "text": "open the pdf reader"}
+{"id": "readiness-start_application-68c144a7", "intent": "start_application", "text": "open the screenshot tool"}
+{"id": "readiness-start_application-c58dda73", "intent": "start_application", "text": "open thunar"}
+{"id": "readiness-start_application-dd750c7f", "intent": "start_application", "text": "open vscode"}
+{"id": "readiness-start_application-7b5e90c4", "intent": "start_application", "text": "start eog"}
+{"id": "readiness-start_application-6f3e4a94", "intent": "start_application", "text": "start keepassxc"}
+{"id": "readiness-start_application-3f74b1b9", "intent": "start_application", "text": "start the image viewer"}
+{"id": "readiness-start_application-c43cf1d0", "intent": "start_application", "text": "start the password manager"}
+{"id": "readiness-start_application-4509beb0", "intent": "start_application", "text": "boot"}
+{"id": "readiness-start_application-4aeb8845", "intent": "start_application", "text": "boot discord"}
+{"id": "readiness-start_application-85d958e5", "intent": "start_application", "text": "bring up"}
+{"id": "readiness-start_application-28011376", "intent": "start_application", "text": "bring up obsidian"}
+{"id": "readiness-start_application-dc9f28b1", "intent": "start_application", "text": "fire"}
+{"id": "readiness-start_application-be0c2ae6", "intent": "start_application", "text": "fire the terminal"}
+{"id": "readiness-start_application-9d3bdf92", "intent": "start_application", "text": "fire up"}
+{"id": "readiness-start_application-8cb67c54", "intent": "start_application", "text": "fire up inkscape"}
+{"id": "readiness-start_application-0cf67fc7", "intent": "start_application", "text": "load"}
+{"id": "readiness-start_application-519dbe88", "intent": "start_application", "text": "load spotify"}
+{"id": "readiness-start_application-b95ee894", "intent": "start_application", "text": "pop open"}
+{"id": "readiness-start_application-33d0b103", "intent": "start_application", "text": "pop open keepassxc"}
+{"id": "readiness-start_application-6171db37", "intent": "start_application", "text": "pull up"}
+{"id": "readiness-start_application-481f1094", "intent": "start_application", "text": "pull up signal"}
+{"id": "readiness-start_application-e49b5c7a", "intent": "start_application", "text": "raise"}
+{"id": "readiness-start_application-38e46a0b", "intent": "start_application", "text": "raise the browser"}
+{"id": "readiness-start_application-d788567f", "intent": "start_application", "text": "relaunch"}
+{"id": "readiness-start_application-174f6663", "intent": "start_application", "text": "relaunch zoom"}
+{"id": "readiness-start_application-a04afb36", "intent": "start_application", "text": "spawn"}
+{"id": "readiness-start_application-fbceed6d", "intent": "start_application", "text": "spawn the editor"}
+{"id": "readiness-start_application-ec0fc73e", "intent": "start_application", "text": "spin up"}
+{"id": "readiness-start_application-efc490a8", "intent": "start_application", "text": "spin up kdenlive"}
+{"id": "readiness-start_application-3c2962a2", "intent": "start_application", "text": "start up"}
+{"id": "readiness-start_application-a39dfceb", "intent": "start_application", "text": "start up pavucontrol"}
+{"id": "readiness-start_application-387df190", "intent": "start_application", "text": "switch to"}
+{"id": "readiness-start_application-b60b2798", "intent": "start_application", "text": "switch to thunar"}
+{"id": "readiness-stop_application-2e2fa55b", "intent": "stop_application", "text": "close the application"}
+{"id": "readiness-stop_application-68242313", "intent": "stop_application", "text": "close the discord tray icon"}
+{"id": "readiness-stop_application-3e81990c", "intent": "stop_application", "text": "close the foreground window"}
+{"id": "readiness-stop_application-07b3b9a0", "intent": "stop_application", "text": "close the gimp foreground window"}
+{"id": "readiness-stop_application-8901c9db", "intent": "stop_application", "text": "close the player"}
+{"id": "readiness-stop_application-ee5a956f", "intent": "stop_application", "text": "close the program"}
+{"id": "readiness-stop_application-f910ad8b", "intent": "stop_application", "text": "close the tray icon"}
+{"id": "readiness-stop_application-071ac213", "intent": "stop_application", "text": "close the vlc player"}
+{"id": "readiness-stop_application-1267f544", "intent": "stop_application", "text": "force quit the client"}
+{"id": "readiness-stop_application-4ad633bc", "intent": "stop_application", "text": "force quit the spotify client"}
+{"id": "readiness-stop_application-4c9338dc", "intent": "stop_application", "text": "halt the helper"}
+{"id": "readiness-stop_application-4c6bd6dd", "intent": "stop_application", "text": "halt the keepassxc helper"}
+{"id": "readiness-stop_application-9bff19f7", "intent": "stop_application", "text": "kill the app"}
+{"id": "readiness-stop_application-3c5c1a62", "intent": "stop_application", "text": "kill the blender renderer"}
+{"id": "readiness-stop_application-5bcd4996", "intent": "stop_application", "text": "kill the instance"}
+{"id": "readiness-stop_application-54a63e92", "intent": "stop_application", "text": "kill the item"}
+{"id": "readiness-stop_application-20e5ed8e", "intent": "stop_application", "text": "kill the obsidian instance"}
+{"id": "readiness-stop_application-c68df66b", "intent": "stop_application", "text": "kill the renderer"}
+{"id": "readiness-stop_application-84750853", "intent": "stop_application", "text": "kill the stray editor"}
+{"id": "readiness-stop_application-29682d9e", "intent": "stop_application", "text": "shut down the background app"}
+{"id": "readiness-stop_application-632fcc6d", "intent": "stop_application", "text": "shut down the spotify background app"}
+{"id": "readiness-stop_application-198c4bed", "intent": "stop_application", "text": "stop the application"}
+{"id": "readiness-stop_application-f4143d3e", "intent": "stop_application", "text": "stop the background process"}
+{"id": "readiness-stop_application-7e96551c", "intent": "stop_application", "text": "stop the build server"}
+{"id": "readiness-stop_application-47acc04a", "intent": "stop_application", "text": "stop the builder"}
+{"id": "readiness-stop_application-08d20985", "intent": "stop_application", "text": "stop the daemon"}
+{"id": "readiness-stop_application-4ed3d7d0", "intent": "stop_application", "text": "stop the emulator"}
+{"id": "readiness-stop_application-66fd8efa", "intent": "stop_application", "text": "stop the firefox process"}
+{"id": "readiness-stop_application-c271d9ad", "intent": "stop_application", "text": "stop the leftover process"}
+{"id": "readiness-stop_application-9a315feb", "intent": "stop_application", "text": "stop the leftover zoom process"}
+{"id": "readiness-stop_application-666d40f4", "intent": "stop_application", "text": "stop the process"}
+{"id": "readiness-stop_application-5b11bf31", "intent": "stop_application", "text": "stop the program"}
+{"id": "readiness-stop_application-af0ae356", "intent": "stop_application", "text": "stop the project"}
+{"id": "readiness-stop_application-9474c995", "intent": "stop_application", "text": "stop the retroarch emulator"}
+{"id": "readiness-stop_application-a0ca9c2e", "intent": "stop_application", "text": "stop the signal background process"}
+{"id": "readiness-stop_application-e3c1e8cd", "intent": "stop_application", "text": "terminate the blender executable"}
+{"id": "readiness-stop_application-9f402987", "intent": "stop_application", "text": "terminate the executable"}
+{"id": "readiness-stop_application-180925af", "intent": "stop_application", "text": "terminate the script"}
+{"id": "readiness-stop_application-99371123", "intent": "stop_application", "text": "terminate the thing"}
+{"id": "readiness-stop_application-343832a7", "intent": "stop_application", "text": "terminate the worker"}
+{"id": "readiness-stop_application-7ed4b1fb", "intent": "stop_application", "text": "close out obs"}
+{"id": "readiness-stop_application-a17e04d3", "intent": "stop_application", "text": "close out the screen recorder"}
+{"id": "readiness-stop_application-d3d49be3", "intent": "stop_application", "text": "close qbittorrent"}
+{"id": "readiness-stop_application-ee3a05b8", "intent": "stop_application", "text": "close the download client"}
+{"id": "readiness-stop_application-8e6f2cb0", "intent": "stop_application", "text": "end copyq"}
+{"id": "readiness-stop_application-1902b256", "intent": "stop_application", "text": "end the clipboard manager"}
+{"id": "readiness-stop_application-b87c7a36", "intent": "stop_application", "text": "exit file-roller"}
+{"id": "readiness-stop_application-1c42ff87", "intent": "stop_application", "text": "exit the archive manager"}
+{"id": "readiness-stop_application-6267de68", "intent": "stop_application", "text": "force quit blender"}
+{"id": "readiness-stop_application-cb83a388", "intent": "stop_application", "text": "force quit the 3d modeller"}
+{"id": "readiness-stop_application-b471c298", "intent": "stop_application", "text": "force stop gpodder"}
+{"id": "readiness-stop_application-135e8c8d", "intent": "stop_application", "text": "force stop the podcast player"}
+{"id": "readiness-stop_application-92dc3890", "intent": "stop_application", "text": "halt audacity"}
+{"id": "readiness-stop_application-af7654ca", "intent": "stop_application", "text": "halt the audio recorder"}
+{"id": "readiness-stop_application-599d908e", "intent": "stop_application", "text": "kill eog"}
+{"id": "readiness-stop_application-0e2b8640", "intent": "stop_application", "text": "kill gdb"}
+{"id": "readiness-stop_application-78444cf7", "intent": "stop_application", "text": "kill keepassxc"}
+{"id": "readiness-stop_application-046ad74f", "intent": "stop_application", "text": "kill okular"}
+{"id": "readiness-stop_application-39afa0a2", "intent": "stop_application", "text": "kill pacman"}
+{"id": "readiness-stop_application-8e09a14b", "intent": "stop_application", "text": "kill signal"}
+{"id": "readiness-stop_application-1c42b92a", "intent": "stop_application", "text": "kill spotify"}
+{"id": "readiness-stop_application-b63404c2", "intent": "stop_application", "text": "kill the chat client"}
+{"id": "readiness-stop_application-4897870a", "intent": "stop_application", "text": "kill the debugger"}
+{"id": "readiness-stop_application-35b751cf", "intent": "stop_application", "text": "kill the editor"}
+{"id": "readiness-stop_application-44c78412", "intent": "stop_application", "text": "kill the file manager"}
+{"id": "readiness-stop_application-450741ec", "intent": "stop_application", "text": "kill the image viewer"}
+{"id": "readiness-stop_application-c927d116", "intent": "stop_application", "text": "kill the mail client"}
+{"id": "readiness-stop_application-6bb43221", "intent": "stop_application", "text": "kill the music player"}
+{"id": "readiness-stop_application-5e943448", "intent": "stop_application", "text": "kill the package manager"}
+{"id": "readiness-stop_application-66ff0ff9", "intent": "stop_application", "text": "kill the password manager"}
+{"id": "readiness-stop_application-ecef9375", "intent": "stop_application", "text": "kill the pdf reader"}
+{"id": "readiness-stop_application-7aa7ac62", "intent": "stop_application", "text": "kill thunar"}
+{"id": "readiness-stop_application-5a392eef", "intent": "stop_application", "text": "kill thunderbird"}
+{"id": "readiness-stop_application-8ef9979f", "intent": "stop_application", "text": "kill vscode"}
+{"id": "readiness-stop_application-ba4e8530", "intent": "stop_application", "text": "quit handbrake"}
+{"id": "readiness-stop_application-400e7c3e", "intent": "stop_application", "text": "quit out gnome-calendar"}
+{"id": "readiness-stop_application-d113412b", "intent": "stop_application", "text": "quit out the calendar app"}
+{"id": "readiness-stop_application-4232e39b", "intent": "stop_application", "text": "quit the media converter"}
+{"id": "readiness-stop_application-1881203c", "intent": "stop_application", "text": "shut down inkscape"}
+{"id": "readiness-stop_application-40519f40", "intent": "stop_application", "text": "shut down the vector editor"}
+{"id": "readiness-stop_application-6ccb42c2", "intent": "stop_application", "text": "terminate flameshot"}
+{"id": "readiness-stop_application-93a35bc3", "intent": "stop_application", "text": "terminate the screenshot utility"}
+{"id": "readiness-stop_application-a4b5d8a0", "intent": "stop_application", "text": "close down"}
+{"id": "readiness-stop_application-0df63ebf", "intent": "stop_application", "text": "close down libreoffice"}
+{"id": "readiness-stop_application-e61c6197", "intent": "stop_application", "text": "close out"}
+{"id": "readiness-stop_application-18bf08d0", "intent": "stop_application", "text": "close out keepassxc"}
+{"id": "readiness-stop_application-361e48d0", "intent": "stop_application", "text": "end"}
+{"id": "readiness-stop_application-96873b0a", "intent": "stop_application", "text": "end the editor"}
+{"id": "readiness-stop_application-e596899f", "intent": "stop_application", "text": "exit"}
+{"id": "readiness-stop_application-a81471fa", "intent": "stop_application", "text": "exit blender"}
+{"id": "readiness-stop_application-d62247ba", "intent": "stop_application", "text": "force quit"}
+{"id": "readiness-stop_application-6b652c49", "intent": "stop_application", "text": "force quit inkscape"}
+{"id": "readiness-stop_application-3fd07d7b", "intent": "stop_application", "text": "halt"}
+{"id": "readiness-stop_application-3ce5a894", "intent": "stop_application", "text": "halt kdenlive"}
+{"id": "readiness-stop_application-4349e230", "intent": "stop_application", "text": "quit out"}
+{"id": "readiness-stop_application-b9b815b5", "intent": "stop_application", "text": "quit out signal"}
+{"id": "readiness-stop_application-53a25cb6", "intent": "stop_application", "text": "shut down"}
+{"id": "readiness-stop_application-6121489e", "intent": "stop_application", "text": "shut down spotify"}
+{"id": "readiness-stop_application-d17e998b", "intent": "stop_application", "text": "shut off"}
+{"id": "readiness-stop_application-09f56417", "intent": "stop_application", "text": "shut off discord"}
+{"id": "readiness-stop_application-1bc0ed36", "intent": "stop_application", "text": "stop the server"}
+{"id": "readiness-stop_application-51c65647", "intent": "stop_application", "text": "terminate the service"}
+{"id": "readiness-unknown-245e8e8f", "intent": "unknown", "text": "he bought a new bicycle"}
+{"id": "readiness-unknown-8713eacb", "intent": "unknown", "text": "it is raining outside"}
+{"id": "readiness-unknown-486daed3", "intent": "unknown", "text": "she left the office at noon"}
+{"id": "readiness-unknown-141a8606", "intent": "unknown", "text": "that was a long journey"}
+{"id": "readiness-unknown-d1897793", "intent": "unknown", "text": "the meeting starts at nine"}
+{"id": "readiness-unknown-abef469b", "intent": "unknown", "text": "the package arrived yesterday"}
+{"id": "readiness-unknown-72060b77", "intent": "unknown", "text": "the report was long"}
+{"id": "readiness-unknown-79c1973e", "intent": "unknown", "text": "they finished the migration last week"}
+{"id": "readiness-unknown-229d33a3", "intent": "unknown", "text": "we should leave before six"}

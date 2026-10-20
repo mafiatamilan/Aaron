@@ -1,0 +1,132 @@
+# AARON locked held-out benchmark, release 0.2
+# Never merged into the training dataset. Do not train on this file.
+{"id": "greeting-b0901060c", "intent": "greeting", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "howdy partner"}
+{"id": "greeting-bc62514c4", "intent": "greeting", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "good night to you"}
+{"id": "greeting-b41c257dc", "intent": "greeting", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "hello aaron there"}
+{"id": "greeting-b01982a4f", "intent": "greeting", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "anybody there"}
+{"id": "greeting-bf0012917", "intent": "greeting", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "afternoon"}
+{"id": "greeting-b2e76ff77", "intent": "greeting", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "morning to you"}
+{"id": "greeting-be948f7e3", "intent": "greeting", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "hey hey"}
+{"id": "greeting-be22585cd", "intent": "greeting", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "greetings and salutations"}
+{"id": "help-b92d7ffc1", "intent": "help", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "what are you for"}
+{"id": "help-b40417cf4", "intent": "help", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "which things can you handle"}
+{"id": "help-b60112f5f", "intent": "help", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "how do i speak to you"}
+{"id": "help-b696b75fa", "intent": "help", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "enumerate your commands"}
+{"id": "help-bedc3ede0", "intent": "help", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "which requests do you understand"}
+{"id": "help-b4776af03", "intent": "help", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "what should i ask you"}
+{"id": "help-b3dec22fb", "intent": "help", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "print your cheat sheet"}
+{"id": "help-bb7a604d4", "intent": "help", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "what can this assistant do"}
+{"id": "system_status-b051c536f", "intent": "system_status", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "how is the desktop doing"}
+{"id": "system_status-b1b094d69", "intent": "system_status", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "show me the vital signs"}
+{"id": "system_status-b328759de", "intent": "system_status", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "is everything running smoothly"}
+{"id": "system_status-b9e664d21", "intent": "system_status", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "how much ram is available"}
+{"id": "system_status-bbcd34cca", "intent": "system_status", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "are things nominal"}
+{"id": "system_status-b73c1fb07", "intent": "system_status", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "give me a health report on the hardware"}
+{"id": "system_status-bddb84f2a", "intent": "system_status", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "is the cpu under load"}
+{"id": "system_status-b3f4d2eea", "intent": "system_status", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "how much disk is left"}
+{"id": "system_status-bf130bbc1", "intent": "system_status", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "what is the load average"}
+{"id": "remember-b74781dbc", "intent": "remember", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "remember that the wifi is called aurora"}
+{"id": "remember-b302bb01e", "intent": "remember", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "remember that my dentist is on tuesday"}
+{"id": "remember-bfc8f3c0e", "intent": "remember", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "make a note that the office shuts at six"}
+{"id": "remember-bbfdaf45d", "intent": "remember", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "remember that i cannot eat shellfish"}
+{"id": "remember-b200fdc42", "intent": "remember", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "keep in mind that the train departs at 7am"}
+{"id": "remember-bb3d9d4e4", "intent": "remember", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "remember that the repo is named aaron"}
+{"id": "remember-b6eadd9ae", "intent": "remember", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "note it down that i favour dark mode"}
+{"id": "remember-b34420bc7", "intent": "remember", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "remember that the heating is broken"}
+{"id": "recall-bf63d5b94", "intent": "recall", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "what do you remember about my wifi"}
+{"id": "recall-bf242b103", "intent": "recall", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "look up what you know about my dentist"}
+{"id": "recall-b9299b181", "intent": "recall", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "search your memory for my train time"}
+{"id": "recall-beb285d25", "intent": "recall", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "what did i say about the release"}
+{"id": "recall-bbd6da10f", "intent": "recall", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "remind me about the berlin trip"}
+{"id": "recall-b9bc932fe", "intent": "recall", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "pull out what you know about my tablets"}
+{"id": "recall-bb8bc231b", "intent": "recall", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "search your memory for my bank account"}
+{"id": "recall-b3d110b65", "intent": "recall", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "dig out what you kept about my passport"}
+{"id": "search_files-b8094f8ac", "intent": "search_files", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "where is the file called app.py"}
+{"id": "search_files-b137d5938", "intent": "search_files", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "hunt for files named launch.json"}
+{"id": "search_files-b211cbc72", "intent": "search_files", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "look for any toml files"}
+{"id": "search_files-b898cc1f2", "intent": "search_files", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "track down the containerfile"}
+{"id": "search_files-b3e6325a1", "intent": "search_files", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "scan the tree for ruby files"}
+{"id": "search_files-b3a3bf975", "intent": "search_files", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "sift through the tree for rust files"}
+{"id": "search_files-be2e38843", "intent": "search_files", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "list every file ending in .yaml"}
+{"id": "search_files-b10672e48", "intent": "search_files", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "show me what is in the lib directory"}
+{"id": "read_file-b333fce01", "intent": "read_file", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "open the pipfile"}
+{"id": "read_file-be8c12646", "intent": "read_file", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "read the file called gitmodules"}
+{"id": "read_file-b5c8c1ac6", "intent": "read_file", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "show me the file named brewfile"}
+{"id": "read_file-be1c36050", "intent": "read_file", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "what is in the .env.sample"}
+{"id": "read_file-bc42ba203", "intent": "read_file", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "print the first 40 lines of lib.rs"}
+{"id": "read_file-b22009321", "intent": "read_file", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "read the top of the history file"}
+{"id": "read_file-bd29c4138", "intent": "read_file", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "display the contents of taskfile"}
+{"id": "read_file-bcd69f3dd", "intent": "read_file", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "open the guardfile"}
+{"id": "git_status-bf29a61b4", "intent": "git_status", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "which branch is active"}
+{"id": "git_status-be95a0c2b", "intent": "git_status", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "is there anything staged"}
+{"id": "git_status-babcfcc6d", "intent": "git_status", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "what would be committed"}
+{"id": "git_status-b1928ddef", "intent": "git_status", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "give me the change summary"}
+{"id": "git_status-b217192c6", "intent": "git_status", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "how many files are not tracked"}
+{"id": "git_status-bf5bb151e", "intent": "git_status", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "are there pending commits"}
+{"id": "git_status-b2eee746b", "intent": "git_status", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "what is in the working directory"}
+{"id": "git_status-b6843e156", "intent": "git_status", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "is the repo tidy"}
+{"id": "run_tests-b9084585d", "intent": "run_tests", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "execute the rust test suite"}
+{"id": "run_tests-bc940d6f6", "intent": "run_tests", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "run the shell tests"}
+{"id": "run_tests-b991880dd", "intent": "run_tests", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "kick off the smoke tests"}
+{"id": "run_tests-bf3c02180", "intent": "run_tests", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "run the tests for the tools crate"}
+{"id": "run_tests-bb721b23e", "intent": "run_tests", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "fire up the integration tests"}
+{"id": "run_tests-bc776bd53", "intent": "run_tests", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "go ahead and run the test suite"}
+{"id": "run_tests-bfd1f0423", "intent": "run_tests", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "trigger the full test suite"}
+{"id": "run_tests-ba656ad24", "intent": "run_tests", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "start the test harness"}
+{"id": "open_url-bc1e2c57b", "intent": "open_url", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "browse to https://example.org"}
+{"id": "open_url-b56f56418", "intent": "open_url", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "navigate to https://docs.rs/serde"}
+{"id": "open_url-b8a5a534f", "intent": "open_url", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "bring up https://wiki.archlinux.org"}
+{"id": "open_url-b0f9902bf", "intent": "open_url", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "go to https://lib.rs"}
+{"id": "open_url-b4ff31625", "intent": "open_url", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "pull up https://example.io/guide"}
+{"id": "open_url-b7478f203", "intent": "open_url", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "load https://en.m.wikipedia.org"}
+{"id": "open_url-b627d4255", "intent": "open_url", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "visit https://example.net/guide"}
+{"id": "open_url-bf38677a3", "intent": "open_url", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "take me to https://github.com/aaron-assistant/docs"}
+{"id": "start_application-bc0823bf3", "intent": "start_application", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "launch glances"}
+{"id": "start_application-baf26831f", "intent": "start_application", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "open keepass"}
+{"id": "start_application-b7f4326d9", "intent": "start_application", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "start the filezilla client"}
+{"id": "start_application-bb6f20f3d", "intent": "start_application", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "run scribus"}
+{"id": "start_application-b94f1518a", "intent": "start_application", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "fire up the calibre ebook library"}
+{"id": "start_application-bbf824d2a", "intent": "start_application", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "open the dconf viewer"}
+{"id": "start_application-b0f388db8", "intent": "start_application", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "launch the virtualbox manager"}
+{"id": "start_application-b92e026b4", "intent": "start_application", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "open nerd fonts viewer"}
+{"id": "stop_application-b42618f16", "intent": "stop_application", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "close the bittorrent client"}
+{"id": "stop_application-bddfda5aa", "intent": "stop_application", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "kill gimp"}
+{"id": "stop_application-beac4482c", "intent": "stop_application", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "terminate the profiler"}
+{"id": "stop_application-b5d287094", "intent": "stop_application", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "end the archive manager"}
+{"id": "stop_application-ba32471f7", "intent": "stop_application", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "shut down the calendar client"}
+{"id": "stop_application-b8ed4d940", "intent": "stop_application", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "quit the audio editor"}
+{"id": "stop_application-bb0c3f17c", "intent": "stop_application", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "halt the process watcher"}
+{"id": "stop_application-bef7cdc5a", "intent": "stop_application", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "get rid of the video player"}
+{"id": "cancel-b5a0476e8", "intent": "cancel", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "never mind that"}
+{"id": "cancel-b0d73889e", "intent": "cancel", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "actually forget it"}
+{"id": "cancel-b1057bcf9", "intent": "cancel", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "hold on stop there"}
+{"id": "cancel-b0c6f3ed9", "intent": "cancel", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "scratch that i was wrong"}
+{"id": "cancel-b2e1fe1f5", "intent": "cancel", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "call off the download"}
+{"id": "cancel-b94e29c05", "intent": "cancel", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "stand down now"}
+{"id": "cancel-b66c49aba", "intent": "cancel", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "no wait not this"}
+{"id": "cancel-b27166384", "intent": "cancel", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "put that back please"}
+{"id": "unknown-bc0946f5b", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "delete the build folder"}
+{"id": "unknown-beba2c61c", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "post the invoice by email"}
+{"id": "unknown-bfe78dcf4", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "install the missing library"}
+{"id": "unknown-b08e2e03f", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "increase the speaker volume"}
+{"id": "unknown-b4b42b96b", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "empty the waste basket"}
+{"id": "unknown-bfafaec4d", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "rename the field in the record"}
+{"id": "unknown-b47cb526a", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "publish the crate to the index"}
+{"id": "unknown-b2d2073cb", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "restart the queue service"}
+{"id": "unknown-b06167e71", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "change my default editor"}
+{"id": "unknown-b7e5daad1", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "schedule a call for friday"}
+{"id": "unknown-b58ee859c", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "how do i replace a washing machine pump"}
+{"id": "unknown-b75004c48", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "how do i sharpen a kitchen knife"}
+{"id": "unknown-be74e768e", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "what is the speed of light"}
+{"id": "unknown-b8c28a959", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "why do onions make you cry"}
+{"id": "unknown-ba2e74d2d", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "who wrote the book of mormon"}
+{"id": "unknown-bcfa5b2a5", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "how many continents are there"}
+{"id": "unknown-b62bdb11e", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "what is the boiling point of mercury"}
+{"id": "unknown-bff8448a2", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "should i buy a house or rent"}
+{"id": "unknown-b7ac42f09", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "how do i unclog a kitchen sink"}
+{"id": "unknown-ba83bd31e", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "what is a good gift for a new colleague"}
+{"id": "unknown-b0269fd38", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "can you book me a taxi"}
+{"id": "unknown-b6a266394", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "could you feed the cat"}
+{"id": "unknown-bb70af754", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "would you mind taking out the bins"}
+{"id": "unknown-bdc64d738", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "please fetch my coat from the hall"}
+{"id": "unknown-b0faa5d9b", "intent": "unknown", "notes": "release 0.2 locked held-out benchmark; never trained on", "source": "benchmark", "text": "i would like to order a sandwich"}

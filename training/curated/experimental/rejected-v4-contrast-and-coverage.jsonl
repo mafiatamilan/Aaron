@@ -1,0 +1,273 @@
+# AARON curated additions, release 0.4
+# Contrast pairs for the measured regression failures, plus
+# population-1 refusals and noun coverage for the weak classes.
+{"family": "contrast_pairs", "id": "cancel-98b08348", "intent": "cancel", "notes": "minimal pair: cancel vs start_application", "source": "curated", "text": "cancel the terminal"}
+{"family": "contrast_pairs", "id": "start_application-dfec0acc", "intent": "start_application", "notes": "minimal pair: start_application vs cancel", "source": "curated", "text": "start the terminal"}
+{"family": "contrast_pairs", "id": "cancel-a1683b28", "intent": "cancel", "notes": "minimal pair: cancel vs start_application", "source": "curated", "text": "cancel the browser"}
+{"family": "contrast_pairs", "id": "start_application-36e1a109", "intent": "start_application", "notes": "minimal pair: start_application vs cancel", "source": "curated", "text": "launch the browser"}
+{"family": "contrast_pairs", "id": "cancel-fd45e56a", "intent": "cancel", "notes": "minimal pair: cancel vs start_application", "source": "curated", "text": "cancel the file search"}
+{"family": "contrast_pairs", "id": "start_application-cf79cfc7", "intent": "start_application", "notes": "minimal pair: start_application vs cancel", "source": "curated", "text": "launch the file search"}
+{"family": "contrast_pairs", "id": "cancel-0a34c967", "intent": "cancel", "notes": "minimal pair: cancel vs run_tests", "source": "curated", "text": "abort the test run"}
+{"family": "contrast_pairs", "id": "run_tests-0485067b", "intent": "run_tests", "notes": "minimal pair: run_tests vs cancel", "source": "curated", "text": "run the test suite"}
+{"family": "contrast_pairs", "id": "cancel-f433b449", "intent": "cancel", "notes": "minimal pair: cancel vs run_tests", "source": "curated", "text": "cancel the test run"}
+{"family": "contrast_pairs", "id": "run_tests-8abaf32d", "intent": "run_tests", "notes": "minimal pair: run_tests vs cancel", "source": "curated", "text": "start the test run"}
+{"family": "contrast_pairs", "id": "cancel-2adc76c2", "intent": "cancel", "notes": "minimal pair: cancel vs run_tests", "source": "curated", "text": "abort the build"}
+{"family": "contrast_pairs", "id": "run_tests-04eb3138", "intent": "run_tests", "notes": "minimal pair: run_tests vs cancel", "source": "curated", "text": "run the build tests"}
+{"family": "contrast_pairs", "id": "system_status-a6bc3c81", "intent": "system_status", "notes": "minimal pair: system_status vs greeting", "source": "curated", "text": "is everything running ok"}
+{"family": "contrast_pairs", "id": "greeting-151aaf9a", "intent": "greeting", "notes": "minimal pair: greeting vs system_status", "source": "curated", "text": "good morning to you"}
+{"family": "contrast_pairs", "id": "system_status-ab0c9873", "intent": "system_status", "notes": "minimal pair: system_status vs cancel", "source": "curated", "text": "any problems with the machine"}
+{"family": "contrast_pairs", "id": "cancel-c1bf2f11", "intent": "cancel", "notes": "minimal pair: cancel vs system_status", "source": "curated", "text": "cancel the machine check"}
+{"family": "contrast_pairs", "id": "system_status-7ff9f9b1", "intent": "system_status", "notes": "minimal pair: system_status vs cancel", "source": "curated", "text": "are the systems healthy"}
+{"family": "contrast_pairs", "id": "cancel-8d9ab392", "intent": "cancel", "notes": "minimal pair: cancel vs system_status", "source": "curated", "text": "cancel the health check"}
+{"family": "contrast_pairs", "id": "help-fd2e9abf", "intent": "help", "notes": "minimal pair: help vs system_status", "source": "curated", "text": "how does this work"}
+{"family": "contrast_pairs", "id": "system_status-0eec20d2", "intent": "system_status", "notes": "minimal pair: system_status vs help", "source": "curated", "text": "how is the system working"}
+{"family": "contrast_pairs", "id": "help-fd2a3bc3", "intent": "help", "notes": "minimal pair: help vs system_status", "source": "curated", "text": "what can you do here"}
+{"family": "contrast_pairs", "id": "system_status-6b3b23a4", "intent": "system_status", "notes": "minimal pair: system_status vs help", "source": "curated", "text": "what is the system doing"}
+{"family": "contrast_pairs", "id": "help-42f3cf2a", "intent": "help", "notes": "minimal pair: help vs system_status", "source": "curated", "text": "how do i use this"}
+{"family": "contrast_pairs", "id": "system_status-33732043", "intent": "system_status", "notes": "minimal pair: system_status vs help", "source": "curated", "text": "how much memory is free"}
+{"family": "contrast_pairs", "id": "search_files-2d6a657d", "intent": "search_files", "notes": "minimal pair: search_files vs open_url", "source": "curated", "text": "find *.rs"}
+{"family": "contrast_pairs", "id": "open_url-4d643c67", "intent": "open_url", "notes": "minimal pair: open_url vs search_files", "source": "curated", "text": "open the url https://example.com"}
+{"family": "contrast_pairs", "id": "search_files-caaa4b36", "intent": "search_files", "notes": "minimal pair: search_files vs open_url", "source": "curated", "text": "find files matching *.log"}
+{"family": "contrast_pairs", "id": "open_url-b31ad421", "intent": "open_url", "notes": "minimal pair: open_url vs search_files", "source": "curated", "text": "open https://example.com/logs"}
+{"family": "contrast_pairs", "id": "search_files-6cc46080", "intent": "search_files", "notes": "minimal pair: search_files vs open_url", "source": "curated", "text": "locate the file called notes.txt"}
+{"family": "contrast_pairs", "id": "open_url-994acdf6", "intent": "open_url", "notes": "minimal pair: open_url vs search_files", "source": "curated", "text": "open the website example.com"}
+{"family": "contrast_pairs", "id": "unknown-36a42e8e", "intent": "unknown", "notes": "minimal pair: unknown vs search_files", "source": "curated", "text": "the weather is lovely today"}
+{"family": "contrast_pairs", "id": "search_files-15e89b26", "intent": "search_files", "notes": "minimal pair: search_files vs unknown", "source": "curated", "text": "find files named weather.txt"}
+{"family": "contrast_pairs", "id": "unknown-cf9a78e2", "intent": "unknown", "notes": "minimal pair: unknown vs search_files", "source": "curated", "text": "my cat knocked over the plant"}
+{"family": "contrast_pairs", "id": "search_files-a5f03827", "intent": "search_files", "notes": "minimal pair: search_files vs unknown", "source": "curated", "text": "find files named plant.txt"}
+{"family": "contrast_pairs", "id": "unknown-49833003", "intent": "unknown", "notes": "minimal pair: unknown vs search_files", "source": "curated", "text": "the train leaves at half past eight"}
+{"family": "contrast_pairs", "id": "search_files-1f87a4b3", "intent": "search_files", "notes": "minimal pair: search_files vs unknown", "source": "curated", "text": "find files about trains"}
+{"family": "contrast_pairs", "id": "unknown-d5a391c5", "intent": "unknown", "notes": "minimal pair: unknown vs read_file", "source": "curated", "text": "i finished the report last night"}
+{"family": "contrast_pairs", "id": "read_file-b5466d9d", "intent": "read_file", "notes": "minimal pair: read_file vs unknown", "source": "curated", "text": "read the file report.md"}
+{"family": "contrast_pairs", "id": "unknown-ba56bbe3", "intent": "unknown", "notes": "minimal pair: unknown vs read_file", "source": "curated", "text": "she plays the cello and the piano"}
+{"family": "contrast_pairs", "id": "read_file-a61a73c3", "intent": "read_file", "notes": "minimal pair: read_file vs unknown", "source": "curated", "text": "read the file notes.txt"}
+{"family": "pop1", "id": "unknown-11f7e155", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "what are the rules of cricket"}
+{"family": "pop1", "id": "unknown-73dc8231", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "what are the symptoms of the flu"}
+{"family": "pop1", "id": "unknown-6bdca2ee", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "what are the odds of a snowstorm"}
+{"family": "pop1", "id": "unknown-08403f43", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "what are the trade offs of rust versus go"}
+{"family": "pop1", "id": "unknown-cf41a5de", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "what are the working days in spain"}
+{"family": "pop1", "id": "unknown-8400bd1c", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "who are the current prime ministers"}
+{"family": "pop1", "id": "unknown-e564829b", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "where are the best hiking trails nearby"}
+{"family": "pop1", "id": "unknown-2bf6f60a", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "how many chromosomes do humans have"}
+{"family": "pop1", "id": "unknown-247970d5", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "how many calories are in an avocado"}
+{"family": "pop1", "id": "unknown-4a244734", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "how many moons does saturn have"}
+{"family": "pop1", "id": "unknown-a3a71035", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "i finished reading that novel yesterday"}
+{"family": "pop1", "id": "unknown-51035523", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "i submitted the expenses on friday"}
+{"family": "pop1", "id": "unknown-e33f36fc", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "i booked the flights for march"}
+{"family": "pop1", "id": "unknown-158b7f39", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "i left the oven on again"}
+{"family": "pop1", "id": "unknown-3004c26a", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "i already sent the invoice"}
+{"family": "pop1", "id": "unknown-e71900cc", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "order a pizza for tonight"}
+{"family": "pop1", "id": "unknown-513b8ef8", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "order me a coffee"}
+{"family": "pop1", "id": "unknown-125c57ad", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "pause the music"}
+{"family": "pop1", "id": "unknown-7975f569", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "resume the playlist"}
+{"family": "pop1", "id": "unknown-b7f3620c", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "book me a table for two"}
+{"family": "pop1", "id": "unknown-e758fdd6", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "turn up the heating"}
+{"family": "pop1", "id": "unknown-0671785d", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "set an alarm for half six"}
+{"family": "pop1", "id": "unknown-324337e7", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "add milk to the shopping list"}
+{"family": "pop1", "id": "unknown-39c7b580", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "post a message to the channel"}
+{"family": "pop1", "id": "unknown-e6201a60", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "open the pod bay doors"}
+{"family": "pop1", "id": "unknown-43712b79", "intent": "unknown", "notes": "out of schema: no action AARON can take", "source": "curated", "text": "reveal the secrets of the machine"}
+{"family": "noun_coverage", "id": "read_file-bb38fb6f", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file settings.json"}
+{"family": "noun_coverage", "id": "search_files-cc455bab", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named settings.json"}
+{"family": "noun_coverage", "id": "read_file-0ca66927", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file config.yaml"}
+{"family": "noun_coverage", "id": "search_files-d16f492b", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named config.yaml"}
+{"family": "noun_coverage", "id": "read_file-98931250", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file secrets.env"}
+{"family": "noun_coverage", "id": "search_files-9f9f8134", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named secrets.env"}
+{"family": "noun_coverage", "id": "read_file-bcbac651", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file database.toml"}
+{"family": "noun_coverage", "id": "search_files-a489399d", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named database.toml"}
+{"family": "noun_coverage", "id": "read_file-1cc7dfa1", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file schema.sql"}
+{"family": "noun_coverage", "id": "search_files-65690225", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named schema.sql"}
+{"family": "noun_coverage", "id": "read_file-653e4826", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file migrations.rs"}
+{"family": "noun_coverage", "id": "search_files-c3c0d752", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named migrations.rs"}
+{"family": "noun_coverage", "id": "read_file-fef5494c", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file handler.go"}
+{"family": "noun_coverage", "id": "search_files-05ed9a28", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named handler.go"}
+{"family": "noun_coverage", "id": "read_file-576b49a7", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file index.ts"}
+{"family": "noun_coverage", "id": "search_files-41db3e23", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named index.ts"}
+{"family": "noun_coverage", "id": "read_file-791bfe4e", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file main.py"}
+{"family": "noun_coverage", "id": "search_files-2b7f8842", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named main.py"}
+{"family": "noun_coverage", "id": "read_file-d0afa49c", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file app.jsx"}
+{"family": "noun_coverage", "id": "search_files-69fad1b0", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named app.jsx"}
+{"family": "noun_coverage", "id": "read_file-554491bc", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file style.css"}
+{"family": "noun_coverage", "id": "search_files-5d1698f8", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named style.css"}
+{"family": "noun_coverage", "id": "read_file-63fb733a", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file Dockerfile"}
+{"family": "noun_coverage", "id": "search_files-f5c407ae", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named Dockerfile"}
+{"family": "noun_coverage", "id": "read_file-502a6596", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file Procfile"}
+{"family": "noun_coverage", "id": "search_files-991aae6a", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named Procfile"}
+{"family": "noun_coverage", "id": "read_file-f4af75e4", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file Makefile"}
+{"family": "noun_coverage", "id": "search_files-6dce1030", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named Makefile"}
+{"family": "noun_coverage", "id": "read_file-a4f74606", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file CMakeLists.txt"}
+{"family": "noun_coverage", "id": "search_files-1dd0f7d2", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named CMakeLists.txt"}
+{"family": "noun_coverage", "id": "read_file-b3e868cc", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file go.mod"}
+{"family": "noun_coverage", "id": "search_files-5cb97610", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named go.mod"}
+{"family": "noun_coverage", "id": "read_file-b928d896", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file requirements.txt"}
+{"family": "noun_coverage", "id": "search_files-3d775e3a", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named requirements.txt"}
+{"family": "noun_coverage", "id": "read_file-e4be454f", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file Pipfile"}
+{"family": "noun_coverage", "id": "search_files-1fd0a7e3", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named Pipfile"}
+{"family": "noun_coverage", "id": "read_file-5a5eb252", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file poetry.lock"}
+{"family": "noun_coverage", "id": "search_files-361b59de", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named poetry.lock"}
+{"family": "noun_coverage", "id": "read_file-70a32af9", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file Cargo.lock"}
+{"family": "noun_coverage", "id": "search_files-489addd5", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named Cargo.lock"}
+{"family": "noun_coverage", "id": "read_file-9e6aea5c", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file nginx.conf"}
+{"family": "noun_coverage", "id": "search_files-17dd4af8", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named nginx.conf"}
+{"family": "noun_coverage", "id": "read_file-0bfd6188", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file hosts.allow"}
+{"family": "noun_coverage", "id": "search_files-64b0ba4c", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named hosts.allow"}
+{"family": "noun_coverage", "id": "read_file-59f0f233", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file known_hosts"}
+{"family": "noun_coverage", "id": "search_files-36bbfc47", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named known_hosts"}
+{"family": "noun_coverage", "id": "read_file-13095eb2", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file authorized_keys"}
+{"family": "noun_coverage", "id": "search_files-2443c126", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named authorized_keys"}
+{"family": "noun_coverage", "id": "read_file-db790453", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file id_ed25519"}
+{"family": "noun_coverage", "id": "search_files-96e173a7", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named id_ed25519"}
+{"family": "noun_coverage", "id": "read_file-78711083", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file crontab"}
+{"family": "noun_coverage", "id": "search_files-8fff9ce7", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named crontab"}
+{"family": "noun_coverage", "id": "read_file-98979cd2", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file fstab"}
+{"family": "noun_coverage", "id": "search_files-be9a344e", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named fstab"}
+{"family": "noun_coverage", "id": "read_file-54d31a5b", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file hosts"}
+{"family": "noun_coverage", "id": "search_files-45ad8827", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named hosts"}
+{"family": "noun_coverage", "id": "read_file-237cfe22", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file passwd"}
+{"family": "noun_coverage", "id": "search_files-a3d5a386", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named passwd"}
+{"family": "noun_coverage", "id": "read_file-411dd37c", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file shadow"}
+{"family": "noun_coverage", "id": "search_files-92e97e98", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named shadow"}
+{"family": "noun_coverage", "id": "read_file-7d562a4f", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file sudoers"}
+{"family": "noun_coverage", "id": "search_files-66f55aeb", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named sudoers"}
+{"family": "noun_coverage", "id": "read_file-8496b2e0", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file pam.d"}
+{"family": "noun_coverage", "id": "search_files-eb46c024", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named pam.d"}
+{"family": "noun_coverage", "id": "read_file-3c6b0cbd", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file sshd_config"}
+{"family": "noun_coverage", "id": "search_files-b3bbee29", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named sshd_config"}
+{"family": "noun_coverage", "id": "read_file-ea7006cf", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file robots.txt"}
+{"family": "noun_coverage", "id": "search_files-3f20c5d3", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named robots.txt"}
+{"family": "noun_coverage", "id": "read_file-91863884", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file sitemap.xml"}
+{"family": "noun_coverage", "id": "search_files-8ed8bc80", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named sitemap.xml"}
+{"family": "noun_coverage", "id": "read_file-68917890", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file humans.txt"}
+{"family": "noun_coverage", "id": "search_files-11e10c84", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named humans.txt"}
+{"family": "noun_coverage", "id": "read_file-042b6c68", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file security.txt"}
+{"family": "noun_coverage", "id": "search_files-ca9965bc", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named security.txt"}
+{"family": "noun_coverage", "id": "read_file-8b7ac83b", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file LICENSE"}
+{"family": "noun_coverage", "id": "search_files-96e8e487", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named LICENSE"}
+{"family": "noun_coverage", "id": "read_file-9a0f3344", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file NOTICE"}
+{"family": "noun_coverage", "id": "search_files-ce8639b8", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named NOTICE"}
+{"family": "noun_coverage", "id": "read_file-3d51dbc8", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file AUTHORS"}
+{"family": "noun_coverage", "id": "search_files-b8e3416c", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named AUTHORS"}
+{"family": "noun_coverage", "id": "read_file-aa99a78d", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file CHANGELOG.md"}
+{"family": "noun_coverage", "id": "search_files-9216ace9", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named CHANGELOG.md"}
+{"family": "noun_coverage", "id": "read_file-62d7468f", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file CONTRIBUTING.md"}
+{"family": "noun_coverage", "id": "search_files-f57c394b", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named CONTRIBUTING.md"}
+{"family": "noun_coverage", "id": "read_file-b3665179", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file tsconfig.json"}
+{"family": "noun_coverage", "id": "search_files-968d9835", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named tsconfig.json"}
+{"family": "noun_coverage", "id": "read_file-f7651ca7", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file jsconfig.json"}
+{"family": "noun_coverage", "id": "search_files-d1971fcb", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named jsconfig.json"}
+{"family": "noun_coverage", "id": "read_file-be569f39", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file babel.config.js"}
+{"family": "noun_coverage", "id": "search_files-02de76a5", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named babel.config.js"}
+{"family": "noun_coverage", "id": "read_file-7ff0ff9a", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file webpack.config.js"}
+{"family": "noun_coverage", "id": "search_files-d7c07ef6", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named webpack.config.js"}
+{"family": "noun_coverage", "id": "read_file-eb0e0574", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file .gitignore"}
+{"family": "noun_coverage", "id": "search_files-cba6b150", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named .gitignore"}
+{"family": "noun_coverage", "id": "read_file-d6ea5118", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file .dockerignore"}
+{"family": "noun_coverage", "id": "search_files-f4ad0b04", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named .dockerignore"}
+{"family": "noun_coverage", "id": "read_file-8bd881f1", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file .editorconfig"}
+{"family": "noun_coverage", "id": "search_files-87cab335", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named .editorconfig"}
+{"family": "noun_coverage", "id": "read_file-fe8ae0c0", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file .npmrc"}
+{"family": "noun_coverage", "id": "search_files-ab64803c", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named .npmrc"}
+{"family": "noun_coverage", "id": "read_file-ddbc6bba", "intent": "read_file", "notes": "noun coverage for read_file", "source": "curated", "text": "read the file .cargo"}
+{"family": "noun_coverage", "id": "search_files-ab92e8f6", "intent": "search_files", "notes": "noun coverage for search_files", "source": "curated", "text": "find files named .cargo"}
+{"family": "noun_coverage", "id": "git_status-4ace4d2e", "intent": "git_status", "notes": "noun coverage for git_status", "source": "curated", "text": "show me the working tree"}
+{"family": "noun_coverage", "id": "git_status-833e8225", "intent": "git_status", "notes": "noun coverage for git_status", "source": "curated", "text": "show me the staging area"}
+{"family": "noun_coverage", "id": "git_status-318d30b0", "intent": "git_status", "notes": "noun coverage for git_status", "source": "curated", "text": "show me the current branch"}
+{"family": "noun_coverage", "id": "git_status-176eb734", "intent": "git_status", "notes": "noun coverage for git_status", "source": "curated", "text": "show me the last commit"}
+{"family": "noun_coverage", "id": "git_status-a671f5b6", "intent": "git_status", "notes": "noun coverage for git_status", "source": "curated", "text": "show me the upstream branch"}
+{"family": "noun_coverage", "id": "git_status-9a7e5a52", "intent": "git_status", "notes": "noun coverage for git_status", "source": "curated", "text": "show me the commit history"}
+{"family": "noun_coverage", "id": "git_status-daf120a5", "intent": "git_status", "notes": "noun coverage for git_status", "source": "curated", "text": "show me the untracked files"}
+{"family": "noun_coverage", "id": "git_status-6b2fc260", "intent": "git_status", "notes": "noun coverage for git_status", "source": "curated", "text": "show me the staged changes"}
+{"family": "noun_coverage", "id": "git_status-0c50ada4", "intent": "git_status", "notes": "noun coverage for git_status", "source": "curated", "text": "show me the diff"}
+{"family": "noun_coverage", "id": "git_status-b85d478b", "intent": "git_status", "notes": "noun coverage for git_status", "source": "curated", "text": "show me the repository status"}
+{"family": "noun_coverage", "id": "git_status-87966170", "intent": "git_status", "notes": "noun coverage for git_status", "source": "curated", "text": "show me the merge state"}
+{"family": "noun_coverage", "id": "git_status-a0a84b42", "intent": "git_status", "notes": "noun coverage for git_status", "source": "curated", "text": "show me the rebase state"}
+{"family": "noun_coverage", "id": "start_application-37594459", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch htop"}
+{"family": "noun_coverage", "id": "stop_application-9301d21a", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close htop"}
+{"family": "noun_coverage", "id": "start_application-65b5f20b", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch btop"}
+{"family": "noun_coverage", "id": "stop_application-f028a650", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close btop"}
+{"family": "noun_coverage", "id": "start_application-c0823bf3", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch glances"}
+{"family": "noun_coverage", "id": "stop_application-3812e062", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close glances"}
+{"family": "noun_coverage", "id": "start_application-a85a3c64", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch kitemate"}
+{"family": "noun_coverage", "id": "stop_application-eecc8d27", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close kitemate"}
+{"family": "noun_coverage", "id": "start_application-a76c6995", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch krita"}
+{"family": "noun_coverage", "id": "stop_application-edfca4b0", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close krita"}
+{"family": "noun_coverage", "id": "start_application-56034794", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch inkscape"}
+{"family": "noun_coverage", "id": "stop_application-9e5b4f27", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close inkscape"}
+{"family": "noun_coverage", "id": "start_application-b244e081", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch scribus"}
+{"family": "noun_coverage", "id": "stop_application-92985d44", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close scribus"}
+{"family": "noun_coverage", "id": "start_application-ea812dc2", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch blender"}
+{"family": "noun_coverage", "id": "stop_application-f2bee4d3", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close blender"}
+{"family": "noun_coverage", "id": "start_application-218ffa07", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch gimp"}
+{"family": "noun_coverage", "id": "stop_application-7097f814", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close gimp"}
+{"family": "noun_coverage", "id": "start_application-7313297c", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch audacity"}
+{"family": "noun_coverage", "id": "stop_application-2bf276d7", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close audacity"}
+{"family": "noun_coverage", "id": "start_application-badd4637", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch ardour"}
+{"family": "noun_coverage", "id": "stop_application-9d536c10", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close ardour"}
+{"family": "noun_coverage", "id": "start_application-1da0eaa8", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch kdenlive"}
+{"family": "noun_coverage", "id": "stop_application-5ff966af", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close kdenlive"}
+{"family": "noun_coverage", "id": "start_application-c71393fa", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch shotcut"}
+{"family": "noun_coverage", "id": "stop_application-f29bc06f", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close shotcut"}
+{"family": "noun_coverage", "id": "start_application-7eeda5e1", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch obs-studio"}
+{"family": "noun_coverage", "id": "stop_application-bc42e8e2", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close obs-studio"}
+{"family": "noun_coverage", "id": "start_application-a443c619", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch vlc"}
+{"family": "noun_coverage", "id": "stop_application-51f910c0", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close vlc"}
+{"family": "noun_coverage", "id": "start_application-29c69703", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch mpv"}
+{"family": "noun_coverage", "id": "stop_application-6a759a56", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close mpv"}
+{"family": "noun_coverage", "id": "start_application-a97ee151", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch celluloid"}
+{"family": "noun_coverage", "id": "stop_application-d4cfa128", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close celluloid"}
+{"family": "noun_coverage", "id": "start_application-031eb62b", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch eog"}
+{"family": "noun_coverage", "id": "stop_application-913eb212", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close eog"}
+{"family": "noun_coverage", "id": "start_application-344c2632", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch okular"}
+{"family": "noun_coverage", "id": "stop_application-86431071", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close okular"}
+{"family": "noun_coverage", "id": "start_application-6f1b58ef", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch zathura"}
+{"family": "noun_coverage", "id": "stop_application-2e2cd296", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close zathura"}
+{"family": "noun_coverage", "id": "start_application-fa1cb87a", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch evince"}
+{"family": "noun_coverage", "id": "stop_application-7e320e21", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close evince"}
+{"family": "noun_coverage", "id": "start_application-badc18ba", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch atril"}
+{"family": "noun_coverage", "id": "stop_application-a13baf97", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close atril"}
+{"family": "noun_coverage", "id": "start_application-cc726bc0", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch calibre"}
+{"family": "noun_coverage", "id": "stop_application-068c1af5", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close calibre"}
+{"family": "noun_coverage", "id": "start_application-477c425e", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch sigil"}
+{"family": "noun_coverage", "id": "stop_application-1dc2cdf3", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close sigil"}
+{"family": "noun_coverage", "id": "start_application-711d5d6d", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch zotero"}
+{"family": "noun_coverage", "id": "stop_application-969b742e", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close zotero"}
+{"family": "noun_coverage", "id": "start_application-755696d1", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch keepassxc"}
+{"family": "noun_coverage", "id": "stop_application-c9035f34", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close keepassxc"}
+{"family": "noun_coverage", "id": "start_application-dab003cc", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch bitwarden"}
+{"family": "noun_coverage", "id": "stop_application-0c1c910d", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close bitwarden"}
+{"family": "noun_coverage", "id": "start_application-0abe32ad", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch kee"}
+{"family": "noun_coverage", "id": "stop_application-60124924", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close kee"}
+{"family": "noun_coverage", "id": "start_application-5e081276", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch gnome-keyring"}
+{"family": "noun_coverage", "id": "stop_application-f84af48f", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close gnome-keyring"}
+{"family": "noun_coverage", "id": "start_application-9164f412", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch seahorse"}
+{"family": "noun_coverage", "id": "stop_application-6ef29505", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close seahorse"}
+{"family": "noun_coverage", "id": "start_application-aa8759ba", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch transmission"}
+{"family": "noun_coverage", "id": "stop_application-87389f11", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close transmission"}
+{"family": "noun_coverage", "id": "start_application-ebe6c8a6", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch deluge"}
+{"family": "noun_coverage", "id": "stop_application-23dccb45", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close deluge"}
+{"family": "noun_coverage", "id": "start_application-b2353e0b", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch aria2"}
+{"family": "noun_coverage", "id": "stop_application-ddc4e3fa", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close aria2"}
+{"family": "noun_coverage", "id": "start_application-95434a28", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch filezilla"}
+{"family": "noun_coverage", "id": "stop_application-c03eeb69", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close filezilla"}
+{"family": "noun_coverage", "id": "start_application-112fecb6", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch winscp"}
+{"family": "noun_coverage", "id": "stop_application-46639c69", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close winscp"}
+{"family": "noun_coverage", "id": "start_application-12ff5bf9", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch remmina"}
+{"family": "noun_coverage", "id": "stop_application-0c9d711c", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close remmina"}
+{"family": "noun_coverage", "id": "start_application-8cb36d03", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch virt-manager"}
+{"family": "noun_coverage", "id": "stop_application-1e8c469c", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close virt-manager"}
+{"family": "noun_coverage", "id": "start_application-7dda9536", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch vboxmanage"}
+{"family": "noun_coverage", "id": "stop_application-5f5de2c9", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close vboxmanage"}
+{"family": "noun_coverage", "id": "start_application-2778c966", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch docker"}
+{"family": "noun_coverage", "id": "stop_application-8016cc89", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close docker"}
+{"family": "noun_coverage", "id": "start_application-4c401ab7", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch podman"}
+{"family": "noun_coverage", "id": "stop_application-86ce1a8c", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close podman"}
+{"family": "noun_coverage", "id": "start_application-6307d872", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch insync"}
+{"family": "noun_coverage", "id": "stop_application-b0040191", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close insync"}
+{"family": "noun_coverage", "id": "start_application-e56e910c", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch nextcloud"}
+{"family": "noun_coverage", "id": "stop_application-058fd5ad", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close nextcloud"}
+{"family": "noun_coverage", "id": "start_application-d36e0243", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch syncthing"}
+{"family": "noun_coverage", "id": "stop_application-ddb46b56", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close syncthing"}
+{"family": "noun_coverage", "id": "start_application-04022a7d", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch rclone"}
+{"family": "noun_coverage", "id": "stop_application-0819b866", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close rclone"}
+{"family": "noun_coverage", "id": "start_application-9dfc5a3b", "intent": "start_application", "notes": "noun coverage for start_application", "source": "curated", "text": "launch rsync"}
+{"family": "noun_coverage", "id": "stop_application-1f209d0e", "intent": "stop_application", "notes": "noun coverage for stop_application", "source": "curated", "text": "close rsync"}

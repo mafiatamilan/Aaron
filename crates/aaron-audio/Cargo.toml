@@ -1,0 +1,35 @@
+[package]
+name = "aaron-audio"
+description = "Microphone capture, energy voice-activity detection and audio sources for AARON."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+aaron-core.workspace = true
+serde.workspace = true
+tracing.workspace = true
+cpal = { workspace = true, optional = true }
+
+[features]
+default = ["capture"]
+# Real microphone capture through CPAL/ALSA. Turning this off leaves the
+# synthetic and file-backed sources, which is what CI and `--text-only` use.
+capture = ["dep:cpal"]
+# Capture through CPAL's PipeWire host.
+#
+# Opt-in, because the PipeWire backend needs `libpipewire-0.3` and
+# `libspa-0.2` development headers, and AARON must still build on a machine
+# that has neither.
+#
+# It matters: on a PipeWire desktop, ALSA's "default" device is the
+# *playback* endpoint, so an ALSA capture stream opens successfully and then
+# delivers nothing at all. The assistant would listen to silence and report
+# "nothing heard", which is the worst possible failure. With this feature,
+# CPAL prefers the PipeWire host and the microphone is a microphone.
+capture-pipewire = ["capture", "cpal/pipewire"]
+
+[dev-dependencies]
+tempfile.workspace = true
