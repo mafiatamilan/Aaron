@@ -10,7 +10,6 @@
 //! rather than growing memory without limit — a slow consumer must never turn
 //! into unbounded audio buffering.
 
-use std::path::Path;
 use std::sync::mpsc::sync_channel;
 use std::time::Duration;
 
@@ -377,17 +376,6 @@ impl AudioSource for CpalSource {
     }
 }
 
-/// Whether a PipeWire server is reachable on this machine.
-///
-/// The socket path is the documented convention, and it is what CPAL's own
-/// PipeWire host looks for.
-pub fn pipewire_is_running() -> bool {
-    if let Ok(dir) = std::env::var("XDG_RUNTIME_DIR") {
-        return Path::new(&dir).join("pipewire-0").exists();
-    }
-    false
-}
-
 /// Whether any capture device is reachable right now.
 pub fn capture_available() -> bool {
     default_device_name().is_some()
@@ -408,7 +396,7 @@ pub fn capture_host_name() -> &'static str {
     // re-derived, so it cannot disagree with what CPAL actually does.
     #[cfg(feature = "capture-pipewire")]
     {
-        if pipewire_is_running() {
+        if crate::pipewire_is_running() {
             return "pipewire";
         }
     }

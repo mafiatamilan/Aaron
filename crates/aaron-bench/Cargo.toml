@@ -12,7 +12,7 @@ aaron-core.workspace = true
 aaron-brain.workspace = true
 aaron-agent.workspace = true
 aaron-asr.workspace = true
-aaron-audio.workspace = true
+aaron-audio = { workspace = true, default-features = false }
 aaron-wake.workspace = true
 aaron-tts.workspace = true
 aaron-resources.workspace = true

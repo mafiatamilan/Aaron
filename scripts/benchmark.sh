@@ -36,7 +36,9 @@ done
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT" || exit 1
 
-printf '%s%sAARON benchmark%s\n' "$BLUE" "$1" "$RESET" 2>/dev/null
+# `${1:-}` rather than `$1`: the script runs under `set -u`, and a bare `$1`
+# aborts the whole run when no positional argument was given.
+printf '%s%sAARON benchmark%s\n' "$BLUE" "${1:-}" "$RESET" 2>/dev/null
 printf 'build profile   %s\n' "$PROFILE"
 printf 'iterations      %s\n' "$ITERATIONS"
 
@@ -71,7 +73,7 @@ fi
 # ------------------------------------------------------------------- stress
 if (( ! QUICK )); then
     printf '\n%s== stability ==%s\n' "$BLUE" "$RESET"
-    printf '%sRSS tolerance: max(2 MiB, 1%% of baseline) between the first and last%s\n' "$DIM"
+    printf '%sRSS tolerance: max(2 MiB, 1%% of baseline) between the first and last%s\n' "$DIM" "$RESET"
     printf '%sthirds of the post-warm-up samples. See docs/resources.md.%s\n' "$DIM" "$RESET"
     "$AARON" --config "$CONFIG" resources stress --iterations "$STRESS_ITERATIONS"
     stress_rc=$?

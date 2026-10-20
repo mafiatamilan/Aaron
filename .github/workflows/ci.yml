@@ -33,6 +33,15 @@ jobs:
       - name: Install the pinned toolchain
         run: rustup toolchain install 1.90.0 --component rustfmt,clippy --profile minimal
 
+      - name: Install ALSA and PipeWire headers
+        # Clippy runs with `--all-features`, and `capture-pipewire` is one of
+        # them. The PipeWire path is the one that fixed the ALSA-playback-
+        # endpoint bug, so it must be linted, not skipped.
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            libasound2-dev libpipewire-0.3-dev libspa-0.2-dev
+
       - uses: Swatinem/rust-cache@v2
 
       - name: Formatting
@@ -56,10 +65,11 @@ jobs:
       - name: Install the pinned toolchain
         run: rustup toolchain install 1.90.0 --profile minimal
 
-      - name: Install ALSA headers
+      - name: Install ALSA and PipeWire headers
         run: |
           sudo apt-get update
-          sudo apt-get install -y --no-install-recommends libasound2-dev
+          sudo apt-get install -y --no-install-recommends \
+            libasound2-dev libpipewire-0.3-dev libspa-0.2-dev
 
       - uses: Swatinem/rust-cache@v2
         with:
@@ -70,6 +80,11 @@ jobs:
 
       - name: Build without audio capture
         run: cargo build -p aaron-app --no-default-features
+
+      - name: Build with the PipeWire capture backend
+        # On a PipeWire desktop, ALSA's `default` device is the playback
+        # endpoint. This feature is what fixes that, so it has to compile.
+        run: cargo build --workspace --features aaron-audio/capture-pipewire
 
   # ------------------------------------------------------------------- test
   test:
@@ -110,6 +125,20 @@ jobs:
       - name: Build without any audio or GPU support
         run: cargo build -p aaron-app --no-default-features
 
+      - name: The text-only build must not depend on ALSA
+        # This was a real defect. `--no-default-features` did not switch the
+        # capture backend off, because the workspace dependency declared
+        # `default-features = true` and Cargo lets a member only *keep* the
+        # workspace default. The text-only binary linked libasound anyway,
+        # and this job failed on a machine with no ALSA headers.
+        run: |
+          if cargo tree -p aaron-app --no-default-features -e normal | grep -q "alsa-sys"; then
+            echo "FAIL: the text-only build still depends on ALSA"
+            cargo tree -p aaron-app --no-default-features -e normal | grep -n "alsa"
+            exit 1
+          fi
+          echo "the text-only build has no ALSA dependency"
+
       - name: Smoke test the text path
         run: |
           BIN=target/debug/aaron
@@ -144,7 +173,10 @@ jobs:
         run: cargo test -p aaron-brain checkpoint::tests
 
       - name: Assert the analysis and quality modules behave
-        run: cargo test -p aaron-brain analysis::tests dataquality::tests
+        # `--` is required: `cargo test` accepts exactly one positional
+        # filter, and a second one is a usage error. After `--`, the test
+        # binary itself takes the filters, and libtest ORs them.
+        run: cargo test -p aaron-brain -- analysis::tests dataquality::tests
 
   # --------------------------------------------------- configuration contract
   config:
@@ -155,6 +187,11 @@ jobs:
 
       - name: Install the pinned toolchain
         run: rustup toolchain install 1.90.0 --profile minimal
+
+      - name: Install ALSA headers
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends libasound2-dev
 
       - uses: Swatinem/rust-cache@v2
 
@@ -243,6 +280,11 @@ jobs:
       - name: Install the pinned toolchain
         run: rustup toolchain install 1.90.0 --profile minimal
 
+      - name: Install ALSA headers
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends libasound2-dev
+
       - uses: Swatinem/rust-cache@v2
 
       - name: Resource manager units
@@ -265,6 +307,11 @@ jobs:
 
       - name: Install Python
         run: sudo apt-get update && sudo apt-get install -y --no-install-recommends python3
+
+      - name: Install ALSA headers
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends libasound2-dev
 
       - uses: Swatinem/rust-cache@v2
 

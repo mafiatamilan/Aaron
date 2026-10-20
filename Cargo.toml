@@ -32,7 +32,11 @@ aaron-security = { path = "crates/aaron-security", version = "0.1.0" }
 aaron-memory = { path = "crates/aaron-memory", version = "0.1.0" }
 aaron-tools = { path = "crates/aaron-tools", version = "0.1.0" }
 aaron-brain = { path = "crates/aaron-brain", version = "0.1.0" }
-aaron-audio = { path = "crates/aaron-audio", version = "0.1.0" }
+# `default-features = false` here, not in the members: Cargo only lets a
+# member *keep* the workspace default, so the workspace declaration is
+# the only place where "capture is opt-in" can actually be expressed.
+# `aaron-app` turns it on explicitly through its own `capture` feature.
+aaron-audio = { path = "crates/aaron-audio", version = "0.1.0", default-features = false }
 aaron-wake = { path = "crates/aaron-wake", version = "0.1.0" }
 aaron-asr = { path = "crates/aaron-asr", version = "0.1.0" }
 aaron-tts = { path = "crates/aaron-tts", version = "0.1.0" }

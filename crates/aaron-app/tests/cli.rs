@@ -568,3 +568,32 @@ fn setup_writes_a_usable_installation() {
         .unwrap();
     assert_eq!(code(&doctor), 0, "{}", stderr(&doctor));
 }
+
+#[test]
+fn the_exit_codes_do_not_collide() {
+    // A script has to be able to tell the outcomes apart. "your
+    // configuration is broken" and "AARON asked you a question and ran
+    // nothing" were both 78, which is indistinguishable.
+    let config = aaron_core::config::Config::default();
+    assert_eq!(
+        aaron_core::error::ErrorKind::Config.exit_code(),
+        78,
+        "a configuration error is EX_CONFIG"
+    );
+    assert_eq!(
+        aaron_core::error::ErrorKind::PermissionDenied.exit_code(),
+        77,
+        "a refusal is EX_NOPERM"
+    );
+    assert_eq!(
+        aaron_core::error::ErrorKind::Cancelled.exit_code(),
+        130,
+        "a cancellation is 128 + SIGINT"
+    );
+    assert_eq!(
+        aaron_core::error::ErrorKind::MissingDependency.exit_code(),
+        69,
+        "a missing dependency is EX_UNAVAILABLE"
+    );
+    let _ = config;
+}

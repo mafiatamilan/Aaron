@@ -18,7 +18,7 @@ aaron-security.workspace = true
 aaron-memory.workspace = true
 aaron-tools.workspace = true
 aaron-brain.workspace = true
-aaron-audio.workspace = true
+aaron-audio = { workspace = true, default-features = false }
 aaron-wake.workspace = true
 aaron-asr.workspace = true
 aaron-tts.workspace = true

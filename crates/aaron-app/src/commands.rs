@@ -171,7 +171,15 @@ pub fn doctor(ctx: &AppContext) -> Result<()> {
                 // the assistant hears silence and says nobody spoke.
                 let host = aaron_audio::capture_host_name();
                 let devices = aaron_audio::describe_devices();
-                if devices.is_empty() {
+                if host == "none" {
+                    // Capture was not compiled in. `describe_devices` already
+                    // says exactly that, so do not decorate it with a host
+                    // name for a host that does not exist.
+                    devices
+                        .first()
+                        .cloned()
+                        .unwrap_or_else(|| "capture was not compiled in".into())
+                } else if devices.is_empty() {
                     format!("{host}: no devices found")
                 } else {
                     // The full ALSA device list runs to several lines of
@@ -341,9 +349,12 @@ pub fn ask(ctx: &mut AppContext, text: &str) -> Result<i32> {
         aaron_agent::Outcome2::Declined => 130,
         // The assistant asked a question rather than acting. That is not a
         // failure, but it is not a success either: the caller asked for an
-        // action and did not get one. 78 is the conventional "no action
-        // taken" code, distinct from 77's "refused".
-        aaron_agent::Outcome2::NeedsClarification => 78,
+        // action and did not get one.
+        //
+        // 75 is EX_TEMPFAIL, and it is *not* 78: 78 is EX_CONFIG, and a
+        // script must be able to tell "your configuration is broken" from
+        // "AARON asked you a question and ran nothing".
+        aaron_agent::Outcome2::NeedsClarification => 75,
         _ => 0,
     })
 }

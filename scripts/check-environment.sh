@@ -15,7 +15,8 @@ set -uo pipefail
 
 RED=$'\033[31m'; GREEN=$'\033[32m'; YELLOW=$'\033[33m'; BLUE=$'\033[34m'; DIM=$'\033[2m'; RESET=$'\033[0m'
 
-required_ok=0
+# Counters for the verdict. `required_ok` used to sit here and was never
+# read: shellcheck caught it, and it was genuinely dead.
 required_missing=0
 optional_missing=0
 

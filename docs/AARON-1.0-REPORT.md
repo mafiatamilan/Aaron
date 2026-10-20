@@ -21,8 +21,8 @@ fail. It is measured now, against the candidate being promoted.
 
 | area | status | evidence |
 |---|---|---|
-| Text CLI, tool registry, argument contracts | **VERIFIED** | 673 tests pass; `aaron ask` dispatches and reports truthfully |
-| Deterministic router | **VERIFIED** | 82.2 % agreement with the shipped dataset (was 44.6 %); 4 of 73 ordinary English sentences still reach a tool, and they are pinned |
+| Text CLI, tool registry, argument contracts | **VERIFIED** | 674 tests pass; `aaron ask` dispatches and reports truthfully |
+| Deterministic router | **VERIFIED** | 82.2 % agreement with the shipped dataset (was 44.6 %); 0 of the 69 ordinary English sentences reach a tool, and the 4 command-shaped ambiguities that do are pinned |
 | Authorisation, confirmation, argument validation | **VERIFIED** | 22 authorisation tests, all with a deliberately wrong confident classifier; `hard_negatives` 24/24 |
 | Filesystem sandbox, process hardening | **VERIFIED** | unchanged; the audit probed them adversarially and found no bypass |
 | Microphone capture | **VERIFIED** | real hardware, real audio: 240,128 samples at 48 kHz, peak −17.9 dBFS, cross-checked against PipeWire's own recorder |
@@ -138,7 +138,7 @@ specification of what AARON should understand.
 | `help` | 18 / 53 | 48 / 53 |
 | `run_tests` | 22 / 54 | 51 / 54 |
 | `start_application` | 53 / 130 | 107 / 130 |
-| ordinary English that reached a tool | 7 / 73 | **4 / 73** |
+| sentences that reached a tool | 7 / 73 | **4 / 73** (all four are the deliberately-ambiguous, command-shaped ones) |
 
 The four that remain are pinned in
 `crates/aaron-app/tests/router.rs` as deliberately ambiguous: "please kill the
@@ -219,6 +219,52 @@ are redacted before they are stored.
 The README reported the regression suite as 35/42, 32/42 and 42/42 in three
 places, and the locked benchmark's macro-F1 as 0.729, 0.755 and 0.741. The
 test count was stated as both 620 and 656.
+
+### 4.7 Two exit codes meant two different things
+
+Release 0.5 added `Outcome2::NeedsClarification` — the assistant asked a
+question instead of acting — and gave it exit code 78. **78 is `EX_CONFIG`**,
+and `ErrorKind::Config` already used it. A script could not tell "your
+configuration is broken" from "AARON asked you a question and ran nothing".
+
+The clarification now exits **75** (`EX_TEMPFAIL`), and 78 stays
+`EX_CONFIG`. A regression test asserts that the four documented failure codes
+are 69, 75, 77 and 78, and that 78 is the configuration error.
+
+### 4.8 The benchmark script aborted before it measured anything
+
+`scripts/benchmark.sh` prints a banner with `"$1"` — a bare positional
+parameter — while running under `set -u`. With no positional argument the
+shell aborted the whole run on line 39, so `./scripts/benchmark.sh` produced
+no measurements at all. The fix is `${1:-}`.
+
+The consequence for this report is that the latency and memory figures in
+§6 and in the README are from the first run that actually completed.
+
+### 4.9 The text-only build still needed ALSA
+
+`cargo build -p aaron-app --no-default-features` was supposed to produce a
+binary with no audio dependency, and the README said so. It did not: the
+build still linked `libasound`, because the **workspace** dependency
+declared `aaron-audio` with its default features — and `aaron-audio`'s
+default features include `capture`. Cargo lets a member *keep* the
+workspace default but not turn it off, so `default-features = false` in the
+member manifests was silently ignored.
+
+The fix is in the workspace declaration, where `default-features = false`
+can actually be expressed, plus a CI step that asserts the property rather
+than assuming it:
+
+```yaml
+if cargo tree -p aaron-app --no-default-features -e normal | grep -q "alsa-sys"; then
+  echo "FAIL: the text-only build still depends on ALSA"
+  exit 1
+fi
+```
+
+The diagnostics the doctor prints about the capture host are now available
+in a text-only build too, because a text-only build is exactly where a user
+needs to be told what is missing.
 
 ---
 
@@ -314,7 +360,7 @@ piper and a local player.
 |---|---|
 | `cargo fmt --check` | clean |
 | `cargo clippy --workspace --all-targets --all-features -- -D warnings` | clean, 0 issues |
-| `cargo test --workspace` | **673 passed, 0 failed** (615 in 0.4) |
+| `cargo test --workspace` | **674 passed, 0 failed** (615 in 0.4) |
 | text-only build (`--no-default-features`) | builds and runs |
 | `aaron dataset check` | no blocking problems |
 | dataset rebuild | byte-identical (`c7ddc5ee…`) |

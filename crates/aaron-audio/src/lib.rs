@@ -21,10 +21,37 @@ pub use source::{
 pub use vad::{crop, VadOutcome, VoiceActivityDetector};
 
 #[cfg(feature = "capture")]
-pub use capture::{
-    capture_available, capture_host_name, default_device_name, input_devices, pipewire_is_running,
-    InputDeviceInfo,
-};
+pub use capture::{capture_available, default_device_name, input_devices, InputDeviceInfo};
+
+/// Which host the capture goes through, or `"none"` when capture was not
+/// compiled in.
+///
+/// `aaron doctor` has to be able to answer this in a text-only build, so the
+/// answer has to exist whether or not the capture backend does. Reporting
+/// `"alsa"` when there is no ALSA would be a lie, so the honest answer is
+/// `"none"`.
+#[cfg(feature = "capture")]
+pub fn capture_host_name() -> &'static str {
+    capture::capture_host_name()
+}
+
+/// See the [`capture_host_name`] documentation.
+#[cfg(not(feature = "capture"))]
+pub fn capture_host_name() -> &'static str {
+    "none"
+}
+
+/// Whether a PipeWire server is running for this user.
+///
+/// This checks for the server's socket in the runtime directory, so it needs
+/// no audio library at all — which is why it is available in a text-only
+/// build. The doctor uses it to explain the ALSA-playback-endpoint trap.
+pub fn pipewire_is_running() -> bool {
+    if let Ok(dir) = std::env::var("XDG_RUNTIME_DIR") {
+        return std::path::Path::new(&dir).join("pipewire-0").exists();
+    }
+    false
+}
 
 /// One entry describing an available capture device.
 pub fn describe_devices() -> Vec<String> {
