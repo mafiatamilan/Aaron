@@ -9,6 +9,7 @@ pub mod guards;
 pub mod session;
 pub mod state;
 pub mod untrusted;
+pub mod voice_confirm;
 
 pub use agent::{
     build_arguments, describe_action, tool_for_intent, Agent, AgentDeps, AgentResponse,
@@ -18,3 +19,4 @@ pub use guards::{fingerprint, BlockReason, LoopGuard};
 pub use session::{SessionOutcome, VoiceSession};
 pub use state::{IllegalTransition, State, StateMachine};
 pub use untrusted::{frame, scrub, Untrusted};
+pub use voice_confirm::VoiceConfirmer;

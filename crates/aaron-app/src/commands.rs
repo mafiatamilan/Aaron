@@ -6,15 +6,16 @@
 
 use std::io::Write;
 use std::path::{Path, PathBuf};
-use std::sync::Arc;
+use std::sync::{Arc, Mutex};
 use std::time::Instant;
 
-use aaron_agent::{SessionOutcome, VoiceSession};
+use aaron_agent::{Confirmer, SessionOutcome, VoiceSession};
 use aaron_core::config::{AudioBackend, BrainBackend};
 use aaron_core::error::{Error, Result};
 use aaron_core::AudioSource;
 use aaron_core::IntentClassifier;
 use aaron_core::MonoPcm;
+use aaron_core::SharedSource;
 use aaron_memory::MemoryKind;
 
 use crate::context::AppContext;
@@ -423,9 +424,15 @@ pub fn listen(
     once: bool,
     seconds: u32,
     allow_fake_asr: bool,
+    voice_confirm: bool,
     source_choice: &AudioChoice,
 ) -> Result<i32> {
-    let mut source = build_audio_source_from(ctx, source_choice)?;
+    let source = build_audio_source_from(ctx, source_choice)?;
+    // One microphone, shared. The session captures an utterance with it, and
+    // the spoken confirmer captures the answer to a question it asked out
+    // loud. They take turns, which is why the lock is only ever held for the
+    // length of one capture.
+    let source: SharedSource = Arc::new(Mutex::new(source));
     // Loaded once per listening session rather than once per utterance.
     //
     // The guard is held for the whole loop: it keeps the slot's in-use count
@@ -434,18 +441,53 @@ pub fn listen(
     let asr_guard = ctx.asr()?;
     let asr = asr_guard.get().clone();
     let wake = aaron_wake::build(&ctx.config.wake);
-    let mut agent = ctx.agent()?;
 
-    let live = source.is_live();
+    // The confirmer. A terminal is better than a voice when there is one:
+    // it shows the exact command and target. Without a terminal the choice
+    // is between declining every gated action and asking out loud.
+    let confirmer: Arc<dyn Confirmer> = if voice_confirm {
+        let tts = ctx.tts()?.get().clone();
+        // A text-only synthesiser cannot ask a question out loud, so the
+        // answer can never be heard and every gated action would be
+        // declined. Say so, rather than letting it look like the assistant
+        // is ignoring the user.
+        if tts.info().backend == "text-only" {
+            eprintln!(
+                "aaron: --voice-confirm needs a speech synthesiser that can be heard, and \
+                 only `text-only` is installed, so confirmation questions would be silent \
+                 and every gated action would be refused. Install piper or espeak-ng."
+            );
+        }
+        Arc::new(aaron_agent::VoiceConfirmer::new(
+            Arc::clone(&source),
+            asr.clone(),
+            tts,
+            ctx.config.clone(),
+            std::time::Duration::from_secs(ctx.config.runtime.confirm_timeout_secs as u64),
+        ))
+    } else {
+        ctx.options.confirmer()
+    };
+    let mut agent = ctx.agent_with(Arc::clone(&ctx.classifier), confirmer)?;
+
+    let live = source.lock().map(|g| g.is_live()).unwrap_or(false);
+    let describe = source
+        .lock()
+        .map(|g| g.describe())
+        .unwrap_or_else(|_| "audio source (unavailable)".into());
     println!(
         "Listening via {}{}",
-        source.describe(),
+        describe,
         if live { "  [MICROPHONE LIVE]" } else { "" }
     );
     if !live {
         println!("This is not a live microphone. Press Ctrl+C to stop.");
     }
-    if !asr.info().ready {
+    if seconds == 0 {
+        println!("Running until stopped. Press Ctrl+C to stop.");
+    }
+    if asr.info().ready {
+    } else {
         println!("Note: {}", asr.info().detail);
     }
     // A backend that does not perform real recognition must not be used to
@@ -469,11 +511,19 @@ Install whisper.cpp and point asr.model_path at a \
         )));
     }
 
-    let deadline = Instant::now() + std::time::Duration::from_secs(seconds.max(1) as u64);
+    let deadline = if seconds == 0 {
+        // Zero means "until stopped", which is what a background service
+        // wants: it listens for as long as it is running.
+        None
+    } else {
+        Some(Instant::now() + std::time::Duration::from_secs(seconds.max(1) as u64))
+    };
     loop {
-        if Instant::now() >= deadline {
-            println!("\nDone listening.");
-            break;
+        if let Some(deadline) = deadline {
+            if Instant::now() >= deadline {
+                println!("\nDone listening.");
+                break;
+            }
         }
         {
             let check: fn(&str, &str) -> bool = if no_wake {
@@ -483,7 +533,7 @@ Install whisper.cpp and point asr.model_path at a \
             };
             let mut session = VoiceSession::new(
                 &mut agent,
-                &mut source,
+                Arc::clone(&source),
                 asr.clone(),
                 wake.clone(),
                 ctx.config.clone(),

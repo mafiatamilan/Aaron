@@ -104,6 +104,9 @@ rebuilt. The details and the evidence are in `docs/AARON-1.0-REPORT.md`.
 | The text-only build has no ALSA dependency | **done** | declared in the workspace, asserted in CI |
 | The shipped configuration is machine-independent | **done** | it names no filesystem roots; `aaron setup` fills them in per machine |
 | CI is green | **done** | 12 jobs, all passing on `main` |
+| The background mode | **done** | `--seconds 0` listens until stopped; `--voice-confirm` asks a confirmation question out loud and listens for the answer |
+| The spoken confirmation | **done** | `aaron-agent/src/voice_confirm.rs`; only a recognisable yes approves, everything else refuses; the microphone is shared between the session and the confirmer |
+| The microphone is shared, not borrowed | **done** | `aaron_core::SharedSource`; the lock is held for one capture at a time, so the confirmer can take the device after the session releases it |
 
 ---
 
@@ -141,3 +144,4 @@ defects came out of it, none of which the original audit had seen.
 | P-4 | the shipped `config/default.toml` named `/home/david/Documents`, so AARON refused to start on every other machine | critical | CI smoke test | **fixed** (no roots shipped; a test forbids machine-specific paths) |
 | P-5 | `cargo test` takes one positional filter, and the workflow passed two | medium | CI | **fixed** |
 | P-6 | the CI's `apt-get update` aborted on a third-party repository returning 403 | medium | CI | **fixed** (one composite action, and the install is verified) |
+| P-7 | the background service ran `aaron run`, the *text* assistant, so it read EOF and exited within a second — silently doing nothing | critical | the systemd unit | **fixed** (the unit runs `aaron listen --seconds 0 --voice-confirm`) |

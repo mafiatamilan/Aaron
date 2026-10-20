@@ -317,6 +317,39 @@ the filesystem tools refuse everything and `aaron doctor` says so.
 A test now asserts the invariant, so it cannot come back: the shipped
 configuration may not name an absolute path or a home directory.
 
+### 4.12 The background service started and immediately stopped
+
+`systemd/aaron.service` ran `aaron run`. `aaron run` is the **text**
+assistant: it reads commands from stdin. A service has no terminal, so it
+read EOF at once, printed "Bye." and exited — within a second of starting,
+and with `Restart=on-failure` it never restarted, because exiting cleanly is
+not a failure. The unit was silently doing nothing.
+
+Two things were missing for a background assistant, and both are now there.
+
+**It has to keep listening.** `aaron listen --seconds 0` means "until
+stopped"; the default of 30 seconds is for a foreground session.
+
+**It has to be able to ask.** A confirmation-gated action in a service with
+no terminal was declined, always, because a question nobody can answer is a
+question nobody can say yes to. That is the right default, but it made the
+assistant useless for exactly the actions people use it for — reading a
+file, running the tests, starting an application.
+
+So the confirmation can now be **spoken**. `aaron listen --voice-confirm`
+asks the question out loud, captures one short utterance, and approves only
+on a recognisable yes. Silence, an unclear word and a no all refuse it.
+
+The microphone is the constraint: the session captures the command and the
+confirmer has to capture the answer, and they cannot both hold the device.
+The source is now a shared handle and the lock is held only for the length
+of one capture, so the two take turns.
+
+The policy engine is still the boundary. The spoken confirmation replaces
+the *prompt*, not the check: an action the policy engine would deny is still
+denied, and the spoken question is only ever asked for an action the policy
+engine has already marked as needing confirmation.
+
 ---
 
 ## 5. Phonon-2, and the voice path

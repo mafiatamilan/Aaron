@@ -26,8 +26,8 @@ pub use intent::{
 };
 pub use pcm::MonoPcm;
 pub use traits::{
-    AsrInfo, AudioSource, InputSource, SpeechRecognizer, SpeechSynthesizer, Transcript, TtsInfo,
-    WakeDetector,
+    AsrInfo, AudioSource, InputSource, SharedSource, SpeechRecognizer, SpeechSynthesizer,
+    Transcript, TtsInfo, WakeDetector,
 };
 
 /// Crate version, surfaced by `aaron --version --verbose`.

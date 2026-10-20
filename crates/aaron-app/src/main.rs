@@ -78,7 +78,7 @@ enum Command {
     /// Start the interactive assistant.
     Run,
 
-    /// Listen for one utterance (or until `--seconds` elapses).
+    /// Listen for utterances (or until `--seconds` elapses).
     Listen {
         /// Skip wake-phrase detection and dispatch whatever is heard.
         #[arg(long)]
@@ -86,7 +86,8 @@ enum Command {
         /// Handle a single utterance and exit.
         #[arg(long)]
         once: bool,
-        /// Stop listening after this many seconds.
+        /// Stop listening after this many seconds. Zero means "until stopped",
+        /// which is what a background service wants.
         #[arg(long, default_value_t = 30)]
         seconds: u32,
         /// Where the audio comes from: `microphone` (default), `synthetic`,
@@ -101,6 +102,14 @@ enum Command {
         /// instruction.
         #[arg(long)]
         allow_fake_asr: bool,
+        /// Ask a confirmation question out loud and listen for the answer.
+        ///
+        /// A background service has no terminal, so it cannot ask for
+        /// confirmation on one. This asks by voice instead: the question is
+        /// spoken, and only a recognisable yes approves the action. Anything
+        /// else — silence, an unclear word, a no — refuses it.
+        #[arg(long)]
+        voice_confirm: bool,
     },
 
     /// Handle one typed command and exit.
@@ -491,9 +500,18 @@ fn run(cli: Cli) -> Result<i32, Error> {
             seconds,
             source,
             allow_fake_asr,
+            voice_confirm,
         } => {
             let choice = commands::AudioChoice::parse(&source)?;
-            commands::listen(&mut ctx, no_wake, once, seconds, allow_fake_asr, &choice)
+            commands::listen(
+                &mut ctx,
+                no_wake,
+                once,
+                seconds,
+                allow_fake_asr,
+                voice_confirm,
+                &choice,
+            )
         }
         Command::Ask { text } => commands::ask(&mut ctx, &text),
         Command::Tools { action } => match action {

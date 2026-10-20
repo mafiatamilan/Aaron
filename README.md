@@ -58,6 +58,7 @@ System: Arch Linux (kernel 7.2.9-zen1-1-zen)
 | **Speech recognition** | works, via **Phonon-2** or whisper.cpp — both are yours to install |
 | **Speech synthesis** | works, via piper, `espeak-ng` or `spd-say` — all yours to install |
 | **The whole voice loop**, speech to speech | **partially verified** — run end to end on real components, but nobody has spoken into the microphone yet |
+| **Background operation** — listen until stopped, as a `systemd` service | works; the service unit is provided and the confirmation is asked out loud |
 | **AARON's own 1,000,000-parameter intent model** | trains, but does not meet AARON's own promotion bar, so **nothing is deployed** and the **deterministic router is what runs** |
 
 The last row is the important one, and it is not a failure of the model. It
@@ -176,6 +177,85 @@ aaron audio test                                 # is the microphone alive?
 
 `aaron audio test` reports the raw input level, so you can tell a quiet room
 from a dead microphone.
+
+---
+
+## Running in the background
+
+AARON can listen continuously, wake on the wake word, and answer out loud —
+the way you expect an assistant to behave.
+
+```bash
+aaron listen --seconds 0 --voice-confirm
+```
+
+`--seconds 0` means "until stopped". `--voice-confirm` is what makes it
+work as a background assistant: with no terminal to ask on, AARON **asks the
+confirmation question out loud** and listens for the answer.
+
+```console
+you: aaron check system status
+aaron: System status:
+System: Arch Linux (kernel 7.2.9-zen1-1-zen)
+...
+```
+
+And when an action needs confirming, the question is spoken and shown:
+
+```console
+you: aaron run the tests
+aaron: Run run_tests? Shall I?
+you: no
+aaron: Cancelled — I did not run it.
+```
+
+Only a recognisable **yes** approves an action. Silence, an unclear word and
+a **no** all refuse it, and the refusal is the safe default. The word
+"yesterday" is not a yes.
+
+Sitting idle in the background costs **0.6 % of one CPU** and **15.6 MiB of
+RSS**, measured on this machine while the microphone stayed open. The wake
+word is matched against the transcript, so every utterance in the room is
+transcribed to find out whether it was addressed to AARON — that is the
+price of having no separate hot-word model.
+
+### As a service
+
+A `systemd --user` unit is provided at `systemd/aaron.service`. It is **not**
+enabled automatically — a service that opens your microphone at login is a
+privacy decision, and it is yours to make:
+
+```bash
+cp systemd/aaron.service ~/.config/systemd/user/
+systemctl --user daemon-reload
+systemctl --user enable --now aaron
+systemctl --user status aaron
+journalctl --user -u aaron -f        # watch it
+```
+
+To remove it:
+
+```bash
+systemctl --user disable --now aaron
+rm ~/.config/systemd/user/aaron.service
+```
+
+Two things about the service. It needs a **real speech engine on both
+sides**: a recogniser, or it cannot hear the wake word, and a synthesiser,
+or it cannot ask for confirmation — and a silent question means every
+confirmation-gated action is refused. And because the unit sets
+`PrivateTmp=true`, a Piper voice kept in `/tmp` will not be visible to it;
+put it somewhere else, such as `~/.local/share/aaron/`.
+
+### What it needs
+
+| | |
+|---|---|
+| A recogniser | Phonon-2 or whisper.cpp. Without one, the wake word is never heard |
+| A synthesiser | piper, `espeak-ng` or `spd-say`. Without one, replies are printed, not spoken, and confirmation questions are silent |
+| A microphone | and, on PipeWire, a build with `--features aaron-audio/capture-pipewire` |
+
+`aaron doctor` reports each of them, and says which one is missing.
 
 ---
 
@@ -437,6 +517,12 @@ itself is worse than one that does less.
 - **There is no neural wake-word model.** The wake word is matched against
   the recognised transcript, which means it only works when a recogniser is
   installed, and a recogniser that mishears it does not wake the assistant.
+  Every utterance in the room is transcribed to find out whether it was
+  addressed to AARON — there is no cheaper way to hear the phrase.
+- **The background mode needs a speech engine on both sides.** No
+  recogniser means the wake word is never heard; no synthesiser means
+  replies are printed rather than spoken, and the confirmation question is
+  silent, which refuses every gated action.
 - **It is single-user and local.** One SQLite database, one audit log, one
   machine.
 - **Five things are still open**, and they are listed with reasons in
@@ -458,7 +544,7 @@ itself is worse than one that does less.
 aaron setup                       write a starter config and permissions file
 aaron doctor                      what works on this machine, and what is missing
 aaron run                         interactive assistant
-aaron listen [--no-wake] [--once] [--seconds N] [--source SRC] [--allow-fake-asr]
+aaron listen [--no-wake] [--once] [--seconds N] [--source SRC] [--allow-fake-asr] [--voice-confirm]
 aaron ask "<utterance>"           one command, then exit
 aaron tools list                  every tool and its current policy verdict
 aaron tools test                  summarise the policy verdict for every tool

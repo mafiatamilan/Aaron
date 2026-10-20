@@ -25,7 +25,17 @@ PartOf=graphical-session.target
 
 [Service]
 Type=simple
-ExecStart=/usr/local/bin/aaron run
+# `aaron listen`, not `aaron run`.
+#
+# `aaron run` is the *text* assistant: it reads commands from stdin. A
+# service has no terminal, so it would read EOF at once and exit — which is
+# exactly what it used to do, silently, within a second of starting.
+#
+# `--seconds 0` means "listen until stopped", which is what a service wants.
+# `--voice-confirm` asks a confirmation question out loud and listens for
+# the answer, because a service has no terminal to ask on. Without it every
+# confirmation-gated action would be declined.
+ExecStart=/usr/local/bin/aaron listen --seconds 0 --voice-confirm
 
 # Start well after the session is ready, so audio has settled.
 ExecStartPre=/bin/sh -c 'sleep 5'

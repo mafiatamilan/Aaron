@@ -13,7 +13,7 @@ use std::time::{Duration, Instant};
 use aaron_audio::{record_utterance, CaptureSpec};
 use aaron_core::config::Config;
 use aaron_core::error::{Error, Result};
-use aaron_core::{AudioSource, SpeechRecognizer, WakeDetector};
+use aaron_core::{AudioSource, SharedSource, SpeechRecognizer, WakeDetector};
 
 use crate::agent::Agent;
 
@@ -39,10 +39,17 @@ pub enum SessionOutcome {
 /// Drives the voice loop.
 pub struct VoiceSession<'a> {
     agent: &'a mut Agent,
-    /// Borrowed rather than owned, so one capture device stays open for the
-    /// whole listening session instead of being reopened per utterance. A
-    /// reopened device is both slower and a source of transient errors.
-    source: &'a mut dyn AudioSource,
+    /// Shared rather than borrowed, so the microphone can be **released**
+    /// between the command and its spoken confirmation.
+    ///
+    /// A borrowed device would stay locked for the whole turn, and the
+    /// confirmer — which has to capture the user's answer to a question it
+    /// asked out loud — would deadlock against the session that asked it.
+    ///
+    /// One capture device stays open for the whole listening session either
+    /// way. A reopened device is both slower and a source of transient
+    /// errors.
+    source: SharedSource,
     asr: Arc<dyn SpeechRecognizer>,
     wake: Arc<dyn WakeDetector>,
     config: Config,
@@ -54,7 +61,7 @@ impl<'a> VoiceSession<'a> {
     /// Build a session. `wake_phrase` is only used for the transcript strategy.
     pub fn new(
         agent: &'a mut Agent,
-        source: &'a mut dyn AudioSource,
+        source: SharedSource,
         asr: Arc<dyn SpeechRecognizer>,
         wake: Arc<dyn WakeDetector>,
         config: Config,
@@ -83,7 +90,12 @@ impl<'a> VoiceSession<'a> {
     {
         let started = Instant::now();
         let spec = self.capture_spec();
-        let recorded = record_utterance(self.source, &spec)?;
+        // The microphone is held for the capture and released before the
+        // command is dispatched, so the confirmer can take it for the answer.
+        let recorded = {
+            let mut guard = self.lock_source()?;
+            record_utterance(&mut **guard, &spec)?
+        };
 
         if !recorded.speech_detected {
             return Ok(if recorded.hit_cap {
@@ -144,12 +156,29 @@ impl<'a> VoiceSession<'a> {
 
     /// Whether a microphone is genuinely open behind this session.
     pub fn is_live(&self) -> bool {
-        self.source.is_live()
+        match self.source.lock() {
+            Ok(guard) => guard.is_live(),
+            Err(_) => false,
+        }
     }
 
     /// Description of the active source, for `aaron listen`.
     pub fn describe_source(&self) -> String {
-        self.source.describe()
+        match self.source.lock() {
+            Ok(guard) => guard.describe(),
+            Err(_) => "audio source (unavailable)".into(),
+        }
+    }
+
+    /// Take the microphone for the length of one capture.
+    ///
+    /// The lock is poisoned only if a capture panicked while holding it, and
+    /// a poisoned lock is reported rather than silently ignored: a source
+    /// that panicked is not a source that should keep running.
+    fn lock_source(&self) -> Result<std::sync::MutexGuard<'_, Box<dyn AudioSource>>> {
+        self.source
+            .lock()
+            .map_err(|_| Error::Audio("the audio source lock was poisoned by a panic".into()))
     }
 
     /// Total time the caller may spend listening.
@@ -298,6 +327,13 @@ effect = "allow"
         (tmp, agent)
     }
 
+    /// Wrap a source so the session and a confirmer can take turns with it.
+    fn shared(source: impl AudioSource + 'static) -> SharedSource {
+        Arc::new(std::sync::Mutex::new(
+            Box::new(source) as Box<dyn AudioSource>
+        ))
+    }
+
     fn config() -> Config {
         let mut c = Config::default();
         c.tts.echo_to_terminal = false;
@@ -312,13 +348,13 @@ effect = "allow"
     #[test]
     fn a_wake_phrase_plus_command_is_dispatched() {
         let (_tmp, mut agent) = build_agent();
-        let mut source = SyntheticSource::new(4000, 16_000, 20, 220.0).unwrap();
+        let source = SyntheticSource::new(4000, 16_000, 20, 220.0).unwrap();
         let asr = Arc::new(StubAsr {
             text: "hey aaron check system status".into(),
         });
         let mut session = VoiceSession::new(
             &mut agent,
-            &mut source,
+            shared(source),
             asr,
             aaron_wake::build(&config().wake),
             config(),
@@ -340,13 +376,13 @@ effect = "allow"
     #[test]
     fn speech_without_the_wake_phrase_is_ignored() {
         let (_tmp, mut agent) = build_agent();
-        let mut source = SyntheticSource::new(4000, 16_000, 20, 220.0).unwrap();
+        let source = SyntheticSource::new(4000, 16_000, 20, 220.0).unwrap();
         let asr = Arc::new(StubAsr {
             text: "tell me a joke".into(),
         });
         let mut session = VoiceSession::new(
             &mut agent,
-            &mut source,
+            shared(source),
             asr,
             aaron_wake::build(&config().wake),
             config(),
@@ -362,13 +398,13 @@ effect = "allow"
     #[test]
     fn the_wake_phrase_alone_does_not_invent_a_command() {
         let (_tmp, mut agent) = build_agent();
-        let mut source = SyntheticSource::new(4000, 16_000, 20, 220.0).unwrap();
+        let source = SyntheticSource::new(4000, 16_000, 20, 220.0).unwrap();
         let asr = Arc::new(StubAsr {
             text: "hey aaron".into(),
         });
         let mut session = VoiceSession::new(
             &mut agent,
-            &mut source,
+            shared(source),
             asr,
             aaron_wake::build(&config().wake),
             config(),
@@ -384,13 +420,13 @@ effect = "allow"
     #[test]
     fn no_wake_mode_dispatches_everything() {
         let (_tmp, mut agent) = build_agent();
-        let mut source = SyntheticSource::new(4000, 16_000, 20, 220.0).unwrap();
+        let source = SyntheticSource::new(4000, 16_000, 20, 220.0).unwrap();
         let asr = Arc::new(StubAsr {
             text: "check system status".into(),
         });
         let mut session = VoiceSession::new(
             &mut agent,
-            &mut source,
+            shared(source),
             asr,
             aaron_wake::build(&config().wake),
             config(),
@@ -410,13 +446,13 @@ effect = "allow"
     fn silence_reports_silence_not_an_error() {
         let (_tmp, mut agent) = build_agent();
         let silent = MonoPcm::silence(1500, 16_000).unwrap();
-        let mut source = FileSource::from_pcm(silent, 20).unwrap();
+        let source = FileSource::from_pcm(silent, 20).unwrap();
         let asr = Arc::new(StubAsr {
             text: String::new(),
         });
         let mut session = VoiceSession::new(
             &mut agent,
-            &mut source,
+            shared(source),
             asr,
             aaron_wake::build(&config().wake),
             config(),
@@ -432,13 +468,13 @@ effect = "allow"
     #[test]
     fn a_synthetic_source_is_never_reported_as_live() {
         let (_tmp, mut agent) = build_agent();
-        let mut source = SyntheticSource::new(1000, 16_000, 20, 220.0).unwrap();
+        let source = SyntheticSource::new(1000, 16_000, 20, 220.0).unwrap();
         let asr = Arc::new(StubAsr {
             text: String::new(),
         });
         let session = VoiceSession::new(
             &mut agent,
-            &mut source,
+            shared(source),
             asr,
             aaron_wake::build(&config().wake),
             config(),

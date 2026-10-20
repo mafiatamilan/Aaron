@@ -612,13 +612,64 @@ is yours to make:
 cp systemd/aaron.service ~/.config/systemd/user/
 systemctl --user daemon-reload
 systemctl --user enable --now aaron
+systemctl --user status aaron
+journalctl --user -u aaron -f
 ```
 
-Microphone access on PipeWire is granted through the desktop's own
-"Application Permissions" settings. Read
-`systemctl --user cat aaron` before enabling anything.
+The unit runs `aaron listen --seconds 0 --voice-confirm`:
 
-To remove it: `systemctl --user disable --now aaron` then delete the unit file.
+* `--seconds 0` means "listen until stopped".
+* `--voice-confirm` asks a confirmation question **out loud** and listens for
+  the answer, because a service has no terminal to ask on. Without it every
+  confirmation-gated action is declined, which is safe but makes the
+  assistant useless for exactly the actions people use it for.
+
+### The service starts and immediately stops
+
+It used to. The unit ran `aaron run`, which is the *text* assistant: it reads
+commands from stdin, and a service has no terminal, so it read EOF at once
+and exited. The unit now runs `aaron listen`.
+
+### The service hears nothing
+
+Check, in this order:
+
+```bash
+aaron doctor                       # is a recogniser installed and ready?
+systemctl --user status aaron      # is the unit even running?
+journalctl --user -u aaron -f      # what does it say?
+```
+
+* **No recogniser.** The wake word is matched against the *transcript*, so
+  with no recogniser installed the assistant can never be woken. Install
+  Phonon-2 or whisper.cpp.
+* **The wrong capture backend.** On a PipeWire desktop, ALSA's `default`
+  device is the playback endpoint, so the microphone delivers silence. Build
+  with `--features aaron-audio/capture-pipewire` and check that
+  `aaron doctor` names the PipeWire host.
+* **Microphone permission.** PipeWire grants it through the desktop's own
+  "Application Permissions" settings, not through systemd.
+
+### Every confirmation-gated action is refused
+
+That is the safe default when nothing can ask the question: a confirmation
+that cannot be heard cannot be answered, so it is refused.
+
+* Install a synthesiser that can be heard — piper or `espeak-ng`. The
+  `text-only` backend prints replies instead of speaking them, so the
+  question is silent.
+* Keep the Piper voice **outside `/tmp`**. The unit sets `PrivateTmp=true`,
+  which gives the service its own empty `/tmp`, so a voice file kept there is
+  invisible to it. `~/.local/share/aaron/` is a better place.
+* `aaron listen --voice-confirm` in a terminal prints a warning when the
+  synthesiser is `text-only`, which is the fastest way to see this.
+
+To remove the service:
+
+```bash
+systemctl --user disable --now aaron
+rm ~/.config/systemd/user/aaron.service
+```
 
 ---
 

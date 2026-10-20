@@ -128,6 +128,18 @@ impl<T: AudioSource + ?Sized> AudioSource for Box<T> {
     }
 }
 
+/// A microphone that more than one component can take turns with.
+///
+/// The voice loop and the spoken-confirmation handler both need the audio
+/// source, and only one of them can hold it at a time. The handle is what
+/// lets a session capture an utterance, **release** the microphone, and then
+/// let the confirmer capture the answer to a question it asked out loud.
+///
+/// The lock is deliberately held for as short a time as possible: a capture
+/// holds it, and nothing else does. A held-across-the-turn lock would make
+/// the spoken confirmation deadlock against itself.
+pub type SharedSource = std::sync::Arc<std::sync::Mutex<Box<dyn AudioSource>>>;
+
 /// Wake-phrase detector.
 pub trait WakeDetector: Send + Sync {
     /// Current detector name, e.g. `transcript-keyword`.
